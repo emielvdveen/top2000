@@ -68,6 +68,8 @@
 		E55BD0ED15EB5FD3008882CA /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0EC15EB5FD3008882CA /* PictureViewController.m */; };
 		E55BD0F015EB5FE6008882CA /* PopQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0EF15EB5FE6008882CA /* PopQuizViewController.m */; };
 		E55BD0F315EB5FF9008882CA /* QuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0F215EB5FF9008882CA /* QuestionsViewController.m */; };
+		E55BD0FD15EB6547008882CA /* BugSense-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55BD0FC15EB6547008882CA /* BugSense-iOS.framework */; };
+		E55BD10015EB65FC008882CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55BD0FF15EB65FC008882CA /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +145,8 @@
 		E55BD0EF15EB5FE6008882CA /* PopQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopQuizViewController.m; sourceTree = "<group>"; };
 		E55BD0F115EB5FF9008882CA /* QuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsViewController.h; sourceTree = "<group>"; };
 		E55BD0F215EB5FF9008882CA /* QuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsViewController.m; sourceTree = "<group>"; };
+		E55BD0FC15EB6547008882CA /* BugSense-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "BugSense-iOS.framework"; path = "top2000/External/BugSense-iOS.framework"; sourceTree = "<group>"; };
+		E55BD0FF15EB65FC008882CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55BD10015EB65FC008882CA /* SystemConfiguration.framework in Frameworks */,
+				E55BD0FD15EB6547008882CA /* BugSense-iOS.framework in Frameworks */,
 				E531735415E6A0AD0085ACD5 /* UIKit.framework in Frameworks */,
 				E531735615E6A0AD0085ACD5 /* Foundation.framework in Frameworks */,
 				E531735815E6A0AD0085ACD5 /* CoreGraphics.framework in Frameworks */,
@@ -179,6 +185,8 @@
 		E531735215E6A0AD0085ACD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E55BD0FF15EB65FC008882CA /* SystemConfiguration.framework */,
+				E55BD0FC15EB6547008882CA /* BugSense-iOS.framework */,
 				E531735315E6A0AD0085ACD5 /* UIKit.framework */,
 				E531735515E6A0AD0085ACD5 /* Foundation.framework */,
 				E531735715E6A0AD0085ACD5 /* CoreGraphics.framework */,
@@ -509,9 +517,16 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/top2000/External/BugSense-iOS.framework\"/**";
 			};
 			name = Debug;
 		};
@@ -522,16 +537,23 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/top2000/External/BugSense-iOS.framework\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -539,6 +561,10 @@
 		E531736E15E6A0AD0085ACD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/top2000/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "top2000/top2000-Prefix.pch";
 				INFOPLIST_FILE = "top2000/top2000-Info.plist";
@@ -551,6 +577,10 @@
 		E531736F15E6A0AD0085ACD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/top2000/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "top2000/top2000-Prefix.pch";
 				INFOPLIST_FILE = "top2000/top2000-Info.plist";
