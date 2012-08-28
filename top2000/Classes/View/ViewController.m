@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "DataController.h"
+#import "GameController.h"
 
 @implementation ViewController
 
@@ -21,7 +23,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
@@ -34,6 +35,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    //[[DataController sharedInstance] performSelectorInBackground:@selector(loadAll) withObject:nil];
+    [[DataController sharedInstance] loadAll];
+    [[GameController sharedInstance] startGame:100];
+    while ([[GameController sharedInstance] hasNextRound])
+    {
+        [[GameController sharedInstance] nextRound];
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
