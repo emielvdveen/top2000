@@ -93,7 +93,7 @@
 						<string key="NSFrame">{{89, 80}, {210, 181}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="619347472"/>
+						<reference key="NSNextKeyView" ref="1017059503"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -109,7 +109,7 @@
 						<string key="NSFrame">{{243, 257}, {135, 111}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1049495684"/>
+						<reference key="NSNextKeyView" ref="859132057"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -125,7 +125,7 @@
 						<string key="NSFrame">{{117, 242}, {228, 252}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="139902829"/>
+						<reference key="NSNextKeyView" ref="351279630"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -135,13 +135,13 @@
 							<string key="NSResourceName">ilse_delange.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="591241966">
+					<object class="IBUIImageView" id="770295641">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{233, 405}, {114, 89}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="456412019"/>
+						<reference key="NSNextKeyView" ref="675319999"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -151,58 +151,10 @@
 							<string key="NSResourceName">allman_brothers.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="406543001">
+					<object class="IBUIImageView" id="219403">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{232, 150}, {158, 205}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="922798833"/>
-						<string key="NSReuseIdentifierKey">_NS:569</string>
-						<reference key="IBUIBackgroundColor" ref="276429324"/>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">amy_whinehouse.png</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="568709228">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{187, 474}, {42, 42}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="591241966"/>
-						<string key="NSReuseIdentifierKey">_NS:569</string>
-						<reference key="IBUIBackgroundColor" ref="276429324"/>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">donna_summer.png</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="848499146">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{770, 80}, {254, 228}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1059716539"/>
-						<string key="NSReuseIdentifierKey">_NS:569</string>
-						<reference key="IBUIBackgroundColor" ref="276429324"/>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">queen.png</string>
-						</object>
-					</object>
-					<object class="IBUIImageView" id="10340769">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{630, 80}, {164, 112}}</string>
+						<string key="NSFrame">{{233, 149}, {158, 205}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="195312461"/>
@@ -212,16 +164,64 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">amy_whinehouse.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="304118102">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{187, 474}, {42, 42}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="770295641"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">donna_summer.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="507340935">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{770, 80}, {254, 228}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="604048243"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">queen.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="282045388">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{630, 80}, {164, 112}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="576728083"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">commodores.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="704887212">
+					<object class="IBUIImageView" id="18761320">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{419, 80}, {140, 114}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="427769103"/>
+						<reference key="NSNextKeyView" ref="178019066"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -231,13 +231,13 @@
 							<string key="NSResourceName">bonjovi.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="173542198">
+					<object class="IBUIImageView" id="487586879">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{349, 150}, {89, 89}}</string>
+						<string key="NSFrame">{{350, 150}, {89, 89}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="704887212"/>
+						<reference key="NSNextKeyView" ref="18761320"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -247,13 +247,13 @@
 							<string key="NSResourceName">david_bowie.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="427769103">
+					<object class="IBUIImageView" id="178019066">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{536, 80}, {161, 158}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="10340769"/>
+						<reference key="NSNextKeyView" ref="282045388"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -263,13 +263,13 @@
 							<string key="NSResourceName">guus_meeuwis.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="1024756968">
+					<object class="IBUIImageView" id="60419495">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{840, 243}, {159, 158}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="45704079"/>
+						<reference key="NSNextKeyView" ref="830181131"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -279,13 +279,13 @@
 							<string key="NSResourceName">marco_borsato.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="525674629">
+					<object class="IBUIImageView" id="647004135">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{677, 173}, {204, 205}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="848499146"/>
+						<reference key="NSNextKeyView" ref="507340935"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -295,13 +295,13 @@
 							<string key="NSResourceName">sting.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="456412019">
+					<object class="IBUIImageView" id="675319999">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{770, 336}, {181, 182}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="875440341"/>
+						<reference key="NSNextKeyView" ref="60419495"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -311,13 +311,13 @@
 							<string key="NSResourceName">mark_knopfler.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="576963963">
+					<object class="IBUIImageView" id="123863438">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{933, 289}, {91, 158}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="617828005"/>
+						<reference key="NSNextKeyView" ref="776378794"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -327,13 +327,13 @@
 							<string key="NSResourceName">caro_emerald.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="1049495684">
+					<object class="IBUIImageView" id="732837692">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{633, 173}, {109, 128}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="525674629"/>
+						<reference key="NSNextKeyView" ref="647004135"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -343,13 +343,13 @@
 							<string key="NSResourceName">abba.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="1059716539">
+					<object class="IBUIImageView" id="604048243">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{770, 150}, {88, 89}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="1024756968"/>
+						<reference key="NSNextKeyView" ref="429867350"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -359,13 +359,13 @@
 							<string key="NSResourceName">the_who.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="875440341">
+					<object class="IBUIImageView" id="783795410">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{816, 289}, {65, 65}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="576963963"/>
+						<reference key="NSNextKeyView" ref="123863438"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -375,13 +375,13 @@
 							<string key="NSResourceName">kiss.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="45704079">
+					<object class="IBUIImageView" id="429867350">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{980, 196}, {44, 65}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="155781065"/>
+						<reference key="NSNextKeyView" ref="783795410"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -391,13 +391,13 @@
 							<string key="NSResourceName">clapton.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="617828005">
+					<object class="IBUIImageView" id="776378794">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{1003, 266}, {21, 42}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="485538360"/>
+						<reference key="NSNextKeyView" ref="98397550"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -407,7 +407,7 @@
 							<string key="NSResourceName">stevie_wonder.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="187481494">
+					<object class="IBUIImageView" id="218583080">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{887, 80}, {89, 88}}</string>
@@ -423,13 +423,13 @@
 							<string key="NSResourceName">james_brown.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="155781065">
+					<object class="IBUIImageView" id="98397550">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{701, 403}, {88, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="568709228"/>
+						<reference key="NSNextKeyView" ref="304118102"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -439,13 +439,61 @@
 							<string key="NSResourceName">marvin_gaye.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="922798833">
+					<object class="IBUIImageView" id="576728083">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{746, 80}, {88, 88}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="218583080"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">diana_ross.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="529802550">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{280, 80}, {89, 88}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="713437122"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">bob_marley.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="713437122">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{350, 80}, {89, 88}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="487586879"/>
+						<string key="NSReuseIdentifierKey">_NS:569</string>
+						<reference key="IBUIBackgroundColor" ref="276429324"/>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">frank_sinatra.png</string>
+						</object>
+					</object>
+					<object class="IBUIImageView" id="859132057">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{320, 183}, {384, 382}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="173542198"/>
+						<reference key="NSNextKeyView" ref="732837692"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -455,13 +503,13 @@
 							<string key="NSResourceName">single.png</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="139902829">
+					<object class="IBUIImageView" id="351279630">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{189, 296}, {651, 239}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="406543001"/>
+						<reference key="NSNextKeyView" ref="219403"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -471,7 +519,7 @@
 							<string key="NSResourceName">top2000_logo_start.png</string>
 						</object>
 					</object>
-					<object class="IBUILabel" id="47104363">
+					<object class="IBUILabel" id="957962282">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{879, 707}, {112, 21}}</string>
@@ -504,13 +552,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="485538360">
+					<object class="IBUIImageView" id="830181131">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{283, 586}, {458, 142}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="497100112"/>
+						<reference key="NSNextKeyView" ref="493563995"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -519,13 +567,13 @@
 							<string key="NSResourceName">radio2_logo_start.png</string>
 						</object>
 					</object>
-					<object class="IBUIButton" id="497100112">
+					<object class="IBUIButton" id="493563995">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{874, 586}, {123, 123}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="47104363"/>
+						<reference key="NSNextKeyView" ref="957962282"/>
 						<string key="NSReuseIdentifierKey">_NS:241</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -557,13 +605,13 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="619347472">
+					<object class="IBUIImageView" id="1017059503">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{246, 45}, {532, 207}}</string>
+						<string key="NSFrame">{{248, 45}, {532, 207}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="187481494"/>
+						<reference key="NSNextKeyView" ref="529802550"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<reference key="IBUIBackgroundColor" ref="276429324"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -603,37 +651,40 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="191373211"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="922798833"/>
-							<reference ref="139902829"/>
+							<reference ref="859132057"/>
+							<reference ref="351279630"/>
 							<reference ref="1043248264"/>
 							<reference ref="162680027"/>
 							<reference ref="879753851"/>
 							<reference ref="60310889"/>
 							<reference ref="195312461"/>
 							<reference ref="22560138"/>
-							<reference ref="591241966"/>
-							<reference ref="406543001"/>
-							<reference ref="568709228"/>
-							<reference ref="848499146"/>
-							<reference ref="10340769"/>
-							<reference ref="704887212"/>
-							<reference ref="173542198"/>
-							<reference ref="427769103"/>
-							<reference ref="1024756968"/>
-							<reference ref="525674629"/>
-							<reference ref="456412019"/>
-							<reference ref="576963963"/>
-							<reference ref="1049495684"/>
-							<reference ref="1059716539"/>
-							<reference ref="875440341"/>
-							<reference ref="45704079"/>
-							<reference ref="617828005"/>
-							<reference ref="187481494"/>
-							<reference ref="155781065"/>
-							<reference ref="47104363"/>
-							<reference ref="485538360"/>
-							<reference ref="497100112"/>
-							<reference ref="619347472"/>
+							<reference ref="770295641"/>
+							<reference ref="219403"/>
+							<reference ref="304118102"/>
+							<reference ref="507340935"/>
+							<reference ref="282045388"/>
+							<reference ref="18761320"/>
+							<reference ref="487586879"/>
+							<reference ref="178019066"/>
+							<reference ref="60419495"/>
+							<reference ref="647004135"/>
+							<reference ref="675319999"/>
+							<reference ref="123863438"/>
+							<reference ref="732837692"/>
+							<reference ref="604048243"/>
+							<reference ref="783795410"/>
+							<reference ref="429867350"/>
+							<reference ref="776378794"/>
+							<reference ref="218583080"/>
+							<reference ref="98397550"/>
+							<reference ref="957962282"/>
+							<reference ref="830181131"/>
+							<reference ref="493563995"/>
+							<reference ref="576728083"/>
+							<reference ref="529802550"/>
+							<reference ref="713437122"/>
+							<reference ref="1017059503"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -652,156 +703,205 @@
 						<int key="objectID">4</int>
 						<reference key="object" ref="1043248264"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">gunsnroses.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
 						<reference key="object" ref="162680027"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">u2.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
 						<reference key="object" ref="879753851"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">bdg.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
 						<reference key="object" ref="60310889"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">golden_earring.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
 						<reference key="object" ref="195312461"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">elton_john.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
 						<reference key="object" ref="22560138"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">ilse_delange.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="591241966"/>
+						<reference key="object" ref="770295641"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">allman_brothers.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="406543001"/>
+						<reference key="object" ref="219403"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">amy_whinehouse.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="568709228"/>
+						<reference key="object" ref="304118102"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">donna_summer.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="848499146"/>
+						<reference key="object" ref="507340935"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">queen.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="10340769"/>
+						<reference key="object" ref="282045388"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">commodores.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
-						<reference key="object" ref="704887212"/>
+						<reference key="object" ref="18761320"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">bonjovi.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
-						<reference key="object" ref="173542198"/>
+						<reference key="object" ref="487586879"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">david_bowie.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">17</int>
-						<reference key="object" ref="427769103"/>
+						<reference key="object" ref="178019066"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">guus_meeuwis.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">18</int>
-						<reference key="object" ref="1024756968"/>
+						<reference key="object" ref="60419495"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">marco_borsato.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">19</int>
-						<reference key="object" ref="525674629"/>
+						<reference key="object" ref="647004135"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">sting.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">20</int>
-						<reference key="object" ref="456412019"/>
+						<reference key="object" ref="675319999"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">mark_knopfler.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">21</int>
-						<reference key="object" ref="576963963"/>
+						<reference key="object" ref="123863438"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">caro_emerald.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="1049495684"/>
+						<reference key="object" ref="732837692"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">abba.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">23</int>
-						<reference key="object" ref="1059716539"/>
+						<reference key="object" ref="604048243"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">the_who.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
-						<reference key="object" ref="875440341"/>
+						<reference key="object" ref="783795410"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">kiss.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">25</int>
-						<reference key="object" ref="45704079"/>
+						<reference key="object" ref="429867350"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">clapton.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">26</int>
-						<reference key="object" ref="617828005"/>
+						<reference key="object" ref="776378794"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">stevie_wonder.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">27</int>
-						<reference key="object" ref="187481494"/>
+						<reference key="object" ref="218583080"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">james_brown.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">28</int>
-						<reference key="object" ref="155781065"/>
+						<reference key="object" ref="98397550"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">marvin_gaye.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">29</int>
-						<reference key="object" ref="922798833"/>
+						<reference key="object" ref="859132057"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">single.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">30</int>
-						<reference key="object" ref="139902829"/>
+						<reference key="object" ref="351279630"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">logo_top2000.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">31</int>
-						<reference key="object" ref="47104363"/>
+						<reference key="object" ref="957962282"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">start.lbl</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">32</int>
-						<reference key="object" ref="485538360"/>
+						<reference key="object" ref="830181131"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">logo_radio2.img</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">33</int>
-						<reference key="object" ref="497100112"/>
+						<reference key="object" ref="493563995"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">start.btn</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">34</int>
-						<reference key="object" ref="619347472"/>
+						<reference key="object" ref="1017059503"/>
 						<reference key="parent" ref="191373211"/>
+						<string key="objectName">subtitle.img</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">35</int>
+						<reference key="object" ref="576728083"/>
+						<reference key="parent" ref="191373211"/>
+						<string key="objectName">diana_ross.img</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">36</int>
+						<reference key="object" ref="529802550"/>
+						<reference key="parent" ref="191373211"/>
+						<string key="objectName">bob_marley.img</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">37</int>
+						<reference key="object" ref="713437122"/>
+						<reference key="parent" ref="191373211"/>
+						<string key="objectName">frank_sinatra.img</string>
 					</object>
 				</array>
 			</object>
@@ -835,6 +935,9 @@
 				<string key="32.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="33.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="34.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="35.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="36.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="37.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -846,7 +949,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">34</int>
+			<int key="maxID">37</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
@@ -858,13 +961,16 @@
 			<string key="allman_brothers.png">{114, 89}</string>
 			<string key="amy_whinehouse.png">{158, 205}</string>
 			<string key="bdg.png">{159, 111}</string>
+			<string key="bob_marley.png">{89, 88}</string>
 			<string key="bonjovi.png">{140, 114}</string>
 			<string key="caro_emerald.png">{91, 158}</string>
 			<string key="clapton.png">{44, 65}</string>
 			<string key="commodores.png">{164, 112}</string>
 			<string key="david_bowie.png">{89, 89}</string>
+			<string key="diana_ross.png">{88, 88}</string>
 			<string key="donna_summer.png">{42, 42}</string>
 			<string key="elton_john.png">{135, 111}</string>
+			<string key="frank_sinatra.png">{89, 88}</string>
 			<string key="golden_earring.png">{210, 181}</string>
 			<string key="gunsnroses.png">{229, 181}</string>
 			<string key="guus_meeuwis.png">{161, 158}</string>

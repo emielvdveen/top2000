@@ -157,6 +157,12 @@
 		E5C7DF0F15ED58310088385A /* donna_summer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF0D15ED58310088385A /* donna_summer@2x.png */; };
 		E5C7DF1215ED61580088385A /* subtitle_start.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1015ED61580088385A /* subtitle_start.png */; };
 		E5C7DF1315ED61580088385A /* subtitle_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1115ED61580088385A /* subtitle_start@2x.png */; };
+		E5C7DF1A15EE01AB0088385A /* bob_marley.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1415EE01AB0088385A /* bob_marley.png */; };
+		E5C7DF1B15EE01AB0088385A /* bob_marley@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1515EE01AB0088385A /* bob_marley@2x.png */; };
+		E5C7DF1C15EE01AB0088385A /* diana_ross.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1615EE01AB0088385A /* diana_ross.png */; };
+		E5C7DF1D15EE01AB0088385A /* diana_ross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1715EE01AB0088385A /* diana_ross@2x.png */; };
+		E5C7DF1E15EE01AB0088385A /* frank_sinatra.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1815EE01AB0088385A /* frank_sinatra.png */; };
+		E5C7DF1F15EE01AB0088385A /* frank_sinatra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1915EE01AB0088385A /* frank_sinatra@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -342,6 +348,12 @@
 		E5C7DF0D15ED58310088385A /* donna_summer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "donna_summer@2x.png"; sourceTree = "<group>"; };
 		E5C7DF1015ED61580088385A /* subtitle_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtitle_start.png; sourceTree = "<group>"; };
 		E5C7DF1115ED61580088385A /* subtitle_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subtitle_start@2x.png"; sourceTree = "<group>"; };
+		E5C7DF1415EE01AB0088385A /* bob_marley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bob_marley.png; sourceTree = "<group>"; };
+		E5C7DF1515EE01AB0088385A /* bob_marley@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bob_marley@2x.png"; sourceTree = "<group>"; };
+		E5C7DF1615EE01AB0088385A /* diana_ross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diana_ross.png; sourceTree = "<group>"; };
+		E5C7DF1715EE01AB0088385A /* diana_ross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diana_ross@2x.png"; sourceTree = "<group>"; };
+		E5C7DF1815EE01AB0088385A /* frank_sinatra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frank_sinatra.png; sourceTree = "<group>"; };
+		E5C7DF1915EE01AB0088385A /* frank_sinatra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frank_sinatra@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -508,6 +520,12 @@
 		E55BD08315EB5F39008882CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E5C7DF1415EE01AB0088385A /* bob_marley.png */,
+				E5C7DF1515EE01AB0088385A /* bob_marley@2x.png */,
+				E5C7DF1615EE01AB0088385A /* diana_ross.png */,
+				E5C7DF1715EE01AB0088385A /* diana_ross@2x.png */,
+				E5C7DF1815EE01AB0088385A /* frank_sinatra.png */,
+				E5C7DF1915EE01AB0088385A /* frank_sinatra@2x.png */,
 				E5C7DF1015ED61580088385A /* subtitle_start.png */,
 				E5C7DF1115ED61580088385A /* subtitle_start@2x.png */,
 				E5C7DF0C15ED58310088385A /* donna_summer.png */,
@@ -839,6 +857,12 @@
 				E5C7DF0F15ED58310088385A /* donna_summer@2x.png in Resources */,
 				E5C7DF1215ED61580088385A /* subtitle_start.png in Resources */,
 				E5C7DF1315ED61580088385A /* subtitle_start@2x.png in Resources */,
+				E5C7DF1A15EE01AB0088385A /* bob_marley.png in Resources */,
+				E5C7DF1B15EE01AB0088385A /* bob_marley@2x.png in Resources */,
+				E5C7DF1C15EE01AB0088385A /* diana_ross.png in Resources */,
+				E5C7DF1D15EE01AB0088385A /* diana_ross@2x.png in Resources */,
+				E5C7DF1E15EE01AB0088385A /* frank_sinatra.png in Resources */,
+				E5C7DF1F15EE01AB0088385A /* frank_sinatra@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
