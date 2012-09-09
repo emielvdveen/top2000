@@ -17,6 +17,8 @@
 #import "HintsViewController.h"
 #import "CoverViewController.h"
 #import "HitFragmentViewController.h"
+#import "Foto.h"
+#import "PictureViewController.h"
 
 @interface MainViewController ()
 
@@ -28,6 +30,7 @@
     PopQuizViewController *_popQuizVC;
     HintsViewController *_hintsVC;
     CoverViewController *_coverVC;
+    PictureViewController* _pictureVC;
     HitFragmentViewController *_hitFragmentVC;
 
     UIView *_currentView;
@@ -64,6 +67,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    NSLog(@"shouldAutorotateToInterfaceOrientation");
     if (IPAD)
     {
         return UIInterfaceOrientationIsLandscape(interfaceOrientation);
@@ -83,28 +87,32 @@
         _doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
         _newView = _doorvraagVC.view;
     }
-    else
-    if ([vraag isKindOfClass:[PopQuizVraag class]])
+    else if ([vraag isKindOfClass:[PopQuizVraag class]])
     {
         _popQuizVC = [[PopQuizViewController alloc] initWithNibName:@"PopQuizView~ipad" bundle:nil];
         _popQuizVC.vraag = vraag;
         _newView = _popQuizVC.view;
     }
-    if ([vraag isKindOfClass:[Hint class]])
+    else if ([vraag isKindOfClass:[Hint class]])
     {
         _hintsVC = [[HintsViewController alloc] initWithNibName:@"HintsView~ipad" bundle:nil];
         _hintsVC.hint = vraag;
         _newView = _hintsVC.view;
     }
-    if ([vraag isKindOfClass:[Hoes class]])
-    {
-        _coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView" bundle:nil];
-        _newView = _coverVC.view;
-    }
-    if ([vraag isKindOfClass:[HitFragment class]])
+    else if ([vraag isKindOfClass:[HitFragment class]])
     {
         _hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
         _newView = _hitFragmentVC.view;
+    }
+    else if ([vraag isKindOfClass:[Hoes class]])
+    {
+        _coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
+        _newView = _coverVC.view;
+    }
+    else if ([vraag isKindOfClass:[Foto class]])
+    {
+        _pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
+        _newView = _pictureVC.view;
     }
 
     [self showNewView];

@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSArray* hints;
 @property (nonatomic, strong) NSArray* hitFragmenten;
 @property (nonatomic, strong) NSArray* hoezen;
+@property (nonatomic, strong) NSArray* fotos;
 
 + (DataController*) sharedInstance;
 
@@ -23,6 +24,7 @@
 - (NSArray*) loadHints;
 - (NSArray*) loadHitFragmenten;
 - (NSArray*) loadHoezen;
+- (NSArray*) loadFotos;
 - (void) loadAll;
 
 - (int) totaalAantalVragen;

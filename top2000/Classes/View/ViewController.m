@@ -65,8 +65,13 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return YES;
+    if (IPAD)
+    {
+        return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    }
+    else {
+        return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+    }
 }
 
 - (IBAction) startGame;

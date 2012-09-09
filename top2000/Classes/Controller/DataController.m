@@ -14,6 +14,7 @@
 #import "HitFragment.h"
 #import "Hoes.h"
 #import "Doorvraag.h"
+#import "Foto.h"
 
 @implementation DataController
 
@@ -22,6 +23,8 @@
 @synthesize hints = _hints;
 @synthesize hitFragmenten = _hitFragmenten;
 @synthesize hoezen = _hoezen;
+@synthesize fotos = _fotos;
+
 
 #pragma mark - Singleton
 
@@ -92,6 +95,12 @@
     return [self loadJsonArray:filePath];
 }
 
+- (NSArray*) loadFotos;
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"fotos" ofType:@"json"];
+    return [self loadJsonArray:filePath];
+}
+
 - (void) loadAll;
 {
     _doorVragen = [self loadDoorvragen];
@@ -103,11 +112,14 @@
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
 
+    _popQuizVragen = [self loadPopquizVragen];
+    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
+
     _hoezen = [self loadHoezen];
     NSLog(@"%i hoezen loaded", [_hoezen count]);
 
-    _popQuizVragen = [self loadPopquizVragen];
-    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
+    _fotos = [self loadFotos];
+    NSLog(@"%i fotos loaded", [_fotos count]);
 }
 
 
@@ -171,6 +183,17 @@
         NSLog(@"Hoes vraag");
         NSDictionary *jsonVraag = [_hoezen objectAtIndex:index];
         Hoes *vraag = [Hoes createFromJson:jsonVraag];
+        return vraag;
+    }
+
+
+    index = index - [_hoezen count];
+
+    if (index < [_fotos count])
+    {
+        NSLog(@"Foto vraag");
+        NSDictionary *jsonVraag = [_hoezen objectAtIndex:index];
+        Foto *vraag = [Foto createFromJson:jsonVraag];
         return vraag;
     }
 

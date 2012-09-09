@@ -37,5 +37,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DINNextLTPro-Black.otf</string>
+		<string>DINNextLTPro-Bold.otf</string>
+		<string>DINNextLTPro-Light.otf</string>
+		<string>DINNextLTPro-Medium.otf</string>
+		<string>DINNextLTPro-MediumCond.otf</string>
+		<string>DINNextLTPro-Regular.otf</string>
+		<string>OmroepBold.otf</string>
+		<string>OmroepLight.otf</string>
+	</array>
 </dict>
 </plist>

@@ -93,6 +93,225 @@
 		E55BD19C15ECC69F008882CA /* Hoes.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD19B15ECC69F008882CA /* Hoes.m */; };
 		E55BD19F15ECC737008882CA /* PopQuizVraag.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD19E15ECC736008882CA /* PopQuizVraag.m */; };
 		E55BD1B615ECCB8D008882CA /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD1B515ECCB8D008882CA /* GameController.m */; };
+		E5999CE115FCACC100A26E3C /* fotos.json in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE015FCACC100A26E3C /* fotos.json */; };
+		E5999DAE15FCACE100A26E3C /* bonjov-slippe.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE415FCACE100A26E3C /* bonjov-slippe.JPG */; };
+		E5999DAF15FCACE100A26E3C /* COVER MARVIN GAYE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE515FCACE100A26E3C /* COVER MARVIN GAYE.JPG */; };
+		E5999DB015FCACE100A26E3C /* Cover_A Night A_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE615FCACE100A26E3C /* Cover_A Night A_300CMYK.JPG */; };
+		E5999DB115FCACE100A26E3C /* COVER_ABBA.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE715FCACE100A26E3C /* COVER_ABBA.JPG */; };
+		E5999DB215FCACE100A26E3C /* Cover_ABC_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE815FCACE100A26E3C /* Cover_ABC_300CMYK.JPG */; };
+		E5999DB315FCACE100A26E3C /* COVER_AMY WINEHOUSE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CE915FCACE100A26E3C /* COVER_AMY WINEHOUSE.JPG */; };
+		E5999DB415FCACE100A26E3C /* Cover_Appetite _300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CEA15FCACE100A26E3C /* Cover_Appetite _300CMYK.JPG */; };
+		E5999DB515FCACE100A26E3C /* Cover_Are you E_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CEB15FCACE100A26E3C /* Cover_Are you E_300CMYK.JPG */; };
+		E5999DB615FCACE100A26E3C /* Cover_Armen Ope_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CEC15FCACE100A26E3C /* Cover_Armen Ope_300CMYK.JPG */; };
+		E5999DB715FCACE100A26E3C /* Cover_Band On T_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CED15FCACE100A26E3C /* Cover_Band On T_300CMYK.JPG */; };
+		E5999DB815FCACE100A26E3C /* COVER_BOB MARLEY.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CEE15FCACE100A26E3C /* COVER_BOB MARLEY.JPG */; };
+		E5999DB915FCACE100A26E3C /* COVER_DEREK DOMINOS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CEF15FCACE100A26E3C /* COVER_DEREK DOMINOS.JPG */; };
+		E5999DBA15FCACE100A26E3C /* Cover_Destroyer_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF015FCACE100A26E3C /* Cover_Destroyer_300CMYK.JPG */; };
+		E5999DBB15FCACE100A26E3C /* COVER_DIRE STRAITS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF115FCACE100A26E3C /* COVER_DIRE STRAITS.JPG */; };
+		E5999DBC15FCACE100A26E3C /* Cover_Disintegr_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF215FCACE100A26E3C /* Cover_Disintegr_300CMYK.JPG */; };
+		E5999DBD15FCACE100A26E3C /* COVER_ELTON JOHN.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF315FCACE100A26E3C /* COVER_ELTON JOHN.JPG */; };
+		E5999DBE15FCACE100A26E3C /* COVER_ERIC CLAPTON.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF415FCACE100A26E3C /* COVER_ERIC CLAPTON.JPG */; };
+		E5999DBF15FCACE100A26E3C /* Cover_Groeten U_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF515FCACE100A26E3C /* Cover_Groeten U_300CMYK.JPG */; };
+		E5999DC015FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF615FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK.JPG */; };
+		E5999DC115FCACE100A26E3C /* Cover_Hot-August-Night.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF715FCACE100A26E3C /* Cover_Hot-August-Night.JPG */; };
+		E5999DC215FCACE100A26E3C /* Cover_Island Li_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF815FCACE100A26E3C /* Cover_Island Li_300CMYK.JPG */; };
+		E5999DC315FCACE100A26E3C /* COVER_JJ_CALE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CF915FCACE100A26E3C /* COVER_JJ_CALE.JPG */; };
+		E5999DC415FCACE100A26E3C /* COVER_JOE_JACKSON.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFA15FCACE100A26E3C /* COVER_JOE_JACKSON.JPG */; };
+		E5999DC515FCACE100A26E3C /* COVER_KEANE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFB15FCACE100A26E3C /* COVER_KEANE.JPG */; };
+		E5999DC615FCACE100A26E3C /* Cover_Kick_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFC15FCACE100A26E3C /* Cover_Kick_300CMYK.JPG */; };
+		E5999DC715FCACE100A26E3C /* COVER_LIONEL RICHIE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFD15FCACE100A26E3C /* COVER_LIONEL RICHIE.JPG */; };
+		E5999DC815FCACE100A26E3C /* Cover_Luid and _300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFE15FCACE100A26E3C /* Cover_Luid and _300CMYK.JPG */; };
+		E5999DC915FCACE100A26E3C /* Cover_Metallica_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999CFF15FCACE100A26E3C /* Cover_Metallica_300CMYK.JPG */; };
+		E5999DCA15FCACE100A26E3C /* COVER_MIKE_OLDFIELD.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0015FCACE100A26E3C /* COVER_MIKE_OLDFIELD.JPG */; };
+		E5999DCB15FCACE100A26E3C /* Cover_Nevermind_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0115FCACE100A26E3C /* Cover_Nevermind_300CMYK.JPG */; };
+		E5999DCC15FCACE100A26E3C /* Cover_Niemand I_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0215FCACE100A26E3C /* Cover_Niemand I_300CMYK.JPG */; };
+		E5999DCD15FCACE100A26E3C /* Cover_Paranoid_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0315FCACE100A26E3C /* Cover_Paranoid_300CMYK.JPG */; };
+		E5999DCE15FCACE100A26E3C /* Cover_Pendulum _300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0415FCACE100A26E3C /* Cover_Pendulum _300CMYK.JPG */; };
+		E5999DCF15FCACE100A26E3C /* COVER_PETER FRAMPTON.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0515FCACE100A26E3C /* COVER_PETER FRAMPTON.JPG */; };
+		E5999DD015FCACE100A26E3C /* Cover_Pump_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0615FCACE100A26E3C /* Cover_Pump_300CMYK.JPG */; };
+		E5999DD115FCACE100A26E3C /* Cover_Reckless_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0715FCACE100A26E3C /* Cover_Reckless_300CMYK.JPG */; };
+		E5999DD215FCACE100A26E3C /* COVER_SNOW_PATROL.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */; };
+		E5999DD315FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */; };
+		E5999DD415FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */; };
+		E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */; };
+		E5999DD615FCACE100A26E3C /* COVER_SUPERTRAMP.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */; };
+		E5999DD715FCACE100A26E3C /* COVER_TearsforFears.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */; };
+		E5999DD815FCACE100A26E3C /* Cover_The Great_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */; };
+		E5999DD915FCACE100A26E3C /* COVER_THE POLICE.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0F15FCACE100A26E3C /* COVER_THE POLICE.JPG */; };
+		E5999DDA15FCACE100A26E3C /* Cover_The Velve_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1015FCACE100A26E3C /* Cover_The Velve_300CMYK.JPG */; };
+		E5999DDB15FCACE100A26E3C /* Cover_The Who S_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1115FCACE100A26E3C /* Cover_The Who S_300CMYK.JPG */; };
+		E5999DDC15FCACE100A26E3C /* COVER_THE WHO.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1215FCACE100A26E3C /* COVER_THE WHO.JPG */; };
+		E5999DDD15FCACE100A26E3C /* COVER_VAN MORRISON.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1315FCACE100A26E3C /* COVER_VAN MORRISON.JPG */; };
+		E5999DDE15FCACE100A26E3C /* Cover_War_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1415FCACE100A26E3C /* Cover_War_300CMYK.JPG */; };
+		E5999DDF15FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1515FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe.JPG */; };
+		E5999DE015FCACE100A26E3C /* bonjov-slippe_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1715FCACE100A26E3C /* bonjov-slippe_2.JPG */; };
+		E5999DE115FCACE100A26E3C /* COVER MARVIN GAYE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1815FCACE100A26E3C /* COVER MARVIN GAYE_2.JPG */; };
+		E5999DE215FCACE100A26E3C /* Cover_A Night A_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1915FCACE100A26E3C /* Cover_A Night A_300CMYK_2.JPG */; };
+		E5999DE315FCACE100A26E3C /* COVER_ABBA_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1A15FCACE100A26E3C /* COVER_ABBA_2.JPG */; };
+		E5999DE415FCACE100A26E3C /* Cover_ABC_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1B15FCACE100A26E3C /* Cover_ABC_300CMYK_2.JPG */; };
+		E5999DE515FCACE100A26E3C /* COVER_AMY WINEHOUSE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1C15FCACE100A26E3C /* COVER_AMY WINEHOUSE_2.JPG */; };
+		E5999DE615FCACE100A26E3C /* Cover_Appetite _300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1D15FCACE100A26E3C /* Cover_Appetite _300CMYK_2.JPG */; };
+		E5999DE715FCACE100A26E3C /* Cover_Are you E_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1E15FCACE100A26E3C /* Cover_Are you E_300CMYK_2.JPG */; };
+		E5999DE815FCACE100A26E3C /* Cover_Armen Ope_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D1F15FCACE100A26E3C /* Cover_Armen Ope_300CMYK_2.JPG */; };
+		E5999DE915FCACE100A26E3C /* Cover_Band On T_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2015FCACE100A26E3C /* Cover_Band On T_300CMYK_2.JPG */; };
+		E5999DEA15FCACE100A26E3C /* COVER_BOB MARLEY_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2115FCACE100A26E3C /* COVER_BOB MARLEY_2.JPG */; };
+		E5999DEB15FCACE100A26E3C /* COVER_DEREK DOMINOS_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2215FCACE100A26E3C /* COVER_DEREK DOMINOS_2.JPG */; };
+		E5999DEC15FCACE100A26E3C /* Cover_Destroyer_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2315FCACE100A26E3C /* Cover_Destroyer_300CMYK_2.JPG */; };
+		E5999DED15FCACE100A26E3C /* COVER_DIRE STRAITS_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2415FCACE100A26E3C /* COVER_DIRE STRAITS_2.JPG */; };
+		E5999DEE15FCACE100A26E3C /* Cover_Disintegr_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2515FCACE100A26E3C /* Cover_Disintegr_300CMYK_2.JPG */; };
+		E5999DEF15FCACE100A26E3C /* COVER_ELTON JOHN_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2615FCACE100A26E3C /* COVER_ELTON JOHN_2.JPG */; };
+		E5999DF015FCACE100A26E3C /* COVER_ERIC CLAPTON_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2715FCACE100A26E3C /* COVER_ERIC CLAPTON_2.JPG */; };
+		E5999DF115FCACE100A26E3C /* Cover_Groeten U_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2815FCACE100A26E3C /* Cover_Groeten U_300CMYK_2.JPG */; };
+		E5999DF215FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2915FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK_2.JPG */; };
+		E5999DF315FCACE100A26E3C /* Cover_Hot-August-Night_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2A15FCACE100A26E3C /* Cover_Hot-August-Night_2.JPG */; };
+		E5999DF415FCACE100A26E3C /* Cover_Island Li_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2B15FCACE100A26E3C /* Cover_Island Li_300CMYK_2.JPG */; };
+		E5999DF515FCACE100A26E3C /* COVER_JJ_CALE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2C15FCACE100A26E3C /* COVER_JJ_CALE_2.JPG */; };
+		E5999DF615FCACE100A26E3C /* COVER_JOE_JACKSON_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2D15FCACE100A26E3C /* COVER_JOE_JACKSON_2.JPG */; };
+		E5999DF715FCACE100A26E3C /* COVER_KEANE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2E15FCACE100A26E3C /* COVER_KEANE_2.JPG */; };
+		E5999DF815FCACE100A26E3C /* Cover_Kick_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D2F15FCACE100A26E3C /* Cover_Kick_300CMYK_2.JPG */; };
+		E5999DF915FCACE100A26E3C /* COVER_LIONEL RICHIE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3015FCACE100A26E3C /* COVER_LIONEL RICHIE_2.JPG */; };
+		E5999DFA15FCACE100A26E3C /* Cover_Luid and _300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3115FCACE100A26E3C /* Cover_Luid and _300CMYK_2.JPG */; };
+		E5999DFB15FCACE100A26E3C /* Cover_Metallica_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3215FCACE100A26E3C /* Cover_Metallica_300CMYK_2.JPG */; };
+		E5999DFC15FCACE100A26E3C /* COVER_MIKE_OLDFIELD_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3315FCACE100A26E3C /* COVER_MIKE_OLDFIELD_2.JPG */; };
+		E5999DFD15FCACE100A26E3C /* Cover_Nevermind_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3415FCACE100A26E3C /* Cover_Nevermind_300CMYK_2.JPG */; };
+		E5999DFE15FCACE100A26E3C /* Cover_Niemand I_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3515FCACE100A26E3C /* Cover_Niemand I_300CMYK_2.JPG */; };
+		E5999DFF15FCACE100A26E3C /* Cover_Paranoid_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3615FCACE100A26E3C /* Cover_Paranoid_300CMYK_2.JPG */; };
+		E5999E0015FCACE100A26E3C /* Cover_Pendulum _300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3715FCACE100A26E3C /* Cover_Pendulum _300CMYK_2.JPG */; };
+		E5999E0115FCACE100A26E3C /* COVER_PETER FRAMPTON_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3815FCACE100A26E3C /* COVER_PETER FRAMPTON_2.JPG */; };
+		E5999E0215FCACE100A26E3C /* Cover_Pump_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3915FCACE100A26E3C /* Cover_Pump_300CMYK_2.JPG */; };
+		E5999E0315FCACE100A26E3C /* Cover_Reckless_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3A15FCACE100A26E3C /* Cover_Reckless_300CMYK_2.JPG */; };
+		E5999E0415FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */; };
+		E5999E0515FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */; };
+		E5999E0615FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */; };
+		E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */; };
+		E5999E0815FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */; };
+		E5999E0915FCACE100A26E3C /* COVER_TearsforFears_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */; };
+		E5999E0A15FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */; };
+		E5999E0B15FCACE100A26E3C /* COVER_THE POLICE_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4215FCACE100A26E3C /* COVER_THE POLICE_2.JPG */; };
+		E5999E0C15FCACE100A26E3C /* Cover_The Velve_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4315FCACE100A26E3C /* Cover_The Velve_300CMYK_2.JPG */; };
+		E5999E0D15FCACE100A26E3C /* Cover_The Who S_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4415FCACE100A26E3C /* Cover_The Who S_300CMYK_2.JPG */; };
+		E5999E0E15FCACE100A26E3C /* COVER_THE WHO_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4515FCACE100A26E3C /* COVER_THE WHO_2.JPG */; };
+		E5999E0F15FCACE100A26E3C /* COVER_VAN MORRISON_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4615FCACE100A26E3C /* COVER_VAN MORRISON_2.JPG */; };
+		E5999E1015FCACE100A26E3C /* Cover_War_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4715FCACE100A26E3C /* Cover_War_300CMYK_2.JPG */; };
+		E5999E1115FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4815FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe_2.JPG */; };
+		E5999E1215FCACE100A26E3C /* ABBA.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4A15FCACE100A26E3C /* ABBA.JPG */; };
+		E5999E1315FCACE100A26E3C /* Acda en De Munnik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4B15FCACE100A26E3C /* Acda en De Munnik.jpg */; };
+		E5999E1415FCACE100A26E3C /* Aerosmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4C15FCACE100A26E3C /* Aerosmith.jpg */; };
+		E5999E1515FCACE100A26E3C /* Alice Cooper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4D15FCACE100A26E3C /* Alice Cooper.jpg */; };
+		E5999E1615FCACE100A26E3C /* Allman Brothers Band.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4E15FCACE100A26E3C /* Allman Brothers Band.jpg */; };
+		E5999E1715FCACE100A26E3C /* Alquin.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4F15FCACE100A26E3C /* Alquin.JPG */; };
+		E5999E1815FCACE100A26E3C /* Amy MacDonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */; };
+		E5999E1915FCACE100A26E3C /* Amy Winehouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */; };
+		E5999E1A15FCACE100A26E3C /* Andre Hazes.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */; };
+		E5999E1B15FCACE100A26E3C /* Andre Rieu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */; };
+		E5999E1C15FCACE100A26E3C /* Armand.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5415FCACE100A26E3C /* Armand.JPG */; };
+		E5999E1D15FCACE100A26E3C /* Billie Holiday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */; };
+		E5999E1E15FCACE100A26E3C /* Bjork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5615FCACE100A26E3C /* Bjork.jpg */; };
+		E5999E1F15FCACE100A26E3C /* Black Eyed Peas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */; };
+		E5999E2015FCACE100A26E3C /* Blue Diamonds.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */; };
+		E5999E2115FCACE100A26E3C /* Bob Marley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5915FCACE100A26E3C /* Bob Marley.jpg */; };
+		E5999E2215FCACE100A26E3C /* Bocelli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5A15FCACE100A26E3C /* Bocelli.jpg */; };
+		E5999E2315FCACE100A26E3C /* Bon Jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */; };
+		E5999E2415FCACE100A26E3C /* Boudewijn de Groot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */; };
+		E5999E2515FCACE100A26E3C /* Brainbox.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5D15FCACE100A26E3C /* Brainbox.JPG */; };
+		E5999E2615FCACE100A26E3C /* BZN.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5E15FCACE100A26E3C /* BZN.JPG */; };
+		E5999E2715FCACE100A26E3C /* Carpenters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5F15FCACE100A26E3C /* Carpenters.jpg */; };
+		E5999E2815FCACE100A26E3C /* Cat Stevens.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6015FCACE100A26E3C /* Cat Stevens.JPG */; };
+		E5999E2915FCACE100A26E3C /* Chris Rea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6115FCACE100A26E3C /* Chris Rea.jpg */; };
+		E5999E2A15FCACE100A26E3C /* Chuck Berry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6215FCACE100A26E3C /* Chuck Berry.jpg */; };
+		E5999E2B15FCACE100A26E3C /* Commodores.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6315FCACE100A26E3C /* Commodores.jpg */; };
+		E5999E2C15FCACE100A26E3C /* Counting Crows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6415FCACE100A26E3C /* Counting Crows.jpg */; };
+		E5999E2D15FCACE100A26E3C /* Cream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6515FCACE100A26E3C /* Cream.jpg */; };
+		E5999E2E15FCACE100A26E3C /* Creedence Clearwater Revival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6615FCACE100A26E3C /* Creedence Clearwater Revival.jpg */; };
+		E5999E2F15FCACE100A26E3C /* David Bowie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6715FCACE100A26E3C /* David Bowie.jpg */; };
+		E5999E3015FCACE100A26E3C /* De Dijk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6815FCACE100A26E3C /* De Dijk.jpg */; };
+		E5999E3115FCACE100A26E3C /* Deep Purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6915FCACE100A26E3C /* Deep Purple.jpg */; };
+		E5999E3215FCACE100A26E3C /* Diana Ross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6A15FCACE100A26E3C /* Diana Ross.jpg */; };
+		E5999E3315FCACE100A26E3C /* Dire Straits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6B15FCACE100A26E3C /* Dire Straits.jpg */; };
+		E5999E3415FCACE100A26E3C /* Dusty Springfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6C15FCACE100A26E3C /* Dusty Springfield.jpg */; };
+		E5999E3515FCACE100A26E3C /* Eagles.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6D15FCACE100A26E3C /* Eagles.JPG */; };
+		E5999E3615FCACE100A26E3C /* Earth and Fire.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6E15FCACE100A26E3C /* Earth and Fire.JPG */; };
+		E5999E3715FCACE100A26E3C /* Elton John.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D6F15FCACE100A26E3C /* Elton John.jpg */; };
+		E5999E3815FCACE100A26E3C /* Elvis Costello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7015FCACE100A26E3C /* Elvis Costello.jpg */; };
+		E5999E3915FCACE100A26E3C /* Eric Clapton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7115FCACE100A26E3C /* Eric Clapton.jpg */; };
+		E5999E3A15FCACE100A26E3C /* Focus.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7215FCACE100A26E3C /* Focus.JPG */; };
+		E5999E3B15FCACE100A26E3C /* Frank Sinatra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7315FCACE100A26E3C /* Frank Sinatra.jpg */; };
+		E5999E3C15FCACE100A26E3C /* Frank Zappa.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7415FCACE100A26E3C /* Frank Zappa.JPG */; };
+		E5999E3D15FCACE100A26E3C /* Frans Halsema.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7515FCACE100A26E3C /* Frans Halsema.JPG */; };
+		E5999E3E15FCACE100A26E3C /* Goede Doel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7615FCACE100A26E3C /* Goede Doel.jpg */; };
+		E5999E3F15FCACE100A26E3C /* Golden Earring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7715FCACE100A26E3C /* Golden Earring.jpg */; };
+		E5999E4015FCACE100A26E3C /* Grace Jones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7815FCACE100A26E3C /* Grace Jones.jpg */; };
+		E5999E4115FCACE100A26E3C /* Guns 'n Roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */; };
+		E5999E4215FCACE100A26E3C /* Guus Meeuwis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */; };
+		E5999E4315FCACE100A26E3C /* Harry - Cuby - Muskee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */; };
+		E5999E4415FCACE100A26E3C /* Herman Brood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */; };
+		E5999E4515FCACE100A26E3C /* Herman van Veen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7D15FCACE100A26E3C /* Herman van Veen.JPG */; };
+		E5999E4615FCACE100A26E3C /* Ilse DeLange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7E15FCACE100A26E3C /* Ilse DeLange.jpg */; };
+		E5999E4715FCACE100A26E3C /* INXS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7F15FCACE100A26E3C /* INXS.JPG */; };
+		E5999E4815FCACE100A26E3C /* Jack Johnson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8015FCACE100A26E3C /* Jack Johnson.jpg */; };
+		E5999E4915FCACE100A26E3C /* Jackson 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8115FCACE100A26E3C /* Jackson 5.JPG */; };
+		E5999E4A15FCACE100A26E3C /* James Brown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8215FCACE100A26E3C /* James Brown.jpg */; };
+		E5999E4B15FCACE100A26E3C /* James Morrison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8315FCACE100A26E3C /* James Morrison.jpg */; };
+		E5999E4C15FCACE100A26E3C /* Jamie Cullum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8415FCACE100A26E3C /* Jamie Cullum.jpg */; };
+		E5999E4D15FCACE100A26E3C /* Jan Akkerman.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8515FCACE100A26E3C /* Jan Akkerman.JPG */; };
+		E5999E4E15FCACE100A26E3C /* Janis Joplin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8615FCACE100A26E3C /* Janis Joplin.jpg */; };
+		E5999E4F15FCACE100A26E3C /* Jantje Smit.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8715FCACE100A26E3C /* Jantje Smit.JPG */; };
+		E5999E5015FCACE100A26E3C /* Jimi Hendrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8815FCACE100A26E3C /* Jimi Hendrix.jpg */; };
+		E5999E5115FCACE100A26E3C /* JJ Cale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8915FCACE100A26E3C /* JJ Cale.jpg */; };
+		E5999E5215FCACE100A26E3C /* Lady Gaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8A15FCACE100A26E3C /* Lady Gaga.jpg */; };
+		E5999E5315FCACE100A26E3C /* Level 42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8B15FCACE100A26E3C /* Level 42.jpg */; };
+		E5999E5415FCACE100A26E3C /* Liesbeth List.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8C15FCACE100A26E3C /* Liesbeth List.JPG */; };
+		E5999E5515FCACE100A26E3C /* Madonna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8D15FCACE100A26E3C /* Madonna.jpg */; };
+		E5999E5615FCACE100A26E3C /* Mamas & Papas118.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8E15FCACE100A26E3C /* Mamas & Papas118.jpg */; };
+		E5999E5715FCACE100A26E3C /* Marco Borsato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D8F15FCACE100A26E3C /* Marco Borsato.jpg */; };
+		E5999E5815FCACE100A26E3C /* Mariah Carey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */; };
+		E5999E5915FCACE100A26E3C /* Marvin Gaye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */; };
+		E5999E5A15FCACE100A26E3C /* Metallica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9215FCACE100A26E3C /* Metallica.jpg */; };
+		E5999E5B15FCACE100A26E3C /* Neil Diamond 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */; };
+		E5999E5C15FCACE100A26E3C /* Nirvana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9415FCACE100A26E3C /* Nirvana.jpg */; };
+		E5999E5D15FCACE100A26E3C /* Normaal.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9515FCACE100A26E3C /* Normaal.JPG */; };
+		E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */; };
+		E5999E5F15FCACE100A26E3C /* Paul Weller.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9715FCACE100A26E3C /* Paul Weller.JPG */; };
+		E5999E6015FCACE100A26E3C /* Peter Koelewijn.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */; };
+		E5999E6115FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */; };
+		E5999E6215FCACE100A26E3C /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9A15FCACE100A26E3C /* Queen.jpg */; };
+		E5999E6315FCACE100A26E3C /* Ramses Shaffy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */; };
+		E5999E6415FCACE100A26E3C /* Rob de Nijs.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */; };
+		E5999E6515FCACE100A26E3C /* Rod Stewart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9D15FCACE100A26E3C /* Rod Stewart.jpg */; };
+		E5999E6615FCACE100A26E3C /* Rolling Stones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9E15FCACE100A26E3C /* Rolling Stones.jpg */; };
+		E5999E6715FCACE100A26E3C /* Scissor Sisters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9F15FCACE100A26E3C /* Scissor Sisters.jpg */; };
+		E5999E6815FCACE100A26E3C /* Steely Dan.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA015FCACE100A26E3C /* Steely Dan.JPG */; };
+		E5999E6915FCACE100A26E3C /* Stevie Wonder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA115FCACE100A26E3C /* Stevie Wonder.jpg */; };
+		E5999E6A15FCACE100A26E3C /* Sting.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA215FCACE100A26E3C /* Sting.JPG */; };
+		E5999E6B15FCACE100A26E3C /* The Cure.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA315FCACE100A26E3C /* The Cure.JPG */; };
+		E5999E6C15FCACE100A26E3C /* The Police.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA415FCACE100A26E3C /* The Police.JPG */; };
+		E5999E6D15FCACE100A26E3C /* The Who.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA515FCACE100A26E3C /* The Who.JPG */; };
+		E5999E6E15FCACE100A26E3C /* Thin Lizzy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA615FCACE100A26E3C /* Thin Lizzy.JPG */; };
+		E5999E6F15FCACE100A26E3C /* U2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA715FCACE100A26E3C /* U2.jpg */; };
+		E5999E7015FCACE100A26E3C /* Van Morrison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA815FCACE100A26E3C /* Van Morrison.jpg */; };
+		E5999E7115FCACE100A26E3C /* Willeke Alberti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999DA915FCACE100A26E3C /* Willeke Alberti.jpg */; };
+		E5999E7215FCACE100A26E3C /* Willy Alberti.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAA15FCACE100A26E3C /* Willy Alberti.JPG */; };
+		E5999E7315FCACE100A26E3C /* Willy en Willeke Alberti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAB15FCACE100A26E3C /* Willy en Willeke Alberti.jpg */; };
+		E5999E7415FCACE100A26E3C /* Wim Sonneveld.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAC15FCACE100A26E3C /* Wim Sonneveld.JPG */; };
+		E5999E7515FCACE100A26E3C /* Zangeres Zonder Naam.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */; };
+		E5999E7815FCAD8C00A26E3C /* Foto.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E7715FCAD8C00A26E3C /* Foto.m */; };
+		E5999E7B15FCB1BD00A26E3C /* StartViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */; };
+		E5999E8515FCB2C100A26E3C /* DINNextLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */; };
+		E5999E8615FCB2C100A26E3C /* DINNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */; };
+		E5999E8715FCB2C100A26E3C /* DINNextLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */; };
+		E5999E8815FCB2C100A26E3C /* DINNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */; };
+		E5999E8915FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */; };
+		E5999E8A15FCB2C100A26E3C /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */; };
+		E5999E8B15FCB2C100A26E3C /* OmroepBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8315FCB2C100A26E3C /* OmroepBold.otf */; };
+		E5999E8C15FCB2C100A26E3C /* OmroepLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8415FCB2C100A26E3C /* OmroepLight.otf */; };
+		E5999E9015FCB5E000A26E3C /* DINNextBlackLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */; };
+		E5999EA715FCB79200A26E3C /* DINNextBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */; };
+		E5999EAA15FCB7AF00A26E3C /* DINNextMediumCondLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */; };
+		E5999EAD15FCB7C800A26E3C /* DINNextRegularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */; };
+		E5999EB015FCB7E300A26E3C /* DINNextLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */; };
+		E5999EB315FCB7FB00A26E3C /* DINNextMediumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */; };
+		E5999EB615FCB81200A26E3C /* OmroepRoundedBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */; };
+		E5999EB915FCB82D00A26E3C /* OmroepRoundedLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */; };
 		E5C7DE9515ED563C0088385A /* CoverView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */; };
 		E5C7DE9615ED563C0088385A /* StartView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9415ED563C0088385A /* StartView~ipad.xib */; };
 		E5C7DED215ED56C50088385A /* abba.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9815ED56C50088385A /* abba.png */; };
@@ -284,6 +503,236 @@
 		E55BD19E15ECC736008882CA /* PopQuizVraag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopQuizVraag.m; sourceTree = "<group>"; };
 		E55BD1B415ECCB8D008882CA /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		E55BD1B515ECCB8D008882CA /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		E5999CDC15FCA8B500A26E3C /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		E5999CE015FCACC100A26E3C /* fotos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fotos.json; sourceTree = "<group>"; };
+		E5999CE415FCACE100A26E3C /* bonjov-slippe.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bonjov-slippe.JPG"; sourceTree = "<group>"; };
+		E5999CE515FCACE100A26E3C /* COVER MARVIN GAYE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER MARVIN GAYE.JPG"; sourceTree = "<group>"; };
+		E5999CE615FCACE100A26E3C /* Cover_A Night A_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_A Night A_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CE715FCACE100A26E3C /* COVER_ABBA.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_ABBA.JPG; sourceTree = "<group>"; };
+		E5999CE815FCACE100A26E3C /* Cover_ABC_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_ABC_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999CE915FCACE100A26E3C /* COVER_AMY WINEHOUSE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_AMY WINEHOUSE.JPG"; sourceTree = "<group>"; };
+		E5999CEA15FCACE100A26E3C /* Cover_Appetite _300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Appetite _300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CEB15FCACE100A26E3C /* Cover_Are you E_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Are you E_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CEC15FCACE100A26E3C /* Cover_Armen Ope_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Armen Ope_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CED15FCACE100A26E3C /* Cover_Band On T_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Band On T_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CEE15FCACE100A26E3C /* COVER_BOB MARLEY.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_BOB MARLEY.JPG"; sourceTree = "<group>"; };
+		E5999CEF15FCACE100A26E3C /* COVER_DEREK DOMINOS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_DEREK DOMINOS.JPG"; sourceTree = "<group>"; };
+		E5999CF015FCACE100A26E3C /* Cover_Destroyer_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Destroyer_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999CF115FCACE100A26E3C /* COVER_DIRE STRAITS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_DIRE STRAITS.JPG"; sourceTree = "<group>"; };
+		E5999CF215FCACE100A26E3C /* Cover_Disintegr_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Disintegr_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999CF315FCACE100A26E3C /* COVER_ELTON JOHN.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_ELTON JOHN.JPG"; sourceTree = "<group>"; };
+		E5999CF415FCACE100A26E3C /* COVER_ERIC CLAPTON.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_ERIC CLAPTON.JPG"; sourceTree = "<group>"; };
+		E5999CF515FCACE100A26E3C /* Cover_Groeten U_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Groeten U_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CF615FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Hoe Sterk_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CF715FCACE100A26E3C /* Cover_Hot-August-Night.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Hot-August-Night.JPG"; sourceTree = "<group>"; };
+		E5999CF815FCACE100A26E3C /* Cover_Island Li_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Island Li_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CF915FCACE100A26E3C /* COVER_JJ_CALE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_JJ_CALE.JPG; sourceTree = "<group>"; };
+		E5999CFA15FCACE100A26E3C /* COVER_JOE_JACKSON.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_JOE_JACKSON.JPG; sourceTree = "<group>"; };
+		E5999CFB15FCACE100A26E3C /* COVER_KEANE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_KEANE.JPG; sourceTree = "<group>"; };
+		E5999CFC15FCACE100A26E3C /* Cover_Kick_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Kick_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999CFD15FCACE100A26E3C /* COVER_LIONEL RICHIE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_LIONEL RICHIE.JPG"; sourceTree = "<group>"; };
+		E5999CFE15FCACE100A26E3C /* Cover_Luid and _300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Luid and _300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999CFF15FCACE100A26E3C /* Cover_Metallica_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Metallica_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D0015FCACE100A26E3C /* COVER_MIKE_OLDFIELD.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_MIKE_OLDFIELD.JPG; sourceTree = "<group>"; };
+		E5999D0115FCACE100A26E3C /* Cover_Nevermind_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Nevermind_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D0215FCACE100A26E3C /* Cover_Niemand I_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Niemand I_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0315FCACE100A26E3C /* Cover_Paranoid_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Paranoid_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D0415FCACE100A26E3C /* Cover_Pendulum _300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Pendulum _300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0515FCACE100A26E3C /* COVER_PETER FRAMPTON.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_PETER FRAMPTON.JPG"; sourceTree = "<group>"; };
+		E5999D0615FCACE100A26E3C /* Cover_Pump_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Pump_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D0715FCACE100A26E3C /* Cover_Reckless_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Reckless_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SNOW_PATROL.JPG; sourceTree = "<group>"; };
+		E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Some Girl_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Songs In _300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SUPERTRAMP.JPG; sourceTree = "<group>"; };
+		E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_TearsforFears.JPG; sourceTree = "<group>"; };
+		E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Great_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0F15FCACE100A26E3C /* COVER_THE POLICE.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_THE POLICE.JPG"; sourceTree = "<group>"; };
+		E5999D1015FCACE100A26E3C /* Cover_The Velve_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Velve_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D1115FCACE100A26E3C /* Cover_The Who S_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Who S_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D1215FCACE100A26E3C /* COVER_THE WHO.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_THE WHO.JPG"; sourceTree = "<group>"; };
+		E5999D1315FCACE100A26E3C /* COVER_VAN MORRISON.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_VAN MORRISON.JPG"; sourceTree = "<group>"; };
+		E5999D1415FCACE100A26E3C /* Cover_War_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_War_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D1515FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_ZAPPA_1974_apostrophe.JPG; sourceTree = "<group>"; };
+		E5999D1715FCACE100A26E3C /* bonjov-slippe_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bonjov-slippe_2.JPG"; sourceTree = "<group>"; };
+		E5999D1815FCACE100A26E3C /* COVER MARVIN GAYE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER MARVIN GAYE_2.JPG"; sourceTree = "<group>"; };
+		E5999D1915FCACE100A26E3C /* Cover_A Night A_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_A Night A_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D1A15FCACE100A26E3C /* COVER_ABBA_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_ABBA_2.JPG; sourceTree = "<group>"; };
+		E5999D1B15FCACE100A26E3C /* Cover_ABC_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_ABC_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D1C15FCACE100A26E3C /* COVER_AMY WINEHOUSE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_AMY WINEHOUSE_2.JPG"; sourceTree = "<group>"; };
+		E5999D1D15FCACE100A26E3C /* Cover_Appetite _300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Appetite _300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D1E15FCACE100A26E3C /* Cover_Are you E_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Are you E_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D1F15FCACE100A26E3C /* Cover_Armen Ope_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Armen Ope_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D2015FCACE100A26E3C /* Cover_Band On T_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Band On T_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D2115FCACE100A26E3C /* COVER_BOB MARLEY_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_BOB MARLEY_2.JPG"; sourceTree = "<group>"; };
+		E5999D2215FCACE100A26E3C /* COVER_DEREK DOMINOS_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_DEREK DOMINOS_2.JPG"; sourceTree = "<group>"; };
+		E5999D2315FCACE100A26E3C /* Cover_Destroyer_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Destroyer_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D2415FCACE100A26E3C /* COVER_DIRE STRAITS_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_DIRE STRAITS_2.JPG"; sourceTree = "<group>"; };
+		E5999D2515FCACE100A26E3C /* Cover_Disintegr_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Disintegr_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D2615FCACE100A26E3C /* COVER_ELTON JOHN_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_ELTON JOHN_2.JPG"; sourceTree = "<group>"; };
+		E5999D2715FCACE100A26E3C /* COVER_ERIC CLAPTON_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_ERIC CLAPTON_2.JPG"; sourceTree = "<group>"; };
+		E5999D2815FCACE100A26E3C /* Cover_Groeten U_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Groeten U_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D2915FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Hoe Sterk_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D2A15FCACE100A26E3C /* Cover_Hot-August-Night_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Hot-August-Night_2.JPG"; sourceTree = "<group>"; };
+		E5999D2B15FCACE100A26E3C /* Cover_Island Li_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Island Li_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D2C15FCACE100A26E3C /* COVER_JJ_CALE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_JJ_CALE_2.JPG; sourceTree = "<group>"; };
+		E5999D2D15FCACE100A26E3C /* COVER_JOE_JACKSON_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_JOE_JACKSON_2.JPG; sourceTree = "<group>"; };
+		E5999D2E15FCACE100A26E3C /* COVER_KEANE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_KEANE_2.JPG; sourceTree = "<group>"; };
+		E5999D2F15FCACE100A26E3C /* Cover_Kick_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Kick_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3015FCACE100A26E3C /* COVER_LIONEL RICHIE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_LIONEL RICHIE_2.JPG"; sourceTree = "<group>"; };
+		E5999D3115FCACE100A26E3C /* Cover_Luid and _300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Luid and _300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3215FCACE100A26E3C /* Cover_Metallica_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Metallica_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3315FCACE100A26E3C /* COVER_MIKE_OLDFIELD_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_MIKE_OLDFIELD_2.JPG; sourceTree = "<group>"; };
+		E5999D3415FCACE100A26E3C /* Cover_Nevermind_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Nevermind_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3515FCACE100A26E3C /* Cover_Niemand I_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Niemand I_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3615FCACE100A26E3C /* Cover_Paranoid_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Paranoid_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3715FCACE100A26E3C /* Cover_Pendulum _300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Pendulum _300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3815FCACE100A26E3C /* COVER_PETER FRAMPTON_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_PETER FRAMPTON_2.JPG"; sourceTree = "<group>"; };
+		E5999D3915FCACE100A26E3C /* Cover_Pump_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Pump_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3A15FCACE100A26E3C /* Cover_Reckless_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_Reckless_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SNOW_PATROL_2.JPG; sourceTree = "<group>"; };
+		E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Some Girl_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Songs In _300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SUPERTRAMP_2.JPG; sourceTree = "<group>"; };
+		E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_TearsforFears_2.JPG; sourceTree = "<group>"; };
+		E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Great_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D4215FCACE100A26E3C /* COVER_THE POLICE_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_THE POLICE_2.JPG"; sourceTree = "<group>"; };
+		E5999D4315FCACE100A26E3C /* Cover_The Velve_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Velve_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D4415FCACE100A26E3C /* Cover_The Who S_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Who S_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D4515FCACE100A26E3C /* COVER_THE WHO_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_THE WHO_2.JPG"; sourceTree = "<group>"; };
+		E5999D4615FCACE100A26E3C /* COVER_VAN MORRISON_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COVER_VAN MORRISON_2.JPG"; sourceTree = "<group>"; };
+		E5999D4715FCACE100A26E3C /* Cover_War_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover_War_300CMYK_2.JPG; sourceTree = "<group>"; };
+		E5999D4815FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_ZAPPA_1974_apostrophe_2.JPG; sourceTree = "<group>"; };
+		E5999D4A15FCACE100A26E3C /* ABBA.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ABBA.JPG; sourceTree = "<group>"; };
+		E5999D4B15FCACE100A26E3C /* Acda en De Munnik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acda en De Munnik.jpg"; sourceTree = "<group>"; };
+		E5999D4C15FCACE100A26E3C /* Aerosmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aerosmith.jpg; sourceTree = "<group>"; };
+		E5999D4D15FCACE100A26E3C /* Alice Cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alice Cooper.jpg"; sourceTree = "<group>"; };
+		E5999D4E15FCACE100A26E3C /* Allman Brothers Band.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Allman Brothers Band.jpg"; sourceTree = "<group>"; };
+		E5999D4F15FCACE100A26E3C /* Alquin.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alquin.JPG; sourceTree = "<group>"; };
+		E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amy MacDonald.jpg"; sourceTree = "<group>"; };
+		E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amy Winehouse.jpg"; sourceTree = "<group>"; };
+		E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andre Hazes.JPG"; sourceTree = "<group>"; };
+		E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andre Rieu.jpg"; sourceTree = "<group>"; };
+		E5999D5415FCACE100A26E3C /* Armand.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Armand.JPG; sourceTree = "<group>"; };
+		E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Billie Holiday.jpg"; sourceTree = "<group>"; };
+		E5999D5615FCACE100A26E3C /* Bjork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bjork.jpg; sourceTree = "<group>"; };
+		E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black Eyed Peas.jpg"; sourceTree = "<group>"; };
+		E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue Diamonds.JPG"; sourceTree = "<group>"; };
+		E5999D5915FCACE100A26E3C /* Bob Marley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bob Marley.jpg"; sourceTree = "<group>"; };
+		E5999D5A15FCACE100A26E3C /* Bocelli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bocelli.jpg; sourceTree = "<group>"; };
+		E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bon Jovi.jpg"; sourceTree = "<group>"; };
+		E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boudewijn de Groot.jpg"; sourceTree = "<group>"; };
+		E5999D5D15FCACE100A26E3C /* Brainbox.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brainbox.JPG; sourceTree = "<group>"; };
+		E5999D5E15FCACE100A26E3C /* BZN.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BZN.JPG; sourceTree = "<group>"; };
+		E5999D5F15FCACE100A26E3C /* Carpenters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carpenters.jpg; sourceTree = "<group>"; };
+		E5999D6015FCACE100A26E3C /* Cat Stevens.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat Stevens.JPG"; sourceTree = "<group>"; };
+		E5999D6115FCACE100A26E3C /* Chris Rea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chris Rea.jpg"; sourceTree = "<group>"; };
+		E5999D6215FCACE100A26E3C /* Chuck Berry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chuck Berry.jpg"; sourceTree = "<group>"; };
+		E5999D6315FCACE100A26E3C /* Commodores.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Commodores.jpg; sourceTree = "<group>"; };
+		E5999D6415FCACE100A26E3C /* Counting Crows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Counting Crows.jpg"; sourceTree = "<group>"; };
+		E5999D6515FCACE100A26E3C /* Cream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cream.jpg; sourceTree = "<group>"; };
+		E5999D6615FCACE100A26E3C /* Creedence Clearwater Revival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Creedence Clearwater Revival.jpg"; sourceTree = "<group>"; };
+		E5999D6715FCACE100A26E3C /* David Bowie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "David Bowie.jpg"; sourceTree = "<group>"; };
+		E5999D6815FCACE100A26E3C /* De Dijk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "De Dijk.jpg"; sourceTree = "<group>"; };
+		E5999D6915FCACE100A26E3C /* Deep Purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deep Purple.jpg"; sourceTree = "<group>"; };
+		E5999D6A15FCACE100A26E3C /* Diana Ross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diana Ross.jpg"; sourceTree = "<group>"; };
+		E5999D6B15FCACE100A26E3C /* Dire Straits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dire Straits.jpg"; sourceTree = "<group>"; };
+		E5999D6C15FCACE100A26E3C /* Dusty Springfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dusty Springfield.jpg"; sourceTree = "<group>"; };
+		E5999D6D15FCACE100A26E3C /* Eagles.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eagles.JPG; sourceTree = "<group>"; };
+		E5999D6E15FCACE100A26E3C /* Earth and Fire.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Earth and Fire.JPG"; sourceTree = "<group>"; };
+		E5999D6F15FCACE100A26E3C /* Elton John.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elton John.jpg"; sourceTree = "<group>"; };
+		E5999D7015FCACE100A26E3C /* Elvis Costello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elvis Costello.jpg"; sourceTree = "<group>"; };
+		E5999D7115FCACE100A26E3C /* Eric Clapton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eric Clapton.jpg"; sourceTree = "<group>"; };
+		E5999D7215FCACE100A26E3C /* Focus.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Focus.JPG; sourceTree = "<group>"; };
+		E5999D7315FCACE100A26E3C /* Frank Sinatra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frank Sinatra.jpg"; sourceTree = "<group>"; };
+		E5999D7415FCACE100A26E3C /* Frank Zappa.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frank Zappa.JPG"; sourceTree = "<group>"; };
+		E5999D7515FCACE100A26E3C /* Frans Halsema.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frans Halsema.JPG"; sourceTree = "<group>"; };
+		E5999D7615FCACE100A26E3C /* Goede Doel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Goede Doel.jpg"; sourceTree = "<group>"; };
+		E5999D7715FCACE100A26E3C /* Golden Earring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Golden Earring.jpg"; sourceTree = "<group>"; };
+		E5999D7815FCACE100A26E3C /* Grace Jones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grace Jones.jpg"; sourceTree = "<group>"; };
+		E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guns 'n Roses.jpg"; sourceTree = "<group>"; };
+		E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guus Meeuwis.jpg"; sourceTree = "<group>"; };
+		E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harry - Cuby - Muskee.jpg"; sourceTree = "<group>"; };
+		E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Herman Brood.jpg"; sourceTree = "<group>"; };
+		E5999D7D15FCACE100A26E3C /* Herman van Veen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Herman van Veen.JPG"; sourceTree = "<group>"; };
+		E5999D7E15FCACE100A26E3C /* Ilse DeLange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ilse DeLange.jpg"; sourceTree = "<group>"; };
+		E5999D7F15FCACE100A26E3C /* INXS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = INXS.JPG; sourceTree = "<group>"; };
+		E5999D8015FCACE100A26E3C /* Jack Johnson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jack Johnson.jpg"; sourceTree = "<group>"; };
+		E5999D8115FCACE100A26E3C /* Jackson 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jackson 5.JPG"; sourceTree = "<group>"; };
+		E5999D8215FCACE100A26E3C /* James Brown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "James Brown.jpg"; sourceTree = "<group>"; };
+		E5999D8315FCACE100A26E3C /* James Morrison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "James Morrison.jpg"; sourceTree = "<group>"; };
+		E5999D8415FCACE100A26E3C /* Jamie Cullum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jamie Cullum.jpg"; sourceTree = "<group>"; };
+		E5999D8515FCACE100A26E3C /* Jan Akkerman.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jan Akkerman.JPG"; sourceTree = "<group>"; };
+		E5999D8615FCACE100A26E3C /* Janis Joplin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Janis Joplin.jpg"; sourceTree = "<group>"; };
+		E5999D8715FCACE100A26E3C /* Jantje Smit.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jantje Smit.JPG"; sourceTree = "<group>"; };
+		E5999D8815FCACE100A26E3C /* Jimi Hendrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jimi Hendrix.jpg"; sourceTree = "<group>"; };
+		E5999D8915FCACE100A26E3C /* JJ Cale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JJ Cale.jpg"; sourceTree = "<group>"; };
+		E5999D8A15FCACE100A26E3C /* Lady Gaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lady Gaga.jpg"; sourceTree = "<group>"; };
+		E5999D8B15FCACE100A26E3C /* Level 42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Level 42.jpg"; sourceTree = "<group>"; };
+		E5999D8C15FCACE100A26E3C /* Liesbeth List.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liesbeth List.JPG"; sourceTree = "<group>"; };
+		E5999D8D15FCACE100A26E3C /* Madonna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madonna.jpg; sourceTree = "<group>"; };
+		E5999D8E15FCACE100A26E3C /* Mamas & Papas118.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mamas & Papas118.jpg"; sourceTree = "<group>"; };
+		E5999D8F15FCACE100A26E3C /* Marco Borsato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marco Borsato.jpg"; sourceTree = "<group>"; };
+		E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mariah Carey.jpg"; sourceTree = "<group>"; };
+		E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marvin Gaye.jpg"; sourceTree = "<group>"; };
+		E5999D9215FCACE100A26E3C /* Metallica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metallica.jpg; sourceTree = "<group>"; };
+		E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neil Diamond 2.jpg"; sourceTree = "<group>"; };
+		E5999D9415FCACE100A26E3C /* Nirvana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nirvana.jpg; sourceTree = "<group>"; };
+		E5999D9515FCACE100A26E3C /* Normaal.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Normaal.JPG; sourceTree = "<group>"; };
+		E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paul de Leeuw.jpg"; sourceTree = "<group>"; };
+		E5999D9715FCACE100A26E3C /* Paul Weller.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paul Weller.JPG"; sourceTree = "<group>"; };
+		E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peter Koelewijn.JPG"; sourceTree = "<group>"; };
+		E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo_Kiss_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D9A15FCACE100A26E3C /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
+		E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ramses Shaffy.jpg"; sourceTree = "<group>"; };
+		E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rob de Nijs.JPG"; sourceTree = "<group>"; };
+		E5999D9D15FCACE100A26E3C /* Rod Stewart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rod Stewart.jpg"; sourceTree = "<group>"; };
+		E5999D9E15FCACE100A26E3C /* Rolling Stones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rolling Stones.jpg"; sourceTree = "<group>"; };
+		E5999D9F15FCACE100A26E3C /* Scissor Sisters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scissor Sisters.jpg"; sourceTree = "<group>"; };
+		E5999DA015FCACE100A26E3C /* Steely Dan.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Steely Dan.JPG"; sourceTree = "<group>"; };
+		E5999DA115FCACE100A26E3C /* Stevie Wonder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stevie Wonder.jpg"; sourceTree = "<group>"; };
+		E5999DA215FCACE100A26E3C /* Sting.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sting.JPG; sourceTree = "<group>"; };
+		E5999DA315FCACE100A26E3C /* The Cure.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Cure.JPG"; sourceTree = "<group>"; };
+		E5999DA415FCACE100A26E3C /* The Police.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Police.JPG"; sourceTree = "<group>"; };
+		E5999DA515FCACE100A26E3C /* The Who.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Who.JPG"; sourceTree = "<group>"; };
+		E5999DA615FCACE100A26E3C /* Thin Lizzy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thin Lizzy.JPG"; sourceTree = "<group>"; };
+		E5999DA715FCACE100A26E3C /* U2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = U2.jpg; sourceTree = "<group>"; };
+		E5999DA815FCACE100A26E3C /* Van Morrison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Van Morrison.jpg"; sourceTree = "<group>"; };
+		E5999DA915FCACE100A26E3C /* Willeke Alberti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Willeke Alberti.jpg"; sourceTree = "<group>"; };
+		E5999DAA15FCACE100A26E3C /* Willy Alberti.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Willy Alberti.JPG"; sourceTree = "<group>"; };
+		E5999DAB15FCACE100A26E3C /* Willy en Willeke Alberti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Willy en Willeke Alberti.jpg"; sourceTree = "<group>"; };
+		E5999DAC15FCACE100A26E3C /* Wim Sonneveld.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wim Sonneveld.JPG"; sourceTree = "<group>"; };
+		E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zangeres Zonder Naam.JPG"; sourceTree = "<group>"; };
+		E5999E7615FCAD8C00A26E3C /* Foto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foto.h; sourceTree = "<group>"; };
+		E5999E7715FCAD8C00A26E3C /* Foto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foto.m; sourceTree = "<group>"; };
+		E5999E7915FCB1BC00A26E3C /* StartViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewControllerViewController.h; sourceTree = "<group>"; };
+		E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewControllerViewController.m; sourceTree = "<group>"; };
+		E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Black.otf"; sourceTree = "<group>"; };
+		E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Light.otf"; sourceTree = "<group>"; };
+		E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Medium.otf"; sourceTree = "<group>"; };
+		E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumCond.otf"; sourceTree = "<group>"; };
+		E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		E5999E8315FCB2C100A26E3C /* OmroepBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepBold.otf; sourceTree = "<group>"; };
+		E5999E8415FCB2C100A26E3C /* OmroepLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepLight.otf; sourceTree = "<group>"; };
+		E5999E8E15FCB5E000A26E3C /* DINNextBlackLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextBlackLabel.h; sourceTree = "<group>"; };
+		E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextBlackLabel.m; sourceTree = "<group>"; };
+		E5999EA515FCB79100A26E3C /* DINNextBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextBoldLabel.h; sourceTree = "<group>"; };
+		E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextBoldLabel.m; sourceTree = "<group>"; };
+		E5999EA815FCB7AE00A26E3C /* DINNextMediumCondLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextMediumCondLabel.h; sourceTree = "<group>"; };
+		E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextMediumCondLabel.m; sourceTree = "<group>"; };
+		E5999EAB15FCB7C600A26E3C /* DINNextRegularLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextRegularLabel.h; sourceTree = "<group>"; };
+		E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextRegularLabel.m; sourceTree = "<group>"; };
+		E5999EAE15FCB7E100A26E3C /* DINNextLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextLightLabel.h; sourceTree = "<group>"; };
+		E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextLightLabel.m; sourceTree = "<group>"; };
+		E5999EB115FCB7F900A26E3C /* DINNextMediumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextMediumLabel.h; sourceTree = "<group>"; };
+		E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextMediumLabel.m; sourceTree = "<group>"; };
+		E5999EB415FCB80F00A26E3C /* OmroepRoundedBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmroepRoundedBoldLabel.h; sourceTree = "<group>"; };
+		E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmroepRoundedBoldLabel.m; sourceTree = "<group>"; };
+		E5999EB715FCB82A00A26E3C /* OmroepRoundedLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmroepRoundedLightLabel.h; sourceTree = "<group>"; };
+		E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmroepRoundedLightLabel.m; sourceTree = "<group>"; };
 		E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoverView~ipad.xib"; sourceTree = "<group>"; };
 		E5C7DE9415ED563C0088385A /* StartView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StartView~ipad.xib"; sourceTree = "<group>"; };
 		E5C7DE9815ED56C50088385A /* abba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abba.png; sourceTree = "<group>"; };
@@ -452,6 +901,7 @@
 		E55BD06F15EB5E68008882CA /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				E5999CDC15FCA8B500A26E3C /* Globals.h */,
 				E55BD18415ECAF15008882CA /* Singleton.h */,
 			);
 			path = Dependencies;
@@ -470,6 +920,8 @@
 				E55BD19B15ECC69F008882CA /* Hoes.m */,
 				E55BD19D15ECC736008882CA /* PopQuizVraag.h */,
 				E55BD19E15ECC736008882CA /* PopQuizVraag.m */,
+				E5999E7615FCAD8C00A26E3C /* Foto.h */,
+				E5999E7715FCAD8C00A26E3C /* Foto.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -477,6 +929,7 @@
 		E55BD07115EB5E68008882CA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E5999E8D15FCB5A100A26E3C /* Custom Elements */,
 				E55BD07215EB5E68008882CA /* ViewController.h */,
 				E55BD07315EB5E68008882CA /* ViewController.m */,
 				E55BD0DF15EB5F7D008882CA /* CoverViewController.h */,
@@ -493,6 +946,8 @@
 				E55BD0EF15EB5FE6008882CA /* PopQuizViewController.m */,
 				E55BD0F115EB5FF9008882CA /* QuestionsViewController.h */,
 				E55BD0F215EB5FF9008882CA /* QuestionsViewController.m */,
+				E5999E7915FCB1BC00A26E3C /* StartViewControllerViewController.h */,
+				E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -509,6 +964,9 @@
 		E55BD08215EB5F39008882CA /* Recources */ = {
 			isa = PBXGroup;
 			children = (
+				E5999E7C15FCB2BA00A26E3C /* Fonts */,
+				E5999CE215FCACE100A26E3C /* Covers */,
+				E5999D4915FCACE100A26E3C /* Photos */,
 				E55BD15015ECACCA008882CA /* Data */,
 				E55BD08315EB5F39008882CA /* Images */,
 				E55BD0AA15EB5F39008882CA /* Nibs */,
@@ -649,6 +1107,7 @@
 		E55BD15015ECACCA008882CA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E5999CE015FCACC100A26E3C /* fotos.json */,
 				E55BD15115ECACCA008882CA /* doorvraag.json */,
 				E55BD15215ECACCA008882CA /* hints.json */,
 				E55BD15315ECACCA008882CA /* hitfragmenten.json */,
@@ -688,6 +1147,274 @@
 				E55BD17415ECAE4D008882CA /* SBJsonWriter.m */,
 			);
 			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		E5999CE215FCACE100A26E3C /* Covers */ = {
+			isa = PBXGroup;
+			children = (
+				E5999CE315FCACE100A26E3C /* edited */,
+				E5999D1615FCACE100A26E3C /* original */,
+			);
+			path = Covers;
+			sourceTree = "<group>";
+		};
+		E5999CE315FCACE100A26E3C /* edited */ = {
+			isa = PBXGroup;
+			children = (
+				E5999CE415FCACE100A26E3C /* bonjov-slippe.JPG */,
+				E5999CE515FCACE100A26E3C /* COVER MARVIN GAYE.JPG */,
+				E5999CE615FCACE100A26E3C /* Cover_A Night A_300CMYK.JPG */,
+				E5999CE715FCACE100A26E3C /* COVER_ABBA.JPG */,
+				E5999CE815FCACE100A26E3C /* Cover_ABC_300CMYK.JPG */,
+				E5999CE915FCACE100A26E3C /* COVER_AMY WINEHOUSE.JPG */,
+				E5999CEA15FCACE100A26E3C /* Cover_Appetite _300CMYK.JPG */,
+				E5999CEB15FCACE100A26E3C /* Cover_Are you E_300CMYK.JPG */,
+				E5999CEC15FCACE100A26E3C /* Cover_Armen Ope_300CMYK.JPG */,
+				E5999CED15FCACE100A26E3C /* Cover_Band On T_300CMYK.JPG */,
+				E5999CEE15FCACE100A26E3C /* COVER_BOB MARLEY.JPG */,
+				E5999CEF15FCACE100A26E3C /* COVER_DEREK DOMINOS.JPG */,
+				E5999CF015FCACE100A26E3C /* Cover_Destroyer_300CMYK.JPG */,
+				E5999CF115FCACE100A26E3C /* COVER_DIRE STRAITS.JPG */,
+				E5999CF215FCACE100A26E3C /* Cover_Disintegr_300CMYK.JPG */,
+				E5999CF315FCACE100A26E3C /* COVER_ELTON JOHN.JPG */,
+				E5999CF415FCACE100A26E3C /* COVER_ERIC CLAPTON.JPG */,
+				E5999CF515FCACE100A26E3C /* Cover_Groeten U_300CMYK.JPG */,
+				E5999CF615FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK.JPG */,
+				E5999CF715FCACE100A26E3C /* Cover_Hot-August-Night.JPG */,
+				E5999CF815FCACE100A26E3C /* Cover_Island Li_300CMYK.JPG */,
+				E5999CF915FCACE100A26E3C /* COVER_JJ_CALE.JPG */,
+				E5999CFA15FCACE100A26E3C /* COVER_JOE_JACKSON.JPG */,
+				E5999CFB15FCACE100A26E3C /* COVER_KEANE.JPG */,
+				E5999CFC15FCACE100A26E3C /* Cover_Kick_300CMYK.JPG */,
+				E5999CFD15FCACE100A26E3C /* COVER_LIONEL RICHIE.JPG */,
+				E5999CFE15FCACE100A26E3C /* Cover_Luid and _300CMYK.JPG */,
+				E5999CFF15FCACE100A26E3C /* Cover_Metallica_300CMYK.JPG */,
+				E5999D0015FCACE100A26E3C /* COVER_MIKE_OLDFIELD.JPG */,
+				E5999D0115FCACE100A26E3C /* Cover_Nevermind_300CMYK.JPG */,
+				E5999D0215FCACE100A26E3C /* Cover_Niemand I_300CMYK.JPG */,
+				E5999D0315FCACE100A26E3C /* Cover_Paranoid_300CMYK.JPG */,
+				E5999D0415FCACE100A26E3C /* Cover_Pendulum _300CMYK.JPG */,
+				E5999D0515FCACE100A26E3C /* COVER_PETER FRAMPTON.JPG */,
+				E5999D0615FCACE100A26E3C /* Cover_Pump_300CMYK.JPG */,
+				E5999D0715FCACE100A26E3C /* Cover_Reckless_300CMYK.JPG */,
+				E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */,
+				E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */,
+				E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */,
+				E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */,
+				E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */,
+				E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */,
+				E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */,
+				E5999D0F15FCACE100A26E3C /* COVER_THE POLICE.JPG */,
+				E5999D1015FCACE100A26E3C /* Cover_The Velve_300CMYK.JPG */,
+				E5999D1115FCACE100A26E3C /* Cover_The Who S_300CMYK.JPG */,
+				E5999D1215FCACE100A26E3C /* COVER_THE WHO.JPG */,
+				E5999D1315FCACE100A26E3C /* COVER_VAN MORRISON.JPG */,
+				E5999D1415FCACE100A26E3C /* Cover_War_300CMYK.JPG */,
+				E5999D1515FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe.JPG */,
+			);
+			path = edited;
+			sourceTree = "<group>";
+		};
+		E5999D1615FCACE100A26E3C /* original */ = {
+			isa = PBXGroup;
+			children = (
+				E5999D1715FCACE100A26E3C /* bonjov-slippe_2.JPG */,
+				E5999D1815FCACE100A26E3C /* COVER MARVIN GAYE_2.JPG */,
+				E5999D1915FCACE100A26E3C /* Cover_A Night A_300CMYK_2.JPG */,
+				E5999D1A15FCACE100A26E3C /* COVER_ABBA_2.JPG */,
+				E5999D1B15FCACE100A26E3C /* Cover_ABC_300CMYK_2.JPG */,
+				E5999D1C15FCACE100A26E3C /* COVER_AMY WINEHOUSE_2.JPG */,
+				E5999D1D15FCACE100A26E3C /* Cover_Appetite _300CMYK_2.JPG */,
+				E5999D1E15FCACE100A26E3C /* Cover_Are you E_300CMYK_2.JPG */,
+				E5999D1F15FCACE100A26E3C /* Cover_Armen Ope_300CMYK_2.JPG */,
+				E5999D2015FCACE100A26E3C /* Cover_Band On T_300CMYK_2.JPG */,
+				E5999D2115FCACE100A26E3C /* COVER_BOB MARLEY_2.JPG */,
+				E5999D2215FCACE100A26E3C /* COVER_DEREK DOMINOS_2.JPG */,
+				E5999D2315FCACE100A26E3C /* Cover_Destroyer_300CMYK_2.JPG */,
+				E5999D2415FCACE100A26E3C /* COVER_DIRE STRAITS_2.JPG */,
+				E5999D2515FCACE100A26E3C /* Cover_Disintegr_300CMYK_2.JPG */,
+				E5999D2615FCACE100A26E3C /* COVER_ELTON JOHN_2.JPG */,
+				E5999D2715FCACE100A26E3C /* COVER_ERIC CLAPTON_2.JPG */,
+				E5999D2815FCACE100A26E3C /* Cover_Groeten U_300CMYK_2.JPG */,
+				E5999D2915FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK_2.JPG */,
+				E5999D2A15FCACE100A26E3C /* Cover_Hot-August-Night_2.JPG */,
+				E5999D2B15FCACE100A26E3C /* Cover_Island Li_300CMYK_2.JPG */,
+				E5999D2C15FCACE100A26E3C /* COVER_JJ_CALE_2.JPG */,
+				E5999D2D15FCACE100A26E3C /* COVER_JOE_JACKSON_2.JPG */,
+				E5999D2E15FCACE100A26E3C /* COVER_KEANE_2.JPG */,
+				E5999D2F15FCACE100A26E3C /* Cover_Kick_300CMYK_2.JPG */,
+				E5999D3015FCACE100A26E3C /* COVER_LIONEL RICHIE_2.JPG */,
+				E5999D3115FCACE100A26E3C /* Cover_Luid and _300CMYK_2.JPG */,
+				E5999D3215FCACE100A26E3C /* Cover_Metallica_300CMYK_2.JPG */,
+				E5999D3315FCACE100A26E3C /* COVER_MIKE_OLDFIELD_2.JPG */,
+				E5999D3415FCACE100A26E3C /* Cover_Nevermind_300CMYK_2.JPG */,
+				E5999D3515FCACE100A26E3C /* Cover_Niemand I_300CMYK_2.JPG */,
+				E5999D3615FCACE100A26E3C /* Cover_Paranoid_300CMYK_2.JPG */,
+				E5999D3715FCACE100A26E3C /* Cover_Pendulum _300CMYK_2.JPG */,
+				E5999D3815FCACE100A26E3C /* COVER_PETER FRAMPTON_2.JPG */,
+				E5999D3915FCACE100A26E3C /* Cover_Pump_300CMYK_2.JPG */,
+				E5999D3A15FCACE100A26E3C /* Cover_Reckless_300CMYK_2.JPG */,
+				E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */,
+				E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */,
+				E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */,
+				E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */,
+				E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */,
+				E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */,
+				E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */,
+				E5999D4215FCACE100A26E3C /* COVER_THE POLICE_2.JPG */,
+				E5999D4315FCACE100A26E3C /* Cover_The Velve_300CMYK_2.JPG */,
+				E5999D4415FCACE100A26E3C /* Cover_The Who S_300CMYK_2.JPG */,
+				E5999D4515FCACE100A26E3C /* COVER_THE WHO_2.JPG */,
+				E5999D4615FCACE100A26E3C /* COVER_VAN MORRISON_2.JPG */,
+				E5999D4715FCACE100A26E3C /* Cover_War_300CMYK_2.JPG */,
+				E5999D4815FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe_2.JPG */,
+			);
+			path = original;
+			sourceTree = "<group>";
+		};
+		E5999D4915FCACE100A26E3C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				E5999D4A15FCACE100A26E3C /* ABBA.JPG */,
+				E5999D4B15FCACE100A26E3C /* Acda en De Munnik.jpg */,
+				E5999D4C15FCACE100A26E3C /* Aerosmith.jpg */,
+				E5999D4D15FCACE100A26E3C /* Alice Cooper.jpg */,
+				E5999D4E15FCACE100A26E3C /* Allman Brothers Band.jpg */,
+				E5999D4F15FCACE100A26E3C /* Alquin.JPG */,
+				E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */,
+				E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */,
+				E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */,
+				E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */,
+				E5999D5415FCACE100A26E3C /* Armand.JPG */,
+				E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */,
+				E5999D5615FCACE100A26E3C /* Bjork.jpg */,
+				E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */,
+				E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */,
+				E5999D5915FCACE100A26E3C /* Bob Marley.jpg */,
+				E5999D5A15FCACE100A26E3C /* Bocelli.jpg */,
+				E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */,
+				E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */,
+				E5999D5D15FCACE100A26E3C /* Brainbox.JPG */,
+				E5999D5E15FCACE100A26E3C /* BZN.JPG */,
+				E5999D5F15FCACE100A26E3C /* Carpenters.jpg */,
+				E5999D6015FCACE100A26E3C /* Cat Stevens.JPG */,
+				E5999D6115FCACE100A26E3C /* Chris Rea.jpg */,
+				E5999D6215FCACE100A26E3C /* Chuck Berry.jpg */,
+				E5999D6315FCACE100A26E3C /* Commodores.jpg */,
+				E5999D6415FCACE100A26E3C /* Counting Crows.jpg */,
+				E5999D6515FCACE100A26E3C /* Cream.jpg */,
+				E5999D6615FCACE100A26E3C /* Creedence Clearwater Revival.jpg */,
+				E5999D6715FCACE100A26E3C /* David Bowie.jpg */,
+				E5999D6815FCACE100A26E3C /* De Dijk.jpg */,
+				E5999D6915FCACE100A26E3C /* Deep Purple.jpg */,
+				E5999D6A15FCACE100A26E3C /* Diana Ross.jpg */,
+				E5999D6B15FCACE100A26E3C /* Dire Straits.jpg */,
+				E5999D6C15FCACE100A26E3C /* Dusty Springfield.jpg */,
+				E5999D6D15FCACE100A26E3C /* Eagles.JPG */,
+				E5999D6E15FCACE100A26E3C /* Earth and Fire.JPG */,
+				E5999D6F15FCACE100A26E3C /* Elton John.jpg */,
+				E5999D7015FCACE100A26E3C /* Elvis Costello.jpg */,
+				E5999D7115FCACE100A26E3C /* Eric Clapton.jpg */,
+				E5999D7215FCACE100A26E3C /* Focus.JPG */,
+				E5999D7315FCACE100A26E3C /* Frank Sinatra.jpg */,
+				E5999D7415FCACE100A26E3C /* Frank Zappa.JPG */,
+				E5999D7515FCACE100A26E3C /* Frans Halsema.JPG */,
+				E5999D7615FCACE100A26E3C /* Goede Doel.jpg */,
+				E5999D7715FCACE100A26E3C /* Golden Earring.jpg */,
+				E5999D7815FCACE100A26E3C /* Grace Jones.jpg */,
+				E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */,
+				E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */,
+				E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */,
+				E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */,
+				E5999D7D15FCACE100A26E3C /* Herman van Veen.JPG */,
+				E5999D7E15FCACE100A26E3C /* Ilse DeLange.jpg */,
+				E5999D7F15FCACE100A26E3C /* INXS.JPG */,
+				E5999D8015FCACE100A26E3C /* Jack Johnson.jpg */,
+				E5999D8115FCACE100A26E3C /* Jackson 5.JPG */,
+				E5999D8215FCACE100A26E3C /* James Brown.jpg */,
+				E5999D8315FCACE100A26E3C /* James Morrison.jpg */,
+				E5999D8415FCACE100A26E3C /* Jamie Cullum.jpg */,
+				E5999D8515FCACE100A26E3C /* Jan Akkerman.JPG */,
+				E5999D8615FCACE100A26E3C /* Janis Joplin.jpg */,
+				E5999D8715FCACE100A26E3C /* Jantje Smit.JPG */,
+				E5999D8815FCACE100A26E3C /* Jimi Hendrix.jpg */,
+				E5999D8915FCACE100A26E3C /* JJ Cale.jpg */,
+				E5999D8A15FCACE100A26E3C /* Lady Gaga.jpg */,
+				E5999D8B15FCACE100A26E3C /* Level 42.jpg */,
+				E5999D8C15FCACE100A26E3C /* Liesbeth List.JPG */,
+				E5999D8D15FCACE100A26E3C /* Madonna.jpg */,
+				E5999D8E15FCACE100A26E3C /* Mamas & Papas118.jpg */,
+				E5999D8F15FCACE100A26E3C /* Marco Borsato.jpg */,
+				E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */,
+				E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */,
+				E5999D9215FCACE100A26E3C /* Metallica.jpg */,
+				E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */,
+				E5999D9415FCACE100A26E3C /* Nirvana.jpg */,
+				E5999D9515FCACE100A26E3C /* Normaal.JPG */,
+				E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */,
+				E5999D9715FCACE100A26E3C /* Paul Weller.JPG */,
+				E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */,
+				E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */,
+				E5999D9A15FCACE100A26E3C /* Queen.jpg */,
+				E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */,
+				E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */,
+				E5999D9D15FCACE100A26E3C /* Rod Stewart.jpg */,
+				E5999D9E15FCACE100A26E3C /* Rolling Stones.jpg */,
+				E5999D9F15FCACE100A26E3C /* Scissor Sisters.jpg */,
+				E5999DA015FCACE100A26E3C /* Steely Dan.JPG */,
+				E5999DA115FCACE100A26E3C /* Stevie Wonder.jpg */,
+				E5999DA215FCACE100A26E3C /* Sting.JPG */,
+				E5999DA315FCACE100A26E3C /* The Cure.JPG */,
+				E5999DA415FCACE100A26E3C /* The Police.JPG */,
+				E5999DA515FCACE100A26E3C /* The Who.JPG */,
+				E5999DA615FCACE100A26E3C /* Thin Lizzy.JPG */,
+				E5999DA715FCACE100A26E3C /* U2.jpg */,
+				E5999DA815FCACE100A26E3C /* Van Morrison.jpg */,
+				E5999DA915FCACE100A26E3C /* Willeke Alberti.jpg */,
+				E5999DAA15FCACE100A26E3C /* Willy Alberti.JPG */,
+				E5999DAB15FCACE100A26E3C /* Willy en Willeke Alberti.jpg */,
+				E5999DAC15FCACE100A26E3C /* Wim Sonneveld.JPG */,
+				E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		E5999E7C15FCB2BA00A26E3C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */,
+				E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */,
+				E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */,
+				E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */,
+				E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */,
+				E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */,
+				E5999E8315FCB2C100A26E3C /* OmroepBold.otf */,
+				E5999E8415FCB2C100A26E3C /* OmroepLight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E5999E8D15FCB5A100A26E3C /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E5999E8E15FCB5E000A26E3C /* DINNextBlackLabel.h */,
+				E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */,
+				E5999EA515FCB79100A26E3C /* DINNextBoldLabel.h */,
+				E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */,
+				E5999EA815FCB7AE00A26E3C /* DINNextMediumCondLabel.h */,
+				E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */,
+				E5999EAB15FCB7C600A26E3C /* DINNextRegularLabel.h */,
+				E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */,
+				E5999EAE15FCB7E100A26E3C /* DINNextLightLabel.h */,
+				E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */,
+				E5999EB115FCB7F900A26E3C /* DINNextMediumLabel.h */,
+				E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */,
+				E5999EB415FCB80F00A26E3C /* OmroepRoundedBoldLabel.h */,
+				E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */,
+				E5999EB715FCB82A00A26E3C /* OmroepRoundedLightLabel.h */,
+				E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */,
+			);
+			name = "Custom Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -863,6 +1590,215 @@
 				E5C7DF1D15EE01AB0088385A /* diana_ross@2x.png in Resources */,
 				E5C7DF1E15EE01AB0088385A /* frank_sinatra.png in Resources */,
 				E5C7DF1F15EE01AB0088385A /* frank_sinatra@2x.png in Resources */,
+				E5999CE115FCACC100A26E3C /* fotos.json in Resources */,
+				E5999DAE15FCACE100A26E3C /* bonjov-slippe.JPG in Resources */,
+				E5999DAF15FCACE100A26E3C /* COVER MARVIN GAYE.JPG in Resources */,
+				E5999DB015FCACE100A26E3C /* Cover_A Night A_300CMYK.JPG in Resources */,
+				E5999DB115FCACE100A26E3C /* COVER_ABBA.JPG in Resources */,
+				E5999DB215FCACE100A26E3C /* Cover_ABC_300CMYK.JPG in Resources */,
+				E5999DB315FCACE100A26E3C /* COVER_AMY WINEHOUSE.JPG in Resources */,
+				E5999DB415FCACE100A26E3C /* Cover_Appetite _300CMYK.JPG in Resources */,
+				E5999DB515FCACE100A26E3C /* Cover_Are you E_300CMYK.JPG in Resources */,
+				E5999DB615FCACE100A26E3C /* Cover_Armen Ope_300CMYK.JPG in Resources */,
+				E5999DB715FCACE100A26E3C /* Cover_Band On T_300CMYK.JPG in Resources */,
+				E5999DB815FCACE100A26E3C /* COVER_BOB MARLEY.JPG in Resources */,
+				E5999DB915FCACE100A26E3C /* COVER_DEREK DOMINOS.JPG in Resources */,
+				E5999DBA15FCACE100A26E3C /* Cover_Destroyer_300CMYK.JPG in Resources */,
+				E5999DBB15FCACE100A26E3C /* COVER_DIRE STRAITS.JPG in Resources */,
+				E5999DBC15FCACE100A26E3C /* Cover_Disintegr_300CMYK.JPG in Resources */,
+				E5999DBD15FCACE100A26E3C /* COVER_ELTON JOHN.JPG in Resources */,
+				E5999DBE15FCACE100A26E3C /* COVER_ERIC CLAPTON.JPG in Resources */,
+				E5999DBF15FCACE100A26E3C /* Cover_Groeten U_300CMYK.JPG in Resources */,
+				E5999DC015FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK.JPG in Resources */,
+				E5999DC115FCACE100A26E3C /* Cover_Hot-August-Night.JPG in Resources */,
+				E5999DC215FCACE100A26E3C /* Cover_Island Li_300CMYK.JPG in Resources */,
+				E5999DC315FCACE100A26E3C /* COVER_JJ_CALE.JPG in Resources */,
+				E5999DC415FCACE100A26E3C /* COVER_JOE_JACKSON.JPG in Resources */,
+				E5999DC515FCACE100A26E3C /* COVER_KEANE.JPG in Resources */,
+				E5999DC615FCACE100A26E3C /* Cover_Kick_300CMYK.JPG in Resources */,
+				E5999DC715FCACE100A26E3C /* COVER_LIONEL RICHIE.JPG in Resources */,
+				E5999DC815FCACE100A26E3C /* Cover_Luid and _300CMYK.JPG in Resources */,
+				E5999DC915FCACE100A26E3C /* Cover_Metallica_300CMYK.JPG in Resources */,
+				E5999DCA15FCACE100A26E3C /* COVER_MIKE_OLDFIELD.JPG in Resources */,
+				E5999DCB15FCACE100A26E3C /* Cover_Nevermind_300CMYK.JPG in Resources */,
+				E5999DCC15FCACE100A26E3C /* Cover_Niemand I_300CMYK.JPG in Resources */,
+				E5999DCD15FCACE100A26E3C /* Cover_Paranoid_300CMYK.JPG in Resources */,
+				E5999DCE15FCACE100A26E3C /* Cover_Pendulum _300CMYK.JPG in Resources */,
+				E5999DCF15FCACE100A26E3C /* COVER_PETER FRAMPTON.JPG in Resources */,
+				E5999DD015FCACE100A26E3C /* Cover_Pump_300CMYK.JPG in Resources */,
+				E5999DD115FCACE100A26E3C /* Cover_Reckless_300CMYK.JPG in Resources */,
+				E5999DD215FCACE100A26E3C /* COVER_SNOW_PATROL.JPG in Resources */,
+				E5999DD315FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG in Resources */,
+				E5999DD415FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG in Resources */,
+				E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG in Resources */,
+				E5999DD615FCACE100A26E3C /* COVER_SUPERTRAMP.JPG in Resources */,
+				E5999DD715FCACE100A26E3C /* COVER_TearsforFears.JPG in Resources */,
+				E5999DD815FCACE100A26E3C /* Cover_The Great_300CMYK.JPG in Resources */,
+				E5999DD915FCACE100A26E3C /* COVER_THE POLICE.JPG in Resources */,
+				E5999DDA15FCACE100A26E3C /* Cover_The Velve_300CMYK.JPG in Resources */,
+				E5999DDB15FCACE100A26E3C /* Cover_The Who S_300CMYK.JPG in Resources */,
+				E5999DDC15FCACE100A26E3C /* COVER_THE WHO.JPG in Resources */,
+				E5999DDD15FCACE100A26E3C /* COVER_VAN MORRISON.JPG in Resources */,
+				E5999DDE15FCACE100A26E3C /* Cover_War_300CMYK.JPG in Resources */,
+				E5999DDF15FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe.JPG in Resources */,
+				E5999DE015FCACE100A26E3C /* bonjov-slippe_2.JPG in Resources */,
+				E5999DE115FCACE100A26E3C /* COVER MARVIN GAYE_2.JPG in Resources */,
+				E5999DE215FCACE100A26E3C /* Cover_A Night A_300CMYK_2.JPG in Resources */,
+				E5999DE315FCACE100A26E3C /* COVER_ABBA_2.JPG in Resources */,
+				E5999DE415FCACE100A26E3C /* Cover_ABC_300CMYK_2.JPG in Resources */,
+				E5999DE515FCACE100A26E3C /* COVER_AMY WINEHOUSE_2.JPG in Resources */,
+				E5999DE615FCACE100A26E3C /* Cover_Appetite _300CMYK_2.JPG in Resources */,
+				E5999DE715FCACE100A26E3C /* Cover_Are you E_300CMYK_2.JPG in Resources */,
+				E5999DE815FCACE100A26E3C /* Cover_Armen Ope_300CMYK_2.JPG in Resources */,
+				E5999DE915FCACE100A26E3C /* Cover_Band On T_300CMYK_2.JPG in Resources */,
+				E5999DEA15FCACE100A26E3C /* COVER_BOB MARLEY_2.JPG in Resources */,
+				E5999DEB15FCACE100A26E3C /* COVER_DEREK DOMINOS_2.JPG in Resources */,
+				E5999DEC15FCACE100A26E3C /* Cover_Destroyer_300CMYK_2.JPG in Resources */,
+				E5999DED15FCACE100A26E3C /* COVER_DIRE STRAITS_2.JPG in Resources */,
+				E5999DEE15FCACE100A26E3C /* Cover_Disintegr_300CMYK_2.JPG in Resources */,
+				E5999DEF15FCACE100A26E3C /* COVER_ELTON JOHN_2.JPG in Resources */,
+				E5999DF015FCACE100A26E3C /* COVER_ERIC CLAPTON_2.JPG in Resources */,
+				E5999DF115FCACE100A26E3C /* Cover_Groeten U_300CMYK_2.JPG in Resources */,
+				E5999DF215FCACE100A26E3C /* Cover_Hoe Sterk_300CMYK_2.JPG in Resources */,
+				E5999DF315FCACE100A26E3C /* Cover_Hot-August-Night_2.JPG in Resources */,
+				E5999DF415FCACE100A26E3C /* Cover_Island Li_300CMYK_2.JPG in Resources */,
+				E5999DF515FCACE100A26E3C /* COVER_JJ_CALE_2.JPG in Resources */,
+				E5999DF615FCACE100A26E3C /* COVER_JOE_JACKSON_2.JPG in Resources */,
+				E5999DF715FCACE100A26E3C /* COVER_KEANE_2.JPG in Resources */,
+				E5999DF815FCACE100A26E3C /* Cover_Kick_300CMYK_2.JPG in Resources */,
+				E5999DF915FCACE100A26E3C /* COVER_LIONEL RICHIE_2.JPG in Resources */,
+				E5999DFA15FCACE100A26E3C /* Cover_Luid and _300CMYK_2.JPG in Resources */,
+				E5999DFB15FCACE100A26E3C /* Cover_Metallica_300CMYK_2.JPG in Resources */,
+				E5999DFC15FCACE100A26E3C /* COVER_MIKE_OLDFIELD_2.JPG in Resources */,
+				E5999DFD15FCACE100A26E3C /* Cover_Nevermind_300CMYK_2.JPG in Resources */,
+				E5999DFE15FCACE100A26E3C /* Cover_Niemand I_300CMYK_2.JPG in Resources */,
+				E5999DFF15FCACE100A26E3C /* Cover_Paranoid_300CMYK_2.JPG in Resources */,
+				E5999E0015FCACE100A26E3C /* Cover_Pendulum _300CMYK_2.JPG in Resources */,
+				E5999E0115FCACE100A26E3C /* COVER_PETER FRAMPTON_2.JPG in Resources */,
+				E5999E0215FCACE100A26E3C /* Cover_Pump_300CMYK_2.JPG in Resources */,
+				E5999E0315FCACE100A26E3C /* Cover_Reckless_300CMYK_2.JPG in Resources */,
+				E5999E0415FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG in Resources */,
+				E5999E0515FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG in Resources */,
+				E5999E0615FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG in Resources */,
+				E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG in Resources */,
+				E5999E0815FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG in Resources */,
+				E5999E0915FCACE100A26E3C /* COVER_TearsforFears_2.JPG in Resources */,
+				E5999E0A15FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG in Resources */,
+				E5999E0B15FCACE100A26E3C /* COVER_THE POLICE_2.JPG in Resources */,
+				E5999E0C15FCACE100A26E3C /* Cover_The Velve_300CMYK_2.JPG in Resources */,
+				E5999E0D15FCACE100A26E3C /* Cover_The Who S_300CMYK_2.JPG in Resources */,
+				E5999E0E15FCACE100A26E3C /* COVER_THE WHO_2.JPG in Resources */,
+				E5999E0F15FCACE100A26E3C /* COVER_VAN MORRISON_2.JPG in Resources */,
+				E5999E1015FCACE100A26E3C /* Cover_War_300CMYK_2.JPG in Resources */,
+				E5999E1115FCACE100A26E3C /* COVER_ZAPPA_1974_apostrophe_2.JPG in Resources */,
+				E5999E1215FCACE100A26E3C /* ABBA.JPG in Resources */,
+				E5999E1315FCACE100A26E3C /* Acda en De Munnik.jpg in Resources */,
+				E5999E1415FCACE100A26E3C /* Aerosmith.jpg in Resources */,
+				E5999E1515FCACE100A26E3C /* Alice Cooper.jpg in Resources */,
+				E5999E1615FCACE100A26E3C /* Allman Brothers Band.jpg in Resources */,
+				E5999E1715FCACE100A26E3C /* Alquin.JPG in Resources */,
+				E5999E1815FCACE100A26E3C /* Amy MacDonald.jpg in Resources */,
+				E5999E1915FCACE100A26E3C /* Amy Winehouse.jpg in Resources */,
+				E5999E1A15FCACE100A26E3C /* Andre Hazes.JPG in Resources */,
+				E5999E1B15FCACE100A26E3C /* Andre Rieu.jpg in Resources */,
+				E5999E1C15FCACE100A26E3C /* Armand.JPG in Resources */,
+				E5999E1D15FCACE100A26E3C /* Billie Holiday.jpg in Resources */,
+				E5999E1E15FCACE100A26E3C /* Bjork.jpg in Resources */,
+				E5999E1F15FCACE100A26E3C /* Black Eyed Peas.jpg in Resources */,
+				E5999E2015FCACE100A26E3C /* Blue Diamonds.JPG in Resources */,
+				E5999E2115FCACE100A26E3C /* Bob Marley.jpg in Resources */,
+				E5999E2215FCACE100A26E3C /* Bocelli.jpg in Resources */,
+				E5999E2315FCACE100A26E3C /* Bon Jovi.jpg in Resources */,
+				E5999E2415FCACE100A26E3C /* Boudewijn de Groot.jpg in Resources */,
+				E5999E2515FCACE100A26E3C /* Brainbox.JPG in Resources */,
+				E5999E2615FCACE100A26E3C /* BZN.JPG in Resources */,
+				E5999E2715FCACE100A26E3C /* Carpenters.jpg in Resources */,
+				E5999E2815FCACE100A26E3C /* Cat Stevens.JPG in Resources */,
+				E5999E2915FCACE100A26E3C /* Chris Rea.jpg in Resources */,
+				E5999E2A15FCACE100A26E3C /* Chuck Berry.jpg in Resources */,
+				E5999E2B15FCACE100A26E3C /* Commodores.jpg in Resources */,
+				E5999E2C15FCACE100A26E3C /* Counting Crows.jpg in Resources */,
+				E5999E2D15FCACE100A26E3C /* Cream.jpg in Resources */,
+				E5999E2E15FCACE100A26E3C /* Creedence Clearwater Revival.jpg in Resources */,
+				E5999E2F15FCACE100A26E3C /* David Bowie.jpg in Resources */,
+				E5999E3015FCACE100A26E3C /* De Dijk.jpg in Resources */,
+				E5999E3115FCACE100A26E3C /* Deep Purple.jpg in Resources */,
+				E5999E3215FCACE100A26E3C /* Diana Ross.jpg in Resources */,
+				E5999E3315FCACE100A26E3C /* Dire Straits.jpg in Resources */,
+				E5999E3415FCACE100A26E3C /* Dusty Springfield.jpg in Resources */,
+				E5999E3515FCACE100A26E3C /* Eagles.JPG in Resources */,
+				E5999E3615FCACE100A26E3C /* Earth and Fire.JPG in Resources */,
+				E5999E3715FCACE100A26E3C /* Elton John.jpg in Resources */,
+				E5999E3815FCACE100A26E3C /* Elvis Costello.jpg in Resources */,
+				E5999E3915FCACE100A26E3C /* Eric Clapton.jpg in Resources */,
+				E5999E3A15FCACE100A26E3C /* Focus.JPG in Resources */,
+				E5999E3B15FCACE100A26E3C /* Frank Sinatra.jpg in Resources */,
+				E5999E3C15FCACE100A26E3C /* Frank Zappa.JPG in Resources */,
+				E5999E3D15FCACE100A26E3C /* Frans Halsema.JPG in Resources */,
+				E5999E3E15FCACE100A26E3C /* Goede Doel.jpg in Resources */,
+				E5999E3F15FCACE100A26E3C /* Golden Earring.jpg in Resources */,
+				E5999E4015FCACE100A26E3C /* Grace Jones.jpg in Resources */,
+				E5999E4115FCACE100A26E3C /* Guns 'n Roses.jpg in Resources */,
+				E5999E4215FCACE100A26E3C /* Guus Meeuwis.jpg in Resources */,
+				E5999E4315FCACE100A26E3C /* Harry - Cuby - Muskee.jpg in Resources */,
+				E5999E4415FCACE100A26E3C /* Herman Brood.jpg in Resources */,
+				E5999E4515FCACE100A26E3C /* Herman van Veen.JPG in Resources */,
+				E5999E4615FCACE100A26E3C /* Ilse DeLange.jpg in Resources */,
+				E5999E4715FCACE100A26E3C /* INXS.JPG in Resources */,
+				E5999E4815FCACE100A26E3C /* Jack Johnson.jpg in Resources */,
+				E5999E4915FCACE100A26E3C /* Jackson 5.JPG in Resources */,
+				E5999E4A15FCACE100A26E3C /* James Brown.jpg in Resources */,
+				E5999E4B15FCACE100A26E3C /* James Morrison.jpg in Resources */,
+				E5999E4C15FCACE100A26E3C /* Jamie Cullum.jpg in Resources */,
+				E5999E4D15FCACE100A26E3C /* Jan Akkerman.JPG in Resources */,
+				E5999E4E15FCACE100A26E3C /* Janis Joplin.jpg in Resources */,
+				E5999E4F15FCACE100A26E3C /* Jantje Smit.JPG in Resources */,
+				E5999E5015FCACE100A26E3C /* Jimi Hendrix.jpg in Resources */,
+				E5999E5115FCACE100A26E3C /* JJ Cale.jpg in Resources */,
+				E5999E5215FCACE100A26E3C /* Lady Gaga.jpg in Resources */,
+				E5999E5315FCACE100A26E3C /* Level 42.jpg in Resources */,
+				E5999E5415FCACE100A26E3C /* Liesbeth List.JPG in Resources */,
+				E5999E5515FCACE100A26E3C /* Madonna.jpg in Resources */,
+				E5999E5615FCACE100A26E3C /* Mamas & Papas118.jpg in Resources */,
+				E5999E5715FCACE100A26E3C /* Marco Borsato.jpg in Resources */,
+				E5999E5815FCACE100A26E3C /* Mariah Carey.jpg in Resources */,
+				E5999E5915FCACE100A26E3C /* Marvin Gaye.jpg in Resources */,
+				E5999E5A15FCACE100A26E3C /* Metallica.jpg in Resources */,
+				E5999E5B15FCACE100A26E3C /* Neil Diamond 2.jpg in Resources */,
+				E5999E5C15FCACE100A26E3C /* Nirvana.jpg in Resources */,
+				E5999E5D15FCACE100A26E3C /* Normaal.JPG in Resources */,
+				E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */,
+				E5999E5F15FCACE100A26E3C /* Paul Weller.JPG in Resources */,
+				E5999E6015FCACE100A26E3C /* Peter Koelewijn.JPG in Resources */,
+				E5999E6115FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG in Resources */,
+				E5999E6215FCACE100A26E3C /* Queen.jpg in Resources */,
+				E5999E6315FCACE100A26E3C /* Ramses Shaffy.jpg in Resources */,
+				E5999E6415FCACE100A26E3C /* Rob de Nijs.JPG in Resources */,
+				E5999E6515FCACE100A26E3C /* Rod Stewart.jpg in Resources */,
+				E5999E6615FCACE100A26E3C /* Rolling Stones.jpg in Resources */,
+				E5999E6715FCACE100A26E3C /* Scissor Sisters.jpg in Resources */,
+				E5999E6815FCACE100A26E3C /* Steely Dan.JPG in Resources */,
+				E5999E6915FCACE100A26E3C /* Stevie Wonder.jpg in Resources */,
+				E5999E6A15FCACE100A26E3C /* Sting.JPG in Resources */,
+				E5999E6B15FCACE100A26E3C /* The Cure.JPG in Resources */,
+				E5999E6C15FCACE100A26E3C /* The Police.JPG in Resources */,
+				E5999E6D15FCACE100A26E3C /* The Who.JPG in Resources */,
+				E5999E6E15FCACE100A26E3C /* Thin Lizzy.JPG in Resources */,
+				E5999E6F15FCACE100A26E3C /* U2.jpg in Resources */,
+				E5999E7015FCACE100A26E3C /* Van Morrison.jpg in Resources */,
+				E5999E7115FCACE100A26E3C /* Willeke Alberti.jpg in Resources */,
+				E5999E7215FCACE100A26E3C /* Willy Alberti.JPG in Resources */,
+				E5999E7315FCACE100A26E3C /* Willy en Willeke Alberti.jpg in Resources */,
+				E5999E7415FCACE100A26E3C /* Wim Sonneveld.JPG in Resources */,
+				E5999E7515FCACE100A26E3C /* Zangeres Zonder Naam.JPG in Resources */,
+				E5999E8515FCB2C100A26E3C /* DINNextLTPro-Black.otf in Resources */,
+				E5999E8615FCB2C100A26E3C /* DINNextLTPro-Bold.otf in Resources */,
+				E5999E8715FCB2C100A26E3C /* DINNextLTPro-Light.otf in Resources */,
+				E5999E8815FCB2C100A26E3C /* DINNextLTPro-Medium.otf in Resources */,
+				E5999E8915FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf in Resources */,
+				E5999E8A15FCB2C100A26E3C /* DINNextLTPro-Regular.otf in Resources */,
+				E5999E8B15FCB2C100A26E3C /* OmroepBold.otf in Resources */,
+				E5999E8C15FCB2C100A26E3C /* OmroepLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -902,6 +1838,16 @@
 				E55BD19C15ECC69F008882CA /* Hoes.m in Sources */,
 				E55BD19F15ECC737008882CA /* PopQuizVraag.m in Sources */,
 				E55BD1B615ECCB8D008882CA /* GameController.m in Sources */,
+				E5999E7815FCAD8C00A26E3C /* Foto.m in Sources */,
+				E5999E7B15FCB1BD00A26E3C /* StartViewControllerViewController.m in Sources */,
+				E5999E9015FCB5E000A26E3C /* DINNextBlackLabel.m in Sources */,
+				E5999EA715FCB79200A26E3C /* DINNextBoldLabel.m in Sources */,
+				E5999EAA15FCB7AF00A26E3C /* DINNextMediumCondLabel.m in Sources */,
+				E5999EAD15FCB7C800A26E3C /* DINNextRegularLabel.m in Sources */,
+				E5999EB015FCB7E300A26E3C /* DINNextLightLabel.m in Sources */,
+				E5999EB315FCB7FB00A26E3C /* DINNextMediumLabel.m in Sources */,
+				E5999EB615FCB81200A26E3C /* OmroepRoundedBoldLabel.m in Sources */,
+				E5999EB915FCB82D00A26E3C /* OmroepRoundedLightLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
