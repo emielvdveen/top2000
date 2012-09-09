@@ -295,23 +295,7 @@
 		E5999E7415FCACE100A26E3C /* Wim Sonneveld.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAC15FCACE100A26E3C /* Wim Sonneveld.JPG */; };
 		E5999E7515FCACE100A26E3C /* Zangeres Zonder Naam.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */; };
 		E5999E7815FCAD8C00A26E3C /* Foto.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E7715FCAD8C00A26E3C /* Foto.m */; };
-		E5999E7B15FCB1BD00A26E3C /* StartViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */; };
-		E5999E8515FCB2C100A26E3C /* DINNextLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */; };
-		E5999E8615FCB2C100A26E3C /* DINNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */; };
-		E5999E8715FCB2C100A26E3C /* DINNextLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */; };
-		E5999E8815FCB2C100A26E3C /* DINNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */; };
-		E5999E8915FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */; };
-		E5999E8A15FCB2C100A26E3C /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */; };
-		E5999E8B15FCB2C100A26E3C /* OmroepBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8315FCB2C100A26E3C /* OmroepBold.otf */; };
-		E5999E8C15FCB2C100A26E3C /* OmroepLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5999E8415FCB2C100A26E3C /* OmroepLight.otf */; };
-		E5999E9015FCB5E000A26E3C /* DINNextBlackLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */; };
-		E5999EA715FCB79200A26E3C /* DINNextBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */; };
-		E5999EAA15FCB7AF00A26E3C /* DINNextMediumCondLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */; };
-		E5999EAD15FCB7C800A26E3C /* DINNextRegularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */; };
-		E5999EB015FCB7E300A26E3C /* DINNextLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */; };
-		E5999EB315FCB7FB00A26E3C /* DINNextMediumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */; };
-		E5999EB615FCB81200A26E3C /* OmroepRoundedBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */; };
-		E5999EB915FCB82D00A26E3C /* OmroepRoundedLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */; };
+		E5999E7B15FCB1BD00A26E3C /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5999E7A15FCB1BC00A26E3C /* StartViewController.m */; };
 		E5C7DE9515ED563C0088385A /* CoverView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */; };
 		E5C7DE9615ED563C0088385A /* StartView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9415ED563C0088385A /* StartView~ipad.xib */; };
 		E5C7DED215ED56C50088385A /* abba.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DE9815ED56C50088385A /* abba.png */; };
@@ -707,32 +691,8 @@
 		E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zangeres Zonder Naam.JPG"; sourceTree = "<group>"; };
 		E5999E7615FCAD8C00A26E3C /* Foto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foto.h; sourceTree = "<group>"; };
 		E5999E7715FCAD8C00A26E3C /* Foto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foto.m; sourceTree = "<group>"; };
-		E5999E7915FCB1BC00A26E3C /* StartViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewControllerViewController.h; sourceTree = "<group>"; };
-		E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewControllerViewController.m; sourceTree = "<group>"; };
-		E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Black.otf"; sourceTree = "<group>"; };
-		E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Bold.otf"; sourceTree = "<group>"; };
-		E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Light.otf"; sourceTree = "<group>"; };
-		E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Medium.otf"; sourceTree = "<group>"; };
-		E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumCond.otf"; sourceTree = "<group>"; };
-		E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
-		E5999E8315FCB2C100A26E3C /* OmroepBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepBold.otf; sourceTree = "<group>"; };
-		E5999E8415FCB2C100A26E3C /* OmroepLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepLight.otf; sourceTree = "<group>"; };
-		E5999E8E15FCB5E000A26E3C /* DINNextBlackLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextBlackLabel.h; sourceTree = "<group>"; };
-		E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextBlackLabel.m; sourceTree = "<group>"; };
-		E5999EA515FCB79100A26E3C /* DINNextBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextBoldLabel.h; sourceTree = "<group>"; };
-		E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextBoldLabel.m; sourceTree = "<group>"; };
-		E5999EA815FCB7AE00A26E3C /* DINNextMediumCondLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextMediumCondLabel.h; sourceTree = "<group>"; };
-		E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextMediumCondLabel.m; sourceTree = "<group>"; };
-		E5999EAB15FCB7C600A26E3C /* DINNextRegularLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextRegularLabel.h; sourceTree = "<group>"; };
-		E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextRegularLabel.m; sourceTree = "<group>"; };
-		E5999EAE15FCB7E100A26E3C /* DINNextLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextLightLabel.h; sourceTree = "<group>"; };
-		E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextLightLabel.m; sourceTree = "<group>"; };
-		E5999EB115FCB7F900A26E3C /* DINNextMediumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINNextMediumLabel.h; sourceTree = "<group>"; };
-		E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINNextMediumLabel.m; sourceTree = "<group>"; };
-		E5999EB415FCB80F00A26E3C /* OmroepRoundedBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmroepRoundedBoldLabel.h; sourceTree = "<group>"; };
-		E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmroepRoundedBoldLabel.m; sourceTree = "<group>"; };
-		E5999EB715FCB82A00A26E3C /* OmroepRoundedLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmroepRoundedLightLabel.h; sourceTree = "<group>"; };
-		E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmroepRoundedLightLabel.m; sourceTree = "<group>"; };
+		E5999E7915FCB1BC00A26E3C /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		E5999E7A15FCB1BC00A26E3C /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CoverView~ipad.xib"; sourceTree = "<group>"; };
 		E5C7DE9415ED563C0088385A /* StartView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StartView~ipad.xib"; sourceTree = "<group>"; };
 		E5C7DE9815ED56C50088385A /* abba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abba.png; sourceTree = "<group>"; };
@@ -929,7 +889,6 @@
 		E55BD07115EB5E68008882CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E5999E8D15FCB5A100A26E3C /* Custom Elements */,
 				E55BD07215EB5E68008882CA /* ViewController.h */,
 				E55BD07315EB5E68008882CA /* ViewController.m */,
 				E55BD0DF15EB5F7D008882CA /* CoverViewController.h */,
@@ -946,8 +905,8 @@
 				E55BD0EF15EB5FE6008882CA /* PopQuizViewController.m */,
 				E55BD0F115EB5FF9008882CA /* QuestionsViewController.h */,
 				E55BD0F215EB5FF9008882CA /* QuestionsViewController.m */,
-				E5999E7915FCB1BC00A26E3C /* StartViewControllerViewController.h */,
-				E5999E7A15FCB1BC00A26E3C /* StartViewControllerViewController.m */,
+				E5999E7915FCB1BC00A26E3C /* StartViewController.h */,
+				E5999E7A15FCB1BC00A26E3C /* StartViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -964,7 +923,6 @@
 		E55BD08215EB5F39008882CA /* Recources */ = {
 			isa = PBXGroup;
 			children = (
-				E5999E7C15FCB2BA00A26E3C /* Fonts */,
 				E5999CE215FCACE100A26E3C /* Covers */,
 				E5999D4915FCACE100A26E3C /* Photos */,
 				E55BD15015ECACCA008882CA /* Data */,
@@ -1091,8 +1049,8 @@
 		E55BD0AA15EB5F39008882CA /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
-				E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */,
 				E5C7DE9415ED563C0088385A /* StartView~ipad.xib */,
+				E5C7DE9315ED563C0088385A /* CoverView~ipad.xib */,
 				E55BD07815EB5EA8008882CA /* ViewController.xib */,
 				E55BD0AC15EB5F39008882CA /* HintsView~ipad.xib */,
 				E55BD0AD15EB5F39008882CA /* HitFragmentView~ipad.xib */,
@@ -1377,44 +1335,6 @@
 				E5999DAD15FCACE100A26E3C /* Zangeres Zonder Naam.JPG */,
 			);
 			path = Photos;
-			sourceTree = "<group>";
-		};
-		E5999E7C15FCB2BA00A26E3C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				E5999E7D15FCB2C100A26E3C /* DINNextLTPro-Black.otf */,
-				E5999E7E15FCB2C100A26E3C /* DINNextLTPro-Bold.otf */,
-				E5999E7F15FCB2C100A26E3C /* DINNextLTPro-Light.otf */,
-				E5999E8015FCB2C100A26E3C /* DINNextLTPro-Medium.otf */,
-				E5999E8115FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf */,
-				E5999E8215FCB2C100A26E3C /* DINNextLTPro-Regular.otf */,
-				E5999E8315FCB2C100A26E3C /* OmroepBold.otf */,
-				E5999E8415FCB2C100A26E3C /* OmroepLight.otf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		E5999E8D15FCB5A100A26E3C /* Custom Elements */ = {
-			isa = PBXGroup;
-			children = (
-				E5999E8E15FCB5E000A26E3C /* DINNextBlackLabel.h */,
-				E5999E8F15FCB5E000A26E3C /* DINNextBlackLabel.m */,
-				E5999EA515FCB79100A26E3C /* DINNextBoldLabel.h */,
-				E5999EA615FCB79200A26E3C /* DINNextBoldLabel.m */,
-				E5999EA815FCB7AE00A26E3C /* DINNextMediumCondLabel.h */,
-				E5999EA915FCB7AE00A26E3C /* DINNextMediumCondLabel.m */,
-				E5999EAB15FCB7C600A26E3C /* DINNextRegularLabel.h */,
-				E5999EAC15FCB7C700A26E3C /* DINNextRegularLabel.m */,
-				E5999EAE15FCB7E100A26E3C /* DINNextLightLabel.h */,
-				E5999EAF15FCB7E200A26E3C /* DINNextLightLabel.m */,
-				E5999EB115FCB7F900A26E3C /* DINNextMediumLabel.h */,
-				E5999EB215FCB7FA00A26E3C /* DINNextMediumLabel.m */,
-				E5999EB415FCB80F00A26E3C /* OmroepRoundedBoldLabel.h */,
-				E5999EB515FCB81100A26E3C /* OmroepRoundedBoldLabel.m */,
-				E5999EB715FCB82A00A26E3C /* OmroepRoundedLightLabel.h */,
-				E5999EB815FCB82C00A26E3C /* OmroepRoundedLightLabel.m */,
-			);
-			name = "Custom Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1791,14 +1711,6 @@
 				E5999E7315FCACE100A26E3C /* Willy en Willeke Alberti.jpg in Resources */,
 				E5999E7415FCACE100A26E3C /* Wim Sonneveld.JPG in Resources */,
 				E5999E7515FCACE100A26E3C /* Zangeres Zonder Naam.JPG in Resources */,
-				E5999E8515FCB2C100A26E3C /* DINNextLTPro-Black.otf in Resources */,
-				E5999E8615FCB2C100A26E3C /* DINNextLTPro-Bold.otf in Resources */,
-				E5999E8715FCB2C100A26E3C /* DINNextLTPro-Light.otf in Resources */,
-				E5999E8815FCB2C100A26E3C /* DINNextLTPro-Medium.otf in Resources */,
-				E5999E8915FCB2C100A26E3C /* DINNextLTPro-MediumCond.otf in Resources */,
-				E5999E8A15FCB2C100A26E3C /* DINNextLTPro-Regular.otf in Resources */,
-				E5999E8B15FCB2C100A26E3C /* OmroepBold.otf in Resources */,
-				E5999E8C15FCB2C100A26E3C /* OmroepLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1839,15 +1751,7 @@
 				E55BD19F15ECC737008882CA /* PopQuizVraag.m in Sources */,
 				E55BD1B615ECCB8D008882CA /* GameController.m in Sources */,
 				E5999E7815FCAD8C00A26E3C /* Foto.m in Sources */,
-				E5999E7B15FCB1BD00A26E3C /* StartViewControllerViewController.m in Sources */,
-				E5999E9015FCB5E000A26E3C /* DINNextBlackLabel.m in Sources */,
-				E5999EA715FCB79200A26E3C /* DINNextBoldLabel.m in Sources */,
-				E5999EAA15FCB7AF00A26E3C /* DINNextMediumCondLabel.m in Sources */,
-				E5999EAD15FCB7C800A26E3C /* DINNextRegularLabel.m in Sources */,
-				E5999EB015FCB7E300A26E3C /* DINNextLightLabel.m in Sources */,
-				E5999EB315FCB7FB00A26E3C /* DINNextMediumLabel.m in Sources */,
-				E5999EB615FCB81200A26E3C /* OmroepRoundedBoldLabel.m in Sources */,
-				E5999EB915FCB82D00A26E3C /* OmroepRoundedLightLabel.m in Sources */,
+				E5999E7B15FCB1BD00A26E3C /* StartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartViewControllerViewController : UIViewController
+@interface StartViewController : UIViewController
+
+- (IBAction) startGame;
 
 @end

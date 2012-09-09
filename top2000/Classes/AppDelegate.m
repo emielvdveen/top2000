@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "StartViewController.h"
 #import "BugSenseCrashController.h"
 
 @implementation AppDelegate
@@ -42,11 +42,11 @@
                                               sendImmediately:YES];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController = [[StartViewController alloc] initWithNibName:@"StartView~ipad" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [self printFontList];
+    //[self printFontList];
     
     return YES;
 }
