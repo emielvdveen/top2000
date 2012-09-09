@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+@class PopQuizVraag;
+
 @interface PopQuizViewController : UIViewController
+{
+    PopQuizVraag* vraag;
+
+    UILabel*vraagLabel;
+    UILabel* antwoordLabel;
+    UIButton* antwoordBtn;
+}
+
+@property(nonatomic, strong) PopQuizVraag *vraag;
+
+@property(nonatomic, strong) IBOutlet UILabel *vraagLabel;
+@property(nonatomic, strong) IBOutlet UILabel *antwoordLabel;
+@property(nonatomic, strong) IBOutlet UIButton *antwoordBtn;
+
+- (IBAction) showAnswer;
 
 @end

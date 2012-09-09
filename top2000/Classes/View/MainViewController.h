@@ -10,4 +10,9 @@
 
 @interface MainViewController : UIViewController
 
+@property(nonatomic, strong) IBOutlet UIView *content;
+
+- (IBAction) nextBtnClicked;
+- (IBAction) stopBtnClicked;
+
 @end

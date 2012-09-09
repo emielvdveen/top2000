@@ -9,8 +9,12 @@
 #import "ViewController.h"
 #import "DataController.h"
 #import "GameController.h"
+#import "MainViewController.h"
 
 @implementation ViewController
+{
+    MainViewController *_mainVC;
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -37,11 +41,11 @@
     [super viewWillAppear:animated];
     //[[DataController sharedInstance] performSelectorInBackground:@selector(loadAll) withObject:nil];
     [[DataController sharedInstance] loadAll];
-    [[GameController sharedInstance] startGame:100];
-    while ([[GameController sharedInstance] hasNextRound])
-    {
-        [[GameController sharedInstance] nextRound];
-    }
+//    [[GameController sharedInstance] startGame:100];
+//    while ([[GameController sharedInstance] hasNextRound])
+//    {
+//        [[GameController sharedInstance] nextRound];
+//    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -63,6 +67,14 @@
 {
     // Return YES for supported orientations
     return YES;
+}
+
+- (IBAction) startGame;
+{
+    [[GameController sharedInstance] startGame:25];
+
+    _mainVC = [[MainViewController alloc] initWithNibName:(IPAD ? @"MainView~ipad" : @"MainView~iphone") bundle:nil];
+    [self presentModalViewController:_mainVC animated:YES];
 }
 
 @end

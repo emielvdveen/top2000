@@ -7,12 +7,18 @@
 //
 
 #import "PopQuizViewController.h"
+#import "PopQuizVraag.h"
 
 @interface PopQuizViewController ()
 
 @end
 
 @implementation PopQuizViewController
+@synthesize vraagLabel;
+@synthesize antwoordLabel;
+@synthesize antwoordBtn;
+@synthesize vraag;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +32,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	vraagLabel.text = vraag.vraag;
+    antwoordLabel.text = vraag.antwoord;
 }
 
 - (void)viewDidUnload
@@ -38,6 +45,18 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction) showAnswer;
+{
+    antwoordLabel.alpha = 0;
+    antwoordLabel.hidden = NO;
+    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        antwoordBtn.alpha = 0;
+        antwoordLabel.alpha = 1;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
 }
 
 @end
