@@ -14,9 +14,12 @@
 #import "HitFragment.h"
 #import "Hoes.h"
 #import "Doorvraag.h"
-#import "Foto.h"
+#import "Hoes.h"
 
 @implementation DataController
+{
+    NSMutableArray* _mp3List;
+}
 
 @synthesize popQuizVragen = _popQuizVragen;
 @synthesize doorVragen = _doorVragen;
@@ -101,8 +104,36 @@
     return [self loadJsonArray:filePath];
 }
 
+- (void) loadMP3List;
+{
+    _mp3List = [[NSMutableArray alloc] init];
+    NSString *bundleRoot = [[NSBundle mainBundle] bundlePath];
+    NSArray *dirContents = [[NSFileManager defaultManager]  contentsOfDirectoryAtPath:bundleRoot error:nil];
+    for (NSString *filename in dirContents) {
+        if ([filename hasSuffix:@".mp3"])
+        {
+            [_mp3List addObject:[filename substringToIndex:[filename length]-4]];
+        }
+    }
+}
+
+- (NSString*) getMP3:(HitFragment*)vraag;
+{
+    for(NSString* mp3 in _mp3List)
+    {
+        NSRange range = [[mp3 uppercaseString] rangeOfString: [vraag.titel uppercaseString]];
+        if (range.location != NSNotFound)
+        {
+            return mp3;
+        }
+    }
+    return nil;
+}
+
 - (void) loadAll;
 {
+    [self loadMP3List];
+    
     _doorVragen = [self loadDoorvragen];
     NSLog(@"%i doorvragen loaded", [_doorVragen count]);
     
@@ -111,7 +142,17 @@
 
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
-
+    
+//    for(NSDictionary *jsonVraag in _hitFragmenten)
+//    {
+//        HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
+//        NSString* filename = [self getMP3:vraag];
+//        if (!filename)
+//        {
+//            NSLog(@"%@ -> %@", vraag.titel, filename);
+//        }
+//    }
+    
     _popQuizVragen = [self loadPopquizVragen];
     NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
 
@@ -121,7 +162,6 @@
     _fotos = [self loadFotos];
     NSLog(@"%i fotos loaded", [_fotos count]);
 }
-
 
 - (int) totaalAantalVragen;
 {
@@ -173,6 +213,7 @@
         NSLog(@"Hit fragment");
         NSDictionary *jsonVraag = [_hitFragmenten objectAtIndex:index];
         HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
+        vraag.mp3Filename = [self getMP3:vraag];
         return vraag;
     }
     
@@ -193,7 +234,7 @@
     {
         NSLog(@"Foto vraag");
         NSDictionary *jsonVraag = [_hoezen objectAtIndex:index];
-        Foto *vraag = [Foto createFromJson:jsonVraag];
+        Hoes *vraag = [Hoes createFromJson:jsonVraag];
         return vraag;
     }
 

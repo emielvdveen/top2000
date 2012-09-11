@@ -11,9 +11,9 @@
 @implementation Foto
 @synthesize naam;
 
-+ (Foto*) createFromJson:(NSDictionary*)jsonValues;
++ (Foto *) createFromJson:(NSDictionary*)jsonValues;
 {
-    Foto* result = [[Foto alloc] init];
+    Foto * result = [[Foto alloc] init];
     result.naam = [jsonValues objectForKey:@"artist"];
     return result;
 }

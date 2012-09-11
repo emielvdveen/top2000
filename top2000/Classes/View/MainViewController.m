@@ -17,8 +17,10 @@
 #import "HintsViewController.h"
 #import "CoverViewController.h"
 #import "HitFragmentViewController.h"
-#import "Foto.h"
+#import "Hoes.h"
 #import "PictureViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface MainViewController ()
 
@@ -49,10 +51,17 @@
     return self;
 }
 
+- (void) enableSpeaker;
+{
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
+    [self enableSpeaker];
+    
     if ([[GameController sharedInstance] hasNextRound])
     {
         [self showNextRound];
@@ -67,7 +76,6 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    NSLog(@"shouldAutorotateToInterfaceOrientation");
     if (IPAD)
     {
         return UIInterfaceOrientationIsLandscape(interfaceOrientation);
@@ -102,14 +110,16 @@
     else if ([vraag isKindOfClass:[HitFragment class]])
     {
         _hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
+        _hitFragmentVC.hitFragment = vraag;
         _newView = _hitFragmentVC.view;
     }
     else if ([vraag isKindOfClass:[Hoes class]])
     {
         _coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
+        _coverVC.hoes = vraag;
         _newView = _coverVC.view;
     }
-    else if ([vraag isKindOfClass:[Foto class]])
+    else if ([vraag isKindOfClass:[Hoes class]])
     {
         _pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
         _newView = _pictureVC.view;
@@ -136,11 +146,21 @@
 
 - (IBAction) stopBtnClicked;
 {
+    if (_hitFragmentVC)
+    {
+        [_hitFragmentVC stopPlayback];
+    }
+    
     [self dismissModalViewControllerAnimated:YES];
 }
 
 - (IBAction) nextBtnClicked;
 {
+    if (_hitFragmentVC)
+    {
+        [_hitFragmentVC stopPlayback];
+    }
+    
     if ([[GameController sharedInstance] hasNextRound])
     {
         [self showNextRound];

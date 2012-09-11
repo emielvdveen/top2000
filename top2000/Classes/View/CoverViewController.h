@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
+@class Hoes;
+
 @interface CoverViewController : UIViewController
+{
+    IBOutlet UIImageView* shadow;
+    IBOutlet UIImageView* coverEdited;
+    IBOutlet UIImageView* coverOriginal;
+    IBOutlet UILabel* vraagLabel;
+    IBOutlet UILabel* antwoordLabel;
+    IBOutlet UIButton* antwoordBtn;
+
+    Hoes * hoes;
+}
+
+@property(nonatomic, strong) Hoes *hoes;
+
+- (IBAction) showAnswer;
 
 @end

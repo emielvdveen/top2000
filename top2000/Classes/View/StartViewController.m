@@ -17,14 +17,17 @@
 
 @implementation StartViewController
 {
-    MainViewController *_mainVC;    
+    MainViewController *_mainVC;
+    NSMutableArray *artists;
+    int _artistCounter;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        _artistCounter = 0;
+        artists = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -33,8 +36,116 @@
 {
     [super viewDidLoad];
     [[DataController sharedInstance] loadAll];
+
+    subtitle.transform = CGAffineTransformMakeTranslation(0, -CGRectGetMaxY(subtitle.frame));
+    
+    sponsorLogos.transform = CGAffineTransformMakeTranslation(-CGRectGetMaxX(sponsorLogos.frame), 0);
+    startLabel.transform = CGAffineTransformMakeTranslation(1024-startButton.frame.origin.x, 0);
+    startButton.transform = CGAffineTransformMakeTranslation(1024-startButton.frame.origin.x, 0);
+    
+    [artists addObject:bdg];
+    [artists addObject:goldenEarring];
+    [artists addObject:marvinGaye];
+    [artists addObject:eltonJohn];
+    [artists addObject:davidBowie];
+    [artists addObject:ilseDeLange];
+    [artists addObject:allmanBrothers];
+    [artists addObject:donnaSummer];
+    [artists addObject:queen];
+    [artists addObject:frankSinatra];
+    [artists addObject:u2];
+    [artists addObject:bonJovi];
+    [artists addObject:guusMeeuwis];
+    [artists addObject:marcoBorsato];
+    [artists addObject:sting];
+    [artists addObject:markKnopfler];
+    [artists addObject:caroEmerald];
+    [artists addObject:abba];
+    [artists addObject:theWho];
+    [artists addObject:gunsnroses];
+    [artists addObject:kiss];
+    [artists addObject:clapton];
+    [artists addObject:stevieWonder];
+    [artists addObject:jamesBrown];
+    [artists addObject:amyWhinehouse];
+    [artists addObject:dianaRoss];
+    [artists addObject:bobMarley];
+    [artists addObject:commodores];
+
+    for (UIImageView *artist in artists)
+    {
+        artist.alpha = 0;
+    }
+
+    _artistCounter = 0;
+    [self showNextArtist];
 }
 
+- (void) showNextArtist;
+{
+    if (_artistCounter >= [artists count])
+    {
+        return;
+    }
+    
+    UIImageView* artist1;
+    UIImageView* artist2;
+    UIImageView* artist3;
+
+    artist1 = [artists objectAtIndex:_artistCounter];
+    if (_artistCounter+1 < [artists count])
+    {
+        artist2 = [artists objectAtIndex:_artistCounter+1];
+    }
+    
+    if (_artistCounter+2 < [artists count])
+    {
+        artist3 = [artists objectAtIndex:_artistCounter+2];
+    }
+    
+    [UIView animateWithDuration:0.1 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        artist1.alpha = 1;
+        artist2.alpha = 1;
+        artist3.alpha = 1;
+    } completion:^(BOOL finished) {
+        if (_artistCounter < [artists count]/2 && _artistCounter+3 >= [artists count]/2)
+        {
+            [self showSubtitle];
+        }
+        _artistCounter = _artistCounter+3;
+        [self showNextArtist];
+    }];
+    
+}
+
+- (void) showSubtitle;
+{
+    [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        subtitle.transform = CGAffineTransformMakeTranslation(0, 0);
+    } completion:^(BOOL finished) {
+        [self showSponsorLogos];
+    }];
+}
+
+- (void) showSponsorLogos;
+{
+    [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        sponsorLogos.transform = CGAffineTransformMakeTranslation(0, 0);
+        [self showStartButton];
+    } completion:^(BOOL finished) {
+    }];
+}
+
+
+- (void) showStartButton;
+{
+    [UIView animateWithDuration:0.6 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        startButton.transform = CGAffineTransformMakeTranslation(0, 0);
+        startLabel.transform = CGAffineTransformMakeTranslation(0, 0);
+    } completion:^(BOOL finished) {
+    }];
+}
+     
 - (void)viewDidUnload
 {
     [super viewDidUnload];

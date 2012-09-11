@@ -17,6 +17,8 @@
 {
     NSTimer *_timer;
     UILabel *_currentHintLabel;
+    UILabel *_currentHintTitleLabel;
+    UIActivityIndicatorView *_currentHintIndicator;
 }
 @synthesize hint;
 @synthesize vraagLabel;
@@ -24,10 +26,18 @@
 @synthesize hint2Label;
 @synthesize hint3Label;
 @synthesize hint4Label;
+@synthesize hint1TitleLabel;
+@synthesize hint2TitleLabel;
+@synthesize hint3TitleLabel;
+@synthesize hint4TitleLabel;
+@synthesize hint2Indicator;
+@synthesize hint3Indicator;
+@synthesize hint4Indicator;
 @synthesize antwoordLabel;
 @synthesize antwoordBtn;
 
 #define DELAY 4
+#define SPACE 10
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -47,25 +57,131 @@
     hint3Label.text = hint.hint3;
     hint4Label.text = hint.hint4;
     antwoordLabel.text = hint.antwoord;
+    
+    [self resizeLabel:hint1Label];
+    [self resizeLabel:hint2Label];
+    [self resizeLabel:hint3Label];
+    [self resizeLabel:hint4Label];
+    
+    [self resizeLabel:hint1TitleLabel];
+    [self resizeLabel:hint2TitleLabel];
+    [self resizeLabel:hint3TitleLabel];
+    [self resizeLabel:hint4TitleLabel];
 
+    [self repositionHint1];
+    [self repositionHint2];
+    [self repositionHint3];
+    [self repositionHint4];
+    
+    hint2TitleLabel.alpha = 0;
+    hint3TitleLabel.alpha = 0;
+    hint4TitleLabel.alpha = 0;
+    
     _currentHintLabel = hint1Label;
+    _currentHintIndicator = hint2Indicator;
+    [_currentHintIndicator startAnimating];
 
     _timer = [NSTimer scheduledTimerWithTimeInterval:DELAY target:self selector:@selector(showNextHint) userInfo:nil repeats:YES];
 }
 
+- (void) resizeLabel:(UILabel*)label
+{
+    label.numberOfLines = 2;
+    label.textAlignment = UITextAlignmentCenter;
+    
+    UIFont* font = label.font;
+    CGSize constraintSize = CGSizeMake(label.frame.size.width, MAXFLOAT);
+    CGSize labelSize = [label.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+    label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, labelSize.width, labelSize.height);
+}
+
+- (float) width;
+{
+    return (IPAD ? 1024 : 320);
+}
+
+- (void) repositionHint1
+{
+    float totalWidth = hint1Label.frame.size.width + hint1TitleLabel.frame.size.width + SPACE;
+    float startX = ([self width] - totalWidth) / 2;
+    
+    CGRect frame = hint1TitleLabel.frame;
+    frame.origin.x = startX;
+    hint1TitleLabel.frame = frame;
+    
+    frame = hint1Label.frame;
+    frame.origin.x = startX+hint1TitleLabel.frame.size.width + SPACE;
+    frame.origin.y = hint1TitleLabel.frame.origin.y;
+    hint1Label.frame = frame;
+}
+
+- (void) repositionHint2
+{
+    float totalWidth = hint2Label.frame.size.width + hint2TitleLabel.frame.size.width + SPACE;
+    float startX = ([self width] - totalWidth) / 2;
+    
+    CGRect frame = hint2TitleLabel.frame;
+    frame.origin.x = startX;
+    hint2TitleLabel.frame = frame;
+    
+    frame = hint2Label.frame;
+    frame.origin.x = startX+hint2TitleLabel.frame.size.width + SPACE;
+    frame.origin.y = hint2TitleLabel.frame.origin.y;
+    hint2Label.frame = frame;
+}
+
+- (void) repositionHint3
+{
+    float totalWidth = hint3Label.frame.size.width + hint3TitleLabel.frame.size.width + SPACE;
+    float startX = ([self width] - totalWidth) / 2;
+    
+    CGRect frame = hint3TitleLabel.frame;
+    frame.origin.x = startX;
+    hint3TitleLabel.frame = frame;
+    
+    frame = hint3Label.frame;
+    frame.origin.x = startX+hint3TitleLabel.frame.size.width + SPACE;
+    frame.origin.y = hint3TitleLabel.frame.origin.y;
+    hint3Label.frame = frame;
+}
+
+- (void) repositionHint4
+{
+    float totalWidth = hint4Label.frame.size.width + hint4TitleLabel.frame.size.width + SPACE;
+    float startX = ([self width] - totalWidth) / 2;
+    
+    CGRect frame = hint4TitleLabel.frame;
+    frame.origin.x = startX;
+    hint4TitleLabel.frame = frame;
+    
+    frame = hint4Label.frame;
+    frame.origin.x = startX+hint4TitleLabel.frame.size.width + SPACE;
+    frame.origin.y = hint4TitleLabel.frame.origin.y;
+    hint4Label.frame = frame;
+}
+
 - (void) showNextHint;
 {
+    [_currentHintIndicator stopAnimating];
     if (_currentHintLabel == hint1Label)
     {
         _currentHintLabel = hint2Label;
+        _currentHintTitleLabel = hint2TitleLabel;
+        _currentHintIndicator = hint3Indicator;
+        [_currentHintIndicator startAnimating];
     }
     else if (_currentHintLabel == hint2Label)
     {
         _currentHintLabel = hint3Label;
+        _currentHintTitleLabel = hint3TitleLabel;
+        _currentHintIndicator = hint4Indicator;
+        [_currentHintIndicator startAnimating];
     }
     else if (_currentHintLabel == hint3Label)
     {
         _currentHintLabel = hint4Label;
+        _currentHintTitleLabel = hint4TitleLabel;
+        _currentHintIndicator = nil;
     }
     else if (_currentHintLabel == hint4Label)
     {
@@ -73,10 +189,10 @@
         return;
     }
 
-    [self showHint:_currentHintLabel];
+    [self showHint:_currentHintLabel title:_currentHintTitleLabel];
 }
 
-- (void) showHint:(UILabel*)hintLabel;
+- (void) showHint:(UILabel*)hintLabel title:(UILabel*)titleLabel;
 {
     if (!hintLabel.hidden)
     {
@@ -85,15 +201,17 @@
 
     hintLabel.alpha = 0;
     hintLabel.hidden = NO;
-
+    titleLabel.alpha = 0;
+    titleLabel.hidden = NO;
+    
     [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         hintLabel.alpha = 1;
+        titleLabel.alpha = 1;
     } completion:^(BOOL finished) {
         // nothing
     }];
 
 }
-
 
 - (void)viewDidUnload
 {
@@ -105,10 +223,12 @@
 {
     [_timer invalidate];
 
-    [self showHint:hint2Label];
-    [self showHint:hint3Label];
-    [self showHint:hint4Label];
+    [self showHint:hint2Label title:hint2TitleLabel];
+    [self showHint:hint3Label title:hint3TitleLabel];
+    [self showHint:hint4Label title:hint4TitleLabel];
 
+    [_currentHintIndicator stopAnimating];
+    
     antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
     [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
@@ -118,6 +238,5 @@
         // nothing
     }];
 }
-
 
 @end

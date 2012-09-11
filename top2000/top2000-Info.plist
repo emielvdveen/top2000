@@ -32,8 +32,6 @@
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
@@ -48,5 +46,7 @@
 		<string>OmroepBold.otf</string>
 		<string>OmroepLight.otf</string>
 	</array>
+	<key>UILaunchImageFile~ipad</key>
+	<string>Default-Landscape</string>
 </dict>
 </plist>

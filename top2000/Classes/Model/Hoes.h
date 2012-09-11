@@ -19,6 +19,9 @@
 @property(nonatomic, copy) NSString *vraag;
 @property(nonatomic, copy) NSString *antwoord;
 
-+ (Hoes*) createFromJson:(NSDictionary*)jsonValues;
++ (Hoes *) createFromJson:(NSDictionary*)jsonValues;
+
+- (UIImage*) editedImage;
+- (UIImage*) originalImage;
 
 @end

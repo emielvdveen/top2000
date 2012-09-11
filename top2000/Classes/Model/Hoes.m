@@ -13,13 +13,25 @@
 @synthesize vraag;
 @synthesize antwoord;
 
-+ (Hoes*) createFromJson:(NSDictionary*)jsonValues;
++ (Hoes *) createFromJson:(NSDictionary*)jsonValues;
 {
 // {"hoes":"Zappa ","vraag":"Noem de artiest","antwoord":"Frank Zappa"},
-    Hoes* result = [[Hoes alloc] init];
+    Hoes * result = [[Hoes alloc] init];
     result.naam = [jsonValues objectForKey:@"hoes"];
     result.vraag = [jsonValues objectForKey:@"vraag"];
     result.antwoord = [jsonValues objectForKey:@"antwoord"];
+    return result;
+}
+
+- (UIImage*) editedImage;
+{
+    UIImage *result = [UIImage imageNamed:[NSString stringWithFormat:@"%@.JPG", naam]];
+    return result;
+}
+
+- (UIImage*) originalImage;
+{
+    UIImage *result = [UIImage imageNamed:[NSString stringWithFormat:@"%@_2.JPG", naam]];
     return result;
 }
 

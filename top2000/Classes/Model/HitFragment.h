@@ -13,11 +13,13 @@
     NSString* band;
     NSString* titel;
     NSNumber* jaartal;
+    NSString* mp3Filename;
 }
 
 @property(nonatomic, copy) NSString *band;
 @property(nonatomic, copy) NSString *titel;
 @property(nonatomic, strong) NSNumber *jaartal;
+@property(nonatomic, strong) NSString* mp3Filename;
 
 + (HitFragment*) createFromJson:(NSDictionary*)jsonValues;
 

@@ -15,6 +15,6 @@
 
 @property(nonatomic, copy) NSString *naam;
 
-+ (Foto*) createFromJson:(NSDictionary*)jsonValues;
++ (Foto *) createFromJson:(NSDictionary*)jsonValues;
 
 @end

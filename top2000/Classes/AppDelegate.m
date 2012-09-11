@@ -34,7 +34,6 @@
     }
 }
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [BugSenseCrashController sharedInstanceWithBugSenseAPIKey:@"cb7fea97"

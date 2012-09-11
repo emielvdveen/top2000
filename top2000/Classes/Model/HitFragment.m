@@ -13,6 +13,7 @@
 @synthesize band;
 @synthesize titel;
 @synthesize jaartal;
+@synthesize mp3Filename;
 
 + (HitFragment*) createFromJson:(NSDictionary*)jsonValues;
 {

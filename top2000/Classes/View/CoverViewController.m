@@ -7,6 +7,7 @@
 //
 
 #import "CoverViewController.h"
+#import "Hoes.h"
 
 @interface CoverViewController ()
 
@@ -14,30 +15,37 @@
 
 @implementation CoverViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+@synthesize hoes = _hoes;
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    vraagLabel.text = _hoes.vraag;
+    antwoordLabel.text = _hoes.antwoord;
+    coverEdited.image = [_hoes editedImage];
+    coverOriginal.image = [_hoes originalImage];
+//    coverOriginal.alpha = 0;
 }
 
-- (void)viewDidUnload
+- (IBAction) showAnswer;
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    antwoordLabel.alpha = 0;
+    antwoordLabel.hidden = NO;
+    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        antwoordBtn.alpha = 0;
+        antwoordLabel.alpha = 1;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+    
+    [UIView animateWithDuration:1 delay:0 options:UIViewAnimationCurveLinear animations:^{
+//        coverOriginal.alpha = 1;
+        coverEdited.alpha = 0;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+    
 }
 
 @end
