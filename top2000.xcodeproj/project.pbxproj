@@ -408,6 +408,7 @@
 		E5C7DF1D15EE01AB0088385A /* diana_ross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1715EE01AB0088385A /* diana_ross@2x.png */; };
 		E5C7DF1E15EE01AB0088385A /* frank_sinatra.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1815EE01AB0088385A /* frank_sinatra.png */; };
 		E5C7DF1F15EE01AB0088385A /* frank_sinatra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C7DF1915EE01AB0088385A /* frank_sinatra@2x.png */; };
+		E5F18E4315FF6F7600675F35 /* HintsView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F18E4215FF6F7600675F35 /* HintsView~iphone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -847,6 +848,7 @@
 		E5C7DF1715EE01AB0088385A /* diana_ross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diana_ross@2x.png"; sourceTree = "<group>"; };
 		E5C7DF1815EE01AB0088385A /* frank_sinatra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frank_sinatra.png; sourceTree = "<group>"; };
 		E5C7DF1915EE01AB0088385A /* frank_sinatra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frank_sinatra@2x.png"; sourceTree = "<group>"; };
+		E5F18E4215FF6F7600675F35 /* HintsView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "HintsView~iphone.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1184,6 +1186,7 @@
 				E58C2D4D15FF2868009D304F /* PopQuizView~iphone.xib */,
 				E58C2D4F15FF2D82009D304F /* MainView~iphone.xib */,
 				E58C2D5115FF32EE009D304F /* QuestionsView~iphone.xib */,
+				E5F18E4215FF6F7600675F35 /* HintsView~iphone.xib */,
 			);
 			path = Nibs;
 			sourceTree = "<group>";
@@ -1879,6 +1882,7 @@
 				E58C2D4E15FF2868009D304F /* PopQuizView~iphone.xib in Resources */,
 				E58C2D5015FF2D82009D304F /* MainView~iphone.xib in Resources */,
 				E58C2D5215FF32EE009D304F /* QuestionsView~iphone.xib in Resources */,
+				E5F18E4315FF6F7600675F35 /* HintsView~iphone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
