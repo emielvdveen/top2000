@@ -14,7 +14,7 @@
 #import "HitFragment.h"
 #import "Hoes.h"
 #import "Doorvraag.h"
-#import "Hoes.h"
+#import "Foto.h"
 
 @implementation DataController
 {
@@ -165,7 +165,7 @@
 
 - (int) totaalAantalVragen;
 {
-    return [_popQuizVragen count] + [_doorVragen count] + [_hints count] + [_hitFragmenten count] + [_hoezen count];
+    return [_popQuizVragen count] + [_doorVragen count] + [_hints count] + [_hitFragmenten count] + [_hoezen count] + [_fotos count];
 }
 
 - (id) getVraag:(int)index;
@@ -233,8 +233,8 @@
     if (index < [_fotos count])
     {
         NSLog(@"Foto vraag");
-        NSDictionary *jsonVraag = [_hoezen objectAtIndex:index];
-        Hoes *vraag = [Hoes createFromJson:jsonVraag];
+        NSDictionary *jsonVraag = [_fotos objectAtIndex:index];
+        Foto *vraag = [Foto createFromJson:jsonVraag];
         return vraag;
     }
 

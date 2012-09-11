@@ -351,9 +351,9 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIStyle">2</int>
-						<object class="NSColor" key="IBUIColor" id="465769568">
+						<object class="NSColor" key="IBUIColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4wOTgwMzkyMTU2OSAwLjY4NjI3NDUwOTggMC45MzcyNTQ5MDIAA</bytes>
+							<bytes key="NSRGB">MC44MDM5MjE1Njg2IDAuMDkwMTk2MDc4NDMgMC4wOTgwMzkyMTU2OQA</bytes>
 						</object>
 					</object>
 					<object class="IBUIActivityIndicatorView" id="79899365">
@@ -366,7 +366,10 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIStyle">2</int>
-						<reference key="IBUIColor" ref="465769568"/>
+						<object class="NSColor" key="IBUIColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC44MDM5MjE1Njg2IDAuMDkwMTk2MDc4NDMgMC4wOTgwMzkyMTU2OQA</bytes>
+						</object>
 					</object>
 					<object class="IBUIActivityIndicatorView" id="975490486">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -378,7 +381,10 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<int key="IBUIStyle">2</int>
-						<reference key="IBUIColor" ref="465769568"/>
+						<object class="NSColor" key="IBUIColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC44MDM5MjE1Njg2IDAuMDkwMTk2MDc4NDMgMC4wOTgwMzkyMTU2OQA</bytes>
+						</object>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {1024, 748}}</string>

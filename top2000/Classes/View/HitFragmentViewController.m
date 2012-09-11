@@ -40,7 +40,7 @@
 
 - (void) hideProgressView;
 {
-    [UIView animateWithDuration:0.3 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         progressView.alpha = 0;
         playBtn.alpha = 1;
         playLabel.alpha = 1;
@@ -50,7 +50,7 @@
 
 - (void) showProgressView;
 {
-    [UIView animateWithDuration:0.3 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         playBtn.alpha = 0;
         playLabel.alpha = 0;
         progressView.alpha = 1;
@@ -113,6 +113,11 @@
     // Release any retained subviews of the main view.
 }
 
+- (void)viewWillDisappear:(BOOL)animated;
+{
+    [self stopPlayback];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
@@ -122,7 +127,7 @@
 {
     antwoord1Label.alpha = 0;
     antwoord1Label.hidden = NO;
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoord1Btn.alpha = 0;
         antwoord1Label.alpha = 1;
     } completion:^(BOOL finished) {
@@ -134,7 +139,7 @@
 {
     antwoord2Label.alpha = 0;
     antwoord2Label.hidden = NO;
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoord2Btn.alpha = 0;
         antwoord2Label.alpha = 1;
     } completion:^(BOOL finished) {

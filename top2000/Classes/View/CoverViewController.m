@@ -25,20 +25,21 @@
     antwoordLabel.text = _hoes.antwoord;
     coverEdited.image = [_hoes editedImage];
     coverOriginal.image = [_hoes originalImage];
-//    coverOriginal.alpha = 0;
+    coverOriginal.alpha = 0;
 }
 
 - (IBAction) showAnswer;
 {
     antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoordBtn.alpha = 0;
         antwoordLabel.alpha = 1;
     } completion:^(BOOL finished) {
         // nothing
     }];
     
+    coverOriginal.alpha = 1;
     [UIView animateWithDuration:1 delay:0 options:UIViewAnimationCurveLinear animations:^{
 //        coverOriginal.alpha = 1;
         coverEdited.alpha = 0;

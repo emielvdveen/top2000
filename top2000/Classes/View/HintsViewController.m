@@ -18,6 +18,7 @@
     NSTimer *_timer;
     UILabel *_currentHintLabel;
     UILabel *_currentHintTitleLabel;
+    UIActivityIndicatorView *_oldHintIndicator;
     UIActivityIndicatorView *_currentHintIndicator;
 }
 @synthesize hint;
@@ -162,7 +163,8 @@
 
 - (void) showNextHint;
 {
-    [_currentHintIndicator stopAnimating];
+    _oldHintIndicator = _currentHintIndicator;
+    
     if (_currentHintLabel == hint1Label)
     {
         _currentHintLabel = hint2Label;
@@ -189,10 +191,10 @@
         return;
     }
 
-    [self showHint:_currentHintLabel title:_currentHintTitleLabel];
+    [self showHint:_currentHintLabel title:_currentHintTitleLabel indicator1:_oldHintIndicator indicator2:_currentHintIndicator];
 }
 
-- (void) showHint:(UILabel*)hintLabel title:(UILabel*)titleLabel;
+- (void) showHint:(UILabel*)hintLabel title:(UILabel*)titleLabel indicator1:(UIActivityIndicatorView*)indicator1 indicator2:(UIActivityIndicatorView*)indicator2;
 {
     if (!hintLabel.hidden)
     {
@@ -204,11 +206,20 @@
     titleLabel.alpha = 0;
     titleLabel.hidden = NO;
     
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    indicator2.alpha = 0;
+    [indicator2 startAnimating];
+    
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         hintLabel.alpha = 1;
         titleLabel.alpha = 1;
+        indicator2.alpha = 1;
+        indicator1.alpha = 0;
     } completion:^(BOOL finished) {
-        // nothing
+        [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+            indicator2.alpha = 1;
+        } completion:^(BOOL finished) {
+            // nothing
+        }];
     }];
 
 }
@@ -223,15 +234,15 @@
 {
     [_timer invalidate];
 
-    [self showHint:hint2Label title:hint2TitleLabel];
-    [self showHint:hint3Label title:hint3TitleLabel];
-    [self showHint:hint4Label title:hint4TitleLabel];
+    [self showHint:hint2Label title:hint2TitleLabel indicator1:nil indicator2:nil];
+    [self showHint:hint3Label title:hint3TitleLabel indicator1:nil indicator2:nil];
+    [self showHint:hint4Label title:hint4TitleLabel indicator1:nil indicator2:nil];
 
     [_currentHintIndicator stopAnimating];
     
     antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoordBtn.alpha = 0;
         antwoordLabel.alpha = 1;
     } completion:^(BOOL finished) {

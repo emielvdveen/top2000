@@ -8,6 +8,35 @@
 
 #import <UIKit/UIKit.h>
 
+@class Doorvraag;
+
 @interface QuestionsViewController : UIViewController
+
+@property (nonatomic, strong) Doorvraag *doorvraag;
+
+@property (nonatomic, strong) IBOutlet UILabel *vraag1TitleLabel;
+@property (nonatomic, strong) IBOutlet UILabel *vraag2TitleLabel;
+@property (nonatomic, strong) IBOutlet UILabel *vraag3TitleLabel;
+@property (nonatomic, strong) IBOutlet UILabel *vraag4TitleLabel;
+
+@property (nonatomic, strong) IBOutlet UILabel *vraag1Label;
+@property (nonatomic, strong) IBOutlet UILabel *vraag2Label;
+@property (nonatomic, strong) IBOutlet UILabel *vraag3Label;
+@property (nonatomic, strong) IBOutlet UILabel *vraag4Label;
+
+@property (nonatomic, strong) IBOutlet UILabel *antwoord4Label;
+@property (nonatomic, strong) IBOutlet UILabel *antwoord1Label;
+@property (nonatomic, strong) IBOutlet UILabel *antwoord2Label;
+@property (nonatomic, strong) IBOutlet UILabel *antwoord3Label;
+
+@property (nonatomic, strong) IBOutlet UIButton *antwoord1Btn;
+@property (nonatomic, strong) IBOutlet UIButton *antwoord2Btn;
+@property (nonatomic, strong) IBOutlet UIButton *antwoord3Btn;
+@property (nonatomic, strong) IBOutlet UIButton *antwoord4Btn;
+
+- (IBAction) showAnswer1;
+- (IBAction) showAnswer2;
+- (IBAction) showAnswer3;
+- (IBAction) showAnswer4;
 
 @end

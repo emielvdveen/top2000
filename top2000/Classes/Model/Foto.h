@@ -17,4 +17,6 @@
 
 + (Foto *) createFromJson:(NSDictionary*)jsonValues;
 
+- (UIImage*) image;
+
 @end

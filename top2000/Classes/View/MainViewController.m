@@ -18,6 +18,7 @@
 #import "CoverViewController.h"
 #import "HitFragmentViewController.h"
 #import "Hoes.h"
+#import "Foto.h"
 #import "PictureViewController.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
@@ -37,6 +38,7 @@
 
     UIView *_currentView;
     UIView* _newView;
+    BOOL _showNewView;
 }
 
 @synthesize content = _content;
@@ -61,6 +63,7 @@
     [super viewDidLoad];
 
     [self enableSpeaker];
+    _showNewView = YES;
     
     if ([[GameController sharedInstance] hasNextRound])
     {
@@ -93,6 +96,7 @@
     {
         // Doorvraag
         _doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
+        _doorvraagVC.doorvraag = vraag;
         _newView = _doorvraagVC.view;
     }
     else if ([vraag isKindOfClass:[PopQuizVraag class]])
@@ -119,9 +123,10 @@
         _coverVC.hoes = vraag;
         _newView = _coverVC.view;
     }
-    else if ([vraag isKindOfClass:[Hoes class]])
+    else if ([vraag isKindOfClass:[Foto class]])
     {
         _pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
+        _pictureVC.picture = vraag;
         _newView = _pictureVC.view;
     }
 
@@ -132,13 +137,14 @@
 {
     _newView.alpha = 0;
     [_content addSubview:_newView];
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         _currentView.alpha = 0;
         _newView.alpha = 1;
     } completion:^(BOOL finished) {
         [_currentView removeFromSuperview];
         _currentView = _newView;
         _newView = nil;
+        _showNewView = YES;
     }];
 }
 
@@ -150,7 +156,7 @@
     {
         [_hitFragmentVC stopPlayback];
     }
-    
+
     [self dismissModalViewControllerAnimated:YES];
 }
 
@@ -161,13 +167,20 @@
         [_hitFragmentVC stopPlayback];
     }
     
-    if ([[GameController sharedInstance] hasNextRound])
+    @synchronized(self)
     {
-        [self showNextRound];
-    }
-    else
-    {
-        [self dismissModalViewControllerAnimated:YES];
+        if (_showNewView)
+        {
+            _showNewView = NO;
+            if ([[GameController sharedInstance] hasNextRound])
+            {
+                [self showNextRound];
+            }
+            else
+            {
+                [self dismissModalViewControllerAnimated:YES];
+            }
+        }
     }
 }
 

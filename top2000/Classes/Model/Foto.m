@@ -18,4 +18,10 @@
     return result;
 }
 
+- (UIImage*) image;
+{
+    UIImage *result = [UIImage imageNamed:[NSString stringWithFormat:@"%@", naam]];
+    return result;
+}
+
 @end

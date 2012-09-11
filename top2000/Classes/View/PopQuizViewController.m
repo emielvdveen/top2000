@@ -51,7 +51,7 @@
 {
     antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
-    [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoordBtn.alpha = 0;
         antwoordLabel.alpha = 1;
     } completion:^(BOOL finished) {
