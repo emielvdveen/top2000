@@ -186,7 +186,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">2</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="569877462">
 							<string key="name">Helvetica-Bold</string>
@@ -219,7 +219,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="569877462"/>
 						<reference key="IBUIFont" ref="124539891"/>
@@ -243,7 +243,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="569877462"/>
 						<reference key="IBUIFont" ref="124539891"/>
@@ -267,7 +267,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="569877462"/>
 						<reference key="IBUIFont" ref="124539891"/>
@@ -291,10 +291,19 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="569877462"/>
-						<reference key="IBUIFont" ref="124539891"/>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="166412590">
+							<string key="name">Helvetica</string>
+							<string key="family">Helvetica</string>
+							<int key="traits">0</int>
+							<double key="pointSize">13</double>
+						</object>
+						<object class="NSFont" key="IBUIFont" id="239187632">
+							<string key="NSName">Helvetica</string>
+							<double key="NSSize">13</double>
+							<int key="NSfFlags">16</int>
+						</object>
 					</object>
 					<object class="IBUILabel" id="822096966">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -315,10 +324,10 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="569877462"/>
-						<reference key="IBUIFont" ref="124539891"/>
+						<reference key="IBUIFontDescription" ref="166412590"/>
+						<reference key="IBUIFont" ref="239187632"/>
 					</object>
 					<object class="IBUILabel" id="120958594">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -339,10 +348,10 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="569877462"/>
-						<reference key="IBUIFont" ref="124539891"/>
+						<reference key="IBUIFontDescription" ref="166412590"/>
+						<reference key="IBUIFont" ref="239187632"/>
 					</object>
 					<object class="IBUILabel" id="332909451">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -363,10 +372,10 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
 						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">3</int>
+						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="569877462"/>
-						<reference key="IBUIFont" ref="124539891"/>
+						<reference key="IBUIFontDescription" ref="166412590"/>
+						<reference key="IBUIFont" ref="239187632"/>
 					</object>
 					<object class="IBUILabel" id="519501976">
 						<reference key="NSNextResponder" ref="191373211"/>
