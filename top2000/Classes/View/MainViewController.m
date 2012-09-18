@@ -36,8 +36,8 @@
     PictureViewController* _pictureVC;
     HitFragmentViewController *_hitFragmentVC;
 
-    UIView *_currentView;
-    UIView* _newView;
+    UIViewController *_currentVC;
+    UIViewController * _newVC;
     BOOL _showNewView;
 }
 
@@ -94,40 +94,39 @@
 
     if ([vraag isKindOfClass:[NSArray class]])
     {
-        // Doorvraag
         _doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
-        _doorvraagVC.doorvraag = vraag;
-        _newView = _doorvraagVC.view;
+        _doorvraagVC.doorvragen = vraag;
+        _newVC = _doorvraagVC;
     }
     else if ([vraag isKindOfClass:[PopQuizVraag class]])
     {
         _popQuizVC = [[PopQuizViewController alloc] initWithNibName:@"PopQuizView~ipad" bundle:nil];
         _popQuizVC.vraag = vraag;
-        _newView = _popQuizVC.view;
+        _newVC = _popQuizVC;
     }
     else if ([vraag isKindOfClass:[Hint class]])
     {
         _hintsVC = [[HintsViewController alloc] initWithNibName:@"HintsView~ipad" bundle:nil];
         _hintsVC.hint = vraag;
-        _newView = _hintsVC.view;
+        _newVC = _hintsVC;
     }
     else if ([vraag isKindOfClass:[HitFragment class]])
     {
         _hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
         _hitFragmentVC.hitFragment = vraag;
-        _newView = _hitFragmentVC.view;
+        _newVC = _hitFragmentVC;
     }
     else if ([vraag isKindOfClass:[Hoes class]])
     {
         _coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
         _coverVC.hoes = vraag;
-        _newView = _coverVC.view;
+        _newVC = _coverVC;
     }
     else if ([vraag isKindOfClass:[Foto class]])
     {
         _pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
         _pictureVC.picture = vraag;
-        _newView = _pictureVC.view;
+        _newVC = _pictureVC;
     }
 
     [self showNewView];
@@ -135,15 +134,17 @@
 
 - (void) showNewView;
 {
-    _newView.alpha = 0;
-    [_content addSubview:_newView];
+    _newVC.view.alpha = 0;
+    [_content addSubview:_newVC.view];
+    
+    UIViewController* vcToRemove = _currentVC;
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
-        _currentView.alpha = 0;
-        _newView.alpha = 1;
+        vcToRemove.view.alpha = 0;
+        _newVC.view.alpha = 1;
     } completion:^(BOOL finished) {
-        [_currentView removeFromSuperview];
-        _currentView = _newView;
-        _newView = nil;
+        [vcToRemove.view removeFromSuperview];
+        _currentVC = _newVC;
+        _newVC = nil;
         _showNewView = YES;
     }];
 }
@@ -152,9 +153,9 @@
 
 - (IBAction) stopBtnClicked;
 {
-    if (_hitFragmentVC)
+    if (_currentVC)
     {
-        [_hitFragmentVC stopPlayback];
+        [_currentVC viewWillDisappear:NO];
     }
 
     [self dismissModalViewControllerAnimated:YES];
@@ -162,9 +163,9 @@
 
 - (IBAction) nextBtnClicked;
 {
-    if (_hitFragmentVC)
+    if (_currentVC)
     {
-        [_hitFragmentVC stopPlayback];
+        [_currentVC viewWillDisappear:NO];
     }
     
     @synchronized(self)

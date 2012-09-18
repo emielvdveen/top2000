@@ -47,8 +47,8 @@
 
 - (id) nextRound;
 {
-    _round = [[DataController sharedInstance] getVraag:979];
-    return _round;
+//    _round = [[DataController sharedInstance] getVraag:979];
+//    return _round;
     
     if (![self hasNextRound])
     {

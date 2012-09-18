@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1280</int>
-		<string key="IBDocument.SystemVersion">11C74</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138.23</string>
-		<string key="IBDocument.HIToolboxVersion">567.00</string>
+		<int key="IBDocument.SystemTarget">1296</int>
+		<string key="IBDocument.SystemVersion">11D50b</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2182</string>
+		<string key="IBDocument.AppKitVersion">1138.32</string>
+		<string key="IBDocument.HIToolboxVersion">568.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">933</string>
+			<string key="NS.object.0">1181</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBUIButton</string>
@@ -59,7 +59,7 @@
 					<object class="IBUIImageView" id="440099556">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{315, 233}, {421, 421}}</string>
+						<string key="NSFrame">{{302, 233}, {421, 421}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="395884745"/>
@@ -76,7 +76,7 @@
 					<object class="IBUIImageView" id="395884745">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{344, 263}, {362, 362}}</string>
+						<string key="NSFrame">{{331, 263}, {362, 362}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="203809477"/>
@@ -84,10 +84,6 @@
 						<reference key="IBUIBackgroundColor" ref="400658529"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">direstraits.png</string>
-						</object>
 					</object>
 					<object class="IBUIView" id="203809477">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -1565,7 +1561,7 @@
 								<reference key="IBUIImage" ref="123453910"/>
 							</object>
 						</array>
-						<string key="NSFrame">{{344, 263}, {362, 362}}</string>
+						<string key="NSFrame">{{331, 263}, {362, 362}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="630261880"/>
@@ -1576,7 +1572,7 @@
 					<object class="IBUILabel" id="1020597754">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{339, 652}, {365, 21}}</string>
+						<string key="NSFrame">{{330, 652}, {365, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="518039300"/>
@@ -1613,7 +1609,6 @@
 						<string key="NSFrame">{{414.5, 690}, {195, 38}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:241</string>
 						<reference key="IBUIBackgroundColor" ref="400658529"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -1649,7 +1644,7 @@
 					<object class="IBUILabel" id="518039300">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{338, 687}, {366, 44}}</string>
+						<string key="NSFrame">{{20, 687}, {984, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="651001764"/>
@@ -2820,6 +2815,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
+			<real value="1296" key="NS.object.0"/>
+		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
@@ -2829,10 +2828,9 @@
 			<string key="block_left.png">{24, 46}</string>
 			<string key="block_right.png">{23, 46}</string>
 			<string key="block_top.png">{46, 22}</string>
-			<string key="direstraits.png">{365, 363}</string>
 			<string key="picture.png">{411, 411}</string>
 			<string key="picture_background.png">{1024, 768}</string>
 		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">933</string>
+		<string key="IBCocoaTouchPluginVersion">1181</string>
 	</data>
 </archive>

@@ -28,6 +28,11 @@
     coverOriginal.alpha = 0;
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+        
+}
+
 - (IBAction) showAnswer;
 {
     antwoordLabel.alpha = 0;

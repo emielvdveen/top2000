@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Applike. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
 #import "PictureViewController.h"
 #import "Foto.h"
 
@@ -39,12 +40,29 @@
 {
     [super viewDidLoad];
     
-    imageView.image = [picture image];
-    antwoordLabel.text = picture.naam;
+    antwoordLabel.text = [picture.naam substringToIndex:[picture.naam length]-4];
     
     _imagesLeft = [[NSMutableArray alloc] init];
     [_imagesLeft addObjectsFromArray:rasterView.subviews];
-    _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(hideNextImage) userInfo:nil repeats:YES];
+    rasterView.layer.masksToBounds = YES;
+    
+    //[self performSelector:@selector(showImage) withObject:nil afterDelay:0];
+    [self showImage];
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [self stopTimer];
+}
+
+- (void) showImage;
+{
+    imageView.alpha = 0;
+    imageView.image = [picture image];
+    [UIView animateWithDuration:1 animations:^{
+        imageView.alpha = 1;
+    }];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(hideNextImage) userInfo:nil repeats:YES];
 }
 
 - (void) hideNextImage;
@@ -54,6 +72,7 @@
         if ([_imagesLeft count] == 0)
         {
             [self stopTimer];
+            return;
         }
 
         int random = arc4random_uniform([_imagesLeft count]);
@@ -92,11 +111,6 @@
             _timer = nil;
         }
     }
-}
-
-- (void)viewWillDisappear:(BOOL)animated; // Called when the view is dismissed, covered or otherwise hidden. Default does nothing
-{
-    [self stopTimer];
 }
 
 - (void)viewDidUnload

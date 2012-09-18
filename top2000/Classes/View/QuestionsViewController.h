@@ -12,7 +12,7 @@
 
 @interface QuestionsViewController : UIViewController
 
-@property (nonatomic, strong) Doorvraag *doorvraag;
+@property (nonatomic, strong) NSArray *doorvragen;
 
 @property (nonatomic, strong) IBOutlet UILabel *vraag1TitleLabel;
 @property (nonatomic, strong) IBOutlet UILabel *vraag2TitleLabel;

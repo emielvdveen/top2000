@@ -40,8 +40,12 @@
 
 - (void) hideProgressView;
 {
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:0.25 animations:^{
         progressView.alpha = 0;
+    } completion:^(BOOL finished) {
+    }];
+
+    [UIView animateWithDuration:0.5 animations:^{
         playBtn.alpha = 1;
         playLabel.alpha = 1;
     } completion:^(BOOL finished) {
@@ -50,9 +54,13 @@
 
 - (void) showProgressView;
 {
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:0.25 animations:^{
         playBtn.alpha = 0;
         playLabel.alpha = 0;
+    } completion:^(BOOL finished) {
+    }];
+
+    [UIView animateWithDuration:0.5 animations:^{
         progressView.alpha = 1;
     } completion:^(BOOL finished) {
     }];
@@ -62,8 +70,21 @@
 {
     if ([_audioPlayer isPlaying])
     {
-        float newProgress = _audioPlayer.currentTime / _audioPlayer.duration;
+        float duration = _audioPlayer.duration;
+        if (duration > 10)
+        {
+            duration = 10;
+        }
+        
+        float newProgress = _audioPlayer.currentTime / duration;
         [progressView setProgress:newProgress animated:YES];
+        
+        if (newProgress >= 1)
+        {
+            [self stopPlayback];
+            progressView.progress = 0;
+            [self hideProgressView];    
+        }
     }
 }
 
@@ -161,7 +182,6 @@
     }
 }
 
-
 - (void) stopPlayback;
 {
     [self doVolumeFade];
@@ -190,9 +210,9 @@
 /* audioPlayerDidFinishPlaying:successfully: is called when a sound has finished playing. This method is NOT called if the player is stopped due to an interruption. */
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag;
 {
-    [_timer invalidate];
+    [self stopPlayback];
     progressView.progress = 0;
-    [self hideProgressView];
+    [self hideProgressView];    
 }
 
 @end

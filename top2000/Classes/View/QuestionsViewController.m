@@ -15,7 +15,7 @@
 
 @implementation QuestionsViewController
 
-@synthesize doorvraag;
+@synthesize doorvragen;
 
 @synthesize vraag1TitleLabel;
 @synthesize vraag2TitleLabel;
@@ -50,6 +50,18 @@
 {
     [super viewDidLoad];
     
+    vraag1Label.text = ((Doorvraag*)[doorvragen objectAtIndex:0]).vraag;
+    antwoord1Label.text = ((Doorvraag*)[doorvragen objectAtIndex:0]).antwoord;
+
+    vraag2Label.text = ((Doorvraag*)[doorvragen objectAtIndex:1]).vraag;
+    antwoord2Label.text = ((Doorvraag*)[doorvragen objectAtIndex:1]).antwoord;
+
+    vraag3Label.text = ((Doorvraag*)[doorvragen objectAtIndex:2]).vraag;
+    antwoord3Label.text = ((Doorvraag*)[doorvragen objectAtIndex:2]).antwoord;
+
+    vraag4Label.text = ((Doorvraag*)[doorvragen objectAtIndex:3]).vraag;
+    antwoord4Label.text = ((Doorvraag*)[doorvragen objectAtIndex:3]).antwoord;
+
     antwoord2Btn.alpha = 0;
     vraag2Label.alpha = 0;
     vraag2TitleLabel.alpha = 0;
@@ -66,10 +78,8 @@
 	// Do any additional setup after loading the view.
 }
 
-- (void)viewDidUnload
+- (void) viewWillDisappear:(BOOL)animated
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

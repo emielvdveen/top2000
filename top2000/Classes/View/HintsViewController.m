@@ -85,6 +85,11 @@
     _timer = [NSTimer scheduledTimerWithTimeInterval:DELAY target:self selector:@selector(showNextHint) userInfo:nil repeats:YES];
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [_timer invalidate];
+}
+
 - (void) resizeLabel:(UILabel*)label
 {
     label.numberOfLines = 2;

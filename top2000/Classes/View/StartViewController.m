@@ -148,6 +148,9 @@
      
 - (void)viewDidUnload
 {
+    popup = nil;
+    vragen25Btn = nil;
+    vragen50Btn = nil;
     [super viewDidUnload];
 }
 
@@ -164,11 +167,49 @@
 
 - (IBAction) startGame;
 {
-    [[GameController sharedInstance] startGame:25];
-    
+    [self showPopup];
+}
+
+- (void) showPopup;
+{
+    popup.alpha = 0;
+    [self.view addSubview:popup];
+    [UIView animateWithDuration:0.5 animations:^{
+        popup.alpha = 1;
+    }];
+}
+
+- (void) hidePopup;
+{
+    [UIView animateWithDuration:0.5 animations:^{
+        popup.alpha = 0;
+    } completion:^(BOOL finished) {
+        [popup removeFromSuperview];
+    }];
+}
+
+- (void) showGame;
+{
     _mainVC = [[MainViewController alloc] initWithNibName:(IPAD ? @"MainView~ipad" : @"MainView~iphone") bundle:nil];
     [self presentModalViewController:_mainVC animated:YES];
 }
+
+#pragma mark - Button clicks
+
+- (IBAction)vragen25BtnClicked:(id)sender 
+{
+    [[GameController sharedInstance] startGame:25];
+    [self showGame];
+    [self hidePopup];
+}
+
+- (IBAction)vragen50BtnClicked:(id)sender 
+{
+    [[GameController sharedInstance] startGame:50];
+    [self showGame];
+    [self hidePopup];
+}
+
 
 
 @end

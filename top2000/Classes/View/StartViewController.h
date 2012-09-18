@@ -46,8 +46,14 @@
 
     IBOutlet UIButton* startButton;
     IBOutlet UILabel*  startLabel;
+    
+    IBOutlet UIView *popup;
+    IBOutlet UIButton *vragen25Btn;
+    IBOutlet UIButton *vragen50Btn;
 }
 
 - (IBAction) startGame;
+- (IBAction)vragen50BtnClicked:(id)sender;
+- (IBAction)vragen25BtnClicked:(id)sender;
 
 @end
