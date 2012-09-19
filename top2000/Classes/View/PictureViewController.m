@@ -65,6 +65,18 @@
     _timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(hideNextImage) userInfo:nil repeats:YES];
 }
 
+- (void) stopTimer;
+{
+    @synchronized(self)
+    {
+        if (_timer)
+        {
+            [_timer invalidate];
+            _timer = nil;
+        }
+    }
+}
+
 - (void) hideNextImage;
 {
     @synchronized(self)
@@ -85,6 +97,7 @@
     }
 }
 
+
 - (void) hideAllImages;
 {
     @synchronized(self)
@@ -96,19 +109,6 @@
             [UIView animateWithDuration:0.5 animations:^{
                 image.alpha = 0;
             }];
-        }
-    }
-}
-
-
-- (void) stopTimer;
-{
-    @synchronized(self)
-    {
-        if (_timer)
-        {
-            [_timer invalidate];
-            _timer = nil;
         }
     }
 }
