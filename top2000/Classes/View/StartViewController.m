@@ -12,7 +12,11 @@
 #import "DataController.h"
 
 @interface StartViewController()
-
+- (void) showNextArtist;
+- (void) showSubtitle;
+- (void) showSponsorLogos;
+- (void) showPopup;
+- (void) showStartButton;
 @end
 
 @implementation StartViewController

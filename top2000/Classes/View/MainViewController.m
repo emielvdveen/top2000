@@ -24,7 +24,8 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface MainViewController ()
-
+- (void) showNextRound;
+- (void) showNewView;
 @end
 
 @implementation MainViewController

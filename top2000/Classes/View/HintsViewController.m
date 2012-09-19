@@ -10,6 +10,13 @@
 #import "Hint.h"
 
 @interface HintsViewController ()
+- (void) resizeLabel:(UILabel*)label;
+- (void) repositionHint1;
+- (void) repositionHint2;
+- (void) repositionHint3;
+- (void) repositionHint4;
+- (void) showHint:(UILabel*)hintLabel title:(UILabel*)titleLabel indicator1:(UIActivityIndicatorView*)indicator1 indicator2:(UIActivityIndicatorView*)indicator2;
+
 
 @end
 

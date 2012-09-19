@@ -36,25 +36,6 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    antwoordLabel.text = [picture.naam substringToIndex:[picture.naam length]-4];
-    
-    _imagesLeft = [[NSMutableArray alloc] init];
-    [_imagesLeft addObjectsFromArray:rasterView.subviews];
-    rasterView.layer.masksToBounds = YES;
-    
-    //[self performSelector:@selector(showImage) withObject:nil afterDelay:0];
-    [self showImage];
-}
-
-- (void) viewWillDisappear:(BOOL)animated
-{
-    [self stopTimer];
-}
-
 - (void) showImage;
 {
     imageView.alpha = 0;
@@ -76,6 +57,27 @@
         }
     }
 }
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    antwoordLabel.text = [picture.naam substringToIndex:[picture.naam length]-4];
+    
+    _imagesLeft = [[NSMutableArray alloc] init];
+    [_imagesLeft addObjectsFromArray:rasterView.subviews];
+    rasterView.layer.masksToBounds = YES;
+    
+    //[self performSelector:@selector(showImage) withObject:nil afterDelay:0];
+    [self showImage];
+}
+
+- (void) viewWillDisappear:(BOOL)animated
+{
+    [self stopTimer];
+}
+
 
 - (void) hideNextImage;
 {
