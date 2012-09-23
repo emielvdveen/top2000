@@ -22,6 +22,7 @@
 #import "PictureViewController.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
+#import "Globals.h"
 
 @interface MainViewController ()
 - (void) showNextRound;

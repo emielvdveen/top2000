@@ -10,6 +10,7 @@
 #import "MainViewController.h"
 #import "GameController.h"
 #import "DataController.h"
+#import "Globals.h"
 
 @interface StartViewController()
 - (void) showNextArtist;
@@ -47,34 +48,34 @@
     startLabel.transform = CGAffineTransformMakeTranslation(1024-startButton.frame.origin.x, 0);
     startButton.transform = CGAffineTransformMakeTranslation(1024-startButton.frame.origin.x, 0);
     
-    [artists addObject:bdg];
-    [artists addObject:goldenEarring];
-    [artists addObject:marvinGaye];
-    [artists addObject:eltonJohn];
+    [artists addObject:amyWhinehouse];
+    [artists addObject:guusMeeuwis];
+    [artists addObject:allmanBrothers];
+    [artists addObject:abba];
+    [artists addObject:donnaSummer];
+    [artists addObject:frankSinatra];
     [artists addObject:davidBowie];
     [artists addObject:ilseDeLange];
-    [artists addObject:allmanBrothers];
-    [artists addObject:donnaSummer];
-    [artists addObject:queen];
-    [artists addObject:frankSinatra];
+    [artists addObject:goldenEarring];
     [artists addObject:u2];
     [artists addObject:bonJovi];
-    [artists addObject:guusMeeuwis];
     [artists addObject:marcoBorsato];
     [artists addObject:sting];
     [artists addObject:markKnopfler];
     [artists addObject:caroEmerald];
-    [artists addObject:abba];
     [artists addObject:theWho];
     [artists addObject:gunsnroses];
     [artists addObject:kiss];
+    [artists addObject:queen];
     [artists addObject:clapton];
+    [artists addObject:bdg];
     [artists addObject:stevieWonder];
     [artists addObject:jamesBrown];
-    [artists addObject:amyWhinehouse];
+    [artists addObject:eltonJohn];
     [artists addObject:dianaRoss];
     [artists addObject:bobMarley];
     [artists addObject:commodores];
+    [artists addObject:marvinGaye];
 
     for (UIImageView *artist in artists)
     {
@@ -87,6 +88,7 @@
 
 - (void) showNextArtist;
 {
+    NSLog(@"showNextArtist");
     if (_artistCounter >= [artists count])
     {
         return;
@@ -94,7 +96,6 @@
     
     UIImageView* artist1;
     UIImageView* artist2;
-    UIImageView* artist3;
 
     artist1 = [artists objectAtIndex:_artistCounter];
     if (_artistCounter+1 < [artists count])
@@ -102,21 +103,20 @@
         artist2 = [artists objectAtIndex:_artistCounter+1];
     }
     
-    if (_artistCounter+2 < [artists count])
-    {
-        artist3 = [artists objectAtIndex:_artistCounter+2];
-    }
     
-    [UIView animateWithDuration:0.1 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+    float duration = 1. / (_artistCounter+1);
+    [UIView animateWithDuration:duration delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         artist1.alpha = 1;
+    } completion:nil];
+    
+    [UIView animateWithDuration:duration delay:duration/2 options:UIViewAnimationCurveEaseOut animations:^{
         artist2.alpha = 1;
-        artist3.alpha = 1;
     } completion:^(BOOL finished) {
         if (_artistCounter < [artists count]/2 && _artistCounter+3 >= [artists count]/2)
         {
             [self showSubtitle];
         }
-        _artistCounter = _artistCounter+3;
+        _artistCounter = _artistCounter+2;
         [self showNextArtist];
     }];
     
@@ -139,7 +139,6 @@
     } completion:^(BOOL finished) {
     }];
 }
-
 
 - (void) showStartButton;
 {

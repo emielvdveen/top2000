@@ -143,16 +143,6 @@
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
     
-//    for(NSDictionary *jsonVraag in _hitFragmenten)
-//    {
-//        HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
-//        NSString* filename = [self getMP3:vraag];
-//        if (!filename)
-//        {
-//            NSLog(@"%@ -> %@", vraag.titel, filename);
-//        }
-//    }
-    
     _popQuizVragen = [self loadPopquizVragen];
     NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
 

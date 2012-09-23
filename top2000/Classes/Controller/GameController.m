@@ -10,12 +10,25 @@
 #import "Singleton.h"
 #import "DataController.h"
 
+#import "PopQuizVraag.h"
+#import "HitFragment.h"
+#import "Hint.h"
+#import "Hoes.h"
+#import "Foto.h"
+
 @implementation GameController
 {
     int _totaalAantalVragen;
     int _rounds;
     NSMutableArray *_finishedRounds;
     id _round;
+    
+    int _countPopQuizVragen;
+    int _countHitFragmenten;
+    int _countHints;
+    int _countHoezen;
+    int _countFotos;
+    int _countDoorVragen;
 }
 
 + (GameController*) sharedInstance;
@@ -45,9 +58,63 @@
     return _round;
 }
 
+- (void) processNextRoundTest;
+{
+    if ([_round isKindOfClass:[NSArray class]])
+    {
+        _countDoorVragen++;
+    }
+    else if ([_round isKindOfClass:[PopQuizVraag class]])
+    {
+        _countPopQuizVragen++;
+    }
+    else if ([_round isKindOfClass:[Hint class]])
+    {
+        _countHints++;
+    }
+    else if ([_round isKindOfClass:[HitFragment class]])
+    {
+        _countHitFragmenten++;
+    }
+    else if ([_round isKindOfClass:[Hoes class]])
+    {
+        _countHoezen++;
+    }
+    else if ([_round isKindOfClass:[Foto class]])
+    {
+        _countFotos++;
+    }
+}
+
+- (void) nextRoundTest;
+{
+    if ([_finishedRounds count] > 10000)
+    {
+        NSLog(@"_countPopQuizVragen %i", _countPopQuizVragen);
+        NSLog(@"_countHitFragmenten %i", _countHitFragmenten);
+        NSLog(@"_countHints %i", _countHints);
+        NSLog(@"_countHoezen %i", _countHoezen);
+        NSLog(@"_countFotos %i", _countFotos);
+        NSLog(@"_countDoorVragen %i", _countDoorVragen);
+        return;
+    }
+    
+    int random = arc4random_uniform(_totaalAantalVragen);
+    while ([_finishedRounds containsObject:[NSNumber numberWithInt:random]])
+    {
+        random = arc4random_uniform(_totaalAantalVragen);
+    }
+    
+    _round = [[DataController sharedInstance] getVraag:random];
+    [self processNextRoundTest];
+    
+    [_finishedRounds addObject:[NSNumber numberWithInt:random]];
+    [self nextRoundTest];
+}
+
 - (id) nextRound;
 {
-//    _round = [[DataController sharedInstance] getVraag:979];
+//    _round = [[DataController sharedInstance] getVraag:43];
 //    return _round;
     
     if (![self hasNextRound])
