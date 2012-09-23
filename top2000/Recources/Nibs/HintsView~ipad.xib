@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1280</int>
-		<string key="IBDocument.SystemVersion">11C74</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138.23</string>
-		<string key="IBDocument.HIToolboxVersion">567.00</string>
+		<int key="IBDocument.SystemTarget">1536</int>
+		<string key="IBDocument.SystemVersion">12C54</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">933</string>
+			<string key="NS.object.0">1926</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
+			<string>IBProxyObject</string>
 			<string>IBUIActivityIndicatorView</string>
 			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
-			<string>IBUIView</string>
 			<string>IBUILabel</string>
-			<string>IBProxyObject</string>
+			<string>IBUIView</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -75,6 +75,7 @@
 						<object class="NSColor" key="IBUITextColor" id="796497814">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
+							<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -91,6 +92,7 @@
 							<double key="NSSize">21</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<double key="preferredMaxLayoutWidth">486.5</double>
 					</object>
 					<object class="IBUILabel" id="659902698">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -106,7 +108,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Welke band zoeken we?</string>
+						<string key="IBUIText">Welke band of artiest zoeken we?</string>
 						<reference key="IBUITextColor" ref="796497814"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -137,6 +139,7 @@
 						<int key="IBUINumberOfLines">0</int>
 						<reference key="IBUIFontDescription" ref="274080022"/>
 						<reference key="IBUIFont" ref="995016860"/>
+						<double key="preferredMaxLayoutWidth">487</double>
 					</object>
 					<object class="IBUILabel" id="790003518">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -160,6 +163,7 @@
 						<int key="IBUINumberOfLines">0</int>
 						<reference key="IBUIFontDescription" ref="274080022"/>
 						<reference key="IBUIFont" ref="995016860"/>
+						<double key="preferredMaxLayoutWidth">487</double>
 					</object>
 					<object class="IBUILabel" id="381720269">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -183,11 +187,12 @@
 						<int key="IBUINumberOfLines">0</int>
 						<reference key="IBUIFontDescription" ref="274080022"/>
 						<reference key="IBUIFont" ref="995016860"/>
+						<double key="preferredMaxLayoutWidth">487</double>
 					</object>
 					<object class="IBUIButton" id="171176591">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{414.5, 569}, {195, 38}}</string>
+						<string key="NSFrame">{{414.5, 577}, {195, 38}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -355,6 +360,7 @@
 							<double key="NSSize">21</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<double key="preferredMaxLayoutWidth">480.5</double>
 					</object>
 					<object class="IBUIActivityIndicatorView" id="472977193">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -835,16 +841,12 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1280" key="NS.object.0"/>
-		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="answer_btn.png">{195, 38}</string>
 			<string key="hints_background.png">{1024, 768}</string>
 		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">933</string>
+		<string key="IBCocoaTouchPluginVersion">1926</string>
 	</data>
 </archive>

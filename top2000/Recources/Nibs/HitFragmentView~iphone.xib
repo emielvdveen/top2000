@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1280</int>
-		<string key="IBDocument.SystemVersion">11C74</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138.23</string>
-		<string key="IBDocument.HIToolboxVersion">567.00</string>
+		<int key="IBDocument.SystemTarget">1536</int>
+		<string key="IBDocument.SystemVersion">12C54</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">933</string>
+			<string key="NS.object.0">1926</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBUIProgressView</string>
+			<string>IBProxyObject</string>
 			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
-			<string>IBUIView</string>
 			<string>IBUILabel</string>
-			<string>IBProxyObject</string>
+			<string>IBUIProgressView</string>
+			<string>IBUIView</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -149,6 +149,7 @@
 							<double key="NSSize">9</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<double key="preferredMaxLayoutWidth">60</double>
 					</object>
 					<object class="IBUILabel" id="5818207">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -163,10 +164,11 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">1. Noem de titel of uitvoerende</string>
+						<string key="IBUIText">1. Noem de titel en/of uitvoerende</string>
 						<object class="NSColor" key="IBUITextColor" id="1065376187">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
+							<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -184,6 +186,7 @@
 							<double key="NSSize">14</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUILabel" id="108791871">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -216,6 +219,7 @@
 							<double key="NSSize">14</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUILabel" id="983137430">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -244,6 +248,7 @@
 							<double key="pointSize">14</double>
 						</object>
 						<reference key="IBUIFont" ref="955363501"/>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUILabel" id="628064210">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -267,6 +272,7 @@
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="737185485"/>
 						<reference key="IBUIFont" ref="112874480"/>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUILabel" id="1018812192">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -290,6 +296,7 @@
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="947506303"/>
 						<reference key="IBUIFont" ref="955363501"/>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUIButton" id="196292600">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -339,6 +346,7 @@
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="581561855"/>
 						<reference key="IBUIFont" ref="955363501"/>
+						<double key="preferredMaxLayoutWidth">280</double>
 					</object>
 					<object class="IBUIButton" id="532982993">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -560,10 +568,6 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<real value="1280" key="NS.object.0"/>
-		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
@@ -571,6 +575,6 @@
 			<string key="hitfragement_background_iphone.png">{320, 480}</string>
 			<string key="play.btn_iphone.png">{24, 24}</string>
 		</dictionary>
-		<string key="IBCocoaTouchPluginVersion">933</string>
+		<string key="IBCocoaTouchPluginVersion">1926</string>
 	</data>
 </archive>
