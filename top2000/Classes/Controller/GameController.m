@@ -29,6 +29,7 @@
     int _countHoezen;
     int _countFotos;
     int _countDoorVragen;
+    int _countTotal;
 }
 
 + (GameController*) sharedInstance;
@@ -88,7 +89,14 @@
 
 - (void) nextRoundTest;
 {
-    if ([_finishedRounds count] > 10000)
+    NSLog(@"%i", _countTotal);
+
+    if ([_finishedRounds count] > 50)
+    {
+        [_finishedRounds removeAllObjects];
+    }
+    
+    if (_countTotal > 10000)
     {
         NSLog(@"_countPopQuizVragen %i", _countPopQuizVragen);
         NSLog(@"_countHitFragmenten %i", _countHitFragmenten);
@@ -96,6 +104,9 @@
         NSLog(@"_countHoezen %i", _countHoezen);
         NSLog(@"_countFotos %i", _countFotos);
         NSLog(@"_countDoorVragen %i", _countDoorVragen);
+        
+        _countTotal = 0;
+        
         return;
     }
     
@@ -109,12 +120,14 @@
     [self processNextRoundTest];
     
     [_finishedRounds addObject:[NSNumber numberWithInt:random]];
-    [self nextRoundTest];
+    
+    _countTotal++;
+    [self performSelector:@selector(nextRoundTest) withObject:nil afterDelay:0.0001];
 }
 
 - (id) nextRound;
 {
-//    _round = [[DataController sharedInstance] getVraag:43];
+//    _round = [[DataController sharedInstance] getVraag:365];
 //    return _round;
     
     if (![self hasNextRound])

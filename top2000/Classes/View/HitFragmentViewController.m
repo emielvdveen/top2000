@@ -120,18 +120,21 @@
     
     antwoord1Label.text = [NSString stringWithFormat:@"%@ - %@",  hitFragment.band,  hitFragment.titel];
     antwoord2Label.text = [NSString stringWithFormat:@"%@",  hitFragment.jaartal];
-    
-    progressView.progress = 0;
-    playBtn.alpha = 0;
-    playLabel.alpha = 0;
-
-    [self performSelector:@selector(playFragment) withObject:nil afterDelay:1];           
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+}
+
+- (void) viewDidAppear:(BOOL)animated;
+{
+    progressView.progress = 0;
+    playBtn.alpha = 0;
+    playLabel.alpha = 0;
+
+    [self performSelector:@selector(playFragment) withObject:nil afterDelay:1];
 }
 
 - (void)viewWillDisappear:(BOOL)animated;

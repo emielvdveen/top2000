@@ -17,4 +17,6 @@
 - (id) nextRound;
 - (id) round;
 
+- (void) nextRoundTest;
+
 @end

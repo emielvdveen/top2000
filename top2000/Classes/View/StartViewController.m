@@ -171,6 +171,9 @@
 - (IBAction) startGame;
 {
     [self showPopup];
+    
+//    [[GameController sharedInstance] startGame:25];
+//    [[GameController sharedInstance] nextRoundTest];
 }
 
 - (void) showPopup;

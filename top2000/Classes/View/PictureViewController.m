@@ -73,11 +73,16 @@
     [self showImage];
 }
 
-- (void) viewWillDisappear:(BOOL)animated
+- (void) viewDidAppear:(BOOL)animated;
 {
-    [self stopTimer];
+    [self showImage];
 }
 
+- (void) viewWillDisappear:(BOOL)animated
+{
+    imageView.image = nil;
+    [self stopTimer];
+}
 
 - (void) hideNextImage;
 {

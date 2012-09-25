@@ -89,6 +89,10 @@
     _currentHintIndicator = hint2Indicator;
     [_currentHintIndicator startAnimating];
 
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
     _timer = [NSTimer scheduledTimerWithTimeInterval:DELAY target:self selector:@selector(showNextHint) userInfo:nil repeats:YES];
 }
 

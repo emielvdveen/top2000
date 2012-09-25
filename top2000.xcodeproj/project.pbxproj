@@ -393,7 +393,6 @@
 		E55BD0ED15EB5FD3008882CA /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0EC15EB5FD3008882CA /* PictureViewController.m */; };
 		E55BD0F015EB5FE6008882CA /* PopQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0EF15EB5FE6008882CA /* PopQuizViewController.m */; };
 		E55BD0F315EB5FF9008882CA /* QuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD0F215EB5FF9008882CA /* QuestionsViewController.m */; };
-		E55BD0FD15EB6547008882CA /* BugSense-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55BD0FC15EB6547008882CA /* BugSense-iOS.framework */; };
 		E55BD10015EB65FC008882CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55BD0FF15EB65FC008882CA /* SystemConfiguration.framework */; };
 		E55BD15615ECACCA008882CA /* doorvraag.json in Resources */ = {isa = PBXBuildFile; fileRef = E55BD15115ECACCA008882CA /* doorvraag.json */; };
 		E55BD15715ECACCA008882CA /* hints.json in Resources */ = {isa = PBXBuildFile; fileRef = E55BD15215ECACCA008882CA /* hints.json */; };
@@ -430,6 +429,11 @@
 		E569EFD016089657006C1B46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E569EFCF16089656006C1B46 /* QuartzCore.framework */; };
 		E569F0081608BA0B006C1B46 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = E569F0061608BA09006C1B46 /* Default-Landscape.png */; };
 		E569F0091608BA0B006C1B46 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E569F0071608BA0A006C1B46 /* Default-Landscape@2x.png */; };
+		E572D113161229820065F545 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E572D10F161229820065F545 /* libTestFlight.a */; };
+		E572D114161229820065F545 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E572D110161229820065F545 /* README.md */; };
+		E572D115161229820065F545 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = E572D111161229820065F545 /* release_notes.md */; };
+		E572D117161229F00065F545 /* BugSense-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55BD0FC15EB6547008882CA /* BugSense-iOS.framework */; };
+		E572D11916122A940065F545 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E572D11816122A940065F545 /* libz.dylib */; };
 		E58C2D2215FF1AFB009D304F /* answer_btn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E58C2CFE15FF1AFB009D304F /* answer_btn_iphone.png */; };
 		E58C2D2315FF1AFB009D304F /* answer_btn_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E58C2CFF15FF1AFB009D304F /* answer_btn_iphone@2x.png */; };
 		E58C2D2615FF1AFB009D304F /* block_top_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E58C2D0215FF1AFB009D304F /* block_top_iphone.png */; };
@@ -1233,6 +1237,11 @@
 		E569EFCF16089656006C1B46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E569F0061608BA09006C1B46 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "top2000/Default-Landscape.png"; sourceTree = SOURCE_ROOT; };
 		E569F0071608BA0A006C1B46 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "top2000/Default-Landscape@2x.png"; sourceTree = SOURCE_ROOT; };
+		E572D10F161229820065F545 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		E572D110161229820065F545 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E572D111161229820065F545 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		E572D112161229820065F545 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		E572D11816122A940065F545 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		E58C2CFE15FF1AFB009D304F /* answer_btn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer_btn_iphone.png; sourceTree = "<group>"; };
 		E58C2CFF15FF1AFB009D304F /* answer_btn_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "answer_btn_iphone@2x.png"; sourceTree = "<group>"; };
 		E58C2D0215FF1AFB009D304F /* block_top_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_top_iphone.png; sourceTree = "<group>"; };
@@ -1596,14 +1605,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E572D11916122A940065F545 /* libz.dylib in Frameworks */,
+				E572D117161229F00065F545 /* BugSense-iOS.framework in Frameworks */,
 				E569EFD016089657006C1B46 /* QuartzCore.framework in Frameworks */,
 				E54E382415FF8ACF001A4251 /* AudioToolbox.framework in Frameworks */,
 				E54E382215FF8ACA001A4251 /* AVFoundation.framework in Frameworks */,
 				E55BD10015EB65FC008882CA /* SystemConfiguration.framework in Frameworks */,
-				E55BD0FD15EB6547008882CA /* BugSense-iOS.framework in Frameworks */,
 				E531735415E6A0AD0085ACD5 /* UIKit.framework in Frameworks */,
 				E531735615E6A0AD0085ACD5 /* Foundation.framework in Frameworks */,
 				E531735815E6A0AD0085ACD5 /* CoreGraphics.framework in Frameworks */,
+				E572D113161229820065F545 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1613,6 +1624,7 @@
 		E531734415E6A0AD0085ACD5 = {
 			isa = PBXGroup;
 			children = (
+				E572D11816122A940065F545 /* libz.dylib */,
 				E531735915E6A0AD0085ACD5 /* top2000 */,
 				E531735215E6A0AD0085ACD5 /* Frameworks */,
 				E531735015E6A0AD0085ACD5 /* Products */,
@@ -2091,6 +2103,7 @@
 		E55BD08115EB5F39008882CA /* External */ = {
 			isa = PBXGroup;
 			children = (
+				E572D10E161229820065F545 /* TestFlightSDK1.1 */,
 				E55BD15B15ECAE25008882CA /* SBJSON */,
 			);
 			name = External;
@@ -2375,6 +2388,17 @@
 				E5F18E7F1600AA3F00675F35 /* OmroepRoundedLightLabel.m */,
 			);
 			name = Labels;
+			sourceTree = "<group>";
+		};
+		E572D10E161229820065F545 /* TestFlightSDK1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				E572D10F161229820065F545 /* libTestFlight.a */,
+				E572D110161229820065F545 /* README.md */,
+				E572D111161229820065F545 /* release_notes.md */,
+				E572D112161229820065F545 /* TestFlight.h */,
+			);
+			path = TestFlightSDK1.1;
 			sourceTree = "<group>";
 		};
 		E5999CE215FCACE100A26E3C /* Covers */ = {
@@ -3379,6 +3403,8 @@
 				E502FAD3161108B800277349 /* back_btn_iphone@2x.png in Resources */,
 				E502FAD4161108B800277349 /* back_btn.png in Resources */,
 				E502FAD5161108B800277349 /* back_btn@2x.png in Resources */,
+				E572D114161229820065F545 /* README.md in Resources */,
+				E572D115161229820065F545 /* release_notes.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3525,6 +3551,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "top2000/top2000-Prefix.pch";
 				INFOPLIST_FILE = "top2000/top2000-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/top2000/External/TestFlightSDK1.1\"",
+				);
 				PRODUCT_NAME = top2000;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -3542,6 +3572,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "top2000/top2000-Prefix.pch";
 				INFOPLIST_FILE = "top2000/top2000-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/top2000/External/TestFlightSDK1.1\"",
+				);
 				PRODUCT_NAME = top2000;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -162,7 +162,6 @@
 {
     if (index < [_popQuizVragen count])
     {
-        NSLog(@"Popquiz vraag");
         NSDictionary *jsonVraag = [_popQuizVragen objectAtIndex:index];
         PopQuizVraag *vraag = [PopQuizVraag createFromJson:jsonVraag];
         return vraag;
@@ -172,9 +171,7 @@
     
     if (index < [_doorVragen count])
     {
-        NSLog(@"Doorvraag");
-
-        NSArray* jsonVragen = [_doorVragen objectForKey:[NSNumber numberWithInt:index]];
+        NSArray* jsonVragen = [_doorVragen objectForKey:[NSNumber numberWithInt:index+1]];
 
         NSMutableArray *vragen = [[NSMutableArray alloc] init];
 
@@ -190,7 +187,6 @@
 
     if (index < [_hints count])
     {
-        NSLog(@"Hints vraag");
         NSDictionary *jsonVraag = [_hints objectAtIndex:index];
         Hint *vraag = [Hint createFromJson:jsonVraag];
         return vraag;
@@ -200,7 +196,6 @@
 
     if (index < [_hitFragmenten count])
     {
-        NSLog(@"Hit fragment");
         NSDictionary *jsonVraag = [_hitFragmenten objectAtIndex:index];
         HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
         vraag.mp3Filename = [self getMP3:vraag];
@@ -211,18 +206,15 @@
 
     if (index < [_hoezen count])
     {
-        NSLog(@"Hoes vraag");
         NSDictionary *jsonVraag = [_hoezen objectAtIndex:index];
         Hoes *vraag = [Hoes createFromJson:jsonVraag];
         return vraag;
     }
 
-
     index = index - [_hoezen count];
 
     if (index < [_fotos count])
     {
-        NSLog(@"Foto vraag");
         NSDictionary *jsonVraag = [_fotos objectAtIndex:index];
         Foto *vraag = [Foto createFromJson:jsonVraag];
         return vraag;

@@ -11,7 +11,9 @@
 @interface MainViewController : UIViewController
 
 @property(nonatomic, strong) IBOutlet UIView *content;
+@property(nonatomic, strong) IBOutlet UIButton *previousBtn;
 
+- (IBAction) previousBtnClicked;
 - (IBAction) nextBtnClicked;
 - (IBAction) stopBtnClicked;
 
