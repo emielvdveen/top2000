@@ -8,6 +8,7 @@
 
 #import "HintsViewController.h"
 #import "Hint.h"
+#import "Globals.h"
 
 @interface HintsViewController ()
 - (void) resizeLabel:(UILabel*)label;
@@ -264,6 +265,11 @@
     } completion:^(BOOL finished) {
         // nothing
     }];
+}
+
+- (void) dealloc
+{
+    NSLog(@"HintsViewController dealloc");
 }
 
 @end

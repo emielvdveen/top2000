@@ -31,12 +31,12 @@
 
 @implementation MainViewController
 {
-    QuestionsViewController *_doorvraagVC;
-    PopQuizViewController *_popQuizVC;
-    HintsViewController *_hintsVC;
-    CoverViewController *_coverVC;
-    PictureViewController* _pictureVC;
-    HitFragmentViewController *_hitFragmentVC;
+//    QuestionsViewController *_doorvraagVC;
+//    PopQuizViewController *_popQuizVC;
+//    HintsViewController *_hintsVC;
+//    CoverViewController *_coverVC;
+//    PictureViewController* _pictureVC;
+//    HitFragmentViewController *_hitFragmentVC;
 
     UIViewController * _previousVC;
     UIViewController *_currentVC;
@@ -102,39 +102,39 @@
 
         if ([vraag isKindOfClass:[NSArray class]])
         {
-            _doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
-            _doorvraagVC.doorvragen = vraag;
-            _newVC = _doorvraagVC;
+            QuestionsViewController *doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
+            doorvraagVC.doorvragen = vraag;
+            _newVC = doorvraagVC;
         }
         else if ([vraag isKindOfClass:[PopQuizVraag class]])
         {
-            _popQuizVC = [[PopQuizViewController alloc] initWithNibName:@"PopQuizView~ipad" bundle:nil];
-            _popQuizVC.vraag = vraag;
-            _newVC = _popQuizVC;
+            PopQuizViewController *popQuizVC = [[PopQuizViewController alloc] initWithNibName:@"PopQuizView~ipad" bundle:nil];
+            popQuizVC.vraag = vraag;
+            _newVC = popQuizVC;
         }
         else if ([vraag isKindOfClass:[Hint class]])
         {
-            _hintsVC = [[HintsViewController alloc] initWithNibName:@"HintsView~ipad" bundle:nil];
-            _hintsVC.hint = vraag;
-            _newVC = _hintsVC;
+            HintsViewController *hintsVC = [[HintsViewController alloc] initWithNibName:@"HintsView~ipad" bundle:nil];
+            hintsVC.hint = vraag;
+            _newVC = hintsVC;
         }
         else if ([vraag isKindOfClass:[HitFragment class]])
         {
-            _hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
-            _hitFragmentVC.hitFragment = vraag;
-            _newVC = _hitFragmentVC;
+            HitFragmentViewController *hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
+            hitFragmentVC.hitFragment = vraag;
+            _newVC = hitFragmentVC;
         }
         else if ([vraag isKindOfClass:[Hoes class]])
         {
-            _coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
-            _coverVC.hoes = vraag;
-            _newVC = _coverVC;
+            CoverViewController *coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
+            coverVC.hoes = vraag;
+            _newVC = coverVC;
         }
         else if ([vraag isKindOfClass:[Foto class]])
         {
-            _pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
-            _pictureVC.picture = vraag;
-            _newVC = _pictureVC;
+            PictureViewController *pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
+            pictureVC.picture = vraag;
+            _newVC = pictureVC;
         }
     }
 
@@ -214,10 +214,10 @@
 
 - (IBAction) nextBtnClicked;
 {
-    if (_currentVC)
-    {
-        [_currentVC viewWillDisappear:NO];
-    }
+//    if (_currentVC)
+//    {
+//        [_currentVC viewWillDisappear:NO];
+//    }
     
     @synchronized(self)
     {

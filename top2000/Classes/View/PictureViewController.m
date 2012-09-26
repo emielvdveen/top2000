@@ -20,12 +20,17 @@
     NSTimer* _timer;
 }
 
-@synthesize picture;
+@synthesize picture = _picture;
 @synthesize vraagLabel;
 @synthesize antwoordLabel;
 @synthesize antwoordBtn;
 @synthesize imageView;
 @synthesize rasterView;
+
+- (void) dealloc
+{
+    NSLog(@"PictureViewController dealloc");
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,7 +44,7 @@
 - (void) showImage;
 {
     imageView.alpha = 0;
-    imageView.image = [picture image];
+    imageView.image = [_picture image];
     [UIView animateWithDuration:1 animations:^{
         imageView.alpha = 1;
     }];
@@ -63,14 +68,14 @@
 {
     [super viewDidLoad];
     
-    antwoordLabel.text = [picture.naam substringToIndex:[picture.naam length]-4];
+    antwoordLabel.text = [_picture.naam substringToIndex:[_picture.naam length]-4];
     
     _imagesLeft = [[NSMutableArray alloc] init];
     [_imagesLeft addObjectsFromArray:rasterView.subviews];
     rasterView.layer.masksToBounds = YES;
     
     //[self performSelector:@selector(showImage) withObject:nil afterDelay:0];
-    [self showImage];
+    //[self showImage];
 }
 
 - (void) viewDidAppear:(BOOL)animated;
@@ -80,7 +85,15 @@
 
 - (void) viewWillDisappear:(BOOL)animated
 {
+    _picture = nil;
     imageView.image = nil;
+    _imagesLeft = nil;
+    
+    for(UIImageView* view in rasterView.subviews)
+    {
+        view.image = nil;
+    }
+    
     [self stopTimer];
 }
 

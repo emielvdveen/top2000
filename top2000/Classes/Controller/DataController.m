@@ -160,14 +160,6 @@
 
 - (id) getVraag:(int)index;
 {
-    if (index < [_popQuizVragen count])
-    {
-        NSDictionary *jsonVraag = [_popQuizVragen objectAtIndex:index];
-        PopQuizVraag *vraag = [PopQuizVraag createFromJson:jsonVraag];
-        return vraag;
-    }
-    
-    index = index - [_popQuizVragen count];
     
     if (index < [_doorVragen count])
     {
@@ -184,6 +176,15 @@
     }
     
     index = index - [_doorVragen count];
+
+    if (index < [_popQuizVragen count])
+    {
+        NSDictionary *jsonVraag = [_popQuizVragen objectAtIndex:index];
+        PopQuizVraag *vraag = [PopQuizVraag createFromJson:jsonVraag];
+        return vraag;
+    }
+    
+    index = index - [_popQuizVragen count];
 
     if (index < [_hints count])
     {

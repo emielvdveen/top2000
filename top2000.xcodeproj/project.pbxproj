@@ -3556,7 +3556,7 @@
 					"\"$(SRCROOT)/top2000/External/TestFlightSDK1.1\"",
 				);
 				PRODUCT_NAME = top2000;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3578,7 +3578,7 @@
 				);
 				PRODUCT_NAME = top2000;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

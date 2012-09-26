@@ -28,9 +28,12 @@
     coverOriginal.alpha = 0;
 }
 
-- (void) viewWillDisappear:(BOOL)animated
+- (void) viewDidDisappear:(BOOL)animated
 {
-        
+    shadow.image = nil;
+    coverEdited.image = nil;
+    coverOriginal.image = nil;
+    _hoes = nil;
 }
 
 - (IBAction) showAnswer;
@@ -52,6 +55,11 @@
         // nothing
     }];
     
+}
+
+- (void) dealloc
+{
+    NSLog(@"CoverViewController dealloc");
 }
 
 @end

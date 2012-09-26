@@ -29,6 +29,11 @@
 @synthesize antwoord1Btn;
 @synthesize antwoord2Btn;
 
+- (void) dealloc
+{
+    NSLog(@"HitFragmentViewController dealloc");
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -217,5 +222,7 @@
     progressView.progress = 0;
     [self hideProgressView];    
 }
+
+
 
 @end

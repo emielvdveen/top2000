@@ -331,7 +331,7 @@
 					<object class="IBUILabel" id="933598536">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{272, 576}, {480.5, 23}}</string>
+						<string key="NSFrame">{{171.75, 562}, {681, 46}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="171176591"/>
@@ -360,7 +360,7 @@
 							<double key="NSSize">21</double>
 							<int key="NSfFlags">16</int>
 						</object>
-						<double key="preferredMaxLayoutWidth">480.5</double>
+						<double key="preferredMaxLayoutWidth">681</double>
 					</object>
 					<object class="IBUIActivityIndicatorView" id="472977193">
 						<reference key="NSNextResponder" ref="191373211"/>

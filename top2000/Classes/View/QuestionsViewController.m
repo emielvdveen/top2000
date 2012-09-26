@@ -15,6 +15,8 @@
 
 @implementation QuestionsViewController
 
+#define DELTA_Y 200
+
 @synthesize doorvragen;
 
 @synthesize vraag1TitleLabel;
@@ -37,6 +39,11 @@
 @synthesize antwoord3Btn;
 @synthesize antwoord4Btn;
 
+- (void) dealloc
+{
+    NSLog(@"QuestionsViewController dealloc");
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -44,6 +51,30 @@
         // Custom initialization
     }
     return self;
+}
+
+- (void) resizeLabel:(UILabel*)label below:(UIView*)view
+{
+    label.numberOfLines = 0;
+    label.textAlignment = UITextAlignmentCenter;
+    
+    UIFont* font = label.font;
+    CGSize constraintSize = CGSizeMake(label.frame.size.width, MAXFLOAT);
+    CGSize labelSize = [label.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+    CGRect frame = label.frame;
+    frame.size.height = labelSize.height;
+    if (view)
+    {
+        frame.origin.y = CGRectGetMaxY(view.frame) + 8;
+    }
+    label.frame = frame;
+}
+
+- (void) repositionBtn:(UIButton*)btn below:(UIView*)view
+{
+    CGRect frame = btn.frame;
+    frame.origin.y = CGRectGetMaxY(view.frame) + 14;
+    btn.frame = frame;
 }
 
 - (void)viewDidLoad
@@ -74,8 +105,21 @@
     vraag4Label.alpha = 0;
     vraag4TitleLabel.alpha = 0;
 
+    [self resizeLabel:vraag1Label below:nil];
+    [self resizeLabel:antwoord1Label below:vraag1Label];
+    [self repositionBtn:antwoord1Btn below:vraag1Label];
+
+    [self resizeLabel:vraag2Label below:nil];
+    [self resizeLabel:antwoord2Label below:vraag2Label];
+    [self repositionBtn:antwoord2Btn below:vraag2Label];
     
-	// Do any additional setup after loading the view.
+    [self resizeLabel:vraag3Label below:nil];
+    [self resizeLabel:antwoord3Label below:vraag3Label];
+    [self repositionBtn:antwoord3Btn below:vraag3Label];
+
+    [self resizeLabel:vraag4Label below:nil];
+    [self resizeLabel:antwoord4Label below:vraag4Label];
+    [self repositionBtn:antwoord4Btn below:vraag4Label];
 }
 
 - (void) viewWillDisappear:(BOOL)animated
@@ -130,7 +174,8 @@
     } completion:^(BOOL finished) {
         // nothing
     }];
-    
+
+    [self moveAnswer1];
     [self showQuestion2];
 }
 
@@ -145,6 +190,8 @@
         // nothing
     }];
     
+    [self hideAnswer1];
+    [self moveAnswer2];
     [self showQuestion3];
 }
 
@@ -159,6 +206,8 @@
         // nothing
     }];
     
+    [self hideAnswer2];
+    [self moveAnswer3];
     [self showQuestion4];
 }
 
@@ -172,6 +221,75 @@
     } completion:^(BOOL finished) {
         // nothing
     }];
+    
+    [self hideAnswer3];
 }
+
+-(void) moveAnswer1;
+{
+    [UIView animateWithDuration:0.5 delay:1 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag1TitleLabel.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+        vraag1Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+        antwoord1Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
+-(void) moveAnswer2;
+{
+    [UIView animateWithDuration:0.5 delay:1 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag2TitleLabel.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+        vraag2Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+        antwoord2Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
+-(void) moveAnswer3;
+{
+    [UIView animateWithDuration:0.5 delay:1 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag3TitleLabel.transform = CGAffineTransformMakeTranslation(0,DELTA_Y);
+        vraag3Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+        antwoord3Label.transform = CGAffineTransformMakeTranslation(0, DELTA_Y);
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
+-(void) hideAnswer1;
+{
+    [UIView animateWithDuration:0.5 delay:1 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag1TitleLabel.alpha = 0;
+        vraag1Label.alpha = 0;
+        antwoord1Label.alpha = 0;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
+-(void) hideAnswer2;
+{
+    [UIView animateWithDuration:0.5 delay:1 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag2TitleLabel.alpha = 0;
+        vraag2Label.alpha = 0;
+        antwoord2Label.alpha = 0;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
+-(void) hideAnswer3;
+{
+    [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
+        vraag3TitleLabel.alpha = 0;
+        vraag3Label.alpha = 0;
+        antwoord3Label.alpha = 0;
+    } completion:^(BOOL finished) {
+        // nothing
+    }];
+}
+
 
 @end

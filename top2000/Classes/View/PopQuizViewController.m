@@ -19,6 +19,10 @@
 @synthesize antwoordBtn;
 @synthesize vraag;
 
+- (void) dealloc
+{
+    NSLog(@"PopQuizViewController dealloc");
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
