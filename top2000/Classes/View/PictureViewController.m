@@ -85,14 +85,14 @@
 
 - (void) viewWillDisappear:(BOOL)animated
 {
-    _picture = nil;
-    imageView.image = nil;
-    _imagesLeft = nil;
+//    _picture = nil;
+    imageView.alpha = 0;
+//    _imagesLeft = nil;
     
-    for(UIImageView* view in rasterView.subviews)
-    {
-        view.image = nil;
-    }
+//    for(UIImageView* view in rasterView.subviews)
+//    {
+//        view.image = nil;
+//    }
     
     [self stopTimer];
 }

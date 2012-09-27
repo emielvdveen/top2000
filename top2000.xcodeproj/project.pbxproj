@@ -1624,7 +1624,6 @@
 		E531734415E6A0AD0085ACD5 = {
 			isa = PBXGroup;
 			children = (
-				E572D11816122A940065F545 /* libz.dylib */,
 				E531735915E6A0AD0085ACD5 /* top2000 */,
 				E531735215E6A0AD0085ACD5 /* Frameworks */,
 				E531735015E6A0AD0085ACD5 /* Products */,
@@ -1642,6 +1641,7 @@
 		E531735215E6A0AD0085ACD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E572D11816122A940065F545 /* libz.dylib */,
 				E569EFCF16089656006C1B46 /* QuartzCore.framework */,
 				E54E382315FF8ACF001A4251 /* AudioToolbox.framework */,
 				E54E382115FF8ACA001A4251 /* AVFoundation.framework */,

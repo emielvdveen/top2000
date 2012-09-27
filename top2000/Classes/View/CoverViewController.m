@@ -21,19 +21,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    coverOriginal.alpha = 0;
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
     vraagLabel.text = _hoes.vraag;
     antwoordLabel.text = _hoes.antwoord;
     coverEdited.image = [_hoes editedImage];
     coverOriginal.image = [_hoes originalImage];
-    coverOriginal.alpha = 0;
 }
 
 - (void) viewDidDisappear:(BOOL)animated
 {
-    shadow.image = nil;
     coverEdited.image = nil;
     coverOriginal.image = nil;
-    _hoes = nil;
 }
 
 - (IBAction) showAnswer;

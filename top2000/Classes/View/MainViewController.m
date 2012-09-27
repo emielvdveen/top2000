@@ -165,7 +165,7 @@
 
 - (void) showPreviousView;
 {
-    _newVC = _currentVC;
+    _newVC = _currentVC; 
     _previousVC.view.alpha = 0;
     [_content addSubview:_previousVC.view];
     
@@ -214,10 +214,10 @@
 
 - (IBAction) nextBtnClicked;
 {
-//    if (_currentVC)
-//    {
-//        [_currentVC viewWillDisappear:NO];
-//    }
+    if (_currentVC)
+    {
+        [_currentVC viewWillDisappear:NO];
+    }
     
     @synchronized(self)
     {
