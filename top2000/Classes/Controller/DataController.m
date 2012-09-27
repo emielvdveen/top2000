@@ -122,14 +122,11 @@
     NSString* filename = [NSString stringWithFormat:@"%@ - %@", vraag.band, vraag.titel];
     for(NSString* mp3 in _mp3List)
     {
-//        if ([[mp3 uppercaseString] isEqualToString:[filename uppercaseString]])
         BOOL isEqual = ([mp3 localizedCompare: filename] == NSOrderedSame);
         if (isEqual)
         {
             return mp3;
         }
-//        NSRange range = [[mp3 uppercaseString] rangeOfString: [filename uppercaseString]];
-//        if (range.location != NSNotFound)
     }
     return nil;
 }
@@ -159,8 +156,6 @@
 
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
-    
-    [self printHitFragmenten];
     
     _popQuizVragen = [self loadPopquizVragen];
     NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
