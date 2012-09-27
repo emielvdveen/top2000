@@ -88,7 +88,6 @@
 
 - (void) showNextArtist;
 {
-    NSLog(@"showNextArtist");
     if (_artistCounter >= [artists count])
     {
         return;

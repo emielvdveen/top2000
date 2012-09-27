@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17727EC916147C040041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */; };
 		E502FAD2161108B800277349 /* back_btn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACE161108B800277349 /* back_btn_iphone.png */; };
 		E502FAD3161108B800277349 /* back_btn_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACF161108B800277349 /* back_btn_iphone@2x.png */; };
 		E502FAD4161108B800277349 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FAD0161108B800277349 /* back_btn.png */; };
@@ -22,69 +23,64 @@
 		E54E36E515FF8ABE001A4251 /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A415FF8ABD001A4251 /* DINNextLTPro-Regular.otf */; };
 		E54E36E615FF8ABE001A4251 /* OmroepBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A515FF8ABD001A4251 /* OmroepBold.otf */; };
 		E54E36E715FF8ABE001A4251 /* OmroepLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A615FF8ABD001A4251 /* OmroepLight.otf */; };
-		E54E36E815FF8ABE001A4251 /* 01 Mexico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A815FF8ABD001A4251 /* 01 Mexico.mp3 */; };
-		E54E36E915FF8ABE001A4251 /* 02 Flappie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A915FF8ABD001A4251 /* 02 Flappie.mp3 */; };
-		E54E36EA15FF8ABE001A4251 /* 03 Het Dorp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AA15FF8ABD001A4251 /* 03 Het Dorp.mp3 */; };
-		E54E36EB15FF8ABE001A4251 /* 04 Rosalyn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AB15FF8ABD001A4251 /* 04 Rosalyn.mp3 */; };
-		E54E36EC15FF8ABE001A4251 /* 05 Op Fietse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AC15FF8ABD001A4251 /* 05 Op Fietse.mp3 */; };
-		E54E36ED15FF8ABE001A4251 /* 06 Blauw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AD15FF8ABD001A4251 /* 06 Blauw.mp3 */; };
-		E54E36EE15FF8ABE001A4251 /* 07 Malle Babbe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AE15FF8ABD001A4251 /* 07 Malle Babbe.mp3 */; };
-		E54E36EF15FF8ABE001A4251 /* 08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AF15FF8ABD001A4251 /* 08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3 */; };
-		E54E36F015FF8ABE001A4251 /* 09 The Life I Live.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B015FF8ABD001A4251 /* 09 The Life I Live.mp3 */; };
-		E54E36F115FF8ABE001A4251 /* 10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B115FF8ABD001A4251 /* 10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3 */; };
+		E54E36E815FF8ABE001A4251 /* Zangeres Zonder Naam - Mexico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A815FF8ABD001A4251 /* Zangeres Zonder Naam - Mexico.mp3 */; };
+		E54E36E915FF8ABE001A4251 /* Youp van 't Hek - Flappie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35A915FF8ABD001A4251 /* Youp van 't Hek - Flappie.mp3 */; };
+		E54E36EA15FF8ABE001A4251 /* Wim Sonneveld - Het dorp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AA15FF8ABD001A4251 /* Wim Sonneveld - Het dorp.mp3 */; };
+		E54E36EB15FF8ABE001A4251 /* Vitesse - Rosalyn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AB15FF8ABD001A4251 /* Vitesse - Rosalyn.mp3 */; };
+		E54E36EC15FF8ABE001A4251 /* Skik - Op fietse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AC15FF8ABD001A4251 /* Skik - Op fietse.mp3 */; };
+		E54E36ED15FF8ABE001A4251 /* The Scene - Blauw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AD15FF8ABD001A4251 /* The Scene - Blauw.mp3 */; };
+		E54E36EE15FF8ABE001A4251 /* Rob de Nijs - Malle Babbe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AE15FF8ABD001A4251 /* Rob de Nijs - Malle Babbe.mp3 */; };
+		E54E36EF15FF8ABE001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35AF15FF8ABD001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 */; };
+		E54E36F015FF8ABE001A4251 /* Q65 - The life I live.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B015FF8ABD001A4251 /* Q65 - The life I live.mp3 */; };
+		E54E36F115FF8ABE001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */; };
 		E54E36F215FF8ABE001A4251 /* 10CC - Dreadlock Holiday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */; };
 		E54E36F315FF8ABE001A4251 /* 10CC - I'm Not In Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */; };
-		E54E36F415FF8ABE001A4251 /* 11 Ik Heb Je Lief.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B415FF8ABD001A4251 /* 11 Ik Heb Je Lief.mp3 */; };
-		E54E36F515FF8ABE001A4251 /* 12 Rood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B515FF8ABD001A4251 /* 12 Rood.mp3 */; };
-		E54E36F615FF8ABE001A4251 /* 13 Over De Muur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B615FF8ABD001A4251 /* 13 Over De Muur.mp3 */; };
-		E54E36F715FF8ABE001A4251 /* 14 Ruthless Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B715FF8ABD001A4251 /* 14 Ruthless Queen.mp3 */; };
-		E54E36F815FF8ABE001A4251 /* 15 Hilversum III.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B815FF8ABD001A4251 /* 15 Hilversum III.mp3 */; };
-		E54E36F915FF8ABE001A4251 /* 16 O, O, Den Haag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B915FF8ABD001A4251 /* 16 O, O, Den Haag.mp3 */; };
-		E54E36FA15FF8ABE001A4251 /* 17 Sound Of The Screaming Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BA15FF8ABD001A4251 /* 17 Sound Of The Screaming Day.mp3 */; };
-		E54E36FB15FF8ABE001A4251 /* 19 Voor Haar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BB15FF8ABD001A4251 /* 19 Voor Haar.mp3 */; };
-		E54E36FC15FF8ABE001A4251 /* 20 Air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BC15FF8ABD001A4251 /* 20 Air.mp3 */; };
-		E54E36FD15FF8ABE001A4251 /* 21 Dodenrit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BD15FF8ABD001A4251 /* 21 Dodenrit.mp3 */; };
-		E54E36FE15FF8ABE001A4251 /* 22 Sausolito Summernight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BE15FF8ABD001A4251 /* 22 Sausolito Summernight.mp3 */; };
-		E54E36FF15FF8ABE001A4251 /* 23 Als Ze Er Niet Is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BF15FF8ABD001A4251 /* 23 Als Ze Er Niet Is.mp3 */; };
-		E54E370015FF8ABE001A4251 /* 24 Window Of My Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C015FF8ABD001A4251 /* 24 Window Of My Eyes.mp3 */; };
-		E54E370115FF8ABE001A4251 /* 25 Veronica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C115FF8ABD001A4251 /* 25 Veronica.mp3 */; };
-		E54E370215FF8ABE001A4251 /* 26 Avond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C215FF8ABD001A4251 /* 26 Avond.mp3 */; };
-		E54E370315FF8ABE001A4251 /* 27 Ben Ik Te Min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C315FF8ABD001A4251 /* 27 Ben Ik Te Min.mp3 */; };
-		E54E370415FF8ABE001A4251 /* 28 America.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C415FF8ABD001A4251 /* 28 America.mp3 */; };
-		E54E370515FF8ABE001A4251 /* 29 Old Town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C515FF8ABD001A4251 /* 29 Old Town.mp3 */; };
-		E54E370615FF8ABE001A4251 /* 30 You Do Something To Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C615FF8ABD001A4251 /* 30 You Do Something To Me.mp3 */; };
-		E54E370715FF8ABE001A4251 /* 31 Nights In White Satin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C715FF8ABD001A4251 /* 31 Nights In White Satin.mp3 */; };
-		E54E370815FF8ABE001A4251 /* 32 Tubular Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C815FF8ABD001A4251 /* 32 Tubular Bells.mp3 */; };
-		E54E370915FF8ABE001A4251 /* 33 Lessons In Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C915FF8ABD001A4251 /* 33 Lessons In Love.mp3 */; };
-		E54E370A15FF8ABE001A4251 /* 34 Lola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CA15FF8ABD001A4251 /* 34 Lola.mp3 */; };
-		E54E370B15FF8ABE001A4251 /* 35 I Want You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CB15FF8ABD001A4251 /* 35 I Want You.mp3 */; };
-		E54E370C15FF8ABE001A4251 /* 36 Layla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CC15FF8ABD001A4251 /* 36 Layla.mp3 */; };
-		E54E370D15FF8ABE001A4251 /* 37 A Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CD15FF8ABD001A4251 /* 37 A Forest.mp3 */; };
-		E54E370E15FF8ABE001A4251 /* 38 The Logical Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CE15FF8ABD001A4251 /* 38 The Logical Song.mp3 */; };
-		E54E370F15FF8ABE001A4251 /* 39 You know I’m no good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CF15FF8ABD001A4251 /* 39 You know I’m no good.mp3 */; };
+		E54E36F415FF8ABE001A4251 /* Paul de Leeuw - k Heb je lief.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */; };
+		E54E36F515FF8ABE001A4251 /* Marco Borsato - Rood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B515FF8ABD001A4251 /* Marco Borsato - Rood.mp3 */; };
+		E54E36F615FF8ABE001A4251 /* Klein Orkest - Over de muur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B615FF8ABD001A4251 /* Klein Orkest - Over de muur.mp3 */; };
+		E54E36F715FF8ABE001A4251 /* Kayak - Ruthless queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B715FF8ABD001A4251 /* Kayak - Ruthless queen.mp3 */; };
+		E54E36F815FF8ABE001A4251 /* Herman van Veen - Hilversum III.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B815FF8ABD001A4251 /* Herman van Veen - Hilversum III.mp3 */; };
+		E54E36F915FF8ABE001A4251 /* Harry Klorkestein - O, o, Den Haag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B915FF8ABD001A4251 /* Harry Klorkestein - O, o, Den Haag.mp3 */; };
+		E54E36FA15FF8ABE001A4251 /* Golden Earrings - Sound of the screaming day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BA15FF8ABD001A4251 /* Golden Earrings - Sound of the screaming day.mp3 */; };
+		E54E36FB15FF8ABE001A4251 /* Frans Halsema - Voor haar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BB15FF8ABD001A4251 /* Frans Halsema - Voor haar.mp3 */; };
+		E54E36FC15FF8ABE001A4251 /* Ekseption - Air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BC15FF8ABD001A4251 /* Ekseption - Air.mp3 */; };
+		E54E36FD15FF8ABE001A4251 /* Drs. P - Dodenrit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BD15FF8ABD001A4251 /* Drs. P - Dodenrit.mp3 */; };
+		E54E36FE15FF8ABE001A4251 /* Diesel - Sausolito Summernight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BE15FF8ABD001A4251 /* Diesel - Sausolito Summernight.mp3 */; };
+		E54E36FF15FF8ABE001A4251 /* De Dijk - Als ze er niet is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */; };
+		E54E370015FF8ABE001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */; };
+		E54E370115FF8ABE001A4251 /* Cornelis Vreeswijk - Veronica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */; };
+		E54E370215FF8ABE001A4251 /* Boudewijn de Groot - Avond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C215FF8ABD001A4251 /* Boudewijn de Groot - Avond.mp3 */; };
+		E54E370315FF8ABE001A4251 /* Armand - Ben ik te min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C315FF8ABD001A4251 /* Armand - Ben ik te min.mp3 */; };
+		E54E370415FF8ABE001A4251 /* Razorlight - America.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C415FF8ABD001A4251 /* Razorlight - America.mp3 */; };
+		E54E370515FF8ABE001A4251 /* Phil Lynott - Old town.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C515FF8ABD001A4251 /* Phil Lynott - Old town.mp3 */; };
+		E54E370615FF8ABE001A4251 /* Paul Weller - You do something to me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C615FF8ABD001A4251 /* Paul Weller - You do something to me.mp3 */; };
+		E54E370715FF8ABE001A4251 /* The Moody Blues - Nights in white satin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C715FF8ABD001A4251 /* The Moody Blues - Nights in white satin.mp3 */; };
+		E54E370815FF8ABE001A4251 /* Mike Oldfield - Tubular Bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C815FF8ABD001A4251 /* Mike Oldfield - Tubular Bells.mp3 */; };
+		E54E370915FF8ABE001A4251 /* Level 42 - Lessons in love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C915FF8ABD001A4251 /* Level 42 - Lessons in love.mp3 */; };
+		E54E370A15FF8ABE001A4251 /* The Kinks - Lola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CA15FF8ABD001A4251 /* The Kinks - Lola.mp3 */; };
+		E54E370B15FF8ABE001A4251 /* Elvis Costello And The Attractions - I want you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CB15FF8ABD001A4251 /* Elvis Costello And The Attractions - I want you.mp3 */; };
+		E54E370D15FF8ABE001A4251 /* The Cure - A forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CD15FF8ABD001A4251 /* The Cure - A forest.mp3 */; };
+		E54E370F15FF8ABE001A4251 /* Amy Winehouse - You know I’m no good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35CF15FF8ABD001A4251 /* Amy Winehouse - You know I’m no good.mp3 */; };
 		E54E371015FF8ABE001A4251 /* 4 Non Blondes - What's Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D015FF8ABD001A4251 /* 4 Non Blondes - What's Up.mp3 */; };
-		E54E371115FF8ABE001A4251 /* 40 Sweet Caroline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D115FF8ABD001A4251 /* 40 Sweet Caroline.mp3 */; };
-		E54E371215FF8ABE001A4251 /* 41 Nothing Else Matters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D215FF8ABD001A4251 /* 41 Nothing Else Matters.mp3 */; };
-		E54E371315FF8ABE001A4251 /* 42 What's Going On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D315FF8ABD001A4251 /* 42 What's Going On.mp3 */; };
-		E54E371415FF8ABE001A4251 /* 43 California Dreamin'.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D415FF8ABD001A4251 /* 43 California Dreamin'.mp3 */; };
-		E54E371515FF8ABE001A4251 /* 44 Sweet Home Alabama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D515FF8ABD001A4251 /* 44 Sweet Home Alabama.mp3 */; };
-		E54E371615FF8ABE001A4251 /* 45 Overcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D615FF8ABD001A4251 /* 45 Overcome.mp3 */; };
-		E54E371715FF8ABE001A4251 /* 46 Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D715FF8ABD001A4251 /* 46 Hello.mp3 */; };
-		E54E371815FF8ABE001A4251 /* 47 Cocaine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D815FF8ABD001A4251 /* 47 Cocaine.mp3 */; };
-		E54E371915FF8ABE001A4251 /* 48 Do It Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D915FF8ABD001A4251 /* 48 Do It Again.mp3 */; };
-		E54E371A15FF8ABE001A4251 /* 49 Ain't No Mountain High Enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DA15FF8ABD001A4251 /* 49 Ain't No Mountain High Enough.mp3 */; };
-		E54E371B15FF8ABE001A4251 /* 50 Bad Moon Rising.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DB15FF8ABD001A4251 /* 50 Bad Moon Rising.mp3 */; };
-		E54E371C15FF8ABE001A4251 /* 51 Mr. Jones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DC15FF8ABD001A4251 /* 51 Mr. Jones.mp3 */; };
-		E54E371D15FF8ABE001A4251 /* 52 Easy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DD15FF8ABD001A4251 /* 52 Easy.mp3 */; };
-		E54E371E15FF8ABE001A4251 /* 53 If I Could Turn Back Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DE15FF8ABD001A4251 /* 53 If I Could Turn Back Time.mp3 */; };
-		E54E371F15FF8ABE001A4251 /* 54 Top Of The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DF15FF8ABD001A4251 /* 54 Top Of The World.mp3 */; };
-		E54E372015FF8ABE001A4251 /* 55 Living On A Prayer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E015FF8ABD001A4251 /* 55 Living On A Prayer.mp3 */; };
-		E54E372115FF8ABE001A4251 /* 56 Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E115FF8ABD001A4251 /* 56 Where Is The Love.mp3 */; };
-		E54E372215FF8ABE001A4251 /* 57 You're The First, The Last, My Everything.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E215FF8ABD001A4251 /* 57 You're The First, The Last, My Everything.mp3 */; };
-		E54E372315FF8ABE001A4251 /* 58 The Thrill Is Gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E315FF8ABD001A4251 /* 58 The Thrill Is Gone.mp3 */; };
-		E54E372415FF8ABE001A4251 /* 59 Dream On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E415FF8ABD001A4251 /* 59 Dream On.mp3 */; };
-		E54E372515FF8ABE001A4251 /* 60 Mac Arthur Park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E515FF8ABD001A4251 /* 60 Mac Arthur Park.mp3 */; };
-		E54E372615FF8ABE001A4251 /* 61 What's Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E615FF8ABD001A4251 /* 61 What's Up.mp3 */; };
+		E54E371115FF8ABE001A4251 /* Neil Diamond - Sweet Caroline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D115FF8ABD001A4251 /* Neil Diamond - Sweet Caroline.mp3 */; };
+		E54E371215FF8ABE001A4251 /* Metallica - Nothing else matters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D215FF8ABD001A4251 /* Metallica - Nothing else matters.mp3 */; };
+		E54E371315FF8ABE001A4251 /* Marvin Gaye - What's going on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D315FF8ABD001A4251 /* Marvin Gaye - What's going on.mp3 */; };
+		E54E371415FF8ABE001A4251 /* Mama's & Papa's - California dreamin'.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D415FF8ABD001A4251 /* Mama's & Papa's - California dreamin'.mp3 */; };
+		E54E371515FF8ABE001A4251 /* Lynyrd Skynyrd - Sweet home Alabama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D515FF8ABD001A4251 /* Lynyrd Skynyrd - Sweet home Alabama.mp3 */; };
+		E54E371615FF8ABE001A4251 /* Live - Overcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D615FF8ABD001A4251 /* Live - Overcome.mp3 */; };
+		E54E371715FF8ABE001A4251 /* Lionel Richie - Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D715FF8ABD001A4251 /* Lionel Richie - Hello.mp3 */; };
+		E54E371815FF8ABE001A4251 /* J.J. Cale - Cocaine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D815FF8ABD001A4251 /* J.J. Cale - Cocaine.mp3 */; };
+		E54E371915FF8ABE001A4251 /* Steely Dan - Do it again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35D915FF8ABD001A4251 /* Steely Dan - Do it again.mp3 */; };
+		E54E371A15FF8ABE001A4251 /* Diana Ross - Ain't no mountain high enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DA15FF8ABD001A4251 /* Diana Ross - Ain't no mountain high enough.mp3 */; };
+		E54E371B15FF8ABE001A4251 /* Creedence Clearwater Revival - Bad moon rising.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DB15FF8ABD001A4251 /* Creedence Clearwater Revival - Bad moon rising.mp3 */; };
+		E54E371C15FF8ABE001A4251 /* Counting Crows - Mr. Jones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DC15FF8ABD001A4251 /* Counting Crows - Mr. Jones.mp3 */; };
+		E54E371D15FF8ABE001A4251 /* The Commodores - Easy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DD15FF8ABD001A4251 /* The Commodores - Easy.mp3 */; };
+		E54E371E15FF8ABE001A4251 /* Cher - If I could turn back time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DE15FF8ABD001A4251 /* Cher - If I could turn back time.mp3 */; };
+		E54E371F15FF8ABE001A4251 /* Carpenters - Top of the world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35DF15FF8ABD001A4251 /* Carpenters - Top of the world.mp3 */; };
+		E54E372215FF8ABE001A4251 /* Barry White - You're the first, the last, my everything.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E215FF8ABD001A4251 /* Barry White - You're the first, the last, my everything.mp3 */; };
+		E54E372315FF8ABE001A4251 /* B.B. King - The thrill is gone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E315FF8ABD001A4251 /* B.B. King - The thrill is gone.mp3 */; };
+		E54E372415FF8ABE001A4251 /* Aerosmith - Dream on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E415FF8ABD001A4251 /* Aerosmith - Dream on.mp3 */; };
+		E54E372515FF8ABE001A4251 /* Donna Summer - Mac Arthur park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E515FF8ABD001A4251 /* Donna Summer - Mac Arthur park.mp3 */; };
 		E54E372715FF8ABE001A4251 /* 98 Degrees & Stevie Wonder - True To Your Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E715FF8ABD001A4251 /* 98 Degrees & Stevie Wonder - True To Your Heart.mp3 */; };
 		E54E372815FF8ABE001A4251 /* ABBA - Dancing Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E815FF8ABD001A4251 /* ABBA - Dancing Queen.mp3 */; };
 		E54E372915FF8ABE001A4251 /* ABBA - Voulez-Vous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35E915FF8ABD001A4251 /* ABBA - Voulez-Vous.mp3 */; };
@@ -103,11 +99,11 @@
 		E54E373615FF8ABE001A4251 /* Barry Ryan - Eloise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35F615FF8ABD001A4251 /* Barry Ryan - Eloise.mp3 */; };
 		E54E373715FF8ABE001A4251 /* Barry White - Can't Get Enough Of Your Love Babe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35F715FF8ABD001A4251 /* Barry White - Can't Get Enough Of Your Love Babe.mp3 */; };
 		E54E373815FF8ABE001A4251 /* Barry White - Never Never Gonna give Ya Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35F815FF8ABD001A4251 /* Barry White - Never Never Gonna give Ya Up.mp3 */; };
-		E54E373915FF8ABE001A4251 /* België.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35F915FF8ABD001A4251 /* België.mp3 */; };
+		E54E373915FF8ABE001A4251 /* Goede Doel - België.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35F915FF8ABD001A4251 /* Goede Doel - België.mp3 */; };
 		E54E373A15FF8ABE001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */; };
 		E54E373B15FF8ABE001A4251 /* Black - Wonderful Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */; };
 		E54E373C15FF8ABE001A4251 /* Black Eyed Peas - My Humps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */; };
-		E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where Is The Love.mp3 */; };
+		E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where is the love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */; };
 		E54E373E15FF8ABE001A4251 /* Black Sabbath - Paranoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */; };
 		E54E373F15FF8ABE001A4251 /* Blue Cheer - Summertime Blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */; };
 		E54E374015FF8ABE001A4251 /* Bob & Earl - Harlem Shuffle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */; };
@@ -124,7 +120,7 @@
 		E54E374B15FF8ABE001A4251 /* Cat Stevens - Lady D'Arbanville.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360B15FF8ABD001A4251 /* Cat Stevens - Lady D'Arbanville.mp3 */; };
 		E54E374C15FF8ABE001A4251 /* Cat Stevens - Morning Has Broken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360C15FF8ABD001A4251 /* Cat Stevens - Morning Has Broken.mp3 */; };
 		E54E374D15FF8ABE001A4251 /* Chris De Burgh - Lady In Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */; };
-		E54E374E15FF8ABE001A4251 /* Commodores -  Brick House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360E15FF8ABD001A4251 /* Commodores -  Brick House.mp3 */; };
+		E54E374E15FF8ABE001A4251 /* Commodores - Brick House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */; };
 		E54E374F15FF8ABE001A4251 /* Commodores - Nighshift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */; };
 		E54E375015FF8ABE001A4251 /* Commodores - Sail On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */; };
 		E54E375115FF8ABE001A4251 /* Counting Crows - Big Yellow Taxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */; };
@@ -219,7 +215,6 @@
 		E54E37AA15FF8ABE001A4251 /* Kool & The Gang - Celebration.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366A15FF8ABD001A4251 /* Kool & The Gang - Celebration.mp3 */; };
 		E54E37AB15FF8ABE001A4251 /* Kool & The Gang - Cherish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366B15FF8ABD001A4251 /* Kool & The Gang - Cherish.mp3 */; };
 		E54E37AC15FF8ABE001A4251 /* Lady GaGa - Poker Face.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366C15FF8ABD001A4251 /* Lady GaGa - Poker Face.mp3 */; };
-		E54E37AD15FF8ABE001A4251 /* Les Poppys - Non Non, Rien n'a Changé.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366D15FF8ABD001A4251 /* Les Poppys - Non Non, Rien n'a Changé.mp3 */; };
 		E54E37AE15FF8ABE001A4251 /* Level 42 - Hot Water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366E15FF8ABD001A4251 /* Level 42 - Hot Water.mp3 */; };
 		E54E37AF15FF8ABE001A4251 /* Level 42 - Love Games.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E366F15FF8ABD001A4251 /* Level 42 - Love Games.mp3 */; };
 		E54E37B015FF8ABE001A4251 /* Lighthouse Family - High.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E367015FF8ABD001A4251 /* Lighthouse Family - High.mp3 */; };
@@ -240,7 +235,7 @@
 		E54E37BF15FF8ABE001A4251 /* Michel Delpech - Pour Une Flirt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E367F15FF8ABD001A4251 /* Michel Delpech - Pour Une Flirt.mp3 */; };
 		E54E37C015FF8ABE001A4251 /* Mika - Grace Kelly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368015FF8ABD001A4251 /* Mika - Grace Kelly.mp3 */; };
 		E54E37C115FF8ABE001A4251 /* Mika - Relax (Take It Easy).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368115FF8ABD001A4251 /* Mika - Relax (Take It Easy).mp3 */; };
-		E54E37C215FF8ABE001A4251 /* Mike Oldfield- Moonlight Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368215FF8ABD001A4251 /* Mike Oldfield- Moonlight Shadow.mp3 */; };
+		E54E37C215FF8ABE001A4251 /* Mike Oldfield - Moonlight Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368215FF8ABD001A4251 /* Mike Oldfield - Moonlight Shadow.mp3 */; };
 		E54E37C315FF8ABE001A4251 /* Moody Blues - Nights In White Satin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368315FF8ABD001A4251 /* Moody Blues - Nights In White Satin.mp3 */; };
 		E54E37C415FF8ABE001A4251 /* Moody Blues - Question.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368415FF8ABD001A4251 /* Moody Blues - Question.mp3 */; };
 		E54E37C515FF8ABE001A4251 /* Nana Mouskouri - Only Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368515FF8ABD001A4251 /* Nana Mouskouri - Only Love.mp3 */; };
@@ -270,7 +265,7 @@
 		E54E37DD15FF8ABE001A4251 /* Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369D15FF8ABD001A4251 /* Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3 */; };
 		E54E37DE15FF8ABE001A4251 /* Sciccor Sisters - I Don't Feel Like Dancing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369E15FF8ABD001A4251 /* Sciccor Sisters - I Don't Feel Like Dancing.mp3 */; };
 		E54E37DF15FF8ABE001A4251 /* Scorpions - Wind Of Change.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369F15FF8ABD001A4251 /* Scorpions - Wind Of Change.mp3 */; };
-		E54E37E015FF8ABE001A4251 /* Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3 */; };
+		E54E37E015FF8ABE001A4251 /* Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3 */; };
 		E54E37E115FF8ABE001A4251 /* Shania Twain - Man! I Feel Like A Woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36A115FF8ABD001A4251 /* Shania Twain - Man! I Feel Like A Woman.mp3 */; };
 		E54E37E215FF8ABE001A4251 /* Shania Twain - That Don't Impress Me Much.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36A215FF8ABD001A4251 /* Shania Twain - That Don't Impress Me Much.mp3 */; };
 		E54E37E315FF8ABE001A4251 /* Sheena Easton - The Lover in Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36A315FF8ABD001A4251 /* Sheena Easton - The Lover in Me.mp3 */; };
@@ -297,7 +292,7 @@
 		E54E37F815FF8ABE001A4251 /* Styx - Babe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */; };
 		E54E37F915FF8ABE001A4251 /* Styx - Sing For The Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */; };
 		E54E37FA15FF8ABE001A4251 /* Supertramp - Give A Little Bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */; };
-		E54E37FB15FF8ABE001A4251 /* Supertramp - The Logical Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BB15FF8ABD001A4251 /* Supertramp - The Logical Song.mp3 */; };
+		E54E37FB15FF8ABE001A4251 /* Supertramp - The logical song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */; };
 		E54E37FC15FF8ABE001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */; };
 		E54E37FD15FF8ABE001A4251 /* Tears For Fears - Shout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */; };
 		E54E37FE15FF8ABE001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */; };
@@ -305,11 +300,11 @@
 		E54E380015FF8ABE001A4251 /* The Carpenters - Top Of The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C015FF8ABD001A4251 /* The Carpenters - Top Of The World.mp3 */; };
 		E54E380115FF8ABE001A4251 /* The Cure - Close To Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C115FF8ABD001A4251 /* The Cure - Close To Me.mp3 */; };
 		E54E380215FF8ABE001A4251 /* The Cure - Why Can't I Be You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C215FF8ABD001A4251 /* The Cure - Why Can't I Be You.mp3 */; };
-		E54E380315FF8ABE001A4251 /* The Fortunes- You've Got You Trouble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C315FF8ABD001A4251 /* The Fortunes- You've Got You Trouble.mp3 */; };
+		E54E380315FF8ABE001A4251 /* The Fortunes - You've Got You Trouble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C315FF8ABD001A4251 /* The Fortunes - You've Got You Trouble.mp3 */; };
 		E54E380415FF8ABE001A4251 /* The Killers - Human.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C415FF8ABD001A4251 /* The Killers - Human.mp3 */; };
 		E54E380515FF8ABE001A4251 /* The Mamas & The Papas - Monday, Monday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C515FF8ABD001A4251 /* The Mamas & The Papas - Monday, Monday.mp3 */; };
 		E54E380615FF8ABE001A4251 /* The Osmonds - Crazy Horses.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C615FF8ABD001A4251 /* The Osmonds - Crazy Horses.mp3 */; };
-		E54E380715FF8ABE001A4251 /* The Osmonds- Down By The Crazy River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C715FF8ABD001A4251 /* The Osmonds- Down By The Crazy River.mp3 */; };
+		E54E380715FF8ABE001A4251 /* The Osmonds - Down By The Crazy River.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C715FF8ABD001A4251 /* The Osmonds - Down By The Crazy River.mp3 */; };
 		E54E380815FF8ABE001A4251 /* The Police - Roxanne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C815FF8ABD001A4251 /* The Police - Roxanne.mp3 */; };
 		E54E380915FF8ABE001A4251 /* The Police - Walking On The Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36C915FF8ABD001A4251 /* The Police - Walking On The Moon.mp3 */; };
 		E54E380A15FF8ABE001A4251 /* The Rubettes - Sugar Baby Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36CA15FF8ABD001A4251 /* The Rubettes - Sugar Baby Love.mp3 */; };
@@ -654,7 +649,7 @@
 		E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */; };
 		E5999E5F15FCACE100A26E3C /* Paul Weller.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9715FCACE100A26E3C /* Paul Weller.JPG */; };
 		E5999E6015FCACE100A26E3C /* Peter Koelewijn.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */; };
-		E5999E6115FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */; };
+		E5999E6115FCACE100A26E3C /* KISS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9915FCACE100A26E3C /* KISS.JPG */; };
 		E5999E6215FCACE100A26E3C /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9A15FCACE100A26E3C /* Queen.jpg */; };
 		E5999E6315FCACE100A26E3C /* Ramses Shaffy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */; };
 		E5999E6415FCACE100A26E3C /* Rob de Nijs.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */; };
@@ -782,6 +777,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Les Poppys - Non Non, Rien n'a Changé.mp3"; sourceTree = "<group>"; };
 		E502FACE161108B800277349 /* back_btn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn_iphone.png; sourceTree = "<group>"; };
 		E502FACF161108B800277349 /* back_btn_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_btn_iphone@2x.png"; sourceTree = "<group>"; };
 		E502FAD0161108B800277349 /* back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn.png; sourceTree = "<group>"; };
@@ -798,69 +794,64 @@
 		E54E35A415FF8ABD001A4251 /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
 		E54E35A515FF8ABD001A4251 /* OmroepBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepBold.otf; sourceTree = "<group>"; };
 		E54E35A615FF8ABD001A4251 /* OmroepLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OmroepLight.otf; sourceTree = "<group>"; };
-		E54E35A815FF8ABD001A4251 /* 01 Mexico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Mexico.mp3"; sourceTree = "<group>"; };
-		E54E35A915FF8ABD001A4251 /* 02 Flappie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Flappie.mp3"; sourceTree = "<group>"; };
-		E54E35AA15FF8ABD001A4251 /* 03 Het Dorp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Het Dorp.mp3"; sourceTree = "<group>"; };
-		E54E35AB15FF8ABD001A4251 /* 04 Rosalyn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Rosalyn.mp3"; sourceTree = "<group>"; };
-		E54E35AC15FF8ABD001A4251 /* 05 Op Fietse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Op Fietse.mp3"; sourceTree = "<group>"; };
-		E54E35AD15FF8ABD001A4251 /* 06 Blauw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Blauw.mp3"; sourceTree = "<group>"; };
-		E54E35AE15FF8ABD001A4251 /* 07 Malle Babbe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Malle Babbe.mp3"; sourceTree = "<group>"; };
-		E54E35AF15FF8ABD001A4251 /* 08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3"; sourceTree = "<group>"; };
-		E54E35B015FF8ABD001A4251 /* 09 The Life I Live.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 The Life I Live.mp3"; sourceTree = "<group>"; };
-		E54E35B115FF8ABD001A4251 /* 10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3"; sourceTree = "<group>"; };
+		E54E35A815FF8ABD001A4251 /* Zangeres Zonder Naam - Mexico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zangeres Zonder Naam - Mexico.mp3"; sourceTree = "<group>"; };
+		E54E35A915FF8ABD001A4251 /* Youp van 't Hek - Flappie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Youp van 't Hek - Flappie.mp3"; sourceTree = "<group>"; };
+		E54E35AA15FF8ABD001A4251 /* Wim Sonneveld - Het dorp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wim Sonneveld - Het dorp.mp3"; sourceTree = "<group>"; };
+		E54E35AB15FF8ABD001A4251 /* Vitesse - Rosalyn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vitesse - Rosalyn.mp3"; sourceTree = "<group>"; };
+		E54E35AC15FF8ABD001A4251 /* Skik - Op fietse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Skik - Op fietse.mp3"; sourceTree = "<group>"; };
+		E54E35AD15FF8ABD001A4251 /* The Scene - Blauw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Scene - Blauw.mp3"; sourceTree = "<group>"; };
+		E54E35AE15FF8ABD001A4251 /* Rob de Nijs - Malle Babbe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rob de Nijs - Malle Babbe.mp3"; sourceTree = "<group>"; };
+		E54E35AF15FF8ABD001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3"; sourceTree = "<group>"; };
+		E54E35B015FF8ABD001A4251 /* Q65 - The life I live.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Q65 - The life I live.mp3"; sourceTree = "<group>"; };
+		E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3"; sourceTree = "<group>"; };
 		E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10CC - Dreadlock Holiday.mp3"; sourceTree = "<group>"; };
 		E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10CC - I'm Not In Love.mp3"; sourceTree = "<group>"; };
-		E54E35B415FF8ABD001A4251 /* 11 Ik Heb Je Lief.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Ik Heb Je Lief.mp3"; sourceTree = "<group>"; };
-		E54E35B515FF8ABD001A4251 /* 12 Rood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Rood.mp3"; sourceTree = "<group>"; };
-		E54E35B615FF8ABD001A4251 /* 13 Over De Muur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Over De Muur.mp3"; sourceTree = "<group>"; };
-		E54E35B715FF8ABD001A4251 /* 14 Ruthless Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Ruthless Queen.mp3"; sourceTree = "<group>"; };
-		E54E35B815FF8ABD001A4251 /* 15 Hilversum III.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Hilversum III.mp3"; sourceTree = "<group>"; };
-		E54E35B915FF8ABD001A4251 /* 16 O, O, Den Haag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 O, O, Den Haag.mp3"; sourceTree = "<group>"; };
-		E54E35BA15FF8ABD001A4251 /* 17 Sound Of The Screaming Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Sound Of The Screaming Day.mp3"; sourceTree = "<group>"; };
-		E54E35BB15FF8ABD001A4251 /* 19 Voor Haar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Voor Haar.mp3"; sourceTree = "<group>"; };
-		E54E35BC15FF8ABD001A4251 /* 20 Air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20 Air.mp3"; sourceTree = "<group>"; };
-		E54E35BD15FF8ABD001A4251 /* 21 Dodenrit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Dodenrit.mp3"; sourceTree = "<group>"; };
-		E54E35BE15FF8ABD001A4251 /* 22 Sausolito Summernight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22 Sausolito Summernight.mp3"; sourceTree = "<group>"; };
-		E54E35BF15FF8ABD001A4251 /* 23 Als Ze Er Niet Is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "23 Als Ze Er Niet Is.mp3"; sourceTree = "<group>"; };
-		E54E35C015FF8ABD001A4251 /* 24 Window Of My Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24 Window Of My Eyes.mp3"; sourceTree = "<group>"; };
-		E54E35C115FF8ABD001A4251 /* 25 Veronica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25 Veronica.mp3"; sourceTree = "<group>"; };
-		E54E35C215FF8ABD001A4251 /* 26 Avond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "26 Avond.mp3"; sourceTree = "<group>"; };
-		E54E35C315FF8ABD001A4251 /* 27 Ben Ik Te Min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27 Ben Ik Te Min.mp3"; sourceTree = "<group>"; };
-		E54E35C415FF8ABD001A4251 /* 28 America.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "28 America.mp3"; sourceTree = "<group>"; };
-		E54E35C515FF8ABD001A4251 /* 29 Old Town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "29 Old Town.mp3"; sourceTree = "<group>"; };
-		E54E35C615FF8ABD001A4251 /* 30 You Do Something To Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "30 You Do Something To Me.mp3"; sourceTree = "<group>"; };
-		E54E35C715FF8ABD001A4251 /* 31 Nights In White Satin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "31 Nights In White Satin.mp3"; sourceTree = "<group>"; };
-		E54E35C815FF8ABD001A4251 /* 32 Tubular Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32 Tubular Bells.mp3"; sourceTree = "<group>"; };
-		E54E35C915FF8ABD001A4251 /* 33 Lessons In Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "33 Lessons In Love.mp3"; sourceTree = "<group>"; };
-		E54E35CA15FF8ABD001A4251 /* 34 Lola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "34 Lola.mp3"; sourceTree = "<group>"; };
-		E54E35CB15FF8ABD001A4251 /* 35 I Want You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35 I Want You.mp3"; sourceTree = "<group>"; };
-		E54E35CC15FF8ABD001A4251 /* 36 Layla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "36 Layla.mp3"; sourceTree = "<group>"; };
-		E54E35CD15FF8ABD001A4251 /* 37 A Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "37 A Forest.mp3"; sourceTree = "<group>"; };
-		E54E35CE15FF8ABD001A4251 /* 38 The Logical Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "38 The Logical Song.mp3"; sourceTree = "<group>"; };
-		E54E35CF15FF8ABD001A4251 /* 39 You know I’m no good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "39 You know I’m no good.mp3"; sourceTree = "<group>"; };
+		E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paul de Leeuw - k Heb je lief.mp3"; sourceTree = "<group>"; };
+		E54E35B515FF8ABD001A4251 /* Marco Borsato - Rood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Marco Borsato - Rood.mp3"; sourceTree = "<group>"; };
+		E54E35B615FF8ABD001A4251 /* Klein Orkest - Over de muur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Klein Orkest - Over de muur.mp3"; sourceTree = "<group>"; };
+		E54E35B715FF8ABD001A4251 /* Kayak - Ruthless queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kayak - Ruthless queen.mp3"; sourceTree = "<group>"; };
+		E54E35B815FF8ABD001A4251 /* Herman van Veen - Hilversum III.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Herman van Veen - Hilversum III.mp3"; sourceTree = "<group>"; };
+		E54E35B915FF8ABD001A4251 /* Harry Klorkestein - O, o, Den Haag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harry Klorkestein - O, o, Den Haag.mp3"; sourceTree = "<group>"; };
+		E54E35BA15FF8ABD001A4251 /* Golden Earrings - Sound of the screaming day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Golden Earrings - Sound of the screaming day.mp3"; sourceTree = "<group>"; };
+		E54E35BB15FF8ABD001A4251 /* Frans Halsema - Voor haar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Frans Halsema - Voor haar.mp3"; sourceTree = "<group>"; };
+		E54E35BC15FF8ABD001A4251 /* Ekseption - Air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ekseption - Air.mp3"; sourceTree = "<group>"; };
+		E54E35BD15FF8ABD001A4251 /* Drs. P - Dodenrit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Drs. P - Dodenrit.mp3"; sourceTree = "<group>"; };
+		E54E35BE15FF8ABD001A4251 /* Diesel - Sausolito Summernight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Diesel - Sausolito Summernight.mp3"; sourceTree = "<group>"; };
+		E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "De Dijk - Als ze er niet is.mp3"; sourceTree = "<group>"; };
+		E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby & the Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
+		E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cornelis Vreeswijk - Veronica.mp3"; sourceTree = "<group>"; };
+		E54E35C215FF8ABD001A4251 /* Boudewijn de Groot - Avond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Boudewijn de Groot - Avond.mp3"; sourceTree = "<group>"; };
+		E54E35C315FF8ABD001A4251 /* Armand - Ben ik te min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Armand - Ben ik te min.mp3"; sourceTree = "<group>"; };
+		E54E35C415FF8ABD001A4251 /* Razorlight - America.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Razorlight - America.mp3"; sourceTree = "<group>"; };
+		E54E35C515FF8ABD001A4251 /* Phil Lynott - Old town.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Phil Lynott - Old town.mp3"; sourceTree = "<group>"; };
+		E54E35C615FF8ABD001A4251 /* Paul Weller - You do something to me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paul Weller - You do something to me.mp3"; sourceTree = "<group>"; };
+		E54E35C715FF8ABD001A4251 /* The Moody Blues - Nights in white satin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Moody Blues - Nights in white satin.mp3"; sourceTree = "<group>"; };
+		E54E35C815FF8ABD001A4251 /* Mike Oldfield - Tubular Bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Oldfield - Tubular Bells.mp3"; sourceTree = "<group>"; };
+		E54E35C915FF8ABD001A4251 /* Level 42 - Lessons in love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Level 42 - Lessons in love.mp3"; sourceTree = "<group>"; };
+		E54E35CA15FF8ABD001A4251 /* The Kinks - Lola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Kinks - Lola.mp3"; sourceTree = "<group>"; };
+		E54E35CB15FF8ABD001A4251 /* Elvis Costello And The Attractions - I want you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elvis Costello And The Attractions - I want you.mp3"; sourceTree = "<group>"; };
+		E54E35CD15FF8ABD001A4251 /* The Cure - A forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Cure - A forest.mp3"; sourceTree = "<group>"; };
+		E54E35CF15FF8ABD001A4251 /* Amy Winehouse - You know I’m no good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Amy Winehouse - You know I’m no good.mp3"; sourceTree = "<group>"; };
 		E54E35D015FF8ABD001A4251 /* 4 Non Blondes - What's Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "4 Non Blondes - What's Up.mp3"; sourceTree = "<group>"; };
-		E54E35D115FF8ABD001A4251 /* 40 Sweet Caroline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "40 Sweet Caroline.mp3"; sourceTree = "<group>"; };
-		E54E35D215FF8ABD001A4251 /* 41 Nothing Else Matters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "41 Nothing Else Matters.mp3"; sourceTree = "<group>"; };
-		E54E35D315FF8ABD001A4251 /* 42 What's Going On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "42 What's Going On.mp3"; sourceTree = "<group>"; };
-		E54E35D415FF8ABD001A4251 /* 43 California Dreamin'.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "43 California Dreamin'.mp3"; sourceTree = "<group>"; };
-		E54E35D515FF8ABD001A4251 /* 44 Sweet Home Alabama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "44 Sweet Home Alabama.mp3"; sourceTree = "<group>"; };
-		E54E35D615FF8ABD001A4251 /* 45 Overcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "45 Overcome.mp3"; sourceTree = "<group>"; };
-		E54E35D715FF8ABD001A4251 /* 46 Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "46 Hello.mp3"; sourceTree = "<group>"; };
-		E54E35D815FF8ABD001A4251 /* 47 Cocaine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "47 Cocaine.mp3"; sourceTree = "<group>"; };
-		E54E35D915FF8ABD001A4251 /* 48 Do It Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "48 Do It Again.mp3"; sourceTree = "<group>"; };
-		E54E35DA15FF8ABD001A4251 /* 49 Ain't No Mountain High Enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "49 Ain't No Mountain High Enough.mp3"; sourceTree = "<group>"; };
-		E54E35DB15FF8ABD001A4251 /* 50 Bad Moon Rising.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "50 Bad Moon Rising.mp3"; sourceTree = "<group>"; };
-		E54E35DC15FF8ABD001A4251 /* 51 Mr. Jones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "51 Mr. Jones.mp3"; sourceTree = "<group>"; };
-		E54E35DD15FF8ABD001A4251 /* 52 Easy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "52 Easy.mp3"; sourceTree = "<group>"; };
-		E54E35DE15FF8ABD001A4251 /* 53 If I Could Turn Back Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "53 If I Could Turn Back Time.mp3"; sourceTree = "<group>"; };
-		E54E35DF15FF8ABD001A4251 /* 54 Top Of The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "54 Top Of The World.mp3"; sourceTree = "<group>"; };
-		E54E35E015FF8ABD001A4251 /* 55 Living On A Prayer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "55 Living On A Prayer.mp3"; sourceTree = "<group>"; };
-		E54E35E115FF8ABD001A4251 /* 56 Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "56 Where Is The Love.mp3"; sourceTree = "<group>"; };
-		E54E35E215FF8ABD001A4251 /* 57 You're The First, The Last, My Everything.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "57 You're The First, The Last, My Everything.mp3"; sourceTree = "<group>"; };
-		E54E35E315FF8ABD001A4251 /* 58 The Thrill Is Gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "58 The Thrill Is Gone.mp3"; sourceTree = "<group>"; };
-		E54E35E415FF8ABD001A4251 /* 59 Dream On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "59 Dream On.mp3"; sourceTree = "<group>"; };
-		E54E35E515FF8ABD001A4251 /* 60 Mac Arthur Park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "60 Mac Arthur Park.mp3"; sourceTree = "<group>"; };
-		E54E35E615FF8ABD001A4251 /* 61 What's Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "61 What's Up.mp3"; sourceTree = "<group>"; };
+		E54E35D115FF8ABD001A4251 /* Neil Diamond - Sweet Caroline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Neil Diamond - Sweet Caroline.mp3"; sourceTree = "<group>"; };
+		E54E35D215FF8ABD001A4251 /* Metallica - Nothing else matters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Metallica - Nothing else matters.mp3"; sourceTree = "<group>"; };
+		E54E35D315FF8ABD001A4251 /* Marvin Gaye - What's going on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Marvin Gaye - What's going on.mp3"; sourceTree = "<group>"; };
+		E54E35D415FF8ABD001A4251 /* Mama's & Papa's - California dreamin'.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mama's & Papa's - California dreamin'.mp3"; sourceTree = "<group>"; };
+		E54E35D515FF8ABD001A4251 /* Lynyrd Skynyrd - Sweet home Alabama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lynyrd Skynyrd - Sweet home Alabama.mp3"; sourceTree = "<group>"; };
+		E54E35D615FF8ABD001A4251 /* Live - Overcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Live - Overcome.mp3"; sourceTree = "<group>"; };
+		E54E35D715FF8ABD001A4251 /* Lionel Richie - Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lionel Richie - Hello.mp3"; sourceTree = "<group>"; };
+		E54E35D815FF8ABD001A4251 /* J.J. Cale - Cocaine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "J.J. Cale - Cocaine.mp3"; sourceTree = "<group>"; };
+		E54E35D915FF8ABD001A4251 /* Steely Dan - Do it again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Steely Dan - Do it again.mp3"; sourceTree = "<group>"; };
+		E54E35DA15FF8ABD001A4251 /* Diana Ross - Ain't no mountain high enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Diana Ross - Ain't no mountain high enough.mp3"; sourceTree = "<group>"; };
+		E54E35DB15FF8ABD001A4251 /* Creedence Clearwater Revival - Bad moon rising.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Creedence Clearwater Revival - Bad moon rising.mp3"; sourceTree = "<group>"; };
+		E54E35DC15FF8ABD001A4251 /* Counting Crows - Mr. Jones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Counting Crows - Mr. Jones.mp3"; sourceTree = "<group>"; };
+		E54E35DD15FF8ABD001A4251 /* The Commodores - Easy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Commodores - Easy.mp3"; sourceTree = "<group>"; };
+		E54E35DE15FF8ABD001A4251 /* Cher - If I could turn back time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cher - If I could turn back time.mp3"; sourceTree = "<group>"; };
+		E54E35DF15FF8ABD001A4251 /* Carpenters - Top of the world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Carpenters - Top of the world.mp3"; sourceTree = "<group>"; };
+		E54E35E215FF8ABD001A4251 /* Barry White - You're the first, the last, my everything.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barry White - You're the first, the last, my everything.mp3"; sourceTree = "<group>"; };
+		E54E35E315FF8ABD001A4251 /* B.B. King - The thrill is gone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "B.B. King - The thrill is gone.mp3"; sourceTree = "<group>"; };
+		E54E35E415FF8ABD001A4251 /* Aerosmith - Dream on.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aerosmith - Dream on.mp3"; sourceTree = "<group>"; };
+		E54E35E515FF8ABD001A4251 /* Donna Summer - Mac Arthur park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Donna Summer - Mac Arthur park.mp3"; sourceTree = "<group>"; };
 		E54E35E715FF8ABD001A4251 /* 98 Degrees & Stevie Wonder - True To Your Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "98 Degrees & Stevie Wonder - True To Your Heart.mp3"; sourceTree = "<group>"; };
 		E54E35E815FF8ABD001A4251 /* ABBA - Dancing Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ABBA - Dancing Queen.mp3"; sourceTree = "<group>"; };
 		E54E35E915FF8ABD001A4251 /* ABBA - Voulez-Vous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ABBA - Voulez-Vous.mp3"; sourceTree = "<group>"; };
@@ -879,11 +870,11 @@
 		E54E35F615FF8ABD001A4251 /* Barry Ryan - Eloise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barry Ryan - Eloise.mp3"; sourceTree = "<group>"; };
 		E54E35F715FF8ABD001A4251 /* Barry White - Can't Get Enough Of Your Love Babe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barry White - Can't Get Enough Of Your Love Babe.mp3"; sourceTree = "<group>"; };
 		E54E35F815FF8ABD001A4251 /* Barry White - Never Never Gonna give Ya Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Barry White - Never Never Gonna give Ya Up.mp3"; sourceTree = "<group>"; };
-		E54E35F915FF8ABD001A4251 /* België.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "België.mp3"; sourceTree = "<group>"; };
+		E54E35F915FF8ABD001A4251 /* Goede Doel - België.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Goede Doel - België.mp3"; sourceTree = "<group>"; };
 		E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billy Ray Cyrus - Achy Breaky Heart.mp3"; sourceTree = "<group>"; };
 		E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black - Wonderful Life.mp3"; sourceTree = "<group>"; };
 		E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - My Humps.mp3"; sourceTree = "<group>"; };
-		E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where Is The Love.mp3"; sourceTree = "<group>"; };
+		E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where is the love.mp3"; sourceTree = "<group>"; };
 		E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Sabbath - Paranoid.mp3"; sourceTree = "<group>"; };
 		E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue Cheer - Summertime Blues.mp3"; sourceTree = "<group>"; };
 		E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bob & Earl - Harlem Shuffle.mp3"; sourceTree = "<group>"; };
@@ -900,7 +891,7 @@
 		E54E360B15FF8ABD001A4251 /* Cat Stevens - Lady D'Arbanville.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cat Stevens - Lady D'Arbanville.mp3"; sourceTree = "<group>"; };
 		E54E360C15FF8ABD001A4251 /* Cat Stevens - Morning Has Broken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cat Stevens - Morning Has Broken.mp3"; sourceTree = "<group>"; };
 		E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chris De Burgh - Lady In Red.mp3"; sourceTree = "<group>"; };
-		E54E360E15FF8ABD001A4251 /* Commodores -  Brick House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores -  Brick House.mp3"; sourceTree = "<group>"; };
+		E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Brick House.mp3"; sourceTree = "<group>"; };
 		E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Nighshift.mp3"; sourceTree = "<group>"; };
 		E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Sail On.mp3"; sourceTree = "<group>"; };
 		E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Counting Crows - Big Yellow Taxi.mp3"; sourceTree = "<group>"; };
@@ -995,7 +986,6 @@
 		E54E366A15FF8ABD001A4251 /* Kool & The Gang - Celebration.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kool & The Gang - Celebration.mp3"; sourceTree = "<group>"; };
 		E54E366B15FF8ABD001A4251 /* Kool & The Gang - Cherish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kool & The Gang - Cherish.mp3"; sourceTree = "<group>"; };
 		E54E366C15FF8ABD001A4251 /* Lady GaGa - Poker Face.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lady GaGa - Poker Face.mp3"; sourceTree = "<group>"; };
-		E54E366D15FF8ABD001A4251 /* Les Poppys - Non Non, Rien n'a Changé.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Les Poppys - Non Non, Rien n'a Changé.mp3"; sourceTree = "<group>"; };
 		E54E366E15FF8ABD001A4251 /* Level 42 - Hot Water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Level 42 - Hot Water.mp3"; sourceTree = "<group>"; };
 		E54E366F15FF8ABD001A4251 /* Level 42 - Love Games.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Level 42 - Love Games.mp3"; sourceTree = "<group>"; };
 		E54E367015FF8ABD001A4251 /* Lighthouse Family - High.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lighthouse Family - High.mp3"; sourceTree = "<group>"; };
@@ -1016,7 +1006,7 @@
 		E54E367F15FF8ABD001A4251 /* Michel Delpech - Pour Une Flirt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Michel Delpech - Pour Une Flirt.mp3"; sourceTree = "<group>"; };
 		E54E368015FF8ABD001A4251 /* Mika - Grace Kelly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mika - Grace Kelly.mp3"; sourceTree = "<group>"; };
 		E54E368115FF8ABD001A4251 /* Mika - Relax (Take It Easy).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mika - Relax (Take It Easy).mp3"; sourceTree = "<group>"; };
-		E54E368215FF8ABD001A4251 /* Mike Oldfield- Moonlight Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Oldfield- Moonlight Shadow.mp3"; sourceTree = "<group>"; };
+		E54E368215FF8ABD001A4251 /* Mike Oldfield - Moonlight Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mike Oldfield - Moonlight Shadow.mp3"; sourceTree = "<group>"; };
 		E54E368315FF8ABD001A4251 /* Moody Blues - Nights In White Satin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moody Blues - Nights In White Satin.mp3"; sourceTree = "<group>"; };
 		E54E368415FF8ABD001A4251 /* Moody Blues - Question.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moody Blues - Question.mp3"; sourceTree = "<group>"; };
 		E54E368515FF8ABD001A4251 /* Nana Mouskouri - Only Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nana Mouskouri - Only Love.mp3"; sourceTree = "<group>"; };
@@ -1046,7 +1036,7 @@
 		E54E369D15FF8ABD001A4251 /* Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3"; sourceTree = "<group>"; };
 		E54E369E15FF8ABD001A4251 /* Sciccor Sisters - I Don't Feel Like Dancing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sciccor Sisters - I Don't Feel Like Dancing.mp3"; sourceTree = "<group>"; };
 		E54E369F15FF8ABD001A4251 /* Scorpions - Wind Of Change.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Scorpions - Wind Of Change.mp3"; sourceTree = "<group>"; };
-		E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3"; sourceTree = "<group>"; };
+		E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3"; sourceTree = "<group>"; };
 		E54E36A115FF8ABD001A4251 /* Shania Twain - Man! I Feel Like A Woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shania Twain - Man! I Feel Like A Woman.mp3"; sourceTree = "<group>"; };
 		E54E36A215FF8ABD001A4251 /* Shania Twain - That Don't Impress Me Much.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shania Twain - That Don't Impress Me Much.mp3"; sourceTree = "<group>"; };
 		E54E36A315FF8ABD001A4251 /* Sheena Easton - The Lover in Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sheena Easton - The Lover in Me.mp3"; sourceTree = "<group>"; };
@@ -1073,7 +1063,7 @@
 		E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Styx - Babe.mp3"; sourceTree = "<group>"; };
 		E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Styx - Sing For The Day.mp3"; sourceTree = "<group>"; };
 		E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - Give A Little Bit.mp3"; sourceTree = "<group>"; };
-		E54E36BB15FF8ABD001A4251 /* Supertramp - The Logical Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The Logical Song.mp3"; sourceTree = "<group>"; };
+		E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The logical song.mp3"; sourceTree = "<group>"; };
 		E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tears For Fears - Everybody Wants To Rule The World.mp3"; sourceTree = "<group>"; };
 		E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tears For Fears - Shout.mp3"; sourceTree = "<group>"; };
 		E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Boomtown Rats - I Don't Like Mondays.mp3"; sourceTree = "<group>"; };
@@ -1081,11 +1071,11 @@
 		E54E36C015FF8ABD001A4251 /* The Carpenters - Top Of The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Carpenters - Top Of The World.mp3"; sourceTree = "<group>"; };
 		E54E36C115FF8ABD001A4251 /* The Cure - Close To Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Cure - Close To Me.mp3"; sourceTree = "<group>"; };
 		E54E36C215FF8ABD001A4251 /* The Cure - Why Can't I Be You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Cure - Why Can't I Be You.mp3"; sourceTree = "<group>"; };
-		E54E36C315FF8ABD001A4251 /* The Fortunes- You've Got You Trouble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Fortunes- You've Got You Trouble.mp3"; sourceTree = "<group>"; };
+		E54E36C315FF8ABD001A4251 /* The Fortunes - You've Got You Trouble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Fortunes - You've Got You Trouble.mp3"; sourceTree = "<group>"; };
 		E54E36C415FF8ABD001A4251 /* The Killers - Human.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Killers - Human.mp3"; sourceTree = "<group>"; };
 		E54E36C515FF8ABD001A4251 /* The Mamas & The Papas - Monday, Monday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Mamas & The Papas - Monday, Monday.mp3"; sourceTree = "<group>"; };
 		E54E36C615FF8ABD001A4251 /* The Osmonds - Crazy Horses.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Osmonds - Crazy Horses.mp3"; sourceTree = "<group>"; };
-		E54E36C715FF8ABD001A4251 /* The Osmonds- Down By The Crazy River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Osmonds- Down By The Crazy River.mp3"; sourceTree = "<group>"; };
+		E54E36C715FF8ABD001A4251 /* The Osmonds - Down By The Crazy River.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Osmonds - Down By The Crazy River.mp3"; sourceTree = "<group>"; };
 		E54E36C815FF8ABD001A4251 /* The Police - Roxanne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Police - Roxanne.mp3"; sourceTree = "<group>"; };
 		E54E36C915FF8ABD001A4251 /* The Police - Walking On The Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Police - Walking On The Moon.mp3"; sourceTree = "<group>"; };
 		E54E36CA15FF8ABD001A4251 /* The Rubettes - Sugar Baby Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Rubettes - Sugar Baby Love.mp3"; sourceTree = "<group>"; };
@@ -1463,7 +1453,7 @@
 		E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paul de Leeuw.jpg"; sourceTree = "<group>"; };
 		E5999D9715FCACE100A26E3C /* Paul Weller.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paul Weller.JPG"; sourceTree = "<group>"; };
 		E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peter Koelewijn.JPG"; sourceTree = "<group>"; };
-		E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo_Kiss_300CMYK.JPG; sourceTree = "<group>"; };
+		E5999D9915FCACE100A26E3C /* KISS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KISS.JPG; sourceTree = "<group>"; };
 		E5999D9A15FCACE100A26E3C /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
 		E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ramses Shaffy.jpg"; sourceTree = "<group>"; };
 		E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rob de Nijs.JPG"; sourceTree = "<group>"; };
@@ -1705,69 +1695,10 @@
 		E54E35A715FF8ABD001A4251 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				E54E35A815FF8ABD001A4251 /* 01 Mexico.mp3 */,
-				E54E35A915FF8ABD001A4251 /* 02 Flappie.mp3 */,
-				E54E35AA15FF8ABD001A4251 /* 03 Het Dorp.mp3 */,
-				E54E35AB15FF8ABD001A4251 /* 04 Rosalyn.mp3 */,
-				E54E35AC15FF8ABD001A4251 /* 05 Op Fietse.mp3 */,
-				E54E35AD15FF8ABD001A4251 /* 06 Blauw.mp3 */,
-				E54E35AE15FF8ABD001A4251 /* 07 Malle Babbe.mp3 */,
-				E54E35AF15FF8ABD001A4251 /* 08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3 */,
-				E54E35B015FF8ABD001A4251 /* 09 The Life I Live.mp3 */,
-				E54E35B115FF8ABD001A4251 /* 10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3 */,
+				17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */,
 				E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */,
 				E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */,
-				E54E35B415FF8ABD001A4251 /* 11 Ik Heb Je Lief.mp3 */,
-				E54E35B515FF8ABD001A4251 /* 12 Rood.mp3 */,
-				E54E35B615FF8ABD001A4251 /* 13 Over De Muur.mp3 */,
-				E54E35B715FF8ABD001A4251 /* 14 Ruthless Queen.mp3 */,
-				E54E35B815FF8ABD001A4251 /* 15 Hilversum III.mp3 */,
-				E54E35B915FF8ABD001A4251 /* 16 O, O, Den Haag.mp3 */,
-				E54E35BA15FF8ABD001A4251 /* 17 Sound Of The Screaming Day.mp3 */,
-				E54E35BB15FF8ABD001A4251 /* 19 Voor Haar.mp3 */,
-				E54E35BC15FF8ABD001A4251 /* 20 Air.mp3 */,
-				E54E35BD15FF8ABD001A4251 /* 21 Dodenrit.mp3 */,
-				E54E35BE15FF8ABD001A4251 /* 22 Sausolito Summernight.mp3 */,
-				E54E35BF15FF8ABD001A4251 /* 23 Als Ze Er Niet Is.mp3 */,
-				E54E35C015FF8ABD001A4251 /* 24 Window Of My Eyes.mp3 */,
-				E54E35C115FF8ABD001A4251 /* 25 Veronica.mp3 */,
-				E54E35C215FF8ABD001A4251 /* 26 Avond.mp3 */,
-				E54E35C315FF8ABD001A4251 /* 27 Ben Ik Te Min.mp3 */,
-				E54E35C415FF8ABD001A4251 /* 28 America.mp3 */,
-				E54E35C515FF8ABD001A4251 /* 29 Old Town.mp3 */,
-				E54E35C615FF8ABD001A4251 /* 30 You Do Something To Me.mp3 */,
-				E54E35C715FF8ABD001A4251 /* 31 Nights In White Satin.mp3 */,
-				E54E35C815FF8ABD001A4251 /* 32 Tubular Bells.mp3 */,
-				E54E35C915FF8ABD001A4251 /* 33 Lessons In Love.mp3 */,
-				E54E35CA15FF8ABD001A4251 /* 34 Lola.mp3 */,
-				E54E35CB15FF8ABD001A4251 /* 35 I Want You.mp3 */,
-				E54E35CC15FF8ABD001A4251 /* 36 Layla.mp3 */,
-				E54E35CD15FF8ABD001A4251 /* 37 A Forest.mp3 */,
-				E54E35CE15FF8ABD001A4251 /* 38 The Logical Song.mp3 */,
-				E54E35CF15FF8ABD001A4251 /* 39 You know I’m no good.mp3 */,
 				E54E35D015FF8ABD001A4251 /* 4 Non Blondes - What's Up.mp3 */,
-				E54E35D115FF8ABD001A4251 /* 40 Sweet Caroline.mp3 */,
-				E54E35D215FF8ABD001A4251 /* 41 Nothing Else Matters.mp3 */,
-				E54E35D315FF8ABD001A4251 /* 42 What's Going On.mp3 */,
-				E54E35D415FF8ABD001A4251 /* 43 California Dreamin'.mp3 */,
-				E54E35D515FF8ABD001A4251 /* 44 Sweet Home Alabama.mp3 */,
-				E54E35D615FF8ABD001A4251 /* 45 Overcome.mp3 */,
-				E54E35D715FF8ABD001A4251 /* 46 Hello.mp3 */,
-				E54E35D815FF8ABD001A4251 /* 47 Cocaine.mp3 */,
-				E54E35D915FF8ABD001A4251 /* 48 Do It Again.mp3 */,
-				E54E35DA15FF8ABD001A4251 /* 49 Ain't No Mountain High Enough.mp3 */,
-				E54E35DB15FF8ABD001A4251 /* 50 Bad Moon Rising.mp3 */,
-				E54E35DC15FF8ABD001A4251 /* 51 Mr. Jones.mp3 */,
-				E54E35DD15FF8ABD001A4251 /* 52 Easy.mp3 */,
-				E54E35DE15FF8ABD001A4251 /* 53 If I Could Turn Back Time.mp3 */,
-				E54E35DF15FF8ABD001A4251 /* 54 Top Of The World.mp3 */,
-				E54E35E015FF8ABD001A4251 /* 55 Living On A Prayer.mp3 */,
-				E54E35E115FF8ABD001A4251 /* 56 Where Is The Love.mp3 */,
-				E54E35E215FF8ABD001A4251 /* 57 You're The First, The Last, My Everything.mp3 */,
-				E54E35E315FF8ABD001A4251 /* 58 The Thrill Is Gone.mp3 */,
-				E54E35E415FF8ABD001A4251 /* 59 Dream On.mp3 */,
-				E54E35E515FF8ABD001A4251 /* 60 Mac Arthur Park.mp3 */,
-				E54E35E615FF8ABD001A4251 /* 61 What's Up.mp3 */,
 				E54E35E715FF8ABD001A4251 /* 98 Degrees & Stevie Wonder - True To Your Heart.mp3 */,
 				E54E35E815FF8ABD001A4251 /* ABBA - Dancing Queen.mp3 */,
 				E54E35E915FF8ABD001A4251 /* ABBA - Voulez-Vous.mp3 */,
@@ -1775,22 +1706,26 @@
 				E54E35EB15FF8ABD001A4251 /* Acda en de Munnik - Dan Leef Ik Toch Nog Een Keer.mp3 */,
 				E54E35EC15FF8ABD001A4251 /* Adamski (feat Seal) - Killer.mp3 */,
 				E54E35ED15FF8ABD001A4251 /* Aerosmith - Cryin'.mp3 */,
+				E54E35E415FF8ABD001A4251 /* Aerosmith - Dream on.mp3 */,
 				E54E35EE15FF8ABD001A4251 /* Alessi - Oh Lori.mp3 */,
 				E54E35EF15FF8ABD001A4251 /* Amy MacDonald - Mr Rock & Roll.mp3 */,
 				E54E35F015FF8ABD001A4251 /* Amy MacDonald - This Is The Life.mp3 */,
 				E54E35F115FF8ABD001A4251 /* Amy Winehouse - Rehab.mp3 */,
+				E54E35CF15FF8ABD001A4251 /* Amy Winehouse - You know I’m no good.mp3 */,
 				E54E35F215FF8ABD001A4251 /* Andre Hazes - De Vlieger.mp3 */,
+				E54E35C315FF8ABD001A4251 /* Armand - Ben ik te min.mp3 */,
+				E54E35E315FF8ABD001A4251 /* B.B. King - The thrill is gone.mp3 */,
 				E54E35F315FF8ABD001A4251 /* Bachman Turner Overdrive - You Ain't Seen Nothing Yet.mp3 */,
 				E54E35F415FF8ABD001A4251 /* Band Aid - Do They Know It's Christmas.mp3 */,
 				E54E35F515FF8ABD001A4251 /* Barclay James Harvest - Titles.mp3 */,
 				E54E35F615FF8ABD001A4251 /* Barry Ryan - Eloise.mp3 */,
 				E54E35F715FF8ABD001A4251 /* Barry White - Can't Get Enough Of Your Love Babe.mp3 */,
 				E54E35F815FF8ABD001A4251 /* Barry White - Never Never Gonna give Ya Up.mp3 */,
-				E54E35F915FF8ABD001A4251 /* België.mp3 */,
+				E54E35E215FF8ABD001A4251 /* Barry White - You're the first, the last, my everything.mp3 */,
 				E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */,
 				E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */,
 				E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */,
-				E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where Is The Love.mp3 */,
+				E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */,
 				E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */,
 				E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */,
 				E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */,
@@ -1799,25 +1734,33 @@
 				E54E360315FF8ABD001A4251 /* Bon Jovi - It's My Life.mp3 */,
 				E54E360415FF8ABD001A4251 /* Bon Jovi - Livin' On A Prayer.mp3 */,
 				E54E360515FF8ABD001A4251 /* Boston - Amanda.mp3 */,
+				E54E35C215FF8ABD001A4251 /* Boudewijn de Groot - Avond.mp3 */,
 				E54E360615FF8ABD001A4251 /* Boudewijn De Groot - Jimmy.mp3 */,
 				E54E360715FF8ABD001A4251 /* Bryan Adams - (Everything I Do) I Do It For You.mp3 */,
 				E54E360815FF8ABD001A4251 /* Bryan Adams - Run To You.mp3 */,
 				E54E360915FF8ABD001A4251 /* Bryan Adams - Summer Of '69.mp3 */,
 				E54E360A15FF8ABD001A4251 /* Buggles - Video Killed The Radio Star.mp3 */,
+				E54E35DF15FF8ABD001A4251 /* Carpenters - Top of the world.mp3 */,
 				E54E360B15FF8ABD001A4251 /* Cat Stevens - Lady D'Arbanville.mp3 */,
 				E54E360C15FF8ABD001A4251 /* Cat Stevens - Morning Has Broken.mp3 */,
+				E54E35DE15FF8ABD001A4251 /* Cher - If I could turn back time.mp3 */,
 				E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */,
-				E54E360E15FF8ABD001A4251 /* Commodores -  Brick House.mp3 */,
+				E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */,
 				E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */,
 				E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */,
+				E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */,
 				E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */,
+				E54E35DC15FF8ABD001A4251 /* Counting Crows - Mr. Jones.mp3 */,
 				E54E361215FF8ABD001A4251 /* Cream - Sunshine Of Your Love.mp3 */,
 				E54E361315FF8ABD001A4251 /* Cream - White Room.mp3 */,
+				E54E35DB15FF8ABD001A4251 /* Creedence Clearwater Revival - Bad moon rising.mp3 */,
 				E54E361415FF8ABD001A4251 /* Creedence Clearwater Revival - Proud Mary.mp3 */,
 				E54E361515FF8ABD001A4251 /* Creedence Clearwater Revival - Who'll Stop The Rain.mp3 */,
 				E54E361615FF8ABD001A4251 /* Crusaders & Randy Crawford - Street Life.mp3 */,
+				E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */,
 				E54E361715FF8ABD001A4251 /* Dana - All Kinds Of Everything.mp3 */,
 				E54E361815FF8ABD001A4251 /* Dave Berry - This Strange Effect.mp3 */,
+				E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */,
 				E54E361915FF8ABD001A4251 /* Debarge - Rhythm Of The Night.mp3 */,
 				E54E361A15FF8ABD001A4251 /* Demis Rousos - Forever And Ever.mp3 */,
 				E54E361B15FF8ABD001A4251 /* Demis Rousos - My Friend The Wind.mp3 */,
@@ -1825,24 +1768,30 @@
 				E54E361D15FF8ABD001A4251 /* Dexy's Midnight Runners - Come On Eileen.mp3 */,
 				E54E361E15FF8ABD001A4251 /* Diana Ross & The Supremes - Baby Love.mp3 */,
 				E54E361F15FF8ABD001A4251 /* Diana Ross & The Supremes - Reflections.mp3 */,
+				E54E35DA15FF8ABD001A4251 /* Diana Ross - Ain't no mountain high enough.mp3 */,
 				E54E362015FF8ABD001A4251 /* Diana Ross - Upside Down.mp3 */,
+				E54E35BE15FF8ABD001A4251 /* Diesel - Sausolito Summernight.mp3 */,
 				E54E362115FF8ABD001A4251 /* Dire Straits - Money For Nothing.mp3 */,
 				E54E362215FF8ABD001A4251 /* Dire Straits - Private Investigations.mp3 */,
 				E54E362315FF8ABD001A4251 /* Dire Straits - Sultans Of Swing.mp3 */,
 				E54E362415FF8ABD001A4251 /* Don Henley - Boys Of Summer.mp3 */,
 				E54E362515FF8ABD001A4251 /* Donna Summer - I Feel Love.mp3 */,
+				E54E35E515FF8ABD001A4251 /* Donna Summer - Mac Arthur park.mp3 */,
 				E54E362615FF8ABD001A4251 /* Donna Summer - State Of Independance.mp3 */,
 				E54E362715FF8ABD001A4251 /* DrHook - Baby Makes Her Blue Jeans Talk.mp3 */,
+				E54E35BD15FF8ABD001A4251 /* Drs. P - Dodenrit.mp3 */,
 				E54E362815FF8ABD001A4251 /* Duffy - Mercy.mp3 */,
 				E54E362915FF8ABD001A4251 /* Duffy - Warwick Avenue.mp3 */,
 				E54E362A15FF8ABD001A4251 /* Dusty Springfield - Son-Of-A-Preacher Man.mp3 */,
 				E54E362B15FF8ABD001A4251 /* Earth & Fire - Maybe Tomorrow, Maybe Tonight.mp3 */,
 				E54E362C15FF8ABD001A4251 /* Earth & Fire - Memories.mp3 */,
+				E54E35BC15FF8ABD001A4251 /* Ekseption - Air.mp3 */,
 				E54E362D15FF8ABD001A4251 /* El Debarge - Who's Johnny.mp3 */,
 				E54E362E15FF8ABD001A4251 /* Elton John & Kiki Dee - Don't Go Breaking My Heart.mp3 */,
 				E54E362F15FF8ABD001A4251 /* Elton John - Nikita.mp3 */,
 				E54E363015FF8ABD001A4251 /* Elton John - Song For Guy.mp3 */,
 				E54E363115FF8ABD001A4251 /* Elton John - Your Song.mp3 */,
+				E54E35CB15FF8ABD001A4251 /* Elvis Costello And The Attractions - I want you.mp3 */,
 				E54E363215FF8ABD001A4251 /* Emerson, Lake & Palmer - Lucky Man.mp3 */,
 				E54E363315FF8ABD001A4251 /* Engelbert Humperdinck - Release Me.mp3 */,
 				E54E363415FF8ABD001A4251 /* Eric Clapton - I Shot The Sherriff.mp3 */,
@@ -1853,23 +1802,29 @@
 				E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 */,
 				E54E363A15FF8ABD001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 */,
 				E54E363B15FF8ABD001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 */,
+				E54E35BB15FF8ABD001A4251 /* Frans Halsema - Voor haar.mp3 */,
 				E54E363C15FF8ABD001A4251 /* Free - All Right Now.mp3 */,
 				E54E363D15FF8ABD001A4251 /* Gabriella Cilmi - Sweet About Me.mp3 */,
 				E54E363E15FF8ABD001A4251 /* Gladys Knight - Licence To Kill.mp3 */,
 				E54E363F15FF8ABD001A4251 /* Gloria Gaynor - Never Can Say Goodbye.mp3 */,
 				E54E364015FF8ABD001A4251 /* Godley & Creme - An Englishman In New York.mp3 */,
 				E54E364115FF8ABD001A4251 /* Godley & Creme - Cry.mp3 */,
+				E54E35F915FF8ABD001A4251 /* Goede Doel - België.mp3 */,
 				E54E364215FF8ABD001A4251 /* Golden Earrings - Dong-Dong-Di-Ki-Di-Gi-Dong.mp3 */,
+				E54E35BA15FF8ABD001A4251 /* Golden Earrings - Sound of the screaming day.mp3 */,
 				E54E364315FF8ABD001A4251 /* Grace Jones - I've Seen That Face Before.mp3 */,
 				E54E364415FF8ABD001A4251 /* Grace Jones - Pull Up To the Bumper.mp3 */,
 				E54E364515FF8ABD001A4251 /* Guns n' Roses - Knockin' On Heavens Door.mp3 */,
 				E54E364615FF8ABD001A4251 /* Guns n' Roses - November Rain.mp3 */,
 				E54E364715FF8ABD001A4251 /* Guns n' Roses - Sweet Child O' Mine.mp3 */,
 				E54E364815FF8ABD001A4251 /* Harold Faltermeyer - Axel F.mp3 */,
+				E54E35B915FF8ABD001A4251 /* Harry Klorkestein - O, o, Den Haag.mp3 */,
 				E54E364915FF8ABD001A4251 /* Henk Westbroek - Zelfs Je Naam Is Mooi.mp3 */,
+				E54E35B815FF8ABD001A4251 /* Herman van Veen - Hilversum III.mp3 */,
 				E54E364A15FF8ABD001A4251 /* Housemartins - Caravan Of Love.mp3 */,
 				E54E364B15FF8ABD001A4251 /* Ilse DeLange - Great Escape.mp3 */,
 				E54E364C15FF8ABD001A4251 /* Ilse DeLange - So Incredible.mp3 */,
+				E54E35D815FF8ABD001A4251 /* J.J. Cale - Cocaine.mp3 */,
 				E54E364D15FF8ABD001A4251 /* Jackson 5 - ABC.mp3 */,
 				E54E364E15FF8ABD001A4251 /* Jackson 5 - I Want You Back.mp3 */,
 				E54E364F15FF8ABD001A4251 /* James Brown - It's A Man's, Man's, Man's World.mp3 */,
@@ -1892,6 +1847,7 @@
 				E54E366015FF8ABD001A4251 /* Julie Covington - Don't Cry For Me Argentina.mp3 */,
 				E54E366115FF8ABD001A4251 /* Kaiser Chiefs - Ruby.mp3 */,
 				E54E366215FF8ABD001A4251 /* Kane - Shot Of A Gun.mp3 */,
+				E54E35B715FF8ABD001A4251 /* Kayak - Ruthless queen.mp3 */,
 				E54E366315FF8ABD001A4251 /* Keane - Somewhere Only We know.mp3 */,
 				E54E366415FF8ABD001A4251 /* Keane - This Is The Last Time.mp3 */,
 				E54E366515FF8ABD001A4251 /* Kelly Family - David's Song.mp3 */,
@@ -1899,36 +1855,46 @@
 				E54E366715FF8ABD001A4251 /* Kim Wilde - You Came.mp3 */,
 				E54E366815FF8ABD001A4251 /* Kiss - I Was Made For Loving You.mp3 */,
 				E54E366915FF8ABD001A4251 /* Kiss - Sure Know Someting.mp3 */,
+				E54E35B615FF8ABD001A4251 /* Klein Orkest - Over de muur.mp3 */,
 				E54E366A15FF8ABD001A4251 /* Kool & The Gang - Celebration.mp3 */,
 				E54E366B15FF8ABD001A4251 /* Kool & The Gang - Cherish.mp3 */,
 				E54E366C15FF8ABD001A4251 /* Lady GaGa - Poker Face.mp3 */,
-				E54E366D15FF8ABD001A4251 /* Les Poppys - Non Non, Rien n'a Changé.mp3 */,
 				E54E366E15FF8ABD001A4251 /* Level 42 - Hot Water.mp3 */,
+				E54E35C915FF8ABD001A4251 /* Level 42 - Lessons in love.mp3 */,
 				E54E366F15FF8ABD001A4251 /* Level 42 - Love Games.mp3 */,
 				E54E367015FF8ABD001A4251 /* Lighthouse Family - High.mp3 */,
 				E54E367115FF8ABD001A4251 /* Lionel Richie - All Night Long (All Night).mp3 */,
 				E54E367215FF8ABD001A4251 /* Lionel Richie - Dancing On The Ceiling.mp3 */,
+				E54E35D715FF8ABD001A4251 /* Lionel Richie - Hello.mp3 */,
+				E54E35D615FF8ABD001A4251 /* Live - Overcome.mp3 */,
 				E54E367315FF8ABD001A4251 /* Live - The Dolphins Cry.mp3 */,
 				E54E367415FF8ABD001A4251 /* Louis Armstrong - What A Wonderfull World.mp3 */,
 				E54E367515FF8ABD001A4251 /* Lucie Silvas - Nothing Else Matters.mp3 */,
+				E54E35D515FF8ABD001A4251 /* Lynyrd Skynyrd - Sweet home Alabama.mp3 */,
+				E54E35D415FF8ABD001A4251 /* Mama's & Papa's - California dreamin'.mp3 */,
 				E54E367615FF8ABD001A4251 /* Marco Borsato & Lucy Silvas - Every Time I Think Of You.mp3 */,
+				E54E35B515FF8ABD001A4251 /* Marco Borsato - Rood.mp3 */,
 				E54E367715FF8ABD001A4251 /* Mariah Carey - We Belong Together.mp3 */,
 				E54E367815FF8ABD001A4251 /* Maroon 5 - Makes Me Wonder.mp3 */,
 				E54E367915FF8ABD001A4251 /* Maroon 5 - This Love.mp3 */,
 				E54E367A15FF8ABD001A4251 /* Marvin Gaye - I Heard It Through The Grapevine.mp3 */,
+				E54E35D315FF8ABD001A4251 /* Marvin Gaye - What's going on.mp3 */,
 				E54E367B15FF8ABD001A4251 /* Matthias Reim - Verdammt Ich Lieb' Dich.mp3 */,
 				E54E367C15FF8ABD001A4251 /* Mavericks - Dance The night Away.mp3 */,
 				E54E367D15FF8ABD001A4251 /* Melissa Etheridge - Like The Way I Do.mp3 */,
+				E54E35D215FF8ABD001A4251 /* Metallica - Nothing else matters.mp3 */,
 				E54E367E15FF8ABD001A4251 /* Michael Jackson - Ben.mp3 */,
 				E54E367F15FF8ABD001A4251 /* Michel Delpech - Pour Une Flirt.mp3 */,
 				E54E368015FF8ABD001A4251 /* Mika - Grace Kelly.mp3 */,
 				E54E368115FF8ABD001A4251 /* Mika - Relax (Take It Easy).mp3 */,
-				E54E368215FF8ABD001A4251 /* Mike Oldfield- Moonlight Shadow.mp3 */,
+				E54E35C815FF8ABD001A4251 /* Mike Oldfield - Tubular Bells.mp3 */,
+				E54E368215FF8ABD001A4251 /* Mike Oldfield - Moonlight Shadow.mp3 */,
 				E54E368315FF8ABD001A4251 /* Moody Blues - Nights In White Satin.mp3 */,
 				E54E368415FF8ABD001A4251 /* Moody Blues - Question.mp3 */,
 				E54E368515FF8ABD001A4251 /* Nana Mouskouri - Only Love.mp3 */,
 				E54E368615FF8ABD001A4251 /* Neil Diamond - I Am..I Said.mp3 */,
 				E54E368715FF8ABD001A4251 /* Neil Diamond - Song Sung Blue.mp3 */,
+				E54E35D115FF8ABD001A4251 /* Neil Diamond - Sweet Caroline.mp3 */,
 				E54E368815FF8ABD001A4251 /* Nelly Furtado - All Good Things (Come To An End).mp3 */,
 				E54E368915FF8ABD001A4251 /* Nik Kershaw - The Riddle.mp3 */,
 				E54E368A15FF8ABD001A4251 /* Nik Kershaw - Wouldn't It Be Good.mp3 */,
@@ -1937,12 +1903,20 @@
 				E54E368D15FF8ABD001A4251 /* Oleta Adams - Get Here.mp3 */,
 				E54E368E15FF8ABD001A4251 /* Oleta Adams - Window Of Hope.mp3 */,
 				E54E368F15FF8ABD001A4251 /* Opus - Live Is Life.mp3 */,
+				E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */,
+				E54E35C615FF8ABD001A4251 /* Paul Weller - You do something to me.mp3 */,
 				E54E369015FF8ABD001A4251 /* Peter Frampton - Show me The Way.mp3 */,
+				E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */,
+				E54E35C515FF8ABD001A4251 /* Phil Lynott - Old town.mp3 */,
+				E54E35B015FF8ABD001A4251 /* Q65 - The life I live.mp3 */,
+				E54E35AF15FF8ABD001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 */,
 				E54E369115FF8ABD001A4251 /* Rare Earth - Get Ready.mp3 */,
+				E54E35C415FF8ABD001A4251 /* Razorlight - America.mp3 */,
 				E54E369215FF8ABD001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 */,
 				E54E369315FF8ABD001A4251 /* Rick James - Glow.mp3 */,
 				E54E369415FF8ABD001A4251 /* Rick James - Super Freak.mp3 */,
 				E54E369515FF8ABD001A4251 /* Righteous Brothers - Unchained Melody.mp3 */,
+				E54E35AE15FF8ABD001A4251 /* Rob de Nijs - Malle Babbe.mp3 */,
 				E54E369615FF8ABD001A4251 /* Rob De Nijs - Zet Een Kaars Voor Je Raam.mp3 */,
 				E54E369715FF8ABD001A4251 /* Robert Cray - Right Next Door (Because Of Me).mp3 */,
 				E54E369815FF8ABD001A4251 /* Robin Beck - First Time.mp3 */,
@@ -1953,11 +1927,12 @@
 				E54E369D15FF8ABD001A4251 /* Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3 */,
 				E54E369E15FF8ABD001A4251 /* Sciccor Sisters - I Don't Feel Like Dancing.mp3 */,
 				E54E369F15FF8ABD001A4251 /* Scorpions - Wind Of Change.mp3 */,
-				E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3 */,
+				E54E36A015FF8ABD001A4251 /* Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3 */,
 				E54E36A115FF8ABD001A4251 /* Shania Twain - Man! I Feel Like A Woman.mp3 */,
 				E54E36A215FF8ABD001A4251 /* Shania Twain - That Don't Impress Me Much.mp3 */,
 				E54E36A315FF8ABD001A4251 /* Sheena Easton - The Lover in Me.mp3 */,
 				E54E36A415FF8ABD001A4251 /* Sheryl Crow - All I Wanna Do.mp3 */,
+				E54E35AC15FF8ABD001A4251 /* Skik - Op fietse.mp3 */,
 				E54E36A515FF8ABD001A4251 /* Slade - Loo Wot You Dun.mp3 */,
 				E54E36A615FF8ABD001A4251 /* Snow Patrol - Shut Your Eyes.mp3 */,
 				E54E36A715FF8ABD001A4251 /* Soft Cell - Tainted Love.mp3 */,
@@ -1967,6 +1942,7 @@
 				E54E36AB15FF8ABD001A4251 /* Status Quo - Down Down.mp3 */,
 				E54E36AC15FF8ABD001A4251 /* Status Quo - Whatever You Want.mp3 */,
 				E54E36AD15FF8ABD001A4251 /* Stealers Wheel - Stuck In The Middle With You.mp3 */,
+				E54E35D915FF8ABD001A4251 /* Steely Dan - Do it again.mp3 */,
 				E54E36AE15FF8ABD001A4251 /* Steely Dan - Rikkie Don't Lose That Number.mp3 */,
 				E54E36AF15FF8ABD001A4251 /* Steppenwolf - Born To Be Wild.mp3 */,
 				E54E36B015FF8ABD001A4251 /* Steve Winwood - Higher Love.mp3 */,
@@ -1980,22 +1956,27 @@
 				E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */,
 				E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */,
 				E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */,
-				E54E36BB15FF8ABD001A4251 /* Supertramp - The Logical Song.mp3 */,
+				E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */,
 				E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */,
 				E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */,
 				E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */,
 				E54E36BF15FF8ABD001A4251 /* The Carpenters - Jambalaya (On The Bayou).mp3 */,
 				E54E36C015FF8ABD001A4251 /* The Carpenters - Top Of The World.mp3 */,
+				E54E35DD15FF8ABD001A4251 /* The Commodores - Easy.mp3 */,
+				E54E35CD15FF8ABD001A4251 /* The Cure - A forest.mp3 */,
 				E54E36C115FF8ABD001A4251 /* The Cure - Close To Me.mp3 */,
 				E54E36C215FF8ABD001A4251 /* The Cure - Why Can't I Be You.mp3 */,
-				E54E36C315FF8ABD001A4251 /* The Fortunes- You've Got You Trouble.mp3 */,
+				E54E36C315FF8ABD001A4251 /* The Fortunes - You've Got You Trouble.mp3 */,
 				E54E36C415FF8ABD001A4251 /* The Killers - Human.mp3 */,
+				E54E35CA15FF8ABD001A4251 /* The Kinks - Lola.mp3 */,
 				E54E36C515FF8ABD001A4251 /* The Mamas & The Papas - Monday, Monday.mp3 */,
+				E54E35C715FF8ABD001A4251 /* The Moody Blues - Nights in white satin.mp3 */,
 				E54E36C615FF8ABD001A4251 /* The Osmonds - Crazy Horses.mp3 */,
-				E54E36C715FF8ABD001A4251 /* The Osmonds- Down By The Crazy River.mp3 */,
+				E54E36C715FF8ABD001A4251 /* The Osmonds - Down By The Crazy River.mp3 */,
 				E54E36C815FF8ABD001A4251 /* The Police - Roxanne.mp3 */,
 				E54E36C915FF8ABD001A4251 /* The Police - Walking On The Moon.mp3 */,
 				E54E36CA15FF8ABD001A4251 /* The Rubettes - Sugar Baby Love.mp3 */,
+				E54E35AD15FF8ABD001A4251 /* The Scene - Blauw.mp3 */,
 				E54E36CB15FF8ABD001A4251 /* The Temptations - Papa Was A Rollin' Stone.mp3 */,
 				E54E36CC15FF8ABD001A4251 /* The Troggs - Wild Thing.mp3 */,
 				E54E36CD15FF8ABD001A4251 /* The Who - Pinball Wizard.mp3 */,
@@ -2012,10 +1993,14 @@
 				E54E36D815FF8ABD001A4251 /* Van Morrison - Have I Told You Lately (That I Love You).mp3 */,
 				E54E36D915FF8ABD001A4251 /* Vanessa Williams - Save The Best For Last.mp3 */,
 				E54E36DA15FF8ABD001A4251 /* Vicky Leandross - Après Toi.mp3 */,
+				E54E35AB15FF8ABD001A4251 /* Vitesse - Rosalyn.mp3 */,
 				E54E36DB15FF8ABD001A4251 /* Walker Brothers - The Sun Ain't Gonna Shine Anymore.mp3 */,
 				E54E36DC15FF8ABD001A4251 /* Wet Wet Wet - Love Is All Around.mp3 */,
 				E54E36DD15FF8ABD001A4251 /* Wet Wet Wet - Wishing I Was Lucky.mp3 */,
+				E54E35AA15FF8ABD001A4251 /* Wim Sonneveld - Het dorp.mp3 */,
 				E54E36DE15FF8ABD001A4251 /* Womack & Womack - Teardrops.mp3 */,
+				E54E35A915FF8ABD001A4251 /* Youp van 't Hek - Flappie.mp3 */,
+				E54E35A815FF8ABD001A4251 /* Zangeres Zonder Naam - Mexico.mp3 */,
 				E54E36DF15FF8ABD001A4251 /* Zucchero & Paul Young - Sensa Una Donna (Without A Woman).mp3 */,
 			);
 			path = Music;
@@ -2606,7 +2591,7 @@
 				E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */,
 				E5999D9715FCACE100A26E3C /* Paul Weller.JPG */,
 				E5999D9815FCACE100A26E3C /* Peter Koelewijn.JPG */,
-				E5999D9915FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG */,
+				E5999D9915FCACE100A26E3C /* KISS.JPG */,
 				E5999D9A15FCACE100A26E3C /* Queen.jpg */,
 				E5999D9B15FCACE100A26E3C /* Ramses Shaffy.jpg */,
 				E5999D9C15FCACE100A26E3C /* Rob de Nijs.JPG */,
@@ -2984,7 +2969,7 @@
 				E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */,
 				E5999E5F15FCACE100A26E3C /* Paul Weller.JPG in Resources */,
 				E5999E6015FCACE100A26E3C /* Peter Koelewijn.JPG in Resources */,
-				E5999E6115FCACE100A26E3C /* Photo_Kiss_300CMYK.JPG in Resources */,
+				E5999E6115FCACE100A26E3C /* KISS.JPG in Resources */,
 				E5999E6215FCACE100A26E3C /* Queen.jpg in Resources */,
 				E5999E6315FCACE100A26E3C /* Ramses Shaffy.jpg in Resources */,
 				E5999E6415FCACE100A26E3C /* Rob de Nijs.JPG in Resources */,
@@ -3054,69 +3039,64 @@
 				E54E36E515FF8ABE001A4251 /* DINNextLTPro-Regular.otf in Resources */,
 				E54E36E615FF8ABE001A4251 /* OmroepBold.otf in Resources */,
 				E54E36E715FF8ABE001A4251 /* OmroepLight.otf in Resources */,
-				E54E36E815FF8ABE001A4251 /* 01 Mexico.mp3 in Resources */,
-				E54E36E915FF8ABE001A4251 /* 02 Flappie.mp3 in Resources */,
-				E54E36EA15FF8ABE001A4251 /* 03 Het Dorp.mp3 in Resources */,
-				E54E36EB15FF8ABE001A4251 /* 04 Rosalyn.mp3 in Resources */,
-				E54E36EC15FF8ABE001A4251 /* 05 Op Fietse.mp3 in Resources */,
-				E54E36ED15FF8ABE001A4251 /* 06 Blauw.mp3 in Resources */,
-				E54E36EE15FF8ABE001A4251 /* 07 Malle Babbe.mp3 in Resources */,
-				E54E36EF15FF8ABE001A4251 /* 08 Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder.mp3 in Resources */,
-				E54E36F015FF8ABE001A4251 /* 09 The Life I Live.mp3 in Resources */,
-				E54E36F115FF8ABE001A4251 /* 10 Peter Koelewijn & Zijn Rockets - Kom Van Dat Dak Af.mp3 in Resources */,
+				E54E36E815FF8ABE001A4251 /* Zangeres Zonder Naam - Mexico.mp3 in Resources */,
+				E54E36E915FF8ABE001A4251 /* Youp van 't Hek - Flappie.mp3 in Resources */,
+				E54E36EA15FF8ABE001A4251 /* Wim Sonneveld - Het dorp.mp3 in Resources */,
+				E54E36EB15FF8ABE001A4251 /* Vitesse - Rosalyn.mp3 in Resources */,
+				E54E36EC15FF8ABE001A4251 /* Skik - Op fietse.mp3 in Resources */,
+				E54E36ED15FF8ABE001A4251 /* The Scene - Blauw.mp3 in Resources */,
+				E54E36EE15FF8ABE001A4251 /* Rob de Nijs - Malle Babbe.mp3 in Resources */,
+				E54E36EF15FF8ABE001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 in Resources */,
+				E54E36F015FF8ABE001A4251 /* Q65 - The life I live.mp3 in Resources */,
+				E54E36F115FF8ABE001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 in Resources */,
 				E54E36F215FF8ABE001A4251 /* 10CC - Dreadlock Holiday.mp3 in Resources */,
 				E54E36F315FF8ABE001A4251 /* 10CC - I'm Not In Love.mp3 in Resources */,
-				E54E36F415FF8ABE001A4251 /* 11 Ik Heb Je Lief.mp3 in Resources */,
-				E54E36F515FF8ABE001A4251 /* 12 Rood.mp3 in Resources */,
-				E54E36F615FF8ABE001A4251 /* 13 Over De Muur.mp3 in Resources */,
-				E54E36F715FF8ABE001A4251 /* 14 Ruthless Queen.mp3 in Resources */,
-				E54E36F815FF8ABE001A4251 /* 15 Hilversum III.mp3 in Resources */,
-				E54E36F915FF8ABE001A4251 /* 16 O, O, Den Haag.mp3 in Resources */,
-				E54E36FA15FF8ABE001A4251 /* 17 Sound Of The Screaming Day.mp3 in Resources */,
-				E54E36FB15FF8ABE001A4251 /* 19 Voor Haar.mp3 in Resources */,
-				E54E36FC15FF8ABE001A4251 /* 20 Air.mp3 in Resources */,
-				E54E36FD15FF8ABE001A4251 /* 21 Dodenrit.mp3 in Resources */,
-				E54E36FE15FF8ABE001A4251 /* 22 Sausolito Summernight.mp3 in Resources */,
-				E54E36FF15FF8ABE001A4251 /* 23 Als Ze Er Niet Is.mp3 in Resources */,
-				E54E370015FF8ABE001A4251 /* 24 Window Of My Eyes.mp3 in Resources */,
-				E54E370115FF8ABE001A4251 /* 25 Veronica.mp3 in Resources */,
-				E54E370215FF8ABE001A4251 /* 26 Avond.mp3 in Resources */,
-				E54E370315FF8ABE001A4251 /* 27 Ben Ik Te Min.mp3 in Resources */,
-				E54E370415FF8ABE001A4251 /* 28 America.mp3 in Resources */,
-				E54E370515FF8ABE001A4251 /* 29 Old Town.mp3 in Resources */,
-				E54E370615FF8ABE001A4251 /* 30 You Do Something To Me.mp3 in Resources */,
-				E54E370715FF8ABE001A4251 /* 31 Nights In White Satin.mp3 in Resources */,
-				E54E370815FF8ABE001A4251 /* 32 Tubular Bells.mp3 in Resources */,
-				E54E370915FF8ABE001A4251 /* 33 Lessons In Love.mp3 in Resources */,
-				E54E370A15FF8ABE001A4251 /* 34 Lola.mp3 in Resources */,
-				E54E370B15FF8ABE001A4251 /* 35 I Want You.mp3 in Resources */,
-				E54E370C15FF8ABE001A4251 /* 36 Layla.mp3 in Resources */,
-				E54E370D15FF8ABE001A4251 /* 37 A Forest.mp3 in Resources */,
-				E54E370E15FF8ABE001A4251 /* 38 The Logical Song.mp3 in Resources */,
-				E54E370F15FF8ABE001A4251 /* 39 You know I’m no good.mp3 in Resources */,
+				E54E36F415FF8ABE001A4251 /* Paul de Leeuw - k Heb je lief.mp3 in Resources */,
+				E54E36F515FF8ABE001A4251 /* Marco Borsato - Rood.mp3 in Resources */,
+				E54E36F615FF8ABE001A4251 /* Klein Orkest - Over de muur.mp3 in Resources */,
+				E54E36F715FF8ABE001A4251 /* Kayak - Ruthless queen.mp3 in Resources */,
+				E54E36F815FF8ABE001A4251 /* Herman van Veen - Hilversum III.mp3 in Resources */,
+				E54E36F915FF8ABE001A4251 /* Harry Klorkestein - O, o, Den Haag.mp3 in Resources */,
+				E54E36FA15FF8ABE001A4251 /* Golden Earrings - Sound of the screaming day.mp3 in Resources */,
+				E54E36FB15FF8ABE001A4251 /* Frans Halsema - Voor haar.mp3 in Resources */,
+				E54E36FC15FF8ABE001A4251 /* Ekseption - Air.mp3 in Resources */,
+				E54E36FD15FF8ABE001A4251 /* Drs. P - Dodenrit.mp3 in Resources */,
+				E54E36FE15FF8ABE001A4251 /* Diesel - Sausolito Summernight.mp3 in Resources */,
+				E54E36FF15FF8ABE001A4251 /* De Dijk - Als ze er niet is.mp3 in Resources */,
+				E54E370015FF8ABE001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 in Resources */,
+				E54E370115FF8ABE001A4251 /* Cornelis Vreeswijk - Veronica.mp3 in Resources */,
+				E54E370215FF8ABE001A4251 /* Boudewijn de Groot - Avond.mp3 in Resources */,
+				E54E370315FF8ABE001A4251 /* Armand - Ben ik te min.mp3 in Resources */,
+				E54E370415FF8ABE001A4251 /* Razorlight - America.mp3 in Resources */,
+				E54E370515FF8ABE001A4251 /* Phil Lynott - Old town.mp3 in Resources */,
+				E54E370615FF8ABE001A4251 /* Paul Weller - You do something to me.mp3 in Resources */,
+				E54E370715FF8ABE001A4251 /* The Moody Blues - Nights in white satin.mp3 in Resources */,
+				E54E370815FF8ABE001A4251 /* Mike Oldfield - Tubular Bells.mp3 in Resources */,
+				E54E370915FF8ABE001A4251 /* Level 42 - Lessons in love.mp3 in Resources */,
+				E54E370A15FF8ABE001A4251 /* The Kinks - Lola.mp3 in Resources */,
+				E54E370B15FF8ABE001A4251 /* Elvis Costello And The Attractions - I want you.mp3 in Resources */,
+				E54E370D15FF8ABE001A4251 /* The Cure - A forest.mp3 in Resources */,
+				E54E370F15FF8ABE001A4251 /* Amy Winehouse - You know I’m no good.mp3 in Resources */,
 				E54E371015FF8ABE001A4251 /* 4 Non Blondes - What's Up.mp3 in Resources */,
-				E54E371115FF8ABE001A4251 /* 40 Sweet Caroline.mp3 in Resources */,
-				E54E371215FF8ABE001A4251 /* 41 Nothing Else Matters.mp3 in Resources */,
-				E54E371315FF8ABE001A4251 /* 42 What's Going On.mp3 in Resources */,
-				E54E371415FF8ABE001A4251 /* 43 California Dreamin'.mp3 in Resources */,
-				E54E371515FF8ABE001A4251 /* 44 Sweet Home Alabama.mp3 in Resources */,
-				E54E371615FF8ABE001A4251 /* 45 Overcome.mp3 in Resources */,
-				E54E371715FF8ABE001A4251 /* 46 Hello.mp3 in Resources */,
-				E54E371815FF8ABE001A4251 /* 47 Cocaine.mp3 in Resources */,
-				E54E371915FF8ABE001A4251 /* 48 Do It Again.mp3 in Resources */,
-				E54E371A15FF8ABE001A4251 /* 49 Ain't No Mountain High Enough.mp3 in Resources */,
-				E54E371B15FF8ABE001A4251 /* 50 Bad Moon Rising.mp3 in Resources */,
-				E54E371C15FF8ABE001A4251 /* 51 Mr. Jones.mp3 in Resources */,
-				E54E371D15FF8ABE001A4251 /* 52 Easy.mp3 in Resources */,
-				E54E371E15FF8ABE001A4251 /* 53 If I Could Turn Back Time.mp3 in Resources */,
-				E54E371F15FF8ABE001A4251 /* 54 Top Of The World.mp3 in Resources */,
-				E54E372015FF8ABE001A4251 /* 55 Living On A Prayer.mp3 in Resources */,
-				E54E372115FF8ABE001A4251 /* 56 Where Is The Love.mp3 in Resources */,
-				E54E372215FF8ABE001A4251 /* 57 You're The First, The Last, My Everything.mp3 in Resources */,
-				E54E372315FF8ABE001A4251 /* 58 The Thrill Is Gone.mp3 in Resources */,
-				E54E372415FF8ABE001A4251 /* 59 Dream On.mp3 in Resources */,
-				E54E372515FF8ABE001A4251 /* 60 Mac Arthur Park.mp3 in Resources */,
-				E54E372615FF8ABE001A4251 /* 61 What's Up.mp3 in Resources */,
+				E54E371115FF8ABE001A4251 /* Neil Diamond - Sweet Caroline.mp3 in Resources */,
+				E54E371215FF8ABE001A4251 /* Metallica - Nothing else matters.mp3 in Resources */,
+				E54E371315FF8ABE001A4251 /* Marvin Gaye - What's going on.mp3 in Resources */,
+				E54E371415FF8ABE001A4251 /* Mama's & Papa's - California dreamin'.mp3 in Resources */,
+				E54E371515FF8ABE001A4251 /* Lynyrd Skynyrd - Sweet home Alabama.mp3 in Resources */,
+				E54E371615FF8ABE001A4251 /* Live - Overcome.mp3 in Resources */,
+				E54E371715FF8ABE001A4251 /* Lionel Richie - Hello.mp3 in Resources */,
+				E54E371815FF8ABE001A4251 /* J.J. Cale - Cocaine.mp3 in Resources */,
+				E54E371915FF8ABE001A4251 /* Steely Dan - Do it again.mp3 in Resources */,
+				E54E371A15FF8ABE001A4251 /* Diana Ross - Ain't no mountain high enough.mp3 in Resources */,
+				E54E371B15FF8ABE001A4251 /* Creedence Clearwater Revival - Bad moon rising.mp3 in Resources */,
+				E54E371C15FF8ABE001A4251 /* Counting Crows - Mr. Jones.mp3 in Resources */,
+				E54E371D15FF8ABE001A4251 /* The Commodores - Easy.mp3 in Resources */,
+				E54E371E15FF8ABE001A4251 /* Cher - If I could turn back time.mp3 in Resources */,
+				E54E371F15FF8ABE001A4251 /* Carpenters - Top of the world.mp3 in Resources */,
+				E54E372215FF8ABE001A4251 /* Barry White - You're the first, the last, my everything.mp3 in Resources */,
+				E54E372315FF8ABE001A4251 /* B.B. King - The thrill is gone.mp3 in Resources */,
+				E54E372415FF8ABE001A4251 /* Aerosmith - Dream on.mp3 in Resources */,
+				E54E372515FF8ABE001A4251 /* Donna Summer - Mac Arthur park.mp3 in Resources */,
 				E54E372715FF8ABE001A4251 /* 98 Degrees & Stevie Wonder - True To Your Heart.mp3 in Resources */,
 				E54E372815FF8ABE001A4251 /* ABBA - Dancing Queen.mp3 in Resources */,
 				E54E372915FF8ABE001A4251 /* ABBA - Voulez-Vous.mp3 in Resources */,
@@ -3135,11 +3115,11 @@
 				E54E373615FF8ABE001A4251 /* Barry Ryan - Eloise.mp3 in Resources */,
 				E54E373715FF8ABE001A4251 /* Barry White - Can't Get Enough Of Your Love Babe.mp3 in Resources */,
 				E54E373815FF8ABE001A4251 /* Barry White - Never Never Gonna give Ya Up.mp3 in Resources */,
-				E54E373915FF8ABE001A4251 /* België.mp3 in Resources */,
+				E54E373915FF8ABE001A4251 /* Goede Doel - België.mp3 in Resources */,
 				E54E373A15FF8ABE001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 in Resources */,
 				E54E373B15FF8ABE001A4251 /* Black - Wonderful Life.mp3 in Resources */,
 				E54E373C15FF8ABE001A4251 /* Black Eyed Peas - My Humps.mp3 in Resources */,
-				E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where Is The Love.mp3 in Resources */,
+				E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where is the love.mp3 in Resources */,
 				E54E373E15FF8ABE001A4251 /* Black Sabbath - Paranoid.mp3 in Resources */,
 				E54E373F15FF8ABE001A4251 /* Blue Cheer - Summertime Blues.mp3 in Resources */,
 				E54E374015FF8ABE001A4251 /* Bob & Earl - Harlem Shuffle.mp3 in Resources */,
@@ -3156,7 +3136,7 @@
 				E54E374B15FF8ABE001A4251 /* Cat Stevens - Lady D'Arbanville.mp3 in Resources */,
 				E54E374C15FF8ABE001A4251 /* Cat Stevens - Morning Has Broken.mp3 in Resources */,
 				E54E374D15FF8ABE001A4251 /* Chris De Burgh - Lady In Red.mp3 in Resources */,
-				E54E374E15FF8ABE001A4251 /* Commodores -  Brick House.mp3 in Resources */,
+				E54E374E15FF8ABE001A4251 /* Commodores - Brick House.mp3 in Resources */,
 				E54E374F15FF8ABE001A4251 /* Commodores - Nighshift.mp3 in Resources */,
 				E54E375015FF8ABE001A4251 /* Commodores - Sail On.mp3 in Resources */,
 				E54E375115FF8ABE001A4251 /* Counting Crows - Big Yellow Taxi.mp3 in Resources */,
@@ -3251,7 +3231,6 @@
 				E54E37AA15FF8ABE001A4251 /* Kool & The Gang - Celebration.mp3 in Resources */,
 				E54E37AB15FF8ABE001A4251 /* Kool & The Gang - Cherish.mp3 in Resources */,
 				E54E37AC15FF8ABE001A4251 /* Lady GaGa - Poker Face.mp3 in Resources */,
-				E54E37AD15FF8ABE001A4251 /* Les Poppys - Non Non, Rien n'a Changé.mp3 in Resources */,
 				E54E37AE15FF8ABE001A4251 /* Level 42 - Hot Water.mp3 in Resources */,
 				E54E37AF15FF8ABE001A4251 /* Level 42 - Love Games.mp3 in Resources */,
 				E54E37B015FF8ABE001A4251 /* Lighthouse Family - High.mp3 in Resources */,
@@ -3272,7 +3251,7 @@
 				E54E37BF15FF8ABE001A4251 /* Michel Delpech - Pour Une Flirt.mp3 in Resources */,
 				E54E37C015FF8ABE001A4251 /* Mika - Grace Kelly.mp3 in Resources */,
 				E54E37C115FF8ABE001A4251 /* Mika - Relax (Take It Easy).mp3 in Resources */,
-				E54E37C215FF8ABE001A4251 /* Mike Oldfield- Moonlight Shadow.mp3 in Resources */,
+				E54E37C215FF8ABE001A4251 /* Mike Oldfield - Moonlight Shadow.mp3 in Resources */,
 				E54E37C315FF8ABE001A4251 /* Moody Blues - Nights In White Satin.mp3 in Resources */,
 				E54E37C415FF8ABE001A4251 /* Moody Blues - Question.mp3 in Resources */,
 				E54E37C515FF8ABE001A4251 /* Nana Mouskouri - Only Love.mp3 in Resources */,
@@ -3302,7 +3281,7 @@
 				E54E37DD15FF8ABE001A4251 /* Sammy Davis Jr - Baretta's Theme (Keep Your Eye On The Sparrow).mp3 in Resources */,
 				E54E37DE15FF8ABE001A4251 /* Sciccor Sisters - I Don't Feel Like Dancing.mp3 in Resources */,
 				E54E37DF15FF8ABE001A4251 /* Scorpions - Wind Of Change.mp3 in Resources */,
-				E54E37E015FF8ABE001A4251 /* Serge Gainsbourg & Jane Birkin -  Je T'aime Moi Non Plus.mp3 in Resources */,
+				E54E37E015FF8ABE001A4251 /* Serge Gainsbourg & Jane Birkin - Je T'aime Moi Non Plus.mp3 in Resources */,
 				E54E37E115FF8ABE001A4251 /* Shania Twain - Man! I Feel Like A Woman.mp3 in Resources */,
 				E54E37E215FF8ABE001A4251 /* Shania Twain - That Don't Impress Me Much.mp3 in Resources */,
 				E54E37E315FF8ABE001A4251 /* Sheena Easton - The Lover in Me.mp3 in Resources */,
@@ -3329,7 +3308,7 @@
 				E54E37F815FF8ABE001A4251 /* Styx - Babe.mp3 in Resources */,
 				E54E37F915FF8ABE001A4251 /* Styx - Sing For The Day.mp3 in Resources */,
 				E54E37FA15FF8ABE001A4251 /* Supertramp - Give A Little Bit.mp3 in Resources */,
-				E54E37FB15FF8ABE001A4251 /* Supertramp - The Logical Song.mp3 in Resources */,
+				E54E37FB15FF8ABE001A4251 /* Supertramp - The logical song.mp3 in Resources */,
 				E54E37FC15FF8ABE001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 in Resources */,
 				E54E37FD15FF8ABE001A4251 /* Tears For Fears - Shout.mp3 in Resources */,
 				E54E37FE15FF8ABE001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 in Resources */,
@@ -3337,11 +3316,11 @@
 				E54E380015FF8ABE001A4251 /* The Carpenters - Top Of The World.mp3 in Resources */,
 				E54E380115FF8ABE001A4251 /* The Cure - Close To Me.mp3 in Resources */,
 				E54E380215FF8ABE001A4251 /* The Cure - Why Can't I Be You.mp3 in Resources */,
-				E54E380315FF8ABE001A4251 /* The Fortunes- You've Got You Trouble.mp3 in Resources */,
+				E54E380315FF8ABE001A4251 /* The Fortunes - You've Got You Trouble.mp3 in Resources */,
 				E54E380415FF8ABE001A4251 /* The Killers - Human.mp3 in Resources */,
 				E54E380515FF8ABE001A4251 /* The Mamas & The Papas - Monday, Monday.mp3 in Resources */,
 				E54E380615FF8ABE001A4251 /* The Osmonds - Crazy Horses.mp3 in Resources */,
-				E54E380715FF8ABE001A4251 /* The Osmonds- Down By The Crazy River.mp3 in Resources */,
+				E54E380715FF8ABE001A4251 /* The Osmonds - Down By The Crazy River.mp3 in Resources */,
 				E54E380815FF8ABE001A4251 /* The Police - Roxanne.mp3 in Resources */,
 				E54E380915FF8ABE001A4251 /* The Police - Walking On The Moon.mp3 in Resources */,
 				E54E380A15FF8ABE001A4251 /* The Rubettes - Sugar Baby Love.mp3 in Resources */,
@@ -3405,6 +3384,7 @@
 				E502FAD5161108B800277349 /* back_btn@2x.png in Resources */,
 				E572D114161229820065F545 /* README.md in Resources */,
 				E572D115161229820065F545 /* release_notes.md in Resources */,
+				17727EC916147C040041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
