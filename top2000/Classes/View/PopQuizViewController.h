@@ -17,6 +17,8 @@
     UILabel*vraagLabel;
     UILabel* antwoordLabel;
     UIButton* antwoordBtn;
+    
+    IBOutlet UIImageView* background;
 }
 
 @property(nonatomic, strong) PopQuizVraag *vraag;

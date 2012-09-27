@@ -8,6 +8,8 @@
 
 #import "PopQuizViewController.h"
 #import "PopQuizVraag.h"
+#import "Globals.h"
+#import "UIImage+iPhone5.h"
 
 @interface PopQuizViewController ()
 
@@ -33,11 +35,48 @@
     return self;
 }
 
+- (void) resizeLabel:(UILabel*)label below:(UIView*)view
+{
+    label.numberOfLines = 0;
+    label.textAlignment = UITextAlignmentCenter;
+    
+    UIFont* font = label.font;
+    CGSize constraintSize = CGSizeMake(label.frame.size.width, MAXFLOAT);
+    CGSize labelSize = [label.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+    CGRect frame = label.frame;
+    frame.size.height = labelSize.height;
+    if (view)
+    {
+        frame.origin.y = CGRectGetMaxY(view.frame) + (IPAD ? 8 : 4);
+    }
+    label.frame = frame;
+}
+
+- (void) repositionBtn:(UIButton*)btn below:(UIView*)view
+{
+    CGRect frame = btn.frame;
+    frame.origin.y = CGRectGetMaxY(view.frame) + (IPAD ? 14 : 7);
+    btn.frame = frame;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"popquiz_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
+    
 	vraagLabel.text = vraag.vraag;
     antwoordLabel.text = vraag.antwoord;
+    
+    [self resizeLabel:vraagLabel below:nil];
+    [self resizeLabel:antwoordLabel below:vraagLabel];
+    [self repositionBtn:antwoordBtn below:vraagLabel];
 }
 
 - (void) viewWillDisappear:(BOOL)animated

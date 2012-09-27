@@ -9,6 +9,8 @@
 #import "HitFragmentViewController.h"
 #import "HitFragment.h"
 #import <AVFoundation/AVFoundation.h>
+#import "UIImage+iPhone5.h"
+#import "Globals.h"
 
 @interface HitFragmentViewController ()
 
@@ -119,6 +121,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"hitfragement_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
     
     antwoord1Label.alpha = 0;
     antwoord2Label.alpha = 0;

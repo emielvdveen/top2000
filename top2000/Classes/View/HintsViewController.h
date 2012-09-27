@@ -11,8 +11,12 @@
 @class Hint;
 
 @interface HintsViewController : UIViewController
+{
+    IBOutlet UIImageView* background;    
+}
 
 @property(nonatomic, strong) Hint *hint;
+
 
 @property(nonatomic, strong) IBOutlet UILabel *vraagLabel;
 @property(nonatomic, strong) IBOutlet UILabel *hint1Label;

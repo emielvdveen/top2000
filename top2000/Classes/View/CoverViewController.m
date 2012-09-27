@@ -8,6 +8,8 @@
 
 #import "CoverViewController.h"
 #import "Hoes.h"
+#import "UIImage+iPhone5.h"
+#import "Globals.h"
 
 @interface CoverViewController ()
 
@@ -22,10 +24,19 @@
 {
     [super viewDidLoad];
     coverOriginal.alpha = 0;
+    antwoordLabel.alpha = 0;
 }
 
 - (void) viewDidAppear:(BOOL)animated
 {
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"cover_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
+    
     vraagLabel.text = _hoes.vraag;
     antwoordLabel.text = _hoes.antwoord;
     coverEdited.image = [_hoes editedImage];
@@ -40,23 +51,19 @@
 
 - (IBAction) showAnswer;
 {
-    antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoordBtn.alpha = 0;
         antwoordLabel.alpha = 1;
     } completion:^(BOOL finished) {
-        // nothing
     }];
     
     coverOriginal.alpha = 1;
     [UIView animateWithDuration:1 delay:0 options:UIViewAnimationCurveLinear animations:^{
-//        coverOriginal.alpha = 1;
         coverEdited.alpha = 0;
     } completion:^(BOOL finished) {
         // nothing
     }];
-    
 }
 
 - (void) dealloc

@@ -12,6 +12,9 @@
 @class HitFragment;
 
 @interface HitFragmentViewController : UIViewController <AVAudioPlayerDelegate>
+{
+    IBOutlet UIImageView* background;    
+}
 
 @property(nonatomic, strong) IBOutlet UIProgressView *progressView;
 @property(nonatomic, strong) IBOutlet UIButton *playBtn;

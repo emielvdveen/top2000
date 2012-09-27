@@ -8,4 +8,5 @@
 
 #define IPAD (UI_USER_INTERFACE_IDIOM()==UIUserInterfaceIdiomPad)
 #define IPHONE !IPAD
+#define IPHONE5 ([UIScreen mainScreen].bounds.size.height * [UIScreen mainScreen].scale) >=1136
 

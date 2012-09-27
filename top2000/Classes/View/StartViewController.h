@@ -10,6 +10,10 @@
 
 @interface StartViewController : UIViewController
 {
+    /* iPhone */
+    IBOutlet UIImageView *artistsImageView;
+    
+    /* iPad */
     IBOutlet UIImageView* gunsnroses;
     IBOutlet UIImageView* u2;
     IBOutlet UIImageView* bdg;

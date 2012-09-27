@@ -12,6 +12,7 @@
 
 @interface CoverViewController : UIViewController
 {
+    IBOutlet UIImageView* background;
     IBOutlet UIImageView* shadow;
     IBOutlet UIImageView* coverEdited;
     IBOutlet UIImageView* coverOriginal;

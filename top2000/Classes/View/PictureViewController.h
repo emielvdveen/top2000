@@ -11,6 +11,9 @@
 @class Foto;
 
 @interface PictureViewController : UIViewController
+{
+    IBOutlet UIImageView* background;    
+}
 
 @property (nonatomic, strong) Foto *picture;
 

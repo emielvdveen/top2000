@@ -11,6 +11,9 @@
 @class Doorvraag;
 
 @interface QuestionsViewController : UIViewController
+{
+    IBOutlet UIImageView* background;    
+}
 
 @property (nonatomic, strong) NSArray *doorvragen;
 

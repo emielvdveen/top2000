@@ -44,7 +44,9 @@
 //    [TestFlight takeOff:@"15c97d8509fff32bed24587774c4f322_MTM1MTkzMjAxMi0wOS0yMyAxNDowODozNC44MDA2MDA"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[StartViewController alloc] initWithNibName:@"StartView~ipad" bundle:nil];
+    
+    NSString* nibName = IPAD ? @"StartView~ipad": @"StartView~iphone";
+    self.viewController = [[StartViewController alloc] initWithNibName:nibName bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     

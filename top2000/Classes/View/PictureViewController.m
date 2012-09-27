@@ -9,6 +9,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import "PictureViewController.h"
 #import "Foto.h"
+#import "UIImage+iPhone5.h"
+#import "Globals.h"
 
 @interface PictureViewController ()
 
@@ -67,6 +69,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"picture_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
     
     antwoordLabel.text = [_picture.naam substringToIndex:[_picture.naam length]-4];
     

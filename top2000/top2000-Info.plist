@@ -50,6 +50,8 @@
 	<string>Default-Landscape</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
+	<key>UILaunchImageFile~iphone</key>
+	<string>Default-iPhone</string>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundlePrimaryIcon</key>

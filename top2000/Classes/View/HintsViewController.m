@@ -9,6 +9,7 @@
 #import "HintsViewController.h"
 #import "Hint.h"
 #import "Globals.h"
+#import "UIImage+iPhone5.h"
 
 @interface HintsViewController ()
 - (void) resizeLabel:(UILabel*)label;
@@ -60,6 +61,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"hints_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
+    
     vraagLabel.text = hint.vraag;
     hint1Label.text = hint.hint1;
     hint2Label.text = hint.hint2;
@@ -86,6 +96,10 @@
     hint3TitleLabel.alpha = 0;
     hint4TitleLabel.alpha = 0;
     
+    hint2Label.hidden = YES;
+    hint3Label.hidden = YES;
+    hint4Label.hidden = YES;
+    
     _currentHintLabel = hint1Label;
     _currentHintIndicator = hint2Indicator;
     [_currentHintIndicator startAnimating];
@@ -105,7 +119,7 @@
 - (void) resizeLabel:(UILabel*)label
 {
     label.numberOfLines = 2;
-    label.textAlignment = UITextAlignmentCenter;
+    //label.textAlignment = UITextAlignmentCenter;
     
     UIFont* font = label.font;
     CGSize constraintSize = CGSizeMake(label.frame.size.width, MAXFLOAT);
@@ -187,14 +201,12 @@
         _currentHintLabel = hint2Label;
         _currentHintTitleLabel = hint2TitleLabel;
         _currentHintIndicator = hint3Indicator;
-        [_currentHintIndicator startAnimating];
     }
     else if (_currentHintLabel == hint2Label)
     {
         _currentHintLabel = hint3Label;
         _currentHintTitleLabel = hint3TitleLabel;
         _currentHintIndicator = hint4Indicator;
-        [_currentHintIndicator startAnimating];
     }
     else if (_currentHintLabel == hint3Label)
     {
@@ -233,7 +245,7 @@
         indicator1.alpha = 0;
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
-            indicator2.alpha = 1;
+            indicator1.hidden = YES;
         } completion:^(BOOL finished) {
             // nothing
         }];
@@ -259,6 +271,7 @@
     
     antwoordLabel.alpha = 0;
     antwoordLabel.hidden = NO;
+
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
         antwoordBtn.alpha = 0;
         antwoordLabel.alpha = 1;

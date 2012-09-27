@@ -31,13 +31,6 @@
 
 @implementation MainViewController
 {
-//    QuestionsViewController *_doorvraagVC;
-//    PopQuizViewController *_popQuizVC;
-//    HintsViewController *_hintsVC;
-//    CoverViewController *_coverVC;
-//    PictureViewController* _pictureVC;
-//    HitFragmentViewController *_hitFragmentVC;
-
     UIViewController * _previousVC;
     UIViewController *_currentVC;
     UIViewController * _newVC;
@@ -71,6 +64,13 @@
     _showNewView = YES;
     _previousBtn.alpha = 0;
     
+    if (IPHONE5)
+    {
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
+    
     if ([[GameController sharedInstance] hasNextRound])
     {
         [self showNextRound];
@@ -96,43 +96,51 @@
 
 - (void) showNextRound;
 {
+    NSString* postfix = IPAD ? @"~ipad" : @"~iphone";
+    
     if (!_newVC)
     {
         id vraag = [[GameController sharedInstance] nextRound];
 
         if ([vraag isKindOfClass:[NSArray class]])
         {
-            QuestionsViewController *doorvraagVC = [[QuestionsViewController alloc] initWithNibName:@"QuestionsView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"QuestionsView%@", postfix];
+            QuestionsViewController *doorvraagVC = [[QuestionsViewController alloc] initWithNibName:nibName bundle:nil];
             doorvraagVC.doorvragen = vraag;
             _newVC = doorvraagVC;
         }
         else if ([vraag isKindOfClass:[PopQuizVraag class]])
         {
-            PopQuizViewController *popQuizVC = [[PopQuizViewController alloc] initWithNibName:@"PopQuizView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"PopQuizView%@", postfix];
+            PopQuizViewController *popQuizVC = [[PopQuizViewController alloc] initWithNibName:nibName bundle:nil];
             popQuizVC.vraag = vraag;
             _newVC = popQuizVC;
         }
         else if ([vraag isKindOfClass:[Hint class]])
         {
-            HintsViewController *hintsVC = [[HintsViewController alloc] initWithNibName:@"HintsView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"HintsView%@", postfix];
+            HintsViewController *hintsVC = [[HintsViewController alloc] initWithNibName:nibName bundle:nil];
             hintsVC.hint = vraag;
             _newVC = hintsVC;
         }
         else if ([vraag isKindOfClass:[HitFragment class]])
         {
-            HitFragmentViewController *hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:@"HitFragmentView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"HitFragmentView%@", postfix];
+            HitFragmentViewController *hitFragmentVC = [[HitFragmentViewController alloc] initWithNibName:nibName bundle:nil];
             hitFragmentVC.hitFragment = vraag;
             _newVC = hitFragmentVC;
         }
         else if ([vraag isKindOfClass:[Hoes class]])
         {
-            CoverViewController *coverVC = [[CoverViewController alloc] initWithNibName:@"CoverView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"CoverView%@", postfix];
+            CoverViewController *coverVC = [[CoverViewController alloc] initWithNibName:nibName bundle:nil];
             coverVC.hoes = vraag;
             _newVC = coverVC;
         }
         else if ([vraag isKindOfClass:[Foto class]])
         {
-            PictureViewController *pictureVC = [[PictureViewController alloc] initWithNibName:@"PictureView~ipad" bundle:nil];
+            NSString *nibName = [NSString stringWithFormat:@"PictureView%@", postfix];
+            PictureViewController *pictureVC = [[PictureViewController alloc] initWithNibName:nibName bundle:nil];
             pictureVC.picture = vraag;
             _newVC = pictureVC;
         }

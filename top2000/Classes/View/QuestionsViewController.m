@@ -8,6 +8,8 @@
 
 #import "QuestionsViewController.h"
 #import "Doorvraag.h"
+#import "Globals.h"
+#import "UIImage+iPhone5.h"
 
 @interface QuestionsViewController ()
 
@@ -15,7 +17,7 @@
 
 @implementation QuestionsViewController
 
-#define DELTA_Y 200
+#define DELTA_Y (IPAD ? 200 : 150)
 
 @synthesize doorvragen;
 
@@ -65,7 +67,7 @@
     frame.size.height = labelSize.height;
     if (view)
     {
-        frame.origin.y = CGRectGetMaxY(view.frame) + 8;
+        frame.origin.y = CGRectGetMaxY(view.frame) + (IPAD ? 8 : 4);
     }
     label.frame = frame;
 }
@@ -73,13 +75,21 @@
 - (void) repositionBtn:(UIButton*)btn below:(UIView*)view
 {
     CGRect frame = btn.frame;
-    frame.origin.y = CGRectGetMaxY(view.frame) + 14;
+    frame.origin.y = CGRectGetMaxY(view.frame) + (IPAD ? 8 : 4);
     btn.frame = frame;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (IPHONE5)
+    {
+        background.image = [UIImage imageNamedForDevice:@"doorvraag_background_iphone"];
+        CGRect frame = self.view.frame;
+        frame.size.height = 568;
+        self.view.frame = frame;
+    }
     
     vraag1Label.text = ((Doorvraag*)[doorvragen objectAtIndex:0]).vraag;
     antwoord1Label.text = ((Doorvraag*)[doorvragen objectAtIndex:0]).antwoord;

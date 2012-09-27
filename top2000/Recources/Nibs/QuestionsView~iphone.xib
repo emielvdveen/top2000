@@ -58,11 +58,11 @@
 					</object>
 					<object class="IBUIButton" id="60563437">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 156}, {92, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{114, 175}, {92, 40}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="119203246"/>
+						<reference key="NSNextKeyView" ref="161717360"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<reference key="IBUIBackgroundColor" ref="432812172"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -97,11 +97,10 @@
 					</object>
 					<object class="IBUIButton" id="728182355">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 236}, {92, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{114, 176}, {92, 40}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="197817698"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<reference key="IBUIBackgroundColor" ref="432812172"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -120,10 +119,11 @@
 					</object>
 					<object class="IBUIButton" id="161717360">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 391}, {92, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{114, 175}, {92, 40}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="124656468"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<reference key="IBUIBackgroundColor" ref="432812172"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -142,11 +142,11 @@
 					</object>
 					<object class="IBUIButton" id="124656468">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 313}, {92, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{114, 175}, {92, 40}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="909069561"/>
+						<reference key="NSNextKeyView" ref="728182355"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<reference key="IBUIBackgroundColor" ref="432812172"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -165,11 +165,11 @@
 					</object>
 					<object class="IBUILabel" id="10685539">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{73, 130}, {174, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{10, 160}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="706659096"/>
+						<reference key="NSNextKeyView" ref="627694236"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -199,15 +199,15 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="858501868">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{73, 210}, {174, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{10, 161}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="822096966"/>
+						<reference key="NSNextKeyView" ref="706659096"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -224,15 +224,15 @@
 						<reference key="IBUIFontDescription" ref="448821772"/>
 						<reference key="IBUIFont" ref="567178902"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="627694236">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{73, 287}, {174, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{10, 160}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="120958594"/>
+						<reference key="NSNextKeyView" ref="972771705"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -249,15 +249,15 @@
 						<reference key="IBUIFontDescription" ref="448821772"/>
 						<reference key="IBUIFont" ref="567178902"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="972771705">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{73, 365}, {174, 18}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{10, 160}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="332909451"/>
+						<reference key="NSNextKeyView" ref="858501868"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -274,15 +274,15 @@
 						<reference key="IBUIFontDescription" ref="448821772"/>
 						<reference key="IBUIFont" ref="567178902"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="706659096">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{73, 149}, {174, 18}}</string>
+						<int key="NSvFlags">-2147483355</int>
+						<string key="NSFrame">{{10, 179}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="60563437"/>
+						<reference key="NSNextKeyView" ref="822096966"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -308,15 +308,15 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="822096966">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{73, 229}, {174, 18}}</string>
+						<int key="NSvFlags">-2147483355</int>
+						<string key="NSFrame">{{10, 179}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="728182355"/>
+						<reference key="NSNextKeyView" ref="120958594"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -333,15 +333,15 @@
 						<reference key="IBUIFontDescription" ref="651714435"/>
 						<reference key="IBUIFont" ref="263569896"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="120958594">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{73, 306}, {174, 18}}</string>
+						<int key="NSvFlags">-2147483355</int>
+						<string key="NSFrame">{{10, 179}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="124656468"/>
+						<reference key="NSNextKeyView" ref="332909451"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -358,15 +358,15 @@
 						<reference key="IBUIFontDescription" ref="651714435"/>
 						<reference key="IBUIFont" ref="263569896"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="332909451">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{73, 384}, {174, 18}}</string>
+						<int key="NSvFlags">-2147483355</int>
+						<string key="NSFrame">{{10, 179}, {300, 18}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="161717360"/>
+						<reference key="NSNextKeyView" ref="60563437"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -383,15 +383,15 @@
 						<reference key="IBUIFontDescription" ref="651714435"/>
 						<reference key="IBUIFont" ref="263569896"/>
 						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<double key="preferredMaxLayoutWidth">174</double>
+						<double key="preferredMaxLayoutWidth">300</double>
 					</object>
 					<object class="IBUILabel" id="519501976">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{131, 115}, {58, 13}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{131, 145}, {58, 13}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="10685539"/>
+						<reference key="NSNextKeyView" ref="119203246"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -422,11 +422,11 @@
 					</object>
 					<object class="IBUILabel" id="119203246">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{131, 194}, {58, 13}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{131, 145}, {58, 13}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="858501868"/>
+						<reference key="NSNextKeyView" ref="197817698"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -448,11 +448,11 @@
 					</object>
 					<object class="IBUILabel" id="197817698">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{131, 272}, {58, 13}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{131, 145}, {58, 13}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="627694236"/>
+						<reference key="NSNextKeyView" ref="909069561"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -474,11 +474,11 @@
 					</object>
 					<object class="IBUILabel" id="909069561">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{131, 350}, {58, 13}}</string>
+						<int key="NSvFlags">293</int>
+						<string key="NSFrame">{{131, 145}, {58, 13}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="972771705"/>
+						<reference key="NSNextKeyView" ref="10685539"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -509,7 +509,188 @@
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array class="NSMutableArray" key="connectionRecords"/>
+			<array class="NSMutableArray" key="connectionRecords">
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord1Btn</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="60563437"/>
+					</object>
+					<int key="connectionID">21</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord2Btn</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="728182355"/>
+					</object>
+					<int key="connectionID">22</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord3Btn</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="161717360"/>
+					</object>
+					<int key="connectionID">23</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord4Btn</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="124656468"/>
+					</object>
+					<int key="connectionID">24</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord1Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="706659096"/>
+					</object>
+					<int key="connectionID">25</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord2Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="822096966"/>
+					</object>
+					<int key="connectionID">26</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord3Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="120958594"/>
+					</object>
+					<int key="connectionID">27</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">view</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="191373211"/>
+					</object>
+					<int key="connectionID">29</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag1Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="10685539"/>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag2Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="858501868"/>
+					</object>
+					<int key="connectionID">31</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag3Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="627694236"/>
+					</object>
+					<int key="connectionID">32</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag4Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="972771705"/>
+					</object>
+					<int key="connectionID">33</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antwoord4Label</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="332909451"/>
+					</object>
+					<int key="connectionID">34</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag1TitleLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="519501976"/>
+					</object>
+					<int key="connectionID">35</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag2TitleLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="119203246"/>
+					</object>
+					<int key="connectionID">36</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag3TitleLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="197817698"/>
+					</object>
+					<int key="connectionID">37</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">vraag4TitleLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="909069561"/>
+					</object>
+					<int key="connectionID">38</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">background</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="418627470"/>
+					</object>
+					<int key="connectionID">43</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showAnswer1</string>
+						<reference key="source" ref="60563437"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">39</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showAnswer2</string>
+						<reference key="source" ref="728182355"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">40</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showAnswer3</string>
+						<reference key="source" ref="161717360"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">41</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showAnswer4</string>
+						<reference key="source" ref="124656468"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">42</int>
+				</object>
+			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
 					<object class="IBObjectRecord">
@@ -657,6 +838,7 @@
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.CustomClassName">QuestionsViewController</string>
 				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -695,7 +877,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">20</int>
+			<int key="maxID">43</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -713,6 +895,127 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/DINNextMediumLabel.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">QuestionsViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="showAnswer1">id</string>
+						<string key="showAnswer2">id</string>
+						<string key="showAnswer3">id</string>
+						<string key="showAnswer4">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="showAnswer1">
+							<string key="name">showAnswer1</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showAnswer2">
+							<string key="name">showAnswer2</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showAnswer3">
+							<string key="name">showAnswer3</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showAnswer4">
+							<string key="name">showAnswer4</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="antwoord1Btn">UIButton</string>
+						<string key="antwoord1Label">UILabel</string>
+						<string key="antwoord2Btn">UIButton</string>
+						<string key="antwoord2Label">UILabel</string>
+						<string key="antwoord3Btn">UIButton</string>
+						<string key="antwoord3Label">UILabel</string>
+						<string key="antwoord4Btn">UIButton</string>
+						<string key="antwoord4Label">UILabel</string>
+						<string key="background">UIImageView</string>
+						<string key="vraag1Label">UILabel</string>
+						<string key="vraag1TitleLabel">UILabel</string>
+						<string key="vraag2Label">UILabel</string>
+						<string key="vraag2TitleLabel">UILabel</string>
+						<string key="vraag3Label">UILabel</string>
+						<string key="vraag3TitleLabel">UILabel</string>
+						<string key="vraag4Label">UILabel</string>
+						<string key="vraag4TitleLabel">UILabel</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="antwoord1Btn">
+							<string key="name">antwoord1Btn</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord1Label">
+							<string key="name">antwoord1Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord2Btn">
+							<string key="name">antwoord2Btn</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord2Label">
+							<string key="name">antwoord2Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord3Btn">
+							<string key="name">antwoord3Btn</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord3Label">
+							<string key="name">antwoord3Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord4Btn">
+							<string key="name">antwoord4Btn</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="antwoord4Label">
+							<string key="name">antwoord4Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="background">
+							<string key="name">background</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag1Label">
+							<string key="name">vraag1Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag1TitleLabel">
+							<string key="name">vraag1TitleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag2Label">
+							<string key="name">vraag2Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag2TitleLabel">
+							<string key="name">vraag2TitleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag3Label">
+							<string key="name">vraag3Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag3TitleLabel">
+							<string key="name">vraag3TitleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag4Label">
+							<string key="name">vraag4Label</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="vraag4TitleLabel">
+							<string key="name">vraag4TitleLabel</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/QuestionsViewController.h</string>
 					</object>
 				</object>
 			</array>
