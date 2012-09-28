@@ -20,6 +20,8 @@
 		17727EE51614D0760041D8BC /* popquiz_background_iphone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727EDF1614D0760041D8BC /* popquiz_background_iphone-568h@2x.png */; };
 		17727EE81614D2260041D8BC /* UIImage+iPhone5.m in Sources */ = {isa = PBXBuildFile; fileRef = 17727EE71614D2260041D8BC /* UIImage+iPhone5.m */; };
 		17727EEA1614D79D0041D8BC /* hints_background_iphone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */; };
+		17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */; };
+		17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */; };
 		E502FAD2161108B800277349 /* back_btn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACE161108B800277349 /* back_btn_iphone.png */; };
 		E502FAD3161108B800277349 /* back_btn_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACF161108B800277349 /* back_btn_iphone@2x.png */; };
 		E502FAD4161108B800277349 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FAD0161108B800277349 /* back_btn.png */; };
@@ -59,7 +61,6 @@
 		E54E36FD15FF8ABE001A4251 /* Drs. P - Dodenrit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BD15FF8ABD001A4251 /* Drs. P - Dodenrit.mp3 */; };
 		E54E36FE15FF8ABE001A4251 /* Diesel - Sausolito Summernight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BE15FF8ABD001A4251 /* Diesel - Sausolito Summernight.mp3 */; };
 		E54E36FF15FF8ABE001A4251 /* De Dijk - Als ze er niet is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */; };
-		E54E370015FF8ABE001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */; };
 		E54E370115FF8ABE001A4251 /* Cornelis Vreeswijk - Veronica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */; };
 		E54E370215FF8ABE001A4251 /* Boudewijn de Groot - Avond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C215FF8ABD001A4251 /* Boudewijn de Groot - Avond.mp3 */; };
 		E54E370315FF8ABE001A4251 /* Armand - Ben ik te min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35C315FF8ABD001A4251 /* Armand - Ben ik te min.mp3 */; };
@@ -115,7 +116,6 @@
 		E54E373A15FF8ABE001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */; };
 		E54E373B15FF8ABE001A4251 /* Black - Wonderful Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */; };
 		E54E373C15FF8ABE001A4251 /* Black Eyed Peas - My Humps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */; };
-		E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where is the love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */; };
 		E54E373E15FF8ABE001A4251 /* Black Sabbath - Paranoid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */; };
 		E54E373F15FF8ABE001A4251 /* Blue Cheer - Summertime Blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */; };
 		E54E374015FF8ABE001A4251 /* Bob & Earl - Harlem Shuffle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */; };
@@ -304,7 +304,6 @@
 		E54E37F815FF8ABE001A4251 /* Styx - Babe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */; };
 		E54E37F915FF8ABE001A4251 /* Styx - Sing For The Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */; };
 		E54E37FA15FF8ABE001A4251 /* Supertramp - Give A Little Bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */; };
-		E54E37FB15FF8ABE001A4251 /* Supertramp - The logical song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */; };
 		E54E37FC15FF8ABE001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */; };
 		E54E37FD15FF8ABE001A4251 /* Tears For Fears - Shout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */; };
 		E54E37FE15FF8ABE001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */; };
@@ -803,6 +802,8 @@
 		17727EE61614D2260041D8BC /* UIImage+iPhone5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iPhone5.h"; sourceTree = "<group>"; };
 		17727EE71614D2260041D8BC /* UIImage+iPhone5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iPhone5.m"; sourceTree = "<group>"; };
 		17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hints_background_iphone-568h@2x.png"; sourceTree = "<group>"; };
+		17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where Is The Love.mp3"; sourceTree = "<group>"; };
+		17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby + Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
 		E502FACE161108B800277349 /* back_btn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn_iphone.png; sourceTree = "<group>"; };
 		E502FACF161108B800277349 /* back_btn_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_btn_iphone@2x.png"; sourceTree = "<group>"; };
 		E502FAD0161108B800277349 /* back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn.png; sourceTree = "<group>"; };
@@ -843,7 +844,6 @@
 		E54E35BD15FF8ABD001A4251 /* Drs. P - Dodenrit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Drs. P - Dodenrit.mp3"; sourceTree = "<group>"; };
 		E54E35BE15FF8ABD001A4251 /* Diesel - Sausolito Summernight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Diesel - Sausolito Summernight.mp3"; sourceTree = "<group>"; };
 		E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "De Dijk - Als ze er niet is.mp3"; sourceTree = "<group>"; };
-		E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby & the Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
 		E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cornelis Vreeswijk - Veronica.mp3"; sourceTree = "<group>"; };
 		E54E35C215FF8ABD001A4251 /* Boudewijn de Groot - Avond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Boudewijn de Groot - Avond.mp3"; sourceTree = "<group>"; };
 		E54E35C315FF8ABD001A4251 /* Armand - Ben ik te min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Armand - Ben ik te min.mp3"; sourceTree = "<group>"; };
@@ -899,7 +899,6 @@
 		E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billy Ray Cyrus - Achy Breaky Heart.mp3"; sourceTree = "<group>"; };
 		E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black - Wonderful Life.mp3"; sourceTree = "<group>"; };
 		E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - My Humps.mp3"; sourceTree = "<group>"; };
-		E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where is the love.mp3"; sourceTree = "<group>"; };
 		E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Sabbath - Paranoid.mp3"; sourceTree = "<group>"; };
 		E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue Cheer - Summertime Blues.mp3"; sourceTree = "<group>"; };
 		E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bob & Earl - Harlem Shuffle.mp3"; sourceTree = "<group>"; };
@@ -1088,7 +1087,6 @@
 		E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Styx - Babe.mp3"; sourceTree = "<group>"; };
 		E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Styx - Sing For The Day.mp3"; sourceTree = "<group>"; };
 		E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - Give A Little Bit.mp3"; sourceTree = "<group>"; };
-		E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The logical song.mp3"; sourceTree = "<group>"; };
 		E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tears For Fears - Everybody Wants To Rule The World.mp3"; sourceTree = "<group>"; };
 		E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tears For Fears - Shout.mp3"; sourceTree = "<group>"; };
 		E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Boomtown Rats - I Don't Like Mondays.mp3"; sourceTree = "<group>"; };
@@ -1723,6 +1721,8 @@
 		E54E35A715FF8ABD001A4251 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */,
+				17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */,
 				17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */,
 				E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */,
 				E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */,
@@ -1753,7 +1753,6 @@
 				E54E35FA15FF8ABD001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 */,
 				E54E35FB15FF8ABD001A4251 /* Black - Wonderful Life.mp3 */,
 				E54E35FC15FF8ABD001A4251 /* Black Eyed Peas - My Humps.mp3 */,
-				E54E35FD15FF8ABD001A4251 /* Black Eyed Peas - Where is the love.mp3 */,
 				E54E35FE15FF8ABD001A4251 /* Black Sabbath - Paranoid.mp3 */,
 				E54E35FF15FF8ABD001A4251 /* Blue Cheer - Summertime Blues.mp3 */,
 				E54E360015FF8ABD001A4251 /* Bob & Earl - Harlem Shuffle.mp3 */,
@@ -1785,7 +1784,6 @@
 				E54E361415FF8ABD001A4251 /* Creedence Clearwater Revival - Proud Mary.mp3 */,
 				E54E361515FF8ABD001A4251 /* Creedence Clearwater Revival - Who'll Stop The Rain.mp3 */,
 				E54E361615FF8ABD001A4251 /* Crusaders & Randy Crawford - Street Life.mp3 */,
-				E54E35C015FF8ABD001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 */,
 				E54E361715FF8ABD001A4251 /* Dana - All Kinds Of Everything.mp3 */,
 				E54E361815FF8ABD001A4251 /* Dave Berry - This Strange Effect.mp3 */,
 				E54E35BF15FF8ABD001A4251 /* De Dijk - Als ze er niet is.mp3 */,
@@ -1984,7 +1982,6 @@
 				E54E36B815FF8ABD001A4251 /* Styx - Babe.mp3 */,
 				E54E36B915FF8ABD001A4251 /* Styx - Sing For The Day.mp3 */,
 				E54E36BA15FF8ABD001A4251 /* Supertramp - Give A Little Bit.mp3 */,
-				E54E36BB15FF8ABD001A4251 /* Supertramp - The logical song.mp3 */,
 				E54E36BC15FF8ABD001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 */,
 				E54E36BD15FF8ABD001A4251 /* Tears For Fears - Shout.mp3 */,
 				E54E36BE15FF8ABD001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 */,
@@ -3101,7 +3098,6 @@
 				E54E36FD15FF8ABE001A4251 /* Drs. P - Dodenrit.mp3 in Resources */,
 				E54E36FE15FF8ABE001A4251 /* Diesel - Sausolito Summernight.mp3 in Resources */,
 				E54E36FF15FF8ABE001A4251 /* De Dijk - Als ze er niet is.mp3 in Resources */,
-				E54E370015FF8ABE001A4251 /* Cuby & the Blizzards - Window of my eyes.mp3 in Resources */,
 				E54E370115FF8ABE001A4251 /* Cornelis Vreeswijk - Veronica.mp3 in Resources */,
 				E54E370215FF8ABE001A4251 /* Boudewijn de Groot - Avond.mp3 in Resources */,
 				E54E370315FF8ABE001A4251 /* Armand - Ben ik te min.mp3 in Resources */,
@@ -3157,7 +3153,6 @@
 				E54E373A15FF8ABE001A4251 /* Billy Ray Cyrus - Achy Breaky Heart.mp3 in Resources */,
 				E54E373B15FF8ABE001A4251 /* Black - Wonderful Life.mp3 in Resources */,
 				E54E373C15FF8ABE001A4251 /* Black Eyed Peas - My Humps.mp3 in Resources */,
-				E54E373D15FF8ABE001A4251 /* Black Eyed Peas - Where is the love.mp3 in Resources */,
 				E54E373E15FF8ABE001A4251 /* Black Sabbath - Paranoid.mp3 in Resources */,
 				E54E373F15FF8ABE001A4251 /* Blue Cheer - Summertime Blues.mp3 in Resources */,
 				E54E374015FF8ABE001A4251 /* Bob & Earl - Harlem Shuffle.mp3 in Resources */,
@@ -3346,7 +3341,6 @@
 				E54E37F815FF8ABE001A4251 /* Styx - Babe.mp3 in Resources */,
 				E54E37F915FF8ABE001A4251 /* Styx - Sing For The Day.mp3 in Resources */,
 				E54E37FA15FF8ABE001A4251 /* Supertramp - Give A Little Bit.mp3 in Resources */,
-				E54E37FB15FF8ABE001A4251 /* Supertramp - The logical song.mp3 in Resources */,
 				E54E37FC15FF8ABE001A4251 /* Tears For Fears - Everybody Wants To Rule The World.mp3 in Resources */,
 				E54E37FD15FF8ABE001A4251 /* Tears For Fears - Shout.mp3 in Resources */,
 				E54E37FE15FF8ABE001A4251 /* The Boomtown Rats - I Don't Like Mondays.mp3 in Resources */,
@@ -3434,6 +3428,8 @@
 				17727EE41614D0760041D8BC /* picture_background_iphone-568h@2x.png in Resources */,
 				17727EE51614D0760041D8BC /* popquiz_background_iphone-568h@2x.png in Resources */,
 				17727EEA1614D79D0041D8BC /* hints_background_iphone-568h@2x.png in Resources */,
+				17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */,
+				17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -157,6 +157,8 @@
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
     
+    [self printHitFragmenten];
+    
     _popQuizVragen = [self loadPopquizVragen];
     NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
 
