@@ -22,6 +22,7 @@
 		17727EEA1614D79D0041D8BC /* hints_background_iphone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */; };
 		17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */; };
 		17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */; };
+		17D1CF5416159D1E002F91A9 /* Supertramp - The Logical Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */; };
 		E502FAD2161108B800277349 /* back_btn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACE161108B800277349 /* back_btn_iphone.png */; };
 		E502FAD3161108B800277349 /* back_btn_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACF161108B800277349 /* back_btn_iphone@2x.png */; };
 		E502FAD4161108B800277349 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FAD0161108B800277349 /* back_btn.png */; };
@@ -804,6 +805,7 @@
 		17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hints_background_iphone-568h@2x.png"; sourceTree = "<group>"; };
 		17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where Is The Love.mp3"; sourceTree = "<group>"; };
 		17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby + Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
+		17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The Logical Song.mp3"; sourceTree = "<group>"; };
 		E502FACE161108B800277349 /* back_btn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn_iphone.png; sourceTree = "<group>"; };
 		E502FACF161108B800277349 /* back_btn_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_btn_iphone@2x.png"; sourceTree = "<group>"; };
 		E502FAD0161108B800277349 /* back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn.png; sourceTree = "<group>"; };
@@ -1721,6 +1723,7 @@
 		E54E35A715FF8ABD001A4251 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */,
 				17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */,
 				17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */,
 				17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */,
@@ -3430,6 +3433,7 @@
 				17727EEA1614D79D0041D8BC /* hints_background_iphone-568h@2x.png in Resources */,
 				17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */,
 				17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */,
+				17D1CF5416159D1E002F91A9 /* Supertramp - The Logical Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
