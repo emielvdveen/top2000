@@ -11,6 +11,7 @@
 #import "StartViewController.h"
 #import "TestFlight.h"
 #import "BugSenseCrashController.h"
+#import "Globals.h"
 
 
 @implementation AppDelegate

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171034F816161410007F9625 /* doorvraag_header_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 171034F616161410007F9625 /* doorvraag_header_ipad.png */; };
+		171034F916161410007F9625 /* doorvraag_header_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 171034F716161410007F9625 /* doorvraag_header_ipad@2x.png */; };
 		17727EC916147C040041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */; };
 		17727ED51614BEDA0041D8BC /* Default-iPhone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727ED21614BECD0041D8BC /* Default-iPhone-568h@2x.png */; };
 		17727ED61614BEDA0041D8BC /* Default-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727ED31614BED10041D8BC /* Default-iPhone.png */; };
@@ -23,6 +25,8 @@
 		17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */; };
 		17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */; };
 		17D1CF5416159D1E002F91A9 /* Supertramp - The Logical Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */; };
+		17D1CF571615B09E002F91A9 /* doorvraag_header_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF551615B09E002F91A9 /* doorvraag_header_iphone.png */; };
+		17D1CF581615B09E002F91A9 /* doorvraag_header_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF561615B09E002F91A9 /* doorvraag_header_iphone@2x.png */; };
 		E502FAD2161108B800277349 /* back_btn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACE161108B800277349 /* back_btn_iphone.png */; };
 		E502FAD3161108B800277349 /* back_btn_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FACF161108B800277349 /* back_btn_iphone@2x.png */; };
 		E502FAD4161108B800277349 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E502FAD0161108B800277349 /* back_btn.png */; };
@@ -348,7 +352,6 @@
 		E55BD07D15EB5EA8008882CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E55BD07615EB5EA8008882CA /* InfoPlist.strings */; };
 		E55BD07E15EB5EA8008882CA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55BD07815EB5EA8008882CA /* ViewController.xib */; };
 		E55BD07F15EB5EA8008882CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E55BD07A15EB5EA8008882CA /* main.m */; };
-		E55BD08015EB5EA8008882CA /* top2000-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E55BD07B15EB5EA8008882CA /* top2000-Info.plist */; };
 		E55BD0B215EB5F39008882CA /* answer_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E55BD08415EB5F39008882CA /* answer_btn.png */; };
 		E55BD0B315EB5F39008882CA /* answer_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E55BD08515EB5F39008882CA /* answer_btn@2x.png */; };
 		E55BD0B415EB5F39008882CA /* block_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = E55BD08615EB5F39008882CA /* block_bottom.png */; };
@@ -789,6 +792,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171034F616161410007F9625 /* doorvraag_header_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorvraag_header_ipad.png; sourceTree = "<group>"; };
+		171034F716161410007F9625 /* doorvraag_header_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doorvraag_header_ipad@2x.png"; sourceTree = "<group>"; };
 		17727EC816147BFB0041D8BC /* Les Poppys - Non Non, Rien n'a Changé.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Les Poppys - Non Non, Rien n'a Changé.mp3"; sourceTree = "<group>"; };
 		17727ED21614BECD0041D8BC /* Default-iPhone-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-iPhone-568h@2x.png"; sourceTree = "<group>"; };
 		17727ED31614BED10041D8BC /* Default-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-iPhone.png"; sourceTree = "<group>"; };
@@ -806,6 +811,8 @@
 		17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where Is The Love.mp3"; sourceTree = "<group>"; };
 		17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby + Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
 		17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The Logical Song.mp3"; sourceTree = "<group>"; };
+		17D1CF551615B09E002F91A9 /* doorvraag_header_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorvraag_header_iphone.png; sourceTree = "<group>"; };
+		17D1CF561615B09E002F91A9 /* doorvraag_header_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doorvraag_header_iphone@2x.png"; sourceTree = "<group>"; };
 		E502FACE161108B800277349 /* back_btn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn_iphone.png; sourceTree = "<group>"; };
 		E502FACF161108B800277349 /* back_btn_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_btn_iphone@2x.png"; sourceTree = "<group>"; };
 		E502FAD0161108B800277349 /* back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn.png; sourceTree = "<group>"; };
@@ -2143,6 +2150,10 @@
 		E55BD08315EB5F39008882CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				171034F616161410007F9625 /* doorvraag_header_ipad.png */,
+				171034F716161410007F9625 /* doorvraag_header_ipad@2x.png */,
+				17D1CF551615B09E002F91A9 /* doorvraag_header_iphone.png */,
+				17D1CF561615B09E002F91A9 /* doorvraag_header_iphone@2x.png */,
 				17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */,
 				17727EDA1614D0750041D8BC /* block_full_iphone.png */,
 				17727EDB1614D0750041D8BC /* block_full_iphone@2x.png */,
@@ -2707,7 +2718,6 @@
 			files = (
 				E55BD07D15EB5EA8008882CA /* InfoPlist.strings in Resources */,
 				E55BD07E15EB5EA8008882CA /* ViewController.xib in Resources */,
-				E55BD08015EB5EA8008882CA /* top2000-Info.plist in Resources */,
 				E55BD0B215EB5F39008882CA /* answer_btn.png in Resources */,
 				E55BD0B315EB5F39008882CA /* answer_btn@2x.png in Resources */,
 				E55BD0B415EB5F39008882CA /* block_bottom.png in Resources */,
@@ -3434,6 +3444,10 @@
 				17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */,
 				17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */,
 				17D1CF5416159D1E002F91A9 /* Supertramp - The Logical Song.mp3 in Resources */,
+				17D1CF571615B09E002F91A9 /* doorvraag_header_iphone.png in Resources */,
+				17D1CF581615B09E002F91A9 /* doorvraag_header_iphone@2x.png in Resources */,
+				171034F816161410007F9625 /* doorvraag_header_ipad.png in Resources */,
+				171034F916161410007F9625 /* doorvraag_header_ipad@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3536,6 +3550,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -3549,7 +3564,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Van der Meulen Sneek BV";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3563,6 +3578,7 @@
 					"-all_load",
 					"-ObjC",
 				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C19D9CF6-9234-4BB7-8843-203BCC729062";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				TARGETED_DEVICE_FAMILY = 2;

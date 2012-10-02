@@ -17,7 +17,7 @@
 
 @implementation QuestionsViewController
 
-#define DELTA_Y (IPAD ? 200 : 150)
+#define DELTA_Y (IPAD ? 200 : 125)
 
 @synthesize doorvragen;
 
@@ -55,21 +55,65 @@
     return self;
 }
 
+
+- (float) maxNiceWidth
+{
+    return (IPAD ? 681 : 300);
+}
+
+- (float) width
+{
+    return (IPAD ? 1024 : 320);
+}
+
+- (float) calculateNiceWidth:(UILabel*)label;
+{
+    UIFont* font = label.font;
+    CGSize constraintSize = CGSizeMake(MAXFLOAT, 10);
+    CGSize labelSize = [label.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+    
+    float niceWidth = labelSize.width;
+    
+    if (niceWidth > [self maxNiceWidth])
+    {
+        niceWidth = roundf(niceWidth / 1.5);
+        if (niceWidth > [self maxNiceWidth])
+        {
+            niceWidth = [self maxNiceWidth];
+        }
+    }
+    
+    return niceWidth;
+}
+
 - (void) resizeLabel:(UILabel*)label below:(UIView*)view
 {
     label.numberOfLines = 0;
     label.textAlignment = UITextAlignmentCenter;
     
+    float niceWidth = label.frame.size.width;
+    
+    if (IPAD)
+    {
+        niceWidth = [self calculateNiceWidth:label];
+    }
+    
     UIFont* font = label.font;
-    CGSize constraintSize = CGSizeMake(label.frame.size.width, MAXFLOAT);
+    CGSize constraintSize = CGSizeMake(niceWidth, MAXFLOAT);
     CGSize labelSize = [label.text sizeWithFont:font constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
     CGRect frame = label.frame;
+    frame.size.width = niceWidth;
     frame.size.height = labelSize.height;
+    
     if (view)
     {
         frame.origin.y = CGRectGetMaxY(view.frame) + (IPAD ? 8 : 4);
     }
     label.frame = frame;
+    
+    CGPoint center = label.center;
+    center.x = [self width] / 2;
+    label.center = center;
 }
 
 - (void) repositionBtn:(UIButton*)btn below:(UIView*)view

@@ -187,6 +187,29 @@
     }
 }
 
+//- (BOOL)shouldAutorotate {
+//    UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
+//    if (IPAD)
+//    {
+//        return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+//    }
+//    else {
+//        return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+//    }
+//}
+
+- (NSUInteger)supportedInterfaceOrientations NS_AVAILABLE_IOS(6_0);
+{
+    if (IPAD)
+    {
+        return UIInterfaceOrientationMaskLandscape;
+    }
+    else
+    {
+        return UIInterfaceOrientationMaskPortrait;
+    }
+}
+
 - (IBAction) startGame;
 {
     [self showPopup];
@@ -228,14 +251,14 @@
 
 - (IBAction)vragen25BtnClicked:(id)sender 
 {
-    [[GameController sharedInstance] startGame:25];
+    [[GameController sharedInstance] startGame:ROUNDS_COUNT_25];
     [self showGame];
     [self hidePopup];
 }
 
 - (IBAction)vragen50BtnClicked:(id)sender 
 {
-    [[GameController sharedInstance] startGame:50];
+    [[GameController sharedInstance] startGame:ROUNDS_COUNT_50];
     [self showGame];
     [self hidePopup];
 }

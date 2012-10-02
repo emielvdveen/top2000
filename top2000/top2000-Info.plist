@@ -10,48 +10,6 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array/>
-	<key>CFBundleIdentifier</key>
-	<string>nl.vandermeulen.quizvragen</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>Quiz Vragen</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>0.5</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>0.5</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>DINNextLTPro-Black.otf</string>
-		<string>DINNextLTPro-Bold.otf</string>
-		<string>DINNextLTPro-Light.otf</string>
-		<string>DINNextLTPro-Medium.otf</string>
-		<string>DINNextLTPro-MediumCond.otf</string>
-		<string>DINNextLTPro-Regular.otf</string>
-		<string>OmroepBold.otf</string>
-		<string>OmroepLight.otf</string>
-	</array>
-	<key>UILaunchImageFile~ipad</key>
-	<string>Default-Landscape</string>
-	<key>UIPrerenderedIcon</key>
-	<true/>
-	<key>UILaunchImageFile~iphone</key>
-	<string>Default-iPhone</string>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundlePrimaryIcon</key>
@@ -70,17 +28,55 @@
 			<key>UIPrerenderedIcon</key>
 			<true/>
 		</dict>
-		<key>UINewsstandIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string></string>
-			</array>
-			<key>UINewsstandBindingType</key>
-			<string>UINewsstandBindingTypeMagazine</string>
-			<key>UINewsstandBindingEdge</key>
-			<string>UINewsstandBindingEdgeLeft</string>
-		</dict>
 	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>nl.applike.quizvragen</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Quiz Vragen</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DINNextLTPro-Black.otf</string>
+		<string>DINNextLTPro-Bold.otf</string>
+		<string>DINNextLTPro-Light.otf</string>
+		<string>DINNextLTPro-Medium.otf</string>
+		<string>DINNextLTPro-MediumCond.otf</string>
+		<string>DINNextLTPro-Regular.otf</string>
+		<string>OmroepBold.otf</string>
+		<string>OmroepLight.otf</string>
+	</array>
+	<key>UILaunchImageFile~ipad</key>
+	<string>Default-Landscape</string>
+	<key>UILaunchImageFile~iphone</key>
+	<string>Default-iPhone</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 </dict>
 </plist>

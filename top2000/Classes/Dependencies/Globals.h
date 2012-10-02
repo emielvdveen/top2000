@@ -10,3 +10,5 @@
 #define IPHONE !IPAD
 #define IPHONE5 IPHONE && [UIScreen mainScreen].bounds.size.height == 568
 
+#define ROUNDS_COUNT_25 25
+#define ROUNDS_COUNT_50 50

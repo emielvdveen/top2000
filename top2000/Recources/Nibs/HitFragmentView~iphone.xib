@@ -208,6 +208,7 @@
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
+						<int key="IBUILineBreakMode">0</int>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="581561855">
 							<string key="name">Helvetica</string>
 							<string key="family">Helvetica</string>

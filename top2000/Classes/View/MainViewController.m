@@ -94,6 +94,18 @@
     }
 }
 
+- (BOOL)shouldAutorotate {
+    UIInterfaceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];
+    if (IPAD)
+    {
+        return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    }
+    else {
+        return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+    }
+}
+
+
 - (void) showNextRound;
 {
     NSString* postfix = IPAD ? @"~ipad" : @"~iphone";

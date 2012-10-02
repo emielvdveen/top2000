@@ -137,7 +137,7 @@
     {
         HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
         NSString* mp3Filename = [self getMP3:vraag];
-        if (!mp3Filename)
+        if (mp3Filename)
         {
             NSLog(@"%@ - %@ -> %@", vraag.band, vraag.titel, mp3Filename);
         }
@@ -148,25 +148,25 @@
 {
     [self loadMP3List];
     
-    _doorVragen = [self loadDoorvragen];
-    NSLog(@"%i doorvragen loaded", [_doorVragen count]);
-    
-    _hints = [self loadHints];
-    NSLog(@"%i hints loaded", [_hints count]);
+//    _doorVragen = [self loadDoorvragen];
+//    NSLog(@"%i doorvragen loaded", [_doorVragen count]);
+//    
+//    _hints = [self loadHints];
+//    NSLog(@"%i hints loaded", [_hints count]);
 
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
-    
-    [self printHitFragmenten];
-    
-    _popQuizVragen = [self loadPopquizVragen];
-    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
 
-    _hoezen = [self loadHoezen];
-    NSLog(@"%i hoezen loaded", [_hoezen count]);
-
-    _fotos = [self loadFotos];
-    NSLog(@"%i fotos loaded", [_fotos count]);
+//    [self printHitFragmenten];
+    
+//    _popQuizVragen = [self loadPopquizVragen];
+//    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
+//
+//    _hoezen = [self loadHoezen];
+//    NSLog(@"%i hoezen loaded", [_hoezen count]);
+//
+//    _fotos = [self loadFotos];
+//    NSLog(@"%i fotos loaded", [_fotos count]);
 }
 
 - (int) totaalAantalVragen;

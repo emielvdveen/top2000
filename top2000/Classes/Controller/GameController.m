@@ -91,7 +91,7 @@
 {
     NSLog(@"%i", _countTotal);
 
-    if ([_finishedRounds count] > 50)
+    if ([_finishedRounds count] > ROUNDS_COUNT_50)
     {
         [_finishedRounds removeAllObjects];
     }
