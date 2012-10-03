@@ -24,6 +24,11 @@
 		17727EEA1614D79D0041D8BC /* hints_background_iphone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */; };
 		17727EED161592A30041D8BC /* Black Eyed Peas - Where Is The Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */; };
 		17727EEE161592A30041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */; };
+		17CB7CF2161C5BB4007B3AE8 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 17CB7CEE161C5BB4007B3AE8 /* CHANGELOG.md */; };
+		17CB7CF3161C5BB4007B3AE8 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CB7CF0161C5BB4007B3AE8 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17CB7CF4161C5BB4007B3AE8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 17CB7CF1161C5BB4007B3AE8 /* README.md */; };
+		17CB7CF8161C6602007B3AE8 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CB7CF7161C6602007B3AE8 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17CB7CFB161C6689007B3AE8 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CB7CFA161C6689007B3AE8 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		17D1CF5416159D1E002F91A9 /* Supertramp - The Logical Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */; };
 		17D1CF571615B09E002F91A9 /* doorvraag_header_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF551615B09E002F91A9 /* doorvraag_header_iphone.png */; };
 		17D1CF581615B09E002F91A9 /* doorvraag_header_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D1CF561615B09E002F91A9 /* doorvraag_header_iphone@2x.png */; };
@@ -54,7 +59,7 @@
 		E54E36F115FF8ABE001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */; };
 		E54E36F215FF8ABE001A4251 /* 10CC - Dreadlock Holiday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */; };
 		E54E36F315FF8ABE001A4251 /* 10CC - I'm Not In Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */; };
-		E54E36F415FF8ABE001A4251 /* Paul de Leeuw - k Heb je lief.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */; };
+		E54E36F415FF8ABE001A4251 /* Paul de Leeuw - Ik Heb je lief.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B415FF8ABD001A4251 /* Paul de Leeuw - Ik Heb je lief.mp3 */; };
 		E54E36F515FF8ABE001A4251 /* Marco Borsato - Rood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B515FF8ABD001A4251 /* Marco Borsato - Rood.mp3 */; };
 		E54E36F615FF8ABE001A4251 /* Klein Orkest - Over de muur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B615FF8ABD001A4251 /* Klein Orkest - Over de muur.mp3 */; };
 		E54E36F715FF8ABE001A4251 /* Kayak - Ruthless queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E35B715FF8ABD001A4251 /* Kayak - Ruthless queen.mp3 */; };
@@ -138,7 +143,7 @@
 		E54E374C15FF8ABE001A4251 /* Cat Stevens - Morning Has Broken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360C15FF8ABD001A4251 /* Cat Stevens - Morning Has Broken.mp3 */; };
 		E54E374D15FF8ABE001A4251 /* Chris De Burgh - Lady In Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */; };
 		E54E374E15FF8ABE001A4251 /* Commodores - Brick House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */; };
-		E54E374F15FF8ABE001A4251 /* Commodores - Nighshift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */; };
+		E54E374F15FF8ABE001A4251 /* Commodores - Nightshift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E360F15FF8ABD001A4251 /* Commodores - Nightshift.mp3 */; };
 		E54E375015FF8ABE001A4251 /* Commodores - Sail On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */; };
 		E54E375115FF8ABE001A4251 /* Counting Crows - Big Yellow Taxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */; };
 		E54E375215FF8ABE001A4251 /* Cream - Sunshine Of Your Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E361215FF8ABD001A4251 /* Cream - Sunshine Of Your Love.mp3 */; };
@@ -180,7 +185,7 @@
 		E54E377615FF8ABE001A4251 /* Extreme - More Than Words.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363615FF8ABD001A4251 /* Extreme - More Than Words.mp3 */; };
 		E54E377715FF8ABE001A4251 /* Fergie - Big Girls Don't Cry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363715FF8ABD001A4251 /* Fergie - Big Girls Don't Cry.mp3 */; };
 		E54E377815FF8ABE001A4251 /* Four Top - Don't Walk Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363815FF8ABD001A4251 /* Four Top - Don't Walk Away.mp3 */; };
-		E54E377915FF8ABE001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 */; };
+		E54E377915FF8ABE001A4251 /* Four Tops - Reach Out, I'll Be There.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Be There.mp3 */; };
 		E54E377A15FF8ABE001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363A15FF8ABD001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 */; };
 		E54E377B15FF8ABE001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363B15FF8ABD001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 */; };
 		E54E377C15FF8ABE001A4251 /* Free - All Right Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E363C15FF8ABD001A4251 /* Free - All Right Now.mp3 */; };
@@ -268,7 +273,7 @@
 		E54E37CF15FF8ABE001A4251 /* Opus - Live Is Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E368F15FF8ABD001A4251 /* Opus - Live Is Life.mp3 */; };
 		E54E37D015FF8ABE001A4251 /* Peter Frampton - Show me The Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369015FF8ABD001A4251 /* Peter Frampton - Show me The Way.mp3 */; };
 		E54E37D115FF8ABE001A4251 /* Rare Earth - Get Ready.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369115FF8ABD001A4251 /* Rare Earth - Get Ready.mp3 */; };
-		E54E37D215FF8ABE001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369215FF8ABD001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 */; };
+		E54E37D215FF8ABE001A4251 /* Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369215FF8ABD001A4251 /* Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3 */; };
 		E54E37D315FF8ABE001A4251 /* Rick James - Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369315FF8ABD001A4251 /* Rick James - Glow.mp3 */; };
 		E54E37D415FF8ABE001A4251 /* Rick James - Super Freak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369415FF8ABD001A4251 /* Rick James - Super Freak.mp3 */; };
 		E54E37D515FF8ABE001A4251 /* Righteous Brothers - Unchained Melody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54E369515FF8ABD001A4251 /* Righteous Brothers - Unchained Melody.mp3 */; };
@@ -524,7 +529,7 @@
 		E5999DD215FCACE100A26E3C /* COVER_SNOW_PATROL.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */; };
 		E5999DD315FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */; };
 		E5999DD415FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */; };
-		E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */; };
+		E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK .JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK .JPG */; };
 		E5999DD615FCACE100A26E3C /* COVER_SUPERTRAMP.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */; };
 		E5999DD715FCACE100A26E3C /* COVER_TearsforFears.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */; };
 		E5999DD815FCACE100A26E3C /* Cover_The Great_300CMYK.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */; };
@@ -574,7 +579,7 @@
 		E5999E0415FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */; };
 		E5999E0515FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */; };
 		E5999E0615FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */; };
-		E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */; };
+		E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK _2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK _2.JPG */; };
 		E5999E0815FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */; };
 		E5999E0915FCACE100A26E3C /* COVER_TearsforFears_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */; };
 		E5999E0A15FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */; };
@@ -593,15 +598,15 @@
 		E5999E1715FCACE100A26E3C /* Alquin.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D4F15FCACE100A26E3C /* Alquin.JPG */; };
 		E5999E1815FCACE100A26E3C /* Amy MacDonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */; };
 		E5999E1915FCACE100A26E3C /* Amy Winehouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */; };
-		E5999E1A15FCACE100A26E3C /* Andre Hazes.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */; };
-		E5999E1B15FCACE100A26E3C /* Andre Rieu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */; };
+		E5999E1A15FCACE100A26E3C /* André Hazes.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5215FCACE100A26E3C /* André Hazes.JPG */; };
+		E5999E1B15FCACE100A26E3C /* André Rieu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5315FCACE100A26E3C /* André Rieu.jpg */; };
 		E5999E1C15FCACE100A26E3C /* Armand.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5415FCACE100A26E3C /* Armand.JPG */; };
 		E5999E1D15FCACE100A26E3C /* Billie Holiday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */; };
-		E5999E1E15FCACE100A26E3C /* Bjork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5615FCACE100A26E3C /* Bjork.jpg */; };
+		E5999E1E15FCACE100A26E3C /* Björk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5615FCACE100A26E3C /* Björk.jpg */; };
 		E5999E1F15FCACE100A26E3C /* Black Eyed Peas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */; };
 		E5999E2015FCACE100A26E3C /* Blue Diamonds.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */; };
 		E5999E2115FCACE100A26E3C /* Bob Marley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5915FCACE100A26E3C /* Bob Marley.jpg */; };
-		E5999E2215FCACE100A26E3C /* Bocelli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5A15FCACE100A26E3C /* Bocelli.jpg */; };
+		E5999E2215FCACE100A26E3C /* Andrea Bocelli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5A15FCACE100A26E3C /* Andrea Bocelli.jpg */; };
 		E5999E2315FCACE100A26E3C /* Bon Jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */; };
 		E5999E2415FCACE100A26E3C /* Boudewijn de Groot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */; };
 		E5999E2515FCACE100A26E3C /* Brainbox.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D5D15FCACE100A26E3C /* Brainbox.JPG */; };
@@ -632,7 +637,7 @@
 		E5999E3E15FCACE100A26E3C /* Goede Doel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7615FCACE100A26E3C /* Goede Doel.jpg */; };
 		E5999E3F15FCACE100A26E3C /* Golden Earring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7715FCACE100A26E3C /* Golden Earring.jpg */; };
 		E5999E4015FCACE100A26E3C /* Grace Jones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7815FCACE100A26E3C /* Grace Jones.jpg */; };
-		E5999E4115FCACE100A26E3C /* Guns 'n Roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */; };
+		E5999E4115FCACE100A26E3C /* Guns n' Roses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7915FCACE100A26E3C /* Guns n' Roses.jpg */; };
 		E5999E4215FCACE100A26E3C /* Guus Meeuwis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */; };
 		E5999E4315FCACE100A26E3C /* Harry - Cuby - Muskee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */; };
 		E5999E4415FCACE100A26E3C /* Herman Brood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */; };
@@ -658,7 +663,7 @@
 		E5999E5815FCACE100A26E3C /* Mariah Carey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */; };
 		E5999E5915FCACE100A26E3C /* Marvin Gaye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */; };
 		E5999E5A15FCACE100A26E3C /* Metallica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9215FCACE100A26E3C /* Metallica.jpg */; };
-		E5999E5B15FCACE100A26E3C /* Neil Diamond 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */; };
+		E5999E5B15FCACE100A26E3C /* Neil Diamond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9315FCACE100A26E3C /* Neil Diamond.jpg */; };
 		E5999E5C15FCACE100A26E3C /* Nirvana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9415FCACE100A26E3C /* Nirvana.jpg */; };
 		E5999E5D15FCACE100A26E3C /* Normaal.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9515FCACE100A26E3C /* Normaal.JPG */; };
 		E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */; };
@@ -810,6 +815,14 @@
 		17727EE91614D79B0041D8BC /* hints_background_iphone-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hints_background_iphone-568h@2x.png"; sourceTree = "<group>"; };
 		17727EEB161592870041D8BC /* Black Eyed Peas - Where Is The Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Eyed Peas - Where Is The Love.mp3"; sourceTree = "<group>"; };
 		17727EEC161592920041D8BC /* Cuby + Blizzards - Window of my eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cuby + Blizzards - Window of my eyes.mp3"; sourceTree = "<group>"; };
+		17CB7CEE161C5BB4007B3AE8 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		17CB7CEF161C5BB4007B3AE8 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		17CB7CF0161C5BB4007B3AE8 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		17CB7CF1161C5BB4007B3AE8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		17CB7CF6161C6602007B3AE8 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "MWFeedParser/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
+		17CB7CF7161C6602007B3AE8 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "MWFeedParser/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
+		17CB7CF9161C6689007B3AE8 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "MWFeedParser/Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		17CB7CFA161C6689007B3AE8 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "MWFeedParser/Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		17D1CF5316159D1E002F91A9 /* Supertramp - The Logical Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Supertramp - The Logical Song.mp3"; sourceTree = "<group>"; };
 		17D1CF551615B09E002F91A9 /* doorvraag_header_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorvraag_header_iphone.png; sourceTree = "<group>"; };
 		17D1CF561615B09E002F91A9 /* doorvraag_header_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doorvraag_header_iphone@2x.png"; sourceTree = "<group>"; };
@@ -841,7 +854,7 @@
 		E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3"; sourceTree = "<group>"; };
 		E54E35B215FF8ABD001A4251 /* 10CC - Dreadlock Holiday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10CC - Dreadlock Holiday.mp3"; sourceTree = "<group>"; };
 		E54E35B315FF8ABD001A4251 /* 10CC - I'm Not In Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10CC - I'm Not In Love.mp3"; sourceTree = "<group>"; };
-		E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paul de Leeuw - k Heb je lief.mp3"; sourceTree = "<group>"; };
+		E54E35B415FF8ABD001A4251 /* Paul de Leeuw - Ik Heb je lief.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Paul de Leeuw - Ik Heb je lief.mp3"; sourceTree = "<group>"; };
 		E54E35B515FF8ABD001A4251 /* Marco Borsato - Rood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Marco Borsato - Rood.mp3"; sourceTree = "<group>"; };
 		E54E35B615FF8ABD001A4251 /* Klein Orkest - Over de muur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Klein Orkest - Over de muur.mp3"; sourceTree = "<group>"; };
 		E54E35B715FF8ABD001A4251 /* Kayak - Ruthless queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kayak - Ruthless queen.mp3"; sourceTree = "<group>"; };
@@ -925,7 +938,7 @@
 		E54E360C15FF8ABD001A4251 /* Cat Stevens - Morning Has Broken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cat Stevens - Morning Has Broken.mp3"; sourceTree = "<group>"; };
 		E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chris De Burgh - Lady In Red.mp3"; sourceTree = "<group>"; };
 		E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Brick House.mp3"; sourceTree = "<group>"; };
-		E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Nighshift.mp3"; sourceTree = "<group>"; };
+		E54E360F15FF8ABD001A4251 /* Commodores - Nightshift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Nightshift.mp3"; sourceTree = "<group>"; };
 		E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Commodores - Sail On.mp3"; sourceTree = "<group>"; };
 		E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Counting Crows - Big Yellow Taxi.mp3"; sourceTree = "<group>"; };
 		E54E361215FF8ABD001A4251 /* Cream - Sunshine Of Your Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cream - Sunshine Of Your Love.mp3"; sourceTree = "<group>"; };
@@ -967,7 +980,7 @@
 		E54E363615FF8ABD001A4251 /* Extreme - More Than Words.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Extreme - More Than Words.mp3"; sourceTree = "<group>"; };
 		E54E363715FF8ABD001A4251 /* Fergie - Big Girls Don't Cry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fergie - Big Girls Don't Cry.mp3"; sourceTree = "<group>"; };
 		E54E363815FF8ABD001A4251 /* Four Top - Don't Walk Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Four Top - Don't Walk Away.mp3"; sourceTree = "<group>"; };
-		E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Four Tops - Reach Out, I'll Ne There.mp3"; sourceTree = "<group>"; };
+		E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Be There.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Four Tops - Reach Out, I'll Be There.mp3"; sourceTree = "<group>"; };
 		E54E363A15FF8ABD001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "France Gall - Poupee De Cire, Poupee De Son.mp3"; sourceTree = "<group>"; };
 		E54E363B15FF8ABD001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3"; sourceTree = "<group>"; };
 		E54E363C15FF8ABD001A4251 /* Free - All Right Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Free - All Right Now.mp3"; sourceTree = "<group>"; };
@@ -1055,7 +1068,7 @@
 		E54E368F15FF8ABD001A4251 /* Opus - Live Is Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Opus - Live Is Life.mp3"; sourceTree = "<group>"; };
 		E54E369015FF8ABD001A4251 /* Peter Frampton - Show me The Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Peter Frampton - Show me The Way.mp3"; sourceTree = "<group>"; };
 		E54E369115FF8ABD001A4251 /* Rare Earth - Get Ready.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rare Earth - Get Ready.mp3"; sourceTree = "<group>"; };
-		E54E369215FF8ABD001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3"; sourceTree = "<group>"; };
+		E54E369215FF8ABD001A4251 /* Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3"; sourceTree = "<group>"; };
 		E54E369315FF8ABD001A4251 /* Rick James - Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick James - Glow.mp3"; sourceTree = "<group>"; };
 		E54E369415FF8ABD001A4251 /* Rick James - Super Freak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick James - Super Freak.mp3"; sourceTree = "<group>"; };
 		E54E369515FF8ABD001A4251 /* Righteous Brothers - Unchained Melody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Righteous Brothers - Unchained Melody.mp3"; sourceTree = "<group>"; };
@@ -1345,7 +1358,7 @@
 		E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SNOW_PATROL.JPG; sourceTree = "<group>"; };
 		E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Some Girl_300CMYK.JPG"; sourceTree = "<group>"; };
 		E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Songs In _300CMYK.JPG"; sourceTree = "<group>"; };
-		E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK.JPG"; sourceTree = "<group>"; };
+		E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK .JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK .JPG"; sourceTree = "<group>"; };
 		E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SUPERTRAMP.JPG; sourceTree = "<group>"; };
 		E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_TearsforFears.JPG; sourceTree = "<group>"; };
 		E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Great_300CMYK.JPG"; sourceTree = "<group>"; };
@@ -1395,7 +1408,7 @@
 		E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SNOW_PATROL_2.JPG; sourceTree = "<group>"; };
 		E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Some Girl_300CMYK_2.JPG"; sourceTree = "<group>"; };
 		E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Songs In _300CMYK_2.JPG"; sourceTree = "<group>"; };
-		E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK_2.JPG"; sourceTree = "<group>"; };
+		E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK _2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_Sticky Fi_300CMYK _2.JPG"; sourceTree = "<group>"; };
 		E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_SUPERTRAMP_2.JPG; sourceTree = "<group>"; };
 		E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COVER_TearsforFears_2.JPG; sourceTree = "<group>"; };
 		E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cover_The Great_300CMYK_2.JPG"; sourceTree = "<group>"; };
@@ -1414,15 +1427,15 @@
 		E5999D4F15FCACE100A26E3C /* Alquin.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alquin.JPG; sourceTree = "<group>"; };
 		E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amy MacDonald.jpg"; sourceTree = "<group>"; };
 		E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amy Winehouse.jpg"; sourceTree = "<group>"; };
-		E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andre Hazes.JPG"; sourceTree = "<group>"; };
-		E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andre Rieu.jpg"; sourceTree = "<group>"; };
+		E5999D5215FCACE100A26E3C /* André Hazes.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "André Hazes.JPG"; sourceTree = "<group>"; };
+		E5999D5315FCACE100A26E3C /* André Rieu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "André Rieu.jpg"; sourceTree = "<group>"; };
 		E5999D5415FCACE100A26E3C /* Armand.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Armand.JPG; sourceTree = "<group>"; };
 		E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Billie Holiday.jpg"; sourceTree = "<group>"; };
-		E5999D5615FCACE100A26E3C /* Bjork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bjork.jpg; sourceTree = "<group>"; };
+		E5999D5615FCACE100A26E3C /* Björk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Björk.jpg"; sourceTree = "<group>"; };
 		E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Black Eyed Peas.jpg"; sourceTree = "<group>"; };
 		E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue Diamonds.JPG"; sourceTree = "<group>"; };
 		E5999D5915FCACE100A26E3C /* Bob Marley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bob Marley.jpg"; sourceTree = "<group>"; };
-		E5999D5A15FCACE100A26E3C /* Bocelli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bocelli.jpg; sourceTree = "<group>"; };
+		E5999D5A15FCACE100A26E3C /* Andrea Bocelli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Andrea Bocelli.jpg"; sourceTree = "<group>"; };
 		E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bon Jovi.jpg"; sourceTree = "<group>"; };
 		E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boudewijn de Groot.jpg"; sourceTree = "<group>"; };
 		E5999D5D15FCACE100A26E3C /* Brainbox.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brainbox.JPG; sourceTree = "<group>"; };
@@ -1453,7 +1466,7 @@
 		E5999D7615FCACE100A26E3C /* Goede Doel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Goede Doel.jpg"; sourceTree = "<group>"; };
 		E5999D7715FCACE100A26E3C /* Golden Earring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Golden Earring.jpg"; sourceTree = "<group>"; };
 		E5999D7815FCACE100A26E3C /* Grace Jones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grace Jones.jpg"; sourceTree = "<group>"; };
-		E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guns 'n Roses.jpg"; sourceTree = "<group>"; };
+		E5999D7915FCACE100A26E3C /* Guns n' Roses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guns n' Roses.jpg"; sourceTree = "<group>"; };
 		E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guus Meeuwis.jpg"; sourceTree = "<group>"; };
 		E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Harry - Cuby - Muskee.jpg"; sourceTree = "<group>"; };
 		E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Herman Brood.jpg"; sourceTree = "<group>"; };
@@ -1479,7 +1492,7 @@
 		E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mariah Carey.jpg"; sourceTree = "<group>"; };
 		E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marvin Gaye.jpg"; sourceTree = "<group>"; };
 		E5999D9215FCACE100A26E3C /* Metallica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Metallica.jpg; sourceTree = "<group>"; };
-		E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neil Diamond 2.jpg"; sourceTree = "<group>"; };
+		E5999D9315FCACE100A26E3C /* Neil Diamond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neil Diamond.jpg"; sourceTree = "<group>"; };
 		E5999D9415FCACE100A26E3C /* Nirvana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nirvana.jpg; sourceTree = "<group>"; };
 		E5999D9515FCACE100A26E3C /* Normaal.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Normaal.JPG; sourceTree = "<group>"; };
 		E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Paul de Leeuw.jpg"; sourceTree = "<group>"; };
@@ -1643,6 +1656,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17CB7CED161C5BB4007B3AE8 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				17CB7CEE161C5BB4007B3AE8 /* CHANGELOG.md */,
+				17CB7CEF161C5BB4007B3AE8 /* JSONKit.h */,
+				17CB7CF0161C5BB4007B3AE8 /* JSONKit.m */,
+				17CB7CF1161C5BB4007B3AE8 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		17CB7CF5161C65EE007B3AE8 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				17CB7CF9161C6689007B3AE8 /* GTMNSString+HTML.h */,
+				17CB7CFA161C6689007B3AE8 /* GTMNSString+HTML.m */,
+				17CB7CF6161C6602007B3AE8 /* NSString+HTML.h */,
+				17CB7CF7161C6602007B3AE8 /* NSString+HTML.m */,
+			);
+			name = MWFeedParser;
+			sourceTree = "<group>";
+		};
 		E531734415E6A0AD0085ACD5 = {
 			isa = PBXGroup;
 			children = (
@@ -1783,7 +1818,7 @@
 				E54E35DE15FF8ABD001A4251 /* Cher - If I could turn back time.mp3 */,
 				E54E360D15FF8ABD001A4251 /* Chris De Burgh - Lady In Red.mp3 */,
 				E54E360E15FF8ABD001A4251 /* Commodores - Brick House.mp3 */,
-				E54E360F15FF8ABD001A4251 /* Commodores - Nighshift.mp3 */,
+				E54E360F15FF8ABD001A4251 /* Commodores - Nightshift.mp3 */,
 				E54E361015FF8ABD001A4251 /* Commodores - Sail On.mp3 */,
 				E54E35C115FF8ABD001A4251 /* Cornelis Vreeswijk - Veronica.mp3 */,
 				E54E361115FF8ABD001A4251 /* Counting Crows - Big Yellow Taxi.mp3 */,
@@ -1835,7 +1870,7 @@
 				E54E363615FF8ABD001A4251 /* Extreme - More Than Words.mp3 */,
 				E54E363715FF8ABD001A4251 /* Fergie - Big Girls Don't Cry.mp3 */,
 				E54E363815FF8ABD001A4251 /* Four Top - Don't Walk Away.mp3 */,
-				E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 */,
+				E54E363915FF8ABD001A4251 /* Four Tops - Reach Out, I'll Be There.mp3 */,
 				E54E363A15FF8ABD001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 */,
 				E54E363B15FF8ABD001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 */,
 				E54E35BB15FF8ABD001A4251 /* Frans Halsema - Voor haar.mp3 */,
@@ -1939,7 +1974,7 @@
 				E54E368D15FF8ABD001A4251 /* Oleta Adams - Get Here.mp3 */,
 				E54E368E15FF8ABD001A4251 /* Oleta Adams - Window Of Hope.mp3 */,
 				E54E368F15FF8ABD001A4251 /* Opus - Live Is Life.mp3 */,
-				E54E35B415FF8ABD001A4251 /* Paul de Leeuw - k Heb je lief.mp3 */,
+				E54E35B415FF8ABD001A4251 /* Paul de Leeuw - Ik Heb je lief.mp3 */,
 				E54E35C615FF8ABD001A4251 /* Paul Weller - You do something to me.mp3 */,
 				E54E369015FF8ABD001A4251 /* Peter Frampton - Show me The Way.mp3 */,
 				E54E35B115FF8ABD001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 */,
@@ -1948,7 +1983,7 @@
 				E54E35AF15FF8ABD001A4251 /* Ramses Shaffy - Zing, vecht, huil, bid, lach, werk en bewonder.mp3 */,
 				E54E369115FF8ABD001A4251 /* Rare Earth - Get Ready.mp3 */,
 				E54E35C415FF8ABD001A4251 /* Razorlight - America.mp3 */,
-				E54E369215FF8ABD001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 */,
+				E54E369215FF8ABD001A4251 /* Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3 */,
 				E54E369315FF8ABD001A4251 /* Rick James - Glow.mp3 */,
 				E54E369415FF8ABD001A4251 /* Rick James - Super Freak.mp3 */,
 				E54E369515FF8ABD001A4251 /* Righteous Brothers - Unchained Melody.mp3 */,
@@ -2125,6 +2160,8 @@
 		E55BD08115EB5F39008882CA /* External */ = {
 			isa = PBXGroup;
 			children = (
+				17CB7CF5161C65EE007B3AE8 /* MWFeedParser */,
+				17CB7CED161C5BB4007B3AE8 /* JSONKit */,
 				E572D10E161229820065F545 /* TestFlightSDK1.1 */,
 				E55BD15B15ECAE25008882CA /* SBJSON */,
 			);
@@ -2486,7 +2523,7 @@
 				E5999D0815FCACE100A26E3C /* COVER_SNOW_PATROL.JPG */,
 				E5999D0915FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG */,
 				E5999D0A15FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG */,
-				E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG */,
+				E5999D0B15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK .JPG */,
 				E5999D0C15FCACE100A26E3C /* COVER_SUPERTRAMP.JPG */,
 				E5999D0D15FCACE100A26E3C /* COVER_TearsforFears.JPG */,
 				E5999D0E15FCACE100A26E3C /* Cover_The Great_300CMYK.JPG */,
@@ -2543,7 +2580,7 @@
 				E5999D3B15FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG */,
 				E5999D3C15FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG */,
 				E5999D3D15FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG */,
-				E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG */,
+				E5999D3E15FCACE100A26E3C /* Cover_Sticky Fi_300CMYK _2.JPG */,
 				E5999D3F15FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG */,
 				E5999D4015FCACE100A26E3C /* COVER_TearsforFears_2.JPG */,
 				E5999D4115FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG */,
@@ -2569,15 +2606,15 @@
 				E5999D4F15FCACE100A26E3C /* Alquin.JPG */,
 				E5999D5015FCACE100A26E3C /* Amy MacDonald.jpg */,
 				E5999D5115FCACE100A26E3C /* Amy Winehouse.jpg */,
-				E5999D5215FCACE100A26E3C /* Andre Hazes.JPG */,
-				E5999D5315FCACE100A26E3C /* Andre Rieu.jpg */,
+				E5999D5215FCACE100A26E3C /* André Hazes.JPG */,
+				E5999D5315FCACE100A26E3C /* André Rieu.jpg */,
 				E5999D5415FCACE100A26E3C /* Armand.JPG */,
 				E5999D5515FCACE100A26E3C /* Billie Holiday.jpg */,
-				E5999D5615FCACE100A26E3C /* Bjork.jpg */,
+				E5999D5615FCACE100A26E3C /* Björk.jpg */,
 				E5999D5715FCACE100A26E3C /* Black Eyed Peas.jpg */,
 				E5999D5815FCACE100A26E3C /* Blue Diamonds.JPG */,
 				E5999D5915FCACE100A26E3C /* Bob Marley.jpg */,
-				E5999D5A15FCACE100A26E3C /* Bocelli.jpg */,
+				E5999D5A15FCACE100A26E3C /* Andrea Bocelli.jpg */,
 				E5999D5B15FCACE100A26E3C /* Bon Jovi.jpg */,
 				E5999D5C15FCACE100A26E3C /* Boudewijn de Groot.jpg */,
 				E5999D5D15FCACE100A26E3C /* Brainbox.JPG */,
@@ -2608,7 +2645,7 @@
 				E5999D7615FCACE100A26E3C /* Goede Doel.jpg */,
 				E5999D7715FCACE100A26E3C /* Golden Earring.jpg */,
 				E5999D7815FCACE100A26E3C /* Grace Jones.jpg */,
-				E5999D7915FCACE100A26E3C /* Guns 'n Roses.jpg */,
+				E5999D7915FCACE100A26E3C /* Guns n' Roses.jpg */,
 				E5999D7A15FCACE100A26E3C /* Guus Meeuwis.jpg */,
 				E5999D7B15FCACE100A26E3C /* Harry - Cuby - Muskee.jpg */,
 				E5999D7C15FCACE100A26E3C /* Herman Brood.jpg */,
@@ -2634,7 +2671,7 @@
 				E5999D9015FCACE100A26E3C /* Mariah Carey.jpg */,
 				E5999D9115FCACE100A26E3C /* Marvin Gaye.jpg */,
 				E5999D9215FCACE100A26E3C /* Metallica.jpg */,
-				E5999D9315FCACE100A26E3C /* Neil Diamond 2.jpg */,
+				E5999D9315FCACE100A26E3C /* Neil Diamond.jpg */,
 				E5999D9415FCACE100A26E3C /* Nirvana.jpg */,
 				E5999D9515FCACE100A26E3C /* Normaal.JPG */,
 				E5999D9615FCACE100A26E3C /* Paul de Leeuw.jpg */,
@@ -2877,7 +2914,7 @@
 				E5999DD215FCACE100A26E3C /* COVER_SNOW_PATROL.JPG in Resources */,
 				E5999DD315FCACE100A26E3C /* Cover_Some Girl_300CMYK.JPG in Resources */,
 				E5999DD415FCACE100A26E3C /* Cover_Songs In _300CMYK.JPG in Resources */,
-				E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK.JPG in Resources */,
+				E5999DD515FCACE100A26E3C /* Cover_Sticky Fi_300CMYK .JPG in Resources */,
 				E5999DD615FCACE100A26E3C /* COVER_SUPERTRAMP.JPG in Resources */,
 				E5999DD715FCACE100A26E3C /* COVER_TearsforFears.JPG in Resources */,
 				E5999DD815FCACE100A26E3C /* Cover_The Great_300CMYK.JPG in Resources */,
@@ -2927,7 +2964,7 @@
 				E5999E0415FCACE100A26E3C /* COVER_SNOW_PATROL_2.JPG in Resources */,
 				E5999E0515FCACE100A26E3C /* Cover_Some Girl_300CMYK_2.JPG in Resources */,
 				E5999E0615FCACE100A26E3C /* Cover_Songs In _300CMYK_2.JPG in Resources */,
-				E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK_2.JPG in Resources */,
+				E5999E0715FCACE100A26E3C /* Cover_Sticky Fi_300CMYK _2.JPG in Resources */,
 				E5999E0815FCACE100A26E3C /* COVER_SUPERTRAMP_2.JPG in Resources */,
 				E5999E0915FCACE100A26E3C /* COVER_TearsforFears_2.JPG in Resources */,
 				E5999E0A15FCACE100A26E3C /* Cover_The Great_300CMYK_2.JPG in Resources */,
@@ -2946,15 +2983,15 @@
 				E5999E1715FCACE100A26E3C /* Alquin.JPG in Resources */,
 				E5999E1815FCACE100A26E3C /* Amy MacDonald.jpg in Resources */,
 				E5999E1915FCACE100A26E3C /* Amy Winehouse.jpg in Resources */,
-				E5999E1A15FCACE100A26E3C /* Andre Hazes.JPG in Resources */,
-				E5999E1B15FCACE100A26E3C /* Andre Rieu.jpg in Resources */,
+				E5999E1A15FCACE100A26E3C /* André Hazes.JPG in Resources */,
+				E5999E1B15FCACE100A26E3C /* André Rieu.jpg in Resources */,
 				E5999E1C15FCACE100A26E3C /* Armand.JPG in Resources */,
 				E5999E1D15FCACE100A26E3C /* Billie Holiday.jpg in Resources */,
-				E5999E1E15FCACE100A26E3C /* Bjork.jpg in Resources */,
+				E5999E1E15FCACE100A26E3C /* Björk.jpg in Resources */,
 				E5999E1F15FCACE100A26E3C /* Black Eyed Peas.jpg in Resources */,
 				E5999E2015FCACE100A26E3C /* Blue Diamonds.JPG in Resources */,
 				E5999E2115FCACE100A26E3C /* Bob Marley.jpg in Resources */,
-				E5999E2215FCACE100A26E3C /* Bocelli.jpg in Resources */,
+				E5999E2215FCACE100A26E3C /* Andrea Bocelli.jpg in Resources */,
 				E5999E2315FCACE100A26E3C /* Bon Jovi.jpg in Resources */,
 				E5999E2415FCACE100A26E3C /* Boudewijn de Groot.jpg in Resources */,
 				E5999E2515FCACE100A26E3C /* Brainbox.JPG in Resources */,
@@ -2985,7 +3022,7 @@
 				E5999E3E15FCACE100A26E3C /* Goede Doel.jpg in Resources */,
 				E5999E3F15FCACE100A26E3C /* Golden Earring.jpg in Resources */,
 				E5999E4015FCACE100A26E3C /* Grace Jones.jpg in Resources */,
-				E5999E4115FCACE100A26E3C /* Guns 'n Roses.jpg in Resources */,
+				E5999E4115FCACE100A26E3C /* Guns n' Roses.jpg in Resources */,
 				E5999E4215FCACE100A26E3C /* Guus Meeuwis.jpg in Resources */,
 				E5999E4315FCACE100A26E3C /* Harry - Cuby - Muskee.jpg in Resources */,
 				E5999E4415FCACE100A26E3C /* Herman Brood.jpg in Resources */,
@@ -3011,7 +3048,7 @@
 				E5999E5815FCACE100A26E3C /* Mariah Carey.jpg in Resources */,
 				E5999E5915FCACE100A26E3C /* Marvin Gaye.jpg in Resources */,
 				E5999E5A15FCACE100A26E3C /* Metallica.jpg in Resources */,
-				E5999E5B15FCACE100A26E3C /* Neil Diamond 2.jpg in Resources */,
+				E5999E5B15FCACE100A26E3C /* Neil Diamond.jpg in Resources */,
 				E5999E5C15FCACE100A26E3C /* Nirvana.jpg in Resources */,
 				E5999E5D15FCACE100A26E3C /* Normaal.JPG in Resources */,
 				E5999E5E15FCACE100A26E3C /* Paul de Leeuw.jpg in Resources */,
@@ -3099,7 +3136,7 @@
 				E54E36F115FF8ABE001A4251 /* Peter Koelewijn & zijn Rockets - Kom van dat dak af.mp3 in Resources */,
 				E54E36F215FF8ABE001A4251 /* 10CC - Dreadlock Holiday.mp3 in Resources */,
 				E54E36F315FF8ABE001A4251 /* 10CC - I'm Not In Love.mp3 in Resources */,
-				E54E36F415FF8ABE001A4251 /* Paul de Leeuw - k Heb je lief.mp3 in Resources */,
+				E54E36F415FF8ABE001A4251 /* Paul de Leeuw - Ik Heb je lief.mp3 in Resources */,
 				E54E36F515FF8ABE001A4251 /* Marco Borsato - Rood.mp3 in Resources */,
 				E54E36F615FF8ABE001A4251 /* Klein Orkest - Over de muur.mp3 in Resources */,
 				E54E36F715FF8ABE001A4251 /* Kayak - Ruthless queen.mp3 in Resources */,
@@ -3183,7 +3220,7 @@
 				E54E374C15FF8ABE001A4251 /* Cat Stevens - Morning Has Broken.mp3 in Resources */,
 				E54E374D15FF8ABE001A4251 /* Chris De Burgh - Lady In Red.mp3 in Resources */,
 				E54E374E15FF8ABE001A4251 /* Commodores - Brick House.mp3 in Resources */,
-				E54E374F15FF8ABE001A4251 /* Commodores - Nighshift.mp3 in Resources */,
+				E54E374F15FF8ABE001A4251 /* Commodores - Nightshift.mp3 in Resources */,
 				E54E375015FF8ABE001A4251 /* Commodores - Sail On.mp3 in Resources */,
 				E54E375115FF8ABE001A4251 /* Counting Crows - Big Yellow Taxi.mp3 in Resources */,
 				E54E375215FF8ABE001A4251 /* Cream - Sunshine Of Your Love.mp3 in Resources */,
@@ -3225,7 +3262,7 @@
 				E54E377615FF8ABE001A4251 /* Extreme - More Than Words.mp3 in Resources */,
 				E54E377715FF8ABE001A4251 /* Fergie - Big Girls Don't Cry.mp3 in Resources */,
 				E54E377815FF8ABE001A4251 /* Four Top - Don't Walk Away.mp3 in Resources */,
-				E54E377915FF8ABE001A4251 /* Four Tops - Reach Out, I'll Ne There.mp3 in Resources */,
+				E54E377915FF8ABE001A4251 /* Four Tops - Reach Out, I'll Be There.mp3 in Resources */,
 				E54E377A15FF8ABE001A4251 /* France Gall - Poupee De Cire, Poupee De Son.mp3 in Resources */,
 				E54E377B15FF8ABE001A4251 /* Frans Halsema & Jenny Arean - Vluchten Kan Niet Meer.mp3 in Resources */,
 				E54E377C15FF8ABE001A4251 /* Free - All Right Now.mp3 in Resources */,
@@ -3313,7 +3350,7 @@
 				E54E37CF15FF8ABE001A4251 /* Opus - Live Is Life.mp3 in Resources */,
 				E54E37D015FF8ABE001A4251 /* Peter Frampton - Show me The Way.mp3 in Resources */,
 				E54E37D115FF8ABE001A4251 /* Rare Earth - Get Ready.mp3 in Resources */,
-				E54E37D215FF8ABE001A4251 /* Rene Froger - Alles Kan Een Mens Gelukkig Maken.mp3 in Resources */,
+				E54E37D215FF8ABE001A4251 /* Het Goede Doel (met Rene Froger) - Alles Kan Een Mens Gelukkig Maken.mp3 in Resources */,
 				E54E37D315FF8ABE001A4251 /* Rick James - Glow.mp3 in Resources */,
 				E54E37D415FF8ABE001A4251 /* Rick James - Super Freak.mp3 in Resources */,
 				E54E37D515FF8ABE001A4251 /* Righteous Brothers - Unchained Melody.mp3 in Resources */,
@@ -3448,6 +3485,8 @@
 				17D1CF581615B09E002F91A9 /* doorvraag_header_iphone@2x.png in Resources */,
 				171034F816161410007F9625 /* doorvraag_header_ipad.png in Resources */,
 				171034F916161410007F9625 /* doorvraag_header_ipad@2x.png in Resources */,
+				17CB7CF2161C5BB4007B3AE8 /* CHANGELOG.md in Resources */,
+				17CB7CF4161C5BB4007B3AE8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3498,6 +3537,9 @@
 				E5F18E861600AA3F00675F35 /* OmroepRoundedBoldLabel.m in Sources */,
 				E5F18E871600AA3F00675F35 /* OmroepRoundedLightLabel.m in Sources */,
 				17727EE81614D2260041D8BC /* UIImage+iPhone5.m in Sources */,
+				17CB7CF3161C5BB4007B3AE8 /* JSONKit.m in Sources */,
+				17CB7CF8161C6602007B3AE8 /* NSString+HTML.m in Sources */,
+				17CB7CFB161C6689007B3AE8 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

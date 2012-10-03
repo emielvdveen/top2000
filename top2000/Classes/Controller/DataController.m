@@ -15,6 +15,8 @@
 #import "Hoes.h"
 #import "Doorvraag.h"
 #import "Foto.h"
+#import "JSONKit.h"
+#import "NSString+HTML.h"
 
 @implementation DataController
 {
@@ -47,8 +49,23 @@
 {
     NSError *error = nil;
     NSString *jsonString = [[NSString alloc] initWithContentsOfFile:filepath encoding:NSUTF8StringEncoding error:&error];
-    SBJsonParser *parser = [[SBJsonParser alloc] init];
-    NSArray* jsonValues = [parser objectWithString:jsonString];
+    
+    if (error)
+    {
+        NSLog(@"Error loading json, reason: %@", [error localizedFailureReason]);
+//        return nil;
+    }
+    else{
+        jsonString = [jsonString stringByDecodingHTMLEntities];
+//        NSLog(@"json: %@", jsonString);
+    }
+
+    NSData* jsonData = [NSData dataWithContentsOfFile:filepath];
+    
+//    SBJsonParser *parser = [[SBJsonParser alloc] init];
+//    NSArray* jsonValues = [parser objectWithData:jsonData];
+    
+    NSArray* jsonValues = [jsonString objectFromJSONString];
     return jsonValues;
 }
 
@@ -137,36 +154,70 @@
     {
         HitFragment *vraag = [HitFragment createFromJson:jsonVraag];
         NSString* mp3Filename = [self getMP3:vraag];
-        if (mp3Filename)
+        if (!mp3Filename)
         {
             NSLog(@"%@ - %@ -> %@", vraag.band, vraag.titel, mp3Filename);
         }
     }
 }
 
+- (void) printHoezen;
+{
+    for(NSDictionary *jsonVraag in _hoezen)
+    {
+        Hoes *vraag = [Hoes createFromJson:jsonVraag];
+        UIImage* editedImage = [vraag editedImage];
+        if (!editedImage)
+        {
+            NSLog(@"edited cover for '%@' not found", vraag.naam);
+        }
+        UIImage* originalImage = [vraag originalImage];
+        if (!originalImage)
+        {
+            NSLog(@"original cover for '%@' not found", vraag.naam);
+        }
+    }
+}
+
+- (void) printFotos;
+{
+    for(NSDictionary *jsonVraag in _fotos)
+    {
+        Foto *vraag = [Foto createFromJson:jsonVraag];
+        UIImage* image = [vraag image];
+        if (!image)
+        {
+            NSLog(@"image '%@' not found", vraag.naam);
+        }
+    }
+}
+
+
 - (void) loadAll;
 {
     [self loadMP3List];
     
-//    _doorVragen = [self loadDoorvragen];
-//    NSLog(@"%i doorvragen loaded", [_doorVragen count]);
-//    
-//    _hints = [self loadHints];
-//    NSLog(@"%i hints loaded", [_hints count]);
+    _doorVragen = [self loadDoorvragen];
+    NSLog(@"%i doorvragen loaded", [_doorVragen count]);
+    
+    _hints = [self loadHints];
+    NSLog(@"%i hints loaded", [_hints count]);
 
     _hitFragmenten = [self loadHitFragmenten];
     NSLog(@"%i hitfragmenten loaded", [_hitFragmenten count]);
 
-//    [self printHitFragmenten];
+    _popQuizVragen = [self loadPopquizVragen];
+    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
+
+    _hoezen = [self loadHoezen];
+    NSLog(@"%i hoezen loaded", [_hoezen count]);
+
+    _fotos = [self loadFotos];
+    NSLog(@"%i fotos loaded", [_fotos count]);
     
-//    _popQuizVragen = [self loadPopquizVragen];
-//    NSLog(@"%i popquizvragen loaded", [_popQuizVragen count]);
-//
-//    _hoezen = [self loadHoezen];
-//    NSLog(@"%i hoezen loaded", [_hoezen count]);
-//
-//    _fotos = [self loadFotos];
-//    NSLog(@"%i fotos loaded", [_fotos count]);
+    [self printHitFragmenten];
+    [self printFotos];
+    [self printHoezen];
 }
 
 - (int) totaalAantalVragen;

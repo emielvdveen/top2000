@@ -1,100 +1,302 @@
-[{"artist":"ABBA.JPG"},
-{"artist":"Acda en De Munnik.jpg"},
-{"artist":"Aerosmith.jpg"},
-{"artist":"Alice Cooper.jpg"},
-{"artist":"Allman Brothers Band.jpg"},
-{"artist":"Alquin.JPG"},
-{"artist":"Amy MacDonald.jpg"},
-{"artist":"Amy Winehouse.jpg"},
-{"artist":"Andre Hazes.JPG"},
-{"artist":"Andre Rieu.jpg"},
-{"artist":"Armand.JPG"},
-{"artist":"BZN.JPG"},
-{"artist":"Billie Holiday.jpg"},
-{"artist":"Bjork.jpg"},
-{"artist":"Black Eyed Peas.jpg"},
-{"artist":"Blue Diamonds.JPG"},
-{"artist":"Bob Marley.jpg"},
-{"artist":"Bocelli.jpg"},
-{"artist":"Bon Jovi.jpg"},
-{"artist":"Boudewijn de Groot.jpg"},
-{"artist":"Brainbox.JPG"},
-{"artist":"Carpenters.jpg"},
-{"artist":"Cat Stevens.JPG"},
-{"artist":"Chris Rea.jpg"},
-{"artist":"Chuck Berry.jpg"},
-{"artist":"Commodores.jpg"},
-{"artist":"Counting Crows.jpg"},
-{"artist":"Cream.jpg"},
-{"artist":"Creedence Clearwater Revival.jpg"},
-{"artist":"David Bowie.jpg"},
-{"artist":"De Dijk.jpg"},
-{"artist":"Deep Purple.jpg"},
-{"artist":"Diana Ross.jpg"},
-{"artist":"Dire Straits.jpg"},
-{"artist":"Dusty Springfield.jpg"},
-{"artist":"Eagles.JPG"},
-{"artist":"Earth and Fire.JPG"},
-{"artist":"Elton John.jpg"},
-{"artist":"Elvis Costello.jpg"},
-{"artist":"Eric Clapton.jpg"},
-{"artist":"Focus.JPG"},
-{"artist":"Frank Sinatra.jpg"},
-{"artist":"Frank Zappa.JPG"},
-{"artist":"Frans Halsema.JPG"},
-{"artist":"Goede Doel.jpg"},
-{"artist":"Golden Earring.jpg"},
-{"artist":"Grace Jones.jpg"},
-{"artist":"Guns 'n Roses.jpg"},
-{"artist":"Guus Meeuwis.jpg"},
-{"artist":"Harry - Cuby - Muskee.jpg"},
-{"artist":"Herman Brood.jpg"},
-{"artist":"Herman van Veen.JPG"},
-{"artist":"INXS.JPG"},
-{"artist":"Ilse DeLange.jpg"},
-{"artist":"JJ Cale.jpg"},
-{"artist":"Jack Johnson.jpg"},
-{"artist":"Jackson 5.JPG"},
-{"artist":"James Brown.jpg"},
-{"artist":"James Morrison.jpg"},
-{"artist":"Jamie Cullum.jpg"},
-{"artist":"Jan Akkerman.JPG"},
-{"artist":"Janis Joplin.jpg"},
-{"artist":"Jantje Smit.JPG"},
-{"artist":"Jimi Hendrix.jpg"},
-{"artist":"Lady Gaga.jpg"},
-{"artist":"Level 42.jpg"},
-{"artist":"Liesbeth List.JPG"},
-{"artist":"Madonna.jpg"},
-{"artist":"Mamas & Papas118.jpg"},
-{"artist":"Marco Borsato.jpg"},
-{"artist":"Mariah Carey.jpg"},
-{"artist":"Marvin Gaye.jpg"},
-{"artist":"Metallica.jpg"},
-{"artist":"Neil Diamond 2.jpg"},
-{"artist":"Nirvana.jpg"},
-{"artist":"Normaal.JPG"},
-{"artist":"Paul Weller.JPG"},
-{"artist":"Paul de Leeuw.jpg"},
-{"artist":"Peter Koelewijn.JPG"},
-{"artist":"KISS.JPG"},
-{"artist":"Queen.jpg"},
-{"artist":"Ramses Shaffy.jpg"},
-{"artist":"Rob de Nijs.JPG"},
-{"artist":"Rod Stewart.jpg"},
-{"artist":"Rolling Stones.jpg"},
-{"artist":"Scissor Sisters.jpg"},
-{"artist":"Steely Dan.JPG"},
-{"artist":"Stevie Wonder.jpg"},
-{"artist":"Sting.JPG"},
-{"artist":"The Cure.JPG"},
-{"artist":"The Police.JPG"},
-{"artist":"The Who.JPG"},
-{"artist":"Thin Lizzy.JPG"},
-{"artist":"U2.jpg"},
-{"artist":"Van Morrison.jpg"},
-{"artist":"Willeke Alberti.jpg"},
-{"artist":"Willy Alberti.JPG"},
-{"artist":"Willy en Willeke Alberti.jpg"},
-{"artist":"Wim Sonneveld.JPG"},
-{"artist":"Zangeres Zonder Naam.JPG"}]
+ [
+  {
+  "artist": "ABBA.JPG"
+  },
+  {
+  "artist": "Acda en De Munnik.jpg"
+  },
+  {
+  "artist": "Aerosmith.jpg"
+  },
+  {
+  "artist": "Alice Cooper.jpg"
+  },
+  {
+  "artist": "Allman Brothers Band.jpg"
+  },
+  {
+  "artist": "Alquin.JPG"
+  },
+  {
+  "artist": "Amy MacDonald.jpg"
+  },
+  {
+  "artist": "Amy Winehouse.jpg"
+  },
+  {
+  "artist": "Andr&eacute; Hazes.JPG"
+  },
+  {
+  "artist": "Andr&eacute; Rieu.jpg"
+  },
+  {
+  "artist": "Armand.JPG"
+  },
+  {
+  "artist": "BZN.JPG"
+  },
+  {
+  "artist": "Billie Holiday.jpg"
+  },
+  {
+  "artist": "Bj&ouml;rk.jpg"
+  },
+  {
+  "artist": "Black Eyed Peas.jpg"
+  },
+  {
+  "artist": "Blue Diamonds.JPG"
+  },
+  {
+  "artist": "Bob Marley.jpg"
+  },
+  {
+  "artist": "Andrea Bocelli.jpg"
+  },
+  {
+  "artist": "Bon Jovi.jpg"
+  },
+  {
+  "artist": "Boudewijn de Groot.jpg"
+  },
+  {
+  "artist": "Brainbox.JPG"
+  },
+  {
+  "artist": "Carpenters.jpg"
+  },
+  {
+  "artist": "Cat Stevens.JPG"
+  },
+  {
+  "artist": "Chris Rea.jpg"
+  },
+  {
+  "artist": "Chuck Berry.jpg"
+  },
+  {
+  "artist": "Commodores.jpg"
+  },
+  {
+  "artist": "Counting Crows.jpg"
+  },
+  {
+  "artist": "Cream.jpg"
+  },
+  {
+  "artist": "Creedence Clearwater Revival.jpg"
+  },
+  {
+  "artist": "David Bowie.jpg"
+  },
+  {
+  "artist": "De Dijk.jpg"
+  },
+  {
+  "artist": "Deep Purple.jpg"
+  },
+  {
+  "artist": "Diana Ross.jpg"
+  },
+  {
+  "artist": "Dire Straits.jpg"
+  },
+  {
+  "artist": "Dusty Springfield.jpg"
+  },
+  {
+  "artist": "Eagles.JPG"
+  },
+  {
+  "artist": "Earth and Fire.JPG"
+  },
+  {
+  "artist": "Elton John.jpg"
+  },
+  {
+  "artist": "Elvis Costello.jpg"
+  },
+  {
+  "artist": "Eric Clapton.jpg"
+  },
+  {
+  "artist": "Focus.JPG"
+  },
+  {
+  "artist": "Frank Sinatra.jpg"
+  },
+  {
+  "artist": "Frank Zappa.JPG"
+  },
+  {
+  "artist": "Frans Halsema.JPG"
+  },
+  {
+  "artist": "Goede Doel.jpg"
+  },
+  {
+  "artist": "Golden Earring.jpg"
+  },
+  {
+  "artist": "Grace Jones.jpg"
+  },
+  {
+  "artist": "Guns n' Roses.jpg"
+  },
+  {
+  "artist": "Guus Meeuwis.jpg"
+  },
+  {
+  "artist": "Harry - Cuby - Muskee.jpg"
+  },
+  {
+  "artist": "Herman Brood.jpg"
+  },
+  {
+  "artist": "Herman van Veen.JPG"
+  },
+  {
+  "artist": "INXS.JPG"
+  },
+  {
+  "artist": "Ilse DeLange.jpg"
+  },
+  {
+  "artist": "JJ Cale.jpg"
+  },
+  {
+  "artist": "Jack Johnson.jpg"
+  },
+  {
+  "artist": "Jackson 5.JPG"
+  },
+  {
+  "artist": "James Brown.jpg"
+  },
+  {
+  "artist": "James Morrison.jpg"
+  },
+  {
+  "artist": "Jamie Cullum.jpg"
+  },
+  {
+  "artist": "Jan Akkerman.JPG"
+  },
+  {
+  "artist": "Janis Joplin.jpg"
+  },
+  {
+  "artist": "Jantje Smit.JPG"
+  },
+  {
+  "artist": "Jimi Hendrix.jpg"
+  },
+  {
+  "artist": "Lady Gaga.jpg"
+  },
+  {
+  "artist": "Level 42.jpg"
+  },
+  {
+  "artist": "Liesbeth List.JPG"
+  },
+  {
+  "artist": "Madonna.jpg"
+  },
+  {
+  "artist": "Mamas & Papas118.jpg"
+  },
+  {
+  "artist": "Marco Borsato.jpg"
+  },
+  {
+  "artist": "Mariah Carey.jpg"
+  },
+  {
+  "artist": "Marvin Gaye.jpg"
+  },
+  {
+  "artist": "Metallica.jpg"
+  },
+  {
+  "artist": "Neil Diamond.jpg"
+  },
+  {
+  "artist": "Nirvana.jpg"
+  },
+  {
+  "artist": "Normaal.JPG"
+  },
+  {
+  "artist": "Paul Weller.JPG"
+  },
+  {
+  "artist": "Paul de Leeuw.jpg"
+  },
+  {
+  "artist": "Peter Koelewijn.JPG"
+  },
+  {
+  "artist": "KISS.JPG"
+  },
+  {
+  "artist": "Queen.jpg"
+  },
+  {
+  "artist": "Ramses Shaffy.jpg"
+  },
+  {
+  "artist": "Rob de Nijs.JPG"
+  },
+  {
+  "artist": "Rod Stewart.jpg"
+  },
+  {
+  "artist": "Rolling Stones.jpg"
+  },
+  {
+  "artist": "Scissor Sisters.jpg"
+  },
+  {
+  "artist": "Steely Dan.JPG"
+  },
+  {
+  "artist": "Stevie Wonder.jpg"
+  },
+  {
+  "artist": "Sting.JPG"
+  },
+  {
+  "artist": "The Cure.JPG"
+  },
+  {
+  "artist": "The Police.JPG"
+  },
+  {
+  "artist": "The Who.JPG"
+  },
+  {
+  "artist": "Thin Lizzy.JPG"
+  },
+  {
+  "artist": "U2.jpg"
+  },
+  {
+  "artist": "Van Morrison.jpg"
+  },
+  {
+  "artist": "Willeke Alberti.jpg"
+  },
+  {
+  "artist": "Willy Alberti.JPG"
+  },
+  {
+  "artist": "Willy en Willeke Alberti.jpg"
+  },
+  {
+  "artist": "Wim Sonneveld.JPG"
+  },
+  {
+  "artist": "Zangeres Zonder Naam.JPG"
+  }
+]
